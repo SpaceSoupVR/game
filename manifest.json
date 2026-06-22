@@ -1,0 +1,8 @@
+{
+    "name": "Duck Hunt Stack",
+    "version": "0.1.0",
+    "entry_scene": "lobby",
+    "scenes": [
+        "lobby"
+    ]
+}
