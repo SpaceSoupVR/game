@@ -66,6 +66,74 @@
           1.0
         ],
         "finger_curl": {}
+      },
+      "rigid_body": {
+        "mode": "Static",
+        "shape": "Box",
+        "collider_half_size": [
+          6.0,
+          0.5,
+          5.9929686
+        ],
+        "collider_offset": [
+          0.0,
+          -0.49,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "physics_cube",
+      "cuboid": {
+        "position": [
+          2.5,
+          2.5,
+          -2.5
+        ],
+        "half_size": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          220,
+          90,
+          60,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "rig_attachment": null,
+      "grip_pose": null,
+      "rigid_body": {
+        "mode": "Dynamic",
+        "shape": "Box",
+        "mass": 1.0,
+        "friction": 0.5,
+        "restitution": 0.3,
+        "linear_velocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "respawn_interval": 3.0
       }
     },
     {
@@ -161,7 +229,11 @@
         }
       ],
       "rig_attachment": null,
-      "grip_pose": null
+      "grip_pose": null,
+      "rigid_body": {
+        "mode": "Kinematic",
+        "shape": "Box"
+      }
     },
     {
       "id": "house",
@@ -215,7 +287,11 @@
       "script": null,
       "animations": [],
       "rig_attachment": null,
-      "grip_pose": null
+      "grip_pose": null,
+      "rigid_body": {
+        "mode": "Static",
+        "shape": "Box"
+      }
     },
     {
       "id": "windturbine",
@@ -350,6 +426,20 @@
           1.0
         ],
         "finger_curl": {}
+      },
+      "rigid_body": {
+        "mode": "Kinematic",
+        "shape": "Box",
+        "collider_half_size": [
+          0.5,
+          13.769906,
+          0.5
+        ],
+        "collider_offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
       }
     },
     {
@@ -564,7 +654,11 @@
         }
       ],
       "rig_attachment": null,
-      "grip_pose": null
+      "grip_pose": null,
+      "rigid_body": {
+        "mode": "Kinematic",
+        "shape": "Box"
+      }
     },
     {
       "id": "grassplain_2",
@@ -618,7 +712,21 @@
       "script": null,
       "animations": [],
       "rig_attachment": null,
-      "grip_pose": null
+      "grip_pose": null,
+      "rigid_body": {
+        "mode": "Static",
+        "shape": "Box",
+        "collider_half_size": [
+          13.95964,
+          3.8269532,
+          13.762137
+        ],
+        "collider_offset": [
+          0.0,
+          -3.6356055400000002,
+          0.0
+        ]
+      }
     },
     {
       "id": "rifle",
@@ -669,7 +777,7 @@
       },
       "is_trigger": false,
       "hidden": false,
-      "script": "fn on_grab(hand) { grab_at_joint(\"rifle\", hand + \"_grip\"); } fn on_release(hand) { detach(\"rifle\"); }",
+      "script": "fn on_grab(hand, point) { grab_at_point(\"rifle\", point, hand); } fn on_release(hand) { release_grip(\"rifle\", hand); }",
       "animations": [],
       "rig_attachment": null,
       "grip_pose": {
@@ -702,7 +810,138 @@
           "ring2": 0.85,
           "ring3": 0.85
         }
-      }
+      },
+      "rigid_body": {
+        "mode": "Dynamic",
+        "shape": "Box"
+      },
+      "grip_points": [
+        {
+          "name": "stock",
+          "kind": "Snap",
+          "local_pos": [
+            -0.335,
+            -0.036,
+            0.0
+          ],
+          "local_rot": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "finger_curl": {
+            "index3": 0.75,
+            "pinky1": 0.75,
+            "index2": 0.75,
+            "index1": 0.6,
+            "middle1": 0.75,
+            "thumb2": 0.6,
+            "pinky0": 0.0,
+            "pinky3": 0.85,
+            "pinky2": 0.85,
+            "thumb1": 1.0,
+            "thumb3": 0.6,
+            "middle3": 0.85,
+            "ring1": 0.75,
+            "middle2": 0.85,
+            "ring2": 0.85,
+            "ring3": 0.85
+          }
+        },
+        {
+          "name": "barrel",
+          "kind": "Free",
+          "local_pos": [
+            0.3,
+            0.0,
+            0.0
+          ],
+          "local_rot": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "finger_curl": {}
+        }
+      ]
+    },
+    {
+      "id": "pistol",
+      "cuboid": {
+        "position": [
+          0.8,
+          0.08,
+          -0.5
+        ],
+        "half_size": [
+          0.018,
+          0.067,
+          0.123
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          70,
+          70,
+          75,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/pistol.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": "fn on_grab(hand, point) { grab_at_point(\"pistol\", point, hand); } fn on_release(hand) { release_grip(\"pistol\", hand); }",
+      "animations": [],
+      "rig_attachment": null,
+      "grip_pose": null,
+      "rigid_body": {
+        "mode": "Dynamic",
+        "shape": "Box"
+      },
+      "grip_points": [
+        {
+          "name": "grip",
+          "kind": "Snap",
+          "local_pos": [
+            0.0,
+            -0.06,
+            0.0
+          ],
+          "local_rot": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "finger_curl": {}
+        }
+      ]
     },
     {
       "id": "hand_preview",
