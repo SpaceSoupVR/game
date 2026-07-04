@@ -896,18 +896,18 @@
       },
       "grip_points": [
         {
-          "name": "stock",
+          "name": "grip",
           "kind": "Snap",
           "local_pos": [
-            -0.335,
-            -0.036,
+            -0.12,
+            -0.05,
             0.0
           ],
           "local_rot": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            0.5,
+            0.5,
+            0.5,
+            0.5
           ],
           "hand_offset_scale": [
             1.0,
@@ -915,22 +915,22 @@
             1.0
           ],
           "finger_curl": {
-            "index2": 0.75,
+            "index1": 0.35,
+            "index2": 0.2,
+            "index3": 0.1,
+            "middle1": 0.75,
             "middle2": 0.85,
             "middle3": 0.85,
-            "thumb3": 0.6,
-            "pinky1": 0.75,
-            "pinky3": 0.85,
-            "ring2": 0.85,
-            "index1": 0.6,
-            "thumb1": 1.0,
-            "middle1": 0.75,
-            "pinky2": 0.85,
             "ring1": 0.75,
+            "ring2": 0.85,
             "ring3": 0.85,
-            "index3": 0.75,
+            "pinky0": 0.0,
+            "pinky1": 0.75,
+            "pinky2": 0.85,
+            "pinky3": 0.85,
+            "thumb1": 0.6,
             "thumb2": 0.6,
-            "pinky0": 0.0
+            "thumb3": 0.6
           }
         },
         {
@@ -1039,17 +1039,34 @@
             0.0
           ],
           "local_rot": [
+            0.7071,
             0.0,
             0.0,
-            0.0,
-            1.0
+            0.7071
           ],
           "hand_offset_scale": [
             1.0,
             1.0,
             1.0
           ],
-          "finger_curl": {}
+          "finger_curl": {
+            "index1": 0.3,
+            "index2": 0.15,
+            "index3": 0.1,
+            "middle1": 0.8,
+            "middle2": 0.9,
+            "middle3": 0.85,
+            "ring1": 0.8,
+            "ring2": 0.9,
+            "ring3": 0.85,
+            "pinky0": 0.0,
+            "pinky1": 0.8,
+            "pinky2": 0.9,
+            "pinky3": 0.85,
+            "thumb1": 0.5,
+            "thumb2": 0.5,
+            "thumb3": 0.4
+          }
         }
       ]
     },
