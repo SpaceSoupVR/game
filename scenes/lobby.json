@@ -5,9 +5,9 @@
       "id": "physics_cube",
       "cuboid": {
         "position": [
-          2.5145078,
-          0.2599344,
-          -2.505566
+          2.4460194,
+          0.9634916,
+          -2.493142
         ],
         "half_size": [
           0.25,
@@ -15,10 +15,10 @@
           0.25
         ],
         "rotation": [
-          0.0000019797617,
-          0.005127479,
-          -0.00016125843,
-          0.9999869
+          -0.100316636,
+          0.17201023,
+          0.9140924,
+          0.35324806
         ],
         "color": [
           220,
@@ -61,7 +61,8 @@
           0.0
         ]
       },
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "cloud",
@@ -177,273 +178,16 @@
           0.0
         ]
       },
-      "grip_points": []
-    },
-    {
-      "id": "house",
-      "cuboid": {
-        "position": [
-          -3.5,
-          0.5,
-          -3.5
-        ],
-        "half_size": [
-          1.0,
-          0.5,
-          1.0
-        ],
-        "rotation": [
-          0.0,
-          0.7071,
-          0.0,
-          0.7071
-        ],
-        "color": [
-          200,
-          160,
-          110,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
-      },
-      "mesh": {
-        "path": "models/house.glb",
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ],
-        "rotation_offset": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ]
-      },
-      "is_trigger": false,
-      "hidden": false,
-      "script": null,
-      "animations": [],
-      "rig_attachment": null,
-      "grip_pose_left": null,
-      "grip_pose_right": null,
-      "rigid_body": {
-        "mode": "Static",
-        "shape": "Box",
-        "mass": null,
-        "friction": 0.5,
-        "restitution": 0.0,
-        "linear_velocity": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "respawn_interval": null,
-        "collider_half_size": null,
-        "collider_offset": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      "grip_points": []
-    },
-    {
-      "id": "windturbine",
-      "cuboid": {
-        "position": [
-          9.002094,
-          13.196668,
-          -3.5
-        ],
-        "half_size": [
-          7.528376,
-          13.769906,
-          5.0410576
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "color": [
-          220,
-          225,
-          230,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
-      },
-      "mesh": {
-        "path": "models/windturbine.glb",
-        "scale": [
-          14.570462,
-          14.502393,
-          17.205091
-        ],
-        "rotation_offset": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ]
-      },
-      "is_trigger": false,
-      "hidden": false,
-      "script": null,
-      "animations": [
-        {
-          "name": "spin",
-          "keyframes": [
-            {
-              "t": 0.0,
-              "position": null,
-              "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              "scale": null,
-              "color": null
-            },
-            {
-              "t": 2.0,
-              "position": null,
-              "rotation": [
-                0.0,
-                1.0,
-                0.0,
-                0.0
-              ],
-              "scale": null,
-              "color": null
-            },
-            {
-              "t": 4.0,
-              "position": null,
-              "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                -1.0
-              ],
-              "scale": null,
-              "color": null
-            },
-            {
-              "t": 6.0,
-              "position": null,
-              "rotation": [
-                0.0,
-                -1.0,
-                0.0,
-                0.0
-              ],
-              "scale": null,
-              "color": null
-            },
-            {
-              "t": 8.0,
-              "position": null,
-              "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              "scale": null,
-              "color": null
-            }
-          ],
-          "easing": "Linear",
-          "looping": true
-        }
-      ],
-      "rig_attachment": null,
-      "grip_pose_left": {
-        "hand_offset_pos": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "hand_offset_rot": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "hand_offset_scale": [
-          1.0,
-          1.0,
-          1.0
-        ],
-        "finger_curl": {}
-      },
-      "grip_pose_right": {
-        "hand_offset_pos": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "hand_offset_rot": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "hand_offset_scale": [
-          1.0,
-          1.0,
-          1.0
-        ],
-        "finger_curl": {}
-      },
-      "rigid_body": {
-        "mode": "Kinematic",
-        "shape": "Box",
-        "mass": null,
-        "friction": 0.5,
-        "restitution": 0.0,
-        "linear_velocity": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "respawn_interval": null,
-        "collider_half_size": [
-          0.5,
-          13.769906,
-          0.5
-        ],
-        "collider_offset": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "duck",
       "cuboid": {
         "position": [
-          -1.4852631,
+          -0.0108591225,
           0.3,
-          -0.50982463
+          -1.4927605
         ],
         "half_size": [
           0.15,
@@ -452,9 +196,9 @@
         ],
         "rotation": [
           0.0,
-          0.7125351,
+          0.9999838,
           0.0,
-          0.7016228
+          0.0056857523
         ],
         "color": [
           255,
@@ -670,7 +414,8 @@
           0.0
         ]
       },
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "grassplain_2",
@@ -705,22 +450,9 @@
         ],
         "style": "Wireframe"
       },
-      "mesh": {
-        "path": "models/grassplain.glb",
-        "scale": [
-          14.696569,
-          2.2731044,
-          14.489054
-        ],
-        "rotation_offset": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ]
-      },
+      "mesh": null,
       "is_trigger": false,
-      "hidden": false,
+      "hidden": true,
       "script": null,
       "animations": [],
       "rig_attachment": null,
@@ -749,15 +481,16 @@
           0.0
         ]
       },
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rifle",
       "cuboid": {
         "position": [
-          1.2384183,
-          0.023139339,
-          -0.10589403
+          0.6583826,
+          0.19668938,
+          -0.24857423
         ],
         "half_size": [
           0.40791017,
@@ -765,10 +498,10 @@
           0.049076173
         ],
         "rotation": [
-          -0.53938526,
-          -0.4071333,
-          0.4707825,
-          -0.5671595
+          0.09038335,
+          -0.701584,
+          -0.7065952,
+          -0.018278532
         ],
         "color": [
           80,
@@ -800,7 +533,7 @@
       },
       "is_trigger": false,
       "hidden": false,
-      "script": "fn on_grab(hand, point) { grab_at_point(\"rifle\", point, hand); } fn on_release(hand) { release_grip(\"rifle\", hand); }",
+      "script": "fn on_grab(hand, point) { grab_at_joint(\"rifle\", hand + \"_grip\"); } fn on_release(hand) { detach(\"rifle\"); }",
       "animations": [],
       "rig_attachment": null,
       "grip_pose_left": {
@@ -821,22 +554,22 @@
           1.0
         ],
         "finger_curl": {
-          "pinky2": 0.85,
-          "index3": 0.75,
           "index1": 0.6,
-          "thumb2": 0.6,
+          "pinky0": 0.0,
+          "ring2": 0.85,
+          "middle1": 0.75,
           "index2": 0.75,
+          "ring3": 0.85,
+          "ring1": 0.75,
+          "index3": 0.75,
+          "thumb1": 1.0,
+          "middle2": 0.85,
           "pinky3": 0.85,
+          "thumb2": 0.6,
+          "pinky2": 0.85,
           "middle3": 0.85,
           "thumb3": 0.6,
-          "middle1": 0.75,
-          "middle2": 0.85,
-          "pinky0": 0.0,
-          "ring1": 0.75,
-          "pinky1": 0.75,
-          "thumb1": 1.0,
-          "ring2": 0.85,
-          "ring3": 0.85
+          "pinky1": 0.75
         }
       },
       "grip_pose_right": {
@@ -857,57 +590,39 @@
           1.0
         ],
         "finger_curl": {
-          "pinky2": 0.85,
-          "index3": 0.75,
-          "index1": 0.6,
-          "thumb2": 0.6,
-          "index2": 0.75,
-          "pinky3": 0.85,
-          "middle3": 0.85,
-          "thumb3": 0.6,
-          "middle1": 0.75,
-          "middle2": 0.85,
-          "pinky0": 0.0,
           "ring1": 0.75,
-          "pinky1": 0.75,
           "thumb1": 1.0,
           "ring2": 0.85,
-          "ring3": 0.85
+          "ring3": 0.85,
+          "index3": 0.75,
+          "index2": 0.75,
+          "pinky3": 0.85,
+          "middle1": 0.75,
+          "middle2": 0.85,
+          "middle3": 0.85,
+          "thumb3": 0.6,
+          "pinky2": 0.85,
+          "pinky1": 0.75,
+          "thumb2": 0.6,
+          "index1": 0.6,
+          "pinky0": 0.0
         }
       },
-      "rigid_body": {
-        "mode": "Dynamic",
-        "shape": "Box",
-        "mass": null,
-        "friction": 0.5,
-        "restitution": 0.0,
-        "linear_velocity": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "respawn_interval": null,
-        "collider_half_size": null,
-        "collider_offset": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
+      "rigid_body": null,
       "grip_points": [
         {
           "name": "grip",
           "kind": "Snap",
           "local_pos": [
-            -0.12,
-            -0.05,
-            0.0
+            -0.1955319,
+            -0.025219098,
+            0.0063789487
           ],
           "local_rot": [
-            0.5,
-            0.5,
-            0.5,
-            0.5
+            -0.13794923,
+            -0.10481693,
+            0.118063234,
+            0.9777753
           ],
           "hand_offset_scale": [
             1.0,
@@ -915,30 +630,30 @@
             1.0
           ],
           "finger_curl": {
-            "index1": 0.35,
-            "index2": 0.2,
-            "index3": 0.1,
-            "middle1": 0.75,
-            "middle2": 0.85,
-            "middle3": 0.85,
-            "ring1": 0.75,
-            "ring2": 0.85,
-            "ring3": 0.85,
-            "pinky0": 0.0,
-            "pinky1": 0.75,
-            "pinky2": 0.85,
-            "pinky3": 0.85,
-            "thumb1": 0.6,
-            "thumb2": 0.6,
-            "thumb3": 0.6
+            "ring3": 0.52527344,
+            "index2": 0.7015234,
+            "pinky0": 0.23382811,
+            "index1": 0.7015234,
+            "thumb1": 0.7044531,
+            "pinky2": 0.23382811,
+            "middle1": 0.76246095,
+            "pinky1": 0.23382811,
+            "ring2": 0.52527344,
+            "thumb3": 0.7044531,
+            "thumb2": 0.7044531,
+            "middle2": 0.76246095,
+            "middle3": 0.76246095,
+            "index3": 0.7015234,
+            "pinky3": 0.23382811,
+            "ring1": 0.52527344
           }
         },
         {
           "name": "barrel",
           "kind": "Free",
           "local_pos": [
-            0.3,
-            0.0,
+            0.106809914,
+            0.058549687,
             0.0
           ],
           "local_rot": [
@@ -954,15 +669,16 @@
           ],
           "finger_curl": {}
         }
-      ]
+      ],
+      "slider_joint": null
     },
     {
       "id": "pistol",
       "cuboid": {
         "position": [
-          0.8210362,
-          -0.0038632173,
-          -0.518174
+          0.52805054,
+          0.2708239,
+          -1.1295203
         ],
         "half_size": [
           0.018,
@@ -970,10 +686,10 @@
           0.123
         ],
         "rotation": [
-          -0.20906161,
-          0.12835567,
-          -0.82911676,
-          0.5023778
+          0.71571165,
+          0.67551315,
+          0.12900023,
+          -0.1216467
         ],
         "color": [
           70,
@@ -990,7 +706,7 @@
         "style": "Solid"
       },
       "mesh": {
-        "path": "models/pistol.glb",
+        "path": "models/glock_frame.glb",
         "scale": [
           1.0,
           1.0,
@@ -1005,44 +721,26 @@
       },
       "is_trigger": false,
       "hidden": false,
-      "script": "fn on_grab(hand, point) { grab_at_point(\"pistol\", point, hand); } fn on_release(hand) { release_grip(\"pistol\", hand); }",
+      "script": "fn on_grab(hand, point) { grab_at_joint(\"pistol\", hand + \"_grip\"); grab_at_joint(\"glock_slide\", hand + \"_grip\"); } fn on_release(hand) { detach(\"pistol\"); detach(\"glock_slide\"); }",
       "animations": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
-      "rigid_body": {
-        "mode": "Dynamic",
-        "shape": "Box",
-        "mass": null,
-        "friction": 0.5,
-        "restitution": 0.0,
-        "linear_velocity": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "respawn_interval": null,
-        "collider_half_size": null,
-        "collider_offset": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
+      "rigid_body": null,
       "grip_points": [
         {
           "name": "grip",
           "kind": "Snap",
           "local_pos": [
-            0.0,
-            -0.06,
-            0.0
+            -0.0025306297,
+            -0.06583926,
+            -0.0019625286
           ],
           "local_rot": [
-            0.7071,
-            0.0,
-            0.0,
-            0.7071
+            0.05938045,
+            0.3760854,
+            -0.844335,
+            -0.377004
           ],
           "hand_offset_scale": [
             1.0,
@@ -1050,25 +748,106 @@
             1.0
           ],
           "finger_curl": {
+            "ring1": 1.0,
             "index1": 0.3,
-            "index2": 0.15,
+            "ring3": 1.0,
+            "pinky2": 1.0,
+            "pinky3": 1.0,
+            "middle1": 1.0,
+            "middle2": 1.0,
+            "thumb2": 1.0,
+            "ring2": 1.0,
+            "middle3": 1.0,
             "index3": 0.1,
-            "middle1": 0.8,
-            "middle2": 0.9,
-            "middle3": 0.85,
-            "ring1": 0.8,
-            "ring2": 0.9,
-            "ring3": 0.85,
-            "pinky0": 0.0,
-            "pinky1": 0.8,
-            "pinky2": 0.9,
-            "pinky3": 0.85,
-            "thumb1": 0.5,
-            "thumb2": 0.5,
-            "thumb3": 0.4
+            "pinky1": 1.0,
+            "index2": 0.15,
+            "thumb3": 1.0,
+            "pinky0": 1.0,
+            "thumb1": 1.0
           }
         }
-      ]
+      ],
+      "slider_joint": null
+    },
+    {
+      "id": "glock_slide",
+      "cuboid": {
+        "position": [
+          0.45999208,
+          0.4040213,
+          -0.84685063
+        ],
+        "half_size": [
+          0.013,
+          0.02,
+          0.088
+        ],
+        "rotation": [
+          0.63194275,
+          0.5508578,
+          0.31234688,
+          -0.4468149
+        ],
+        "color": [
+          90,
+          90,
+          95,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/glock_slide.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [
+        {
+          "name": "rack",
+          "kind": "Pinch",
+          "local_pos": [
+            0.0,
+            -0.0016,
+            0.0636
+          ],
+          "local_rot": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "hand_offset_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "finger_curl": {}
+        }
+      ],
+      "slider_joint": null
     },
     {
       "id": "hand_preview",
@@ -1125,7 +904,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_mesh",
@@ -1182,7 +962,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_mesh",
@@ -1239,7 +1020,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_palm",
@@ -1290,7 +1072,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_wrist",
@@ -1341,7 +1124,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_thumb_meta",
@@ -1392,7 +1176,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_thumb_prox",
@@ -1443,7 +1228,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_thumb_dist",
@@ -1494,7 +1280,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_thumb_tip",
@@ -1545,7 +1332,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_index_meta",
@@ -1596,7 +1384,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_index_prox",
@@ -1647,7 +1436,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_index_inter",
@@ -1698,7 +1488,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_index_dist",
@@ -1749,7 +1540,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_index_tip",
@@ -1800,7 +1592,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_middle_meta",
@@ -1851,7 +1644,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_middle_prox",
@@ -1902,7 +1696,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_middle_inter",
@@ -1953,7 +1748,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_middle_dist",
@@ -2004,7 +1800,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_middle_tip",
@@ -2055,7 +1852,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_ring_meta",
@@ -2106,7 +1904,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_ring_prox",
@@ -2157,7 +1956,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_ring_inter",
@@ -2208,7 +2008,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_ring_dist",
@@ -2259,7 +2060,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_ring_tip",
@@ -2310,7 +2112,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_little_meta",
@@ -2361,7 +2164,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_little_prox",
@@ -2412,7 +2216,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_little_inter",
@@ -2463,7 +2268,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_little_dist",
@@ -2514,7 +2320,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "lhand_little_tip",
@@ -2565,7 +2372,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_palm",
@@ -2616,7 +2424,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_wrist",
@@ -2667,7 +2476,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_thumb_meta",
@@ -2718,7 +2528,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_thumb_prox",
@@ -2769,7 +2580,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_thumb_dist",
@@ -2820,7 +2632,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_thumb_tip",
@@ -2871,7 +2684,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_index_meta",
@@ -2922,7 +2736,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_index_prox",
@@ -2973,7 +2788,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_index_inter",
@@ -3024,7 +2840,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_index_dist",
@@ -3075,7 +2892,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_index_tip",
@@ -3126,7 +2944,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_middle_meta",
@@ -3177,7 +2996,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_middle_prox",
@@ -3228,7 +3048,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_middle_inter",
@@ -3279,7 +3100,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_middle_dist",
@@ -3330,7 +3152,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_middle_tip",
@@ -3381,7 +3204,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_ring_meta",
@@ -3432,7 +3256,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_ring_prox",
@@ -3483,7 +3308,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_ring_inter",
@@ -3534,7 +3360,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_ring_dist",
@@ -3585,7 +3412,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_ring_tip",
@@ -3636,7 +3464,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_little_meta",
@@ -3687,7 +3516,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_little_prox",
@@ -3738,7 +3568,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_little_inter",
@@ -3789,7 +3620,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_little_dist",
@@ -3840,7 +3672,8 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
     },
     {
       "id": "rhand_little_tip",
@@ -3891,7 +3724,69 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": []
+      "grip_points": [],
+      "slider_joint": null
+    },
+    {
+      "id": "forest",
+      "cuboid": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half_size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe"
+      },
+      "mesh": {
+        "path": "models/forest.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": {
+        "node_filter": "Rock MEGA"
+      }
     }
   ]
 }
