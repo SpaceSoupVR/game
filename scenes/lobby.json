@@ -5,9 +5,9 @@
       "id": "physics_cube",
       "cuboid": {
         "position": [
-          2.4460194,
-          0.9634916,
-          -2.493142
+          2.179369,
+          0.42470348,
+          -2.4107342
         ],
         "half_size": [
           0.25,
@@ -15,10 +15,10 @@
           0.25
         ],
         "rotation": [
-          -0.100316636,
-          0.17201023,
-          0.9140924,
-          0.35324806
+          -0.04538696,
+          0.0037984215,
+          0.99895614,
+          -0.0034977398
         ],
         "color": [
           220,
@@ -39,6 +39,7 @@
       "hidden": false,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -62,7 +63,10 @@
         ]
       },
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "cloud",
@@ -156,6 +160,7 @@
           "looping": true
         }
       ],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -179,15 +184,18 @@
         ]
       },
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "duck",
       "cuboid": {
         "position": [
-          -0.0108591225,
+          0.060426414,
           0.3,
-          -1.4927605
+          -1.4798578
         ],
         "half_size": [
           0.15,
@@ -196,9 +204,9 @@
         ],
         "rotation": [
           0.0,
-          0.9999838,
+          -0.99949944,
           0.0,
-          0.0056857523
+          -0.031633694
         ],
         "color": [
           255,
@@ -392,6 +400,7 @@
           "looping": true
         }
       ],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -415,7 +424,10 @@
         ]
       },
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "grassplain_2",
@@ -455,6 +467,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -482,7 +495,10 @@
         ]
       },
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rifle",
@@ -495,7 +511,7 @@
         "half_size": [
           0.40791017,
           0.11369062,
-          0.049076173
+          0.030438729
         ],
         "rotation": [
           0.09038335,
@@ -522,7 +538,7 @@
         "scale": [
           0.068479754,
           0.058308862,
-          0.087810844
+          0.054463305
         ],
         "rotation_offset": [
           0.0,
@@ -533,8 +549,42 @@
       },
       "is_trigger": false,
       "hidden": false,
-      "script": "fn on_grab(hand, point) { grab_at_joint(\"rifle\", hand + \"_grip\"); } fn on_release(hand) { detach(\"rifle\"); }",
-      "animations": [],
+      "script": "fn on_grab(hand, point) { grab_at_joint(\"rifle\", hand + \"_grip\", point); } fn on_release(hand) { detach(\"rifle\", hand); }",
+      "animations": [
+        {
+          "name": "anim_1",
+          "keyframes": [
+            {
+              "t": 0.0,
+              "position": [
+                0.6583826,
+                0.19668938,
+                -0.24857423
+              ],
+              "rotation": [
+                0.09038335,
+                -0.701584,
+                -0.7065952,
+                -0.018278532
+              ],
+              "scale": [
+                0.40791017,
+                0.11369062,
+                0.049076173
+              ],
+              "color": [
+                80,
+                80,
+                85,
+                255
+              ]
+            }
+          ],
+          "easing": "Linear",
+          "looping": false
+        }
+      ],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": {
         "hand_offset_pos": [
@@ -554,21 +604,21 @@
           1.0
         ],
         "finger_curl": {
-          "index1": 0.6,
-          "pinky0": 0.0,
-          "ring2": 0.85,
-          "middle1": 0.75,
           "index2": 0.75,
-          "ring3": 0.85,
-          "ring1": 0.75,
-          "index3": 0.75,
+          "middle3": 0.85,
+          "thumb2": 0.6,
+          "pinky0": 0.0,
+          "thumb3": 0.6,
           "thumb1": 1.0,
           "middle2": 0.85,
+          "ring2": 0.85,
+          "index1": 0.6,
+          "middle1": 0.75,
           "pinky3": 0.85,
-          "thumb2": 0.6,
+          "ring1": 0.75,
+          "index3": 0.75,
           "pinky2": 0.85,
-          "middle3": 0.85,
-          "thumb3": 0.6,
+          "ring3": 0.85,
           "pinky1": 0.75
         }
       },
@@ -590,22 +640,22 @@
           1.0
         ],
         "finger_curl": {
-          "ring1": 0.75,
-          "thumb1": 1.0,
-          "ring2": 0.85,
-          "ring3": 0.85,
-          "index3": 0.75,
-          "index2": 0.75,
-          "pinky3": 0.85,
-          "middle1": 0.75,
-          "middle2": 0.85,
-          "middle3": 0.85,
-          "thumb3": 0.6,
-          "pinky2": 0.85,
-          "pinky1": 0.75,
-          "thumb2": 0.6,
           "index1": 0.6,
-          "pinky0": 0.0
+          "thumb2": 0.6,
+          "index2": 0.75,
+          "pinky1": 0.75,
+          "pinky0": 0.0,
+          "middle1": 0.75,
+          "thumb1": 1.0,
+          "middle2": 0.85,
+          "ring3": 0.85,
+          "ring2": 0.85,
+          "pinky2": 0.85,
+          "index3": 0.75,
+          "thumb3": 0.6,
+          "ring1": 0.75,
+          "pinky3": 0.85,
+          "middle3": 0.85
         }
       },
       "rigid_body": null,
@@ -614,63 +664,83 @@
           "name": "grip",
           "kind": "Snap",
           "local_pos": [
-            -0.1955319,
-            -0.025219098,
-            0.0063789487
+            -0.20419598,
+            -0.027890982,
+            0.023566449
           ],
           "local_rot": [
-            -0.13794923,
-            -0.10481693,
-            0.118063234,
-            0.9777753
+            0.17434853,
+            -0.52179664,
+            0.5824708,
+            0.59838015
           ],
           "hand_offset_scale": [
-            1.0,
-            1.0,
-            1.0
+            1.0048828,
+            0.9967578,
+            1.0499219
           ],
           "finger_curl": {
-            "ring3": 0.52527344,
-            "index2": 0.7015234,
-            "pinky0": 0.23382811,
-            "index1": 0.7015234,
-            "thumb1": 0.7044531,
-            "pinky2": 0.23382811,
-            "middle1": 0.76246095,
-            "pinky1": 0.23382811,
-            "ring2": 0.52527344,
-            "thumb3": 0.7044531,
-            "thumb2": 0.7044531,
-            "middle2": 0.76246095,
-            "middle3": 0.76246095,
-            "index3": 0.7015234,
-            "pinky3": 0.23382811,
-            "ring1": 0.52527344
+            "thumb1": 0.0,
+            "ring3": 0.9264062,
+            "index3": 0.12035156,
+            "pinky1": 0.7043359,
+            "middle2": 0.7483984,
+            "pinky3": 0.7043359,
+            "ring1": 0.9264062,
+            "thumb2": 0.0,
+            "index1": 0.12035156,
+            "middle1": 0.7483984,
+            "index2": 0.12035156,
+            "middle3": 0.7483984,
+            "thumb3": 0.0,
+            "pinky2": 0.7043359,
+            "ring2": 0.9264062,
+            "pinky0": 0.7043359
           }
         },
         {
           "name": "barrel",
           "kind": "Free",
           "local_pos": [
-            0.106809914,
-            0.058549687,
-            0.0
+            0.11020054,
+            0.040674686,
+            -0.0033046864
           ],
           "local_rot": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
+            -0.50728804,
+            -0.3814036,
+            0.6111057,
+            0.47301155
           ],
           "hand_offset_scale": [
-            1.0,
-            1.0,
+            1.0010157,
+            1.003711,
             1.0
           ],
-          "finger_curl": {}
+          "finger_curl": {
+            "thumb1": 0.0,
+            "pinky2": 0.41089842,
+            "thumb3": 0.0,
+            "middle3": 0.36664063,
+            "middle2": 0.36664063,
+            "index2": 0.24867187,
+            "ring3": 0.3413672,
+            "ring2": 0.3413672,
+            "middle1": 0.36664063,
+            "pinky3": 0.41089842,
+            "thumb2": 0.0,
+            "pinky0": 0.41089842,
+            "ring1": 0.3413672,
+            "pinky1": 0.41089842,
+            "index3": 0.24867187,
+            "index1": 0.24867187
+          }
         }
       ],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "pistol",
@@ -721,8 +791,9 @@
       },
       "is_trigger": false,
       "hidden": false,
-      "script": "fn on_grab(hand, point) { grab_at_joint(\"pistol\", hand + \"_grip\"); grab_at_joint(\"glock_slide\", hand + \"_grip\"); } fn on_release(hand) { detach(\"pistol\"); detach(\"glock_slide\"); }",
+      "script": "fn on_grab(hand, point) { grab_at_joint(\"pistol\", hand + \"_grip\", point); grab_at_joint(\"glock_slide\", hand + \"_grip\"); } fn on_release(hand) { detach(\"pistol\", hand); detach(\"glock_slide\", hand); }",
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -748,26 +819,29 @@
             1.0
           ],
           "finger_curl": {
-            "ring1": 1.0,
-            "index1": 0.3,
-            "ring3": 1.0,
-            "pinky2": 1.0,
-            "pinky3": 1.0,
+            "index3": 0.1,
+            "pinky0": 1.0,
+            "middle3": 1.0,
             "middle1": 1.0,
-            "middle2": 1.0,
+            "ring3": 1.0,
+            "thumb3": 1.0,
+            "index1": 0.3,
+            "pinky2": 1.0,
             "thumb2": 1.0,
             "ring2": 1.0,
-            "middle3": 1.0,
-            "index3": 0.1,
-            "pinky1": 1.0,
+            "thumb1": 1.0,
+            "middle2": 1.0,
+            "pinky3": 1.0,
             "index2": 0.15,
-            "thumb3": 1.0,
-            "pinky0": 1.0,
-            "thumb1": 1.0
+            "pinky1": 1.0,
+            "ring1": 1.0
           }
         }
       ],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "glock_slide",
@@ -820,6 +894,7 @@
       "hidden": false,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -847,7 +922,10 @@
           "finger_curl": {}
         }
       ],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "hand_preview",
@@ -900,12 +978,16 @@
       "hidden": false,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_mesh",
@@ -958,12 +1040,16 @@
       "hidden": false,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_mesh",
@@ -1016,12 +1102,16 @@
       "hidden": false,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_palm",
@@ -1061,6 +1151,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_palm",
         "offset": [
@@ -1073,7 +1164,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_wrist",
@@ -1113,6 +1207,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_wrist",
         "offset": [
@@ -1125,7 +1220,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_thumb_meta",
@@ -1165,6 +1263,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_thumb_meta",
         "offset": [
@@ -1177,7 +1276,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_thumb_prox",
@@ -1217,6 +1319,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_thumb_prox",
         "offset": [
@@ -1229,7 +1332,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_thumb_dist",
@@ -1269,6 +1375,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_thumb_dist",
         "offset": [
@@ -1281,7 +1388,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_thumb_tip",
@@ -1321,6 +1431,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_thumb_tip",
         "offset": [
@@ -1333,7 +1444,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_index_meta",
@@ -1373,6 +1487,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_meta",
         "offset": [
@@ -1385,7 +1500,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_index_prox",
@@ -1425,6 +1543,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_prox",
         "offset": [
@@ -1437,7 +1556,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_index_inter",
@@ -1477,6 +1599,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_inter",
         "offset": [
@@ -1489,7 +1612,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_index_dist",
@@ -1529,6 +1655,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_dist",
         "offset": [
@@ -1541,7 +1668,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_index_tip",
@@ -1581,6 +1711,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_tip",
         "offset": [
@@ -1593,7 +1724,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_middle_meta",
@@ -1633,6 +1767,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_meta",
         "offset": [
@@ -1645,7 +1780,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_middle_prox",
@@ -1685,6 +1823,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_prox",
         "offset": [
@@ -1697,7 +1836,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_middle_inter",
@@ -1737,6 +1879,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_inter",
         "offset": [
@@ -1749,7 +1892,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_middle_dist",
@@ -1789,6 +1935,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_dist",
         "offset": [
@@ -1801,7 +1948,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_middle_tip",
@@ -1841,6 +1991,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_tip",
         "offset": [
@@ -1853,7 +2004,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_ring_meta",
@@ -1893,6 +2047,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_meta",
         "offset": [
@@ -1905,7 +2060,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_ring_prox",
@@ -1945,6 +2103,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_prox",
         "offset": [
@@ -1957,7 +2116,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_ring_inter",
@@ -1997,6 +2159,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_inter",
         "offset": [
@@ -2009,7 +2172,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_ring_dist",
@@ -2049,6 +2215,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_dist",
         "offset": [
@@ -2061,7 +2228,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_ring_tip",
@@ -2101,6 +2271,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_tip",
         "offset": [
@@ -2113,7 +2284,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_little_meta",
@@ -2153,6 +2327,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_meta",
         "offset": [
@@ -2165,7 +2340,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_little_prox",
@@ -2205,6 +2383,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_prox",
         "offset": [
@@ -2217,7 +2396,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_little_inter",
@@ -2257,6 +2439,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_inter",
         "offset": [
@@ -2269,7 +2452,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_little_dist",
@@ -2309,6 +2495,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_dist",
         "offset": [
@@ -2321,7 +2508,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "lhand_little_tip",
@@ -2361,6 +2551,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_tip",
         "offset": [
@@ -2373,7 +2564,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_palm",
@@ -2413,6 +2607,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_palm",
         "offset": [
@@ -2425,7 +2620,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_wrist",
@@ -2465,6 +2663,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_wrist",
         "offset": [
@@ -2477,7 +2676,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_thumb_meta",
@@ -2517,6 +2719,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_thumb_meta",
         "offset": [
@@ -2529,7 +2732,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_thumb_prox",
@@ -2569,6 +2775,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_thumb_prox",
         "offset": [
@@ -2581,7 +2788,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_thumb_dist",
@@ -2621,6 +2831,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_thumb_dist",
         "offset": [
@@ -2633,7 +2844,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_thumb_tip",
@@ -2673,6 +2887,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_thumb_tip",
         "offset": [
@@ -2685,7 +2900,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_index_meta",
@@ -2725,6 +2943,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_meta",
         "offset": [
@@ -2737,7 +2956,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_index_prox",
@@ -2777,6 +2999,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_prox",
         "offset": [
@@ -2789,7 +3012,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_index_inter",
@@ -2829,6 +3055,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_inter",
         "offset": [
@@ -2841,7 +3068,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_index_dist",
@@ -2881,6 +3111,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_dist",
         "offset": [
@@ -2893,7 +3124,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_index_tip",
@@ -2933,6 +3167,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_tip",
         "offset": [
@@ -2945,7 +3180,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_middle_meta",
@@ -2985,6 +3223,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_meta",
         "offset": [
@@ -2997,7 +3236,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_middle_prox",
@@ -3037,6 +3279,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_prox",
         "offset": [
@@ -3049,7 +3292,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_middle_inter",
@@ -3089,6 +3335,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_inter",
         "offset": [
@@ -3101,7 +3348,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_middle_dist",
@@ -3141,6 +3391,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_dist",
         "offset": [
@@ -3153,7 +3404,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_middle_tip",
@@ -3193,6 +3447,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_tip",
         "offset": [
@@ -3205,7 +3460,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_ring_meta",
@@ -3245,6 +3503,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_meta",
         "offset": [
@@ -3257,7 +3516,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_ring_prox",
@@ -3297,6 +3559,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_prox",
         "offset": [
@@ -3309,7 +3572,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_ring_inter",
@@ -3349,6 +3615,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_inter",
         "offset": [
@@ -3361,7 +3628,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_ring_dist",
@@ -3401,6 +3671,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_dist",
         "offset": [
@@ -3413,7 +3684,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_ring_tip",
@@ -3453,6 +3727,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_tip",
         "offset": [
@@ -3465,7 +3740,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_little_meta",
@@ -3505,6 +3783,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_meta",
         "offset": [
@@ -3517,7 +3796,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_little_prox",
@@ -3557,6 +3839,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_prox",
         "offset": [
@@ -3569,7 +3852,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_little_inter",
@@ -3609,6 +3895,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_inter",
         "offset": [
@@ -3621,7 +3908,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_little_dist",
@@ -3661,6 +3951,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_dist",
         "offset": [
@@ -3673,7 +3964,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "rhand_little_tip",
@@ -3713,6 +4007,7 @@
       "hidden": true,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_tip",
         "offset": [
@@ -3725,7 +4020,10 @@
       "grip_pose_right": null,
       "rigid_body": null,
       "grip_points": [],
-      "slider_joint": null
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null
     },
     {
       "id": "forest",
@@ -3778,6 +4076,7 @@
       "hidden": false,
       "script": null,
       "animations": [],
+      "animation_bindings": [],
       "rig_attachment": null,
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -3786,7 +4085,69 @@
       "slider_joint": null,
       "terrain_collider": {
         "node_filter": "Rock MEGA"
-      }
+      },
+      "light": null,
+      "sound": null
+    },
+    {
+      "id": "light",
+      "cuboid": {
+        "position": [
+          -0.670857,
+          1.8936207,
+          0.89224243
+        ],
+        "half_size": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": true,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": {
+        "kind": "Point",
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "intensity": 31.0,
+        "range": 5.0,
+        "cone_angle_deg": 45.0
+      },
+      "sound": null
     }
   ]
 }
