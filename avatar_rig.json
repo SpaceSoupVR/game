@@ -31,5 +31,15 @@
     0.0,
     0.04
   ],
-  "wrist_roll_deg": 0.0
+  "wrist_roll_deg": 0.0,
+  "wrist_tune_deg_right": [
+    -76.7,
+    2.0,
+    126.8
+  ],
+  "wrist_tune_deg_left": [
+    -71.2,
+    1.5,
+    244.3
+  ]
 }
