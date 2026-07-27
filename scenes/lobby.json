@@ -4169,6 +4169,70 @@
       "sound": null,
       "particle_emitter": null,
       "laser": null
+    },
+    {
+      "id": "shootingrange",
+      "cuboid": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "half_size": [
+          15.0,
+          1.0,
+          6.0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/shootingrange.glb",
+        "scale": [
+          0.005,
+          0.005,
+          0.005
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
     }
   ]
 }
