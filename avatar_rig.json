@@ -19,16 +19,27 @@
   ],
   "max_lean_deg": 30.0,
   "thumb_touch_curl": 0.35,
+  "wrist_calibration_auto": true,
   "wrist_calibration_offset_axis": [
     1.0,
     0.0,
     0.0
   ],
-  "wrist_calibration_offset_deg": 180.0,
+  "wrist_calibration_offset_deg": -90.0,
   "wrist_position_offset": [
     0.0,
     0.0,
-    0.05
+    0.04
   ],
-  "wrist_roll_deg": 135.0
+  "wrist_roll_deg": 0.0,
+  "wrist_tune_deg_right": [
+    -76.7,
+    2.0,
+    126.8
+  ],
+  "wrist_tune_deg_left": [
+    -71.2,
+    1.5,
+    244.3
+  ]
 }

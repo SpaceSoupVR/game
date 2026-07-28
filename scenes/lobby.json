@@ -2,6 +2,70 @@
   "name": "lobby",
   "objects": [
     {
+      "id": "skydome",
+      "cuboid": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "half_size": [
+          1,
+          1,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/skydom.glb",
+        "scale": [
+          5.0,
+          5.0,
+          5.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null,
+      "laser": null,
+      "particle_emitter": null
+    },
+    {
       "id": "physics_cube",
       "cuboid": {
         "position": [
@@ -2981,66 +3045,6 @@
       "sound": null
     },
     {
-      "id": "light",
-      "cuboid": {
-        "position": [
-          -0.670857,
-          1.9874249,
-          0.89224243
-        ],
-        "half_size": [
-          0.1,
-          0.1,
-          0.1
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          255,
-          255,
-          255,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
-      },
-      "mesh": null,
-      "is_trigger": false,
-      "hidden": true,
-      "script": null,
-      "animations": [],
-      "animation_bindings": [],
-      "rig_attachment": null,
-      "grip_pose_left": null,
-      "grip_pose_right": null,
-      "rigid_body": null,
-      "grip_points": [],
-      "slider_joint": null,
-      "terrain_collider": null,
-      "light": {
-        "kind": "Point",
-        "color": [
-          255,
-          255,
-          255,
-          255
-        ],
-        "intensity": 31,
-        "range": 5,
-        "cone_angle_deg": 45
-      },
-      "sound": null
-    },
-    {
       "id": "physics_ball_bouncy",
       "cuboid": {
         "position": [
@@ -3452,132 +3456,6 @@
       "sound": null
     },
     {
-      "id": "dust_emitter_block",
-      "cuboid": {
-        "position": [
-          -1.2,
-          0.15,
-          -1.5
-        ],
-        "half_size": [
-          0.1,
-          0.1,
-          0.1
-        ],
-        "rotation": [
-          0.70710678,
-          0,
-          0,
-          0.70710678
-        ],
-        "color": [
-          150,
-          140,
-          120,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
-      },
-      "mesh": null,
-      "is_trigger": false,
-      "hidden": false,
-      "script": null,
-      "animations": [],
-      "animation_bindings": [],
-      "rig_attachment": null,
-      "grip_pose_left": null,
-      "grip_pose_right": null,
-      "rigid_body": null,
-      "grip_points": [],
-      "slider_joint": null,
-      "terrain_collider": null,
-      "light": null,
-      "sound": null,
-      "particle_emitter": {
-        "particle_size": 0.02,
-        "spawn_rate": 6,
-        "color": [
-          190,
-          175,
-          140,
-          160
-        ],
-        "lifetime": 2.5,
-        "speed": 0.15,
-        "spread_deg": 20
-      },
-      "laser": null
-    },
-    {
-      "id": "big_emitter_block",
-      "cuboid": {
-        "position": [
-          -1.2,
-          0.15,
-          0.8
-        ],
-        "half_size": [
-          0.15,
-          0.15,
-          0.15
-        ],
-        "rotation": [
-          0.70710678,
-          0,
-          0,
-          0.70710678
-        ],
-        "color": [
-          90,
-          140,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
-      },
-      "mesh": null,
-      "is_trigger": false,
-      "hidden": false,
-      "script": null,
-      "animations": [],
-      "animation_bindings": [],
-      "rig_attachment": null,
-      "grip_pose_left": null,
-      "grip_pose_right": null,
-      "rigid_body": null,
-      "grip_points": [],
-      "slider_joint": null,
-      "terrain_collider": null,
-      "light": null,
-      "sound": null,
-      "particle_emitter": {
-        "particle_size": 0.06,
-        "spawn_rate": 3,
-        "color": [
-          255,
-          210,
-          90,
-          230
-        ],
-        "lifetime": 1.8,
-        "speed": 0.5,
-        "spread_deg": 25
-      },
-      "laser": null
-    },
-    {
       "id": "laser_green",
       "cuboid": {
         "position": [
@@ -3730,7 +3608,20 @@
         ],
         "style": "Solid"
       },
-      "mesh": null,
+      "mesh": {
+        "path": "models/floor.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
       "is_trigger": false,
       "hidden": false,
       "script": null,
@@ -3764,69 +3655,6 @@
       "light": null,
       "sound": null,
       "particle_emitter": null,
-      "laser": null
-    },
-    {
-      "id": "smoke_emitter_block",
-      "cuboid": {
-        "position": [
-          1.8,
-          0.15,
-          2.2
-        ],
-        "half_size": [
-          0.12,
-          0.12,
-          0.12
-        ],
-        "rotation": [
-          0.70710678,
-          0,
-          0,
-          0.70710678
-        ],
-        "color": [
-          100,
-          100,
-          100,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
-      },
-      "mesh": null,
-      "is_trigger": false,
-      "hidden": false,
-      "script": null,
-      "animations": [],
-      "animation_bindings": [],
-      "rig_attachment": null,
-      "grip_pose_left": null,
-      "grip_pose_right": null,
-      "rigid_body": null,
-      "grip_points": [],
-      "slider_joint": null,
-      "terrain_collider": null,
-      "light": null,
-      "sound": null,
-      "particle_emitter": {
-        "particle_size": 0.4,
-        "spawn_rate": 14,
-        "color": [
-          195,
-          195,
-          195,
-          210
-        ],
-        "lifetime": 7,
-        "speed": 0.35,
-        "spread_deg": 170
-      },
       "laser": null
     },
     {
@@ -4169,6 +3997,318 @@
       "sound": null,
       "particle_emitter": null,
       "laser": null
+    },
+    {
+      "id": "m4a1_laser_sight",
+      "cuboid": {
+        "position": [
+          0.42,
+          1.06,
+          -1.5
+        ],
+        "half_size": [
+          0.02,
+          0.02,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          -0.70710678,
+          0.0,
+          0.70710678
+        ],
+        "color": [
+          40,
+          255,
+          120,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": {
+        "color": [
+          80,
+          255,
+          120,
+          255
+        ],
+        "max_distance": 12.0,
+        "beam_width": 0.012
+      }
+    },
+    {
+      "id": "smoke_grenade",
+      "cuboid": {
+        "position": [
+          1.5,
+          0.06,
+          0.6
+        ],
+        "half_size": [
+          0.035,
+          0.06,
+          0.035
+        ],
+        "rotation": [
+          0.70710678,
+          0.0,
+          0.0,
+          0.70710678
+        ],
+        "color": [
+          70,
+          90,
+          55,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null,
+      "particle_emitter": {
+        "particle_size": 0.09,
+        "spawn_rate": 26.0,
+        "color": [
+          225,
+          225,
+          225,
+          130
+        ],
+        "lifetime": 6.0,
+        "speed": 0.22,
+        "spread_deg": 150.0,
+        "size_growth": 2.8
+      },
+      "laser": null
+    },
+    {
+      "id": "work_light_stand",
+      "cuboid": {
+        "position": [
+          -2.5,
+          0.927,
+          -0.3
+        ],
+        "half_size": [
+          0.5,
+          0.93,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/twin-headed_work_light_stand.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": null,
+      "sound": null,
+      "laser": null,
+      "particle_emitter": null
+    },
+    {
+      "id": "work_light_stand_lamp_left",
+      "cuboid": {
+        "position": [
+          -2.76910488,
+          1.63626294,
+          -0.44409042
+        ],
+        "half_size": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": true,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": {
+        "kind": "Spot",
+        "color": [
+          255,
+          244,
+          220,
+          255
+        ],
+        "intensity": 150,
+        "range": 15,
+        "cone_angle_deg": 70
+      },
+      "sound": null,
+      "laser": null,
+      "particle_emitter": null
+    },
+    {
+      "id": "work_light_stand_lamp_right",
+      "cuboid": {
+        "position": [
+          -2.23972893,
+          1.6490632,
+          -0.44074590999999996
+        ],
+        "half_size": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": true,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "light": {
+        "kind": "Spot",
+        "color": [
+          255,
+          244,
+          220,
+          255
+        ],
+        "intensity": 150,
+        "range": 15,
+        "cone_angle_deg": 70
+      },
+      "sound": null,
+      "laser": null,
+      "particle_emitter": null
     }
   ]
 }
