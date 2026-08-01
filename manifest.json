@@ -1,8 +1,9 @@
 {
-    "name": "Duck Hunt Stack",
+    "name": "Studio Test Map",
     "version": "0.1.0",
     "entry_scene": "lobby",
     "scenes": [
-        "lobby"
+        "lobby",
+        "water_world"
     ]
 } 

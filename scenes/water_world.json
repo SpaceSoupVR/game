@@ -1,0 +1,200 @@
+{
+  "name": "water_world",
+  "objects": [
+    {
+      "id": "floor",
+      "cuboid": {
+        "position": [
+          0.0,
+          -0.1,
+          0.0
+        ],
+        "half_size": [
+          50.0,
+          0.1,
+          50.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          120,
+          120,
+          120,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "mesh": {
+        "path": "models/floor.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "rigid_body": {
+        "mode": "Static",
+        "shape": "Box",
+        "mass": null,
+        "friction": 0.8,
+        "restitution": 0.0,
+        "linear_velocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "respawn_interval": null,
+        "collider_half_size": null,
+        "collider_offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "watersky",
+      "cuboid": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half_size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "mesh": {
+        "path": "models/watersky.glb",
+        "scale": [
+          0.007,
+          0.007,
+          0.007
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "spawn_point_entrance",
+      "cuboid": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          140,
+          255,
+          170,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "spawn_point": {}
+    },
+    {
+      "id": "pad_to_lobby",
+      "cuboid": {
+        "position": [
+          0.0,
+          0.05,
+          2.0
+        ],
+        "half_size": [
+          0.6,
+          0.1,
+          0.6
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "color": [
+          255,
+          170,
+          120,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "teleportal": {
+        "target_scene": "lobby"
+      }
+    }
+  ]
+}
