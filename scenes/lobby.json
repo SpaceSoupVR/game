@@ -3509,12 +3509,120 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": null,
-      "grip_points": [],
+      "grip_points": [
+        {
+          "name": "m4a1_grip_right",
+          "kind": "Snap",
+          "hand": "right",
+          "local_pos": [
+            -0.218,
+            -0.063,
+            0.0
+          ],
+          "local_rot": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "hand_offset_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "finger_curl": {},
+          "grab_range": 0.18
+        },
+        {
+          "name": "m4a1_grip_left",
+          "kind": "Snap",
+          "hand": "left",
+          "local_pos": [
+            -0.218,
+            -0.063,
+            0.0
+          ],
+          "local_rot": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "hand_offset_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "finger_curl": {},
+          "grab_range": 0.18
+        }
+      ],
       "slider_joint": null,
       "terrain_collider": null,
       "sound": null,
       "particle_emitter": null,
-      "laser": null
+      "laser": null,
+      "optic": {
+        "class": "Lpvo",
+        "magnification": {
+          "Continuous": {
+            "min": 1.0,
+            "max": 6.0
+          }
+        },
+        "magnification_control": {
+          "PhysicalRing": {
+            "ring_node": "",
+            "rotation_axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "angle_range_deg": 120.0,
+            "detents": true
+          }
+        },
+        "objective_diameter_mm": 24.0,
+        "true_fov_deg_at_1x": 26.0,
+        "eye_relief_mm": 95.0,
+        "paths": {
+          "Monocular": {
+            "path": {
+              "objective_node": "",
+              "ocular_node": "",
+              "objective_offset": [
+                0.06,
+                0.125,
+                0.0
+              ],
+              "ocular_offset": [
+                -0.16,
+                0.125,
+                0.0
+              ],
+              "ocular_radius_m": 0.017,
+              "clip_shape": "Circle",
+              "edge_feather_px": 2.0
+            }
+          }
+        },
+        "reticle": {
+          "style": "",
+          "focal_plane": "Second",
+          "color": [
+            255,
+            40,
+            40,
+            255
+          ],
+          "brightness": 1.0
+        },
+        "zero": {
+          "distance_m": 100.0,
+          "height_over_bore_mm": 38.0
+        },
+        "quality": "Balanced"
+      }
     },
     {
       "id": "boy",
