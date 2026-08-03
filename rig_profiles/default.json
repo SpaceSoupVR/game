@@ -1,0 +1,250 @@
+{
+  "name": "default",
+  "source_model": "models/boy/boy.glb",
+  "bone_assignments": [
+    {
+      "role": "left_upper_leg",
+      "bone_name": "Left leg"
+    },
+    {
+      "role": "left_little0",
+      "bone_name": "LittleFinger1_L"
+    },
+    {
+      "role": "right_upper_arm",
+      "bone_name": "Right arm"
+    },
+    {
+      "role": "right_index2",
+      "bone_name": "IndexFinger3_R"
+    },
+    {
+      "role": "right_little2",
+      "bone_name": "LittleFinger3_R"
+    },
+    {
+      "role": "right_middle2",
+      "bone_name": "MiddleFinger3_R"
+    },
+    {
+      "role": "left_thumb2",
+      "bone_name": "Thumb2_L"
+    },
+    {
+      "role": "right_middle0",
+      "bone_name": "MiddleFinger1_R"
+    },
+    {
+      "role": "right_index0",
+      "bone_name": "IndexFinger1_R"
+    },
+    {
+      "role": "left_middle2",
+      "bone_name": "MiddleFinger3_L"
+    },
+    {
+      "role": "left_thumb0",
+      "bone_name": "Thumb0_L"
+    },
+    {
+      "role": "left_upper_arm",
+      "bone_name": "Left arm"
+    },
+    {
+      "role": "left_thumb1",
+      "bone_name": "Thumb1_L"
+    },
+    {
+      "role": "right_shoulder",
+      "bone_name": "Right shoulder"
+    },
+    {
+      "role": "left_middle0",
+      "bone_name": "MiddleFinger1_L"
+    },
+    {
+      "role": "right_middle1",
+      "bone_name": "MiddleFinger2_R"
+    },
+    {
+      "role": "left_hip",
+      "bone_name": "Hips"
+    },
+    {
+      "role": "right_lower_arm",
+      "bone_name": "Right elbow"
+    },
+    {
+      "role": "left_index2",
+      "bone_name": "IndexFinger3_L"
+    },
+    {
+      "role": "left_ring2",
+      "bone_name": "RingFinger3_L"
+    },
+    {
+      "role": "left_index1",
+      "bone_name": "IndexFinger2_L"
+    },
+    {
+      "role": "left_lower_leg",
+      "bone_name": "Left knee"
+    },
+    {
+      "role": "right_lower_leg",
+      "bone_name": "Right knee"
+    },
+    {
+      "role": "left_index0",
+      "bone_name": "IndexFinger1_L"
+    },
+    {
+      "role": "left_little2",
+      "bone_name": "LittleFinger3_L"
+    },
+    {
+      "role": "right_little0",
+      "bone_name": "LittleFinger1_R"
+    },
+    {
+      "role": "left_foot",
+      "bone_name": "Left ankle"
+    },
+    {
+      "role": "right_ring2",
+      "bone_name": "RingFinger3_R"
+    },
+    {
+      "role": "left_hand",
+      "bone_name": "Left wrist"
+    },
+    {
+      "role": "right_thumb1",
+      "bone_name": "Thumb1_R"
+    },
+    {
+      "role": "left_shoulder",
+      "bone_name": "Left shoulder"
+    },
+    {
+      "role": "left_middle1",
+      "bone_name": "MiddleFinger2_L"
+    },
+    {
+      "role": "right_hand",
+      "bone_name": "Right wrist"
+    },
+    {
+      "role": "right_ring0",
+      "bone_name": "RingFinger1_R"
+    },
+    {
+      "role": "right_hip",
+      "bone_name": "Hips"
+    },
+    {
+      "role": "right_foot",
+      "bone_name": "Right ankle"
+    },
+    {
+      "role": "right_ring1",
+      "bone_name": "RingFinger2_R"
+    },
+    {
+      "role": "left_ring1",
+      "bone_name": "RingFinger2_L"
+    },
+    {
+      "role": "right_little1",
+      "bone_name": "LittleFinger2_R"
+    },
+    {
+      "role": "right_upper_leg",
+      "bone_name": "Right leg"
+    },
+    {
+      "role": "right_thumb0",
+      "bone_name": "Thumb0_R"
+    },
+    {
+      "role": "left_little1",
+      "bone_name": "LittleFinger2_L"
+    },
+    {
+      "role": "left_ring0",
+      "bone_name": "RingFinger1_L"
+    },
+    {
+      "role": "right_thumb2",
+      "bone_name": "Thumb2_R"
+    },
+    {
+      "role": "right_index1",
+      "bone_name": "IndexFinger2_R"
+    },
+    {
+      "role": "left_lower_arm",
+      "bone_name": "Left elbow"
+    },
+    {
+      "role": "head",
+      "bone_name": "Head"
+    }
+  ],
+  "device_offsets": {},
+  "constraints": [],
+  "height": {
+    "calibrated_height_m": 1.7,
+    "eye_height_m": 1.6,
+    "neck_length_m": 0.1,
+    "shoulder_width_m": 0.4,
+    "forward_offset_m": 0
+  },
+  "ik": {
+    "arm_bend_hint": [
+      0,
+      -1,
+      0
+    ],
+    "leg_bend_hint": [
+      0,
+      0,
+      1
+    ],
+    "wrist_calibration_offset_axis": [
+      1,
+      0,
+      0
+    ],
+    "wrist_calibration_offset_deg": -90,
+    "wrist_roll_deg": 0,
+    "wrist_position_offset": [
+      0,
+      0,
+      0.04
+    ],
+    "head_pitch_axis": [
+      1,
+      0,
+      0
+    ],
+    "head_pitch_sign": -1,
+    "finger_curl_max_deg": 80,
+    "thumb_touch_curl": 0.35,
+    "max_lean_deg": 30,
+    "full_lean_crouch_m": 0.4,
+    "wrist_calibration_auto": true,
+    "wrist_tune_deg_right": [
+      -76.7,
+      2,
+      126.8
+    ],
+    "wrist_tune_deg_left": [
+      -71.2,
+      1.5,
+      244.3
+    ]
+  },
+  "poses": [],
+  "input_mapping": {}
+}
