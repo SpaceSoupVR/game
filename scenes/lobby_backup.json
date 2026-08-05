@@ -2,6 +2,135 @@
   "name": "lobby",
   "objects": [
     {
+      "id": "skydome",
+      "cuboid": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "half_size": [
+          1,
+          1,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/skydom.glb",
+        "scale": [
+          5,
+          5,
+          5
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "laser": null,
+      "particle_emitter": null
+    },
+    {
+      "id": "physics_cube",
+      "cuboid": {
+        "position": [
+          4.5474395751953125,
+          0.4281950294971466,
+          -3.9858434200286865
+        ],
+        "half_size": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "rotation": [
+          -0.045481509535297455,
+          0.003968927987484511,
+          0.9989505812690816,
+          -0.0036627971804136694
+        ],
+        "color": [
+          220,
+          90,
+          60,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": {
+        "mode": "Dynamic",
+        "shape": "Box",
+        "mass": 1,
+        "friction": 0.5,
+        "restitution": 0.3,
+        "linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "respawn_interval": 3,
+        "collider_half_size": null,
+        "collider_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null
+    },
+    {
       "id": "lhand_palm",
       "cuboid": {
         "position": [
@@ -2862,6 +2991,388 @@
       "sound": null
     },
     {
+      "id": "physics_stack_a",
+      "cuboid": {
+        "position": [
+          5.234960556030273,
+          0.36525237560272217,
+          -3.900216579437256
+        ],
+        "half_size": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "rotation": [
+          -0.0048300044626277076,
+          0.07646023983644061,
+          -0.0006963507701830695,
+          0.9970606891642304
+        ],
+        "color": [
+          200,
+          60,
+          200,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": {
+        "mode": "Dynamic",
+        "shape": "Box",
+        "mass": 1,
+        "friction": 0.6,
+        "restitution": 0.1,
+        "linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "respawn_interval": 8,
+        "collider_half_size": null,
+        "collider_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null
+    },
+    {
+      "id": "physics_stack_b",
+      "cuboid": {
+        "position": [
+          5.509814739227295,
+          0.35796162486076355,
+          -4.651795864105225
+        ],
+        "half_size": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "rotation": [
+          0.6989270303146506,
+          0.08002128985218547,
+          -0.08126714008280815,
+          0.7060405451591979
+        ],
+        "color": [
+          160,
+          60,
+          200,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": {
+        "mode": "Dynamic",
+        "shape": "Box",
+        "mass": 1,
+        "friction": 0.6,
+        "restitution": 0.1,
+        "linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "respawn_interval": 8,
+        "collider_half_size": null,
+        "collider_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null
+    },
+    {
+      "id": "physics_stack_c",
+      "cuboid": {
+        "position": [
+          4.718116283416748,
+          0.3668033480644226,
+          -4.92427396774292
+        ],
+        "half_size": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "rotation": [
+          0.9788166836051038,
+          0.0006013696855923415,
+          0.20471553618189028,
+          0.003014547489876787
+        ],
+        "color": [
+          120,
+          60,
+          200,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": {
+        "mode": "Dynamic",
+        "shape": "Box",
+        "mass": 1,
+        "friction": 0.6,
+        "restitution": 0.1,
+        "linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "respawn_interval": 8,
+        "collider_half_size": null,
+        "collider_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null
+    },
+    {
+      "id": "mirror",
+      "cuboid": {
+        "position": [
+          0.047704100608825684,
+          1.2999999523162842,
+          3.7978529930114746
+        ],
+        "half_size": [
+          1.5,
+          1.2,
+          0.03
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "color": [
+          15,
+          15,
+          18,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": {
+        "mode": "Static",
+        "shape": "Box",
+        "mass": null,
+        "friction": 0.5,
+        "restitution": 0,
+        "linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "respawn_interval": null,
+        "collider_half_size": null,
+        "collider_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null
+    },
+    {
+      "id": "laser_green",
+      "cuboid": {
+        "position": [
+          -2.2590479850769043,
+          1.1581989526748657,
+          5.355620384216309
+        ],
+        "half_size": [
+          0.04,
+          0.04,
+          0.04
+        ],
+        "rotation": [
+          -0.2221609000868016,
+          0.9717695517017685,
+          -1.6292426093357627e-08,
+          0.07942589538661625
+        ],
+        "color": [
+          40,
+          220,
+          90,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": {
+        "color": [
+          80,
+          255,
+          120,
+          255
+        ],
+        "max_distance": 15,
+        "beam_width": 0.015
+      }
+    },
+    {
+      "id": "laser_red",
+      "cuboid": {
+        "position": [
+          3.0293097496032715,
+          0.9564617276191711,
+          4.32363224029541
+        ],
+        "half_size": [
+          0.04,
+          0.04,
+          0.04
+        ],
+        "rotation": [
+          0.44969525009324895,
+          -0.47713583683773064,
+          0.5820370728880063,
+          0.48098692397266957
+        ],
+        "color": [
+          200,
+          40,
+          40,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": {
+        "color": [
+          255,
+          60,
+          60,
+          255
+        ],
+        "max_distance": 10,
+        "beam_width": 0.015
+      }
+    },
+    {
       "id": "floor",
       "cuboid": {
         "position": [
@@ -2958,8 +3469,8 @@
         "rotation": [
           0,
           0,
-          -0.02357825470960192,
-          0.9997219943088425
+          0.549600091922801,
+          0.8354278777718929
         ],
         "color": [
           255,
@@ -3006,7 +3517,7 @@
           "local_pos": [
             -0.26,
             -0.1,
-            0
+            0.0
           ],
           "local_rot": [
             0,
@@ -3047,7 +3558,7 @@
           "local_pos": [
             0.15,
             0.01,
-            0
+            0.0
           ],
           "local_rot": [
             0,
@@ -3094,11 +3605,6 @@
           "easing": "Linear"
         },
         {
-          "clip": "shell_eject",
-          "driver": "HoldTrigger",
-          "easing": "EaseIn"
-        },
-        {
           "clip": "charging_handle",
           "driver": "HandPull",
           "easing": "Linear"
@@ -3107,20 +3613,288 @@
           "clip": "mag_eject",
           "driver": "HoldGrip",
           "easing": "EaseIn"
-        },
-        {
-          "clip": "mag_insert",
-          "driver": "HandPull",
-          "easing": "EaseInOut"
         }
       ]
+    },
+    {
+      "id": "boy",
+      "cuboid": {
+        "position": [
+          -2.506316661834717,
+          0.010719865560531616,
+          3.3727622032165527
+        ],
+        "half_size": [
+          0.3,
+          0.9,
+          0.3
+        ],
+        "rotation": [
+          0,
+          0.8454219319822058,
+          0,
+          0.5340990141569955
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/boy/boy.glb",
+        "scale": [
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
+    },
+    {
+      "id": "left_controller",
+      "cuboid": {
+        "position": [
+          -1.4870320558547974,
+          1.349470853805542,
+          -0.5288136601448059
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          -0.4566701019486967,
+          -0.505374944303214,
+          -0.5053745258968431,
+          0.5297595418972946
+        ],
+        "color": [
+          80,
+          80,
+          85,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/meta_left.glb",
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": {
+        "joint": "left_grip",
+        "offset": [
+          1.5934186858856947e-08,
+          0.15359679911560986,
+          -3.4923263037001107e-07
+        ]
+      },
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
+    },
+    {
+      "id": "right_controller",
+      "cuboid": {
+        "position": [
+          -1.3486016988754272,
+          1.5622365474700928,
+          -0.4492678940296173
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          -0.45667185414037365,
+          0.5053744958300526,
+          0.505374105551324,
+          0.5297588602739105
+        ],
+        "color": [
+          80,
+          80,
+          85,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/meta_right.glb",
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": {
+        "joint": "right_grip",
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
+    },
+    {
+      "id": "headset",
+      "cuboid": {
+        "position": [
+          -1.0672259330749512,
+          1.74476957321167,
+          -0.44254976511001587
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          -3.1595348559676495e-09,
+          -4.0180679896045617e-14,
+          -1.3546043118857574e-14,
+          1
+        ],
+        "color": [
+          80,
+          80,
+          85,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/headset.glb",
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": {
+        "joint": "head",
+        "offset": [
+          0.004516273736955621,
+          0.0828936096757532,
+          0.051409036444906936
+        ]
+      },
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "m4a1_laser_sight",
       "cuboid": {
         "position": [
-          2.202411324392746,
-          1.0319594230046154,
+          1.8912208797786723,
+          1.401266056398914,
           3.5050315856933594
         ],
         "half_size": [
@@ -3129,10 +3903,10 @@
           0.02
         ],
         "rotation": [
-          -0.01667234376572708,
-          -0.706910200290914,
-          -0.01667234376572708,
-          0.706910200290914
+          0.3886259512872365,
+          -0.5907367165735181,
+          0.3886259512872365,
+          0.5907367165735181
         ],
         "color": [
           40,
@@ -3173,6 +3947,69 @@
         "max_distance": 12,
         "beam_width": 0.012
       }
+    },
+    {
+      "id": "smoke_grenade",
+      "cuboid": {
+        "position": [
+          1.5,
+          0.534942626953125,
+          -9.581842422485352
+        ],
+        "half_size": [
+          0.035,
+          0.06,
+          0.035
+        ],
+        "rotation": [
+          0.70710678,
+          0,
+          0,
+          0.707106782373095
+        ],
+        "color": [
+          70,
+          90,
+          55,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "particle_emitter": {
+        "particle_size": 0.09,
+        "spawn_rate": 26,
+        "color": [
+          225,
+          225,
+          225,
+          130
+        ],
+        "lifetime": 6,
+        "speed": 0.22,
+        "spread_deg": 150,
+        "size_growth": 2.8
+      },
+      "laser": null
     },
     {
       "id": "work_light_stand",
@@ -3366,6 +4203,384 @@
       ]
     },
     {
+      "id": "light_bounce_test_panel",
+      "cuboid": {
+        "position": [
+          -2.2876338958740234,
+          1.399999976158142,
+          1.312366247177124
+        ],
+        "half_size": [
+          0.6,
+          0.6,
+          0.03
+        ],
+        "rotation": [
+          0,
+          0.3826834290904157,
+          0,
+          0.9238795338677012
+        ],
+        "color": [
+          235,
+          235,
+          230,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": {
+        "mode": "Static",
+        "shape": "Box",
+        "mass": null,
+        "friction": 0.5,
+        "restitution": 0,
+        "linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "respawn_interval": null,
+        "collider_half_size": null,
+        "collider_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null
+    },
+    {
+      "id": "studio_truss",
+      "cuboid": {
+        "position": [
+          1.7313103675842285,
+          1,
+          3.880305051803589
+        ],
+        "half_size": [
+          0.17,
+          1,
+          0.17
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/truss.glb",
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "laser": null,
+      "particle_emitter": null
+    },
+    {
+      "id": "studio_light",
+      "cuboid": {
+        "position": [
+          -3.9509153366088867,
+          0.4632379114627838,
+          -1.0218294858932495
+        ],
+        "half_size": [
+          0.465,
+          0.307,
+          1.043
+        ],
+        "rotation": [
+          0,
+          0.5459659057500779,
+          0,
+          0.8378073941894385
+        ],
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/studio_light.glb",
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "laser": null,
+      "particle_emitter": null,
+      "lights": [
+        {
+          "kind": "Spot",
+          "color": [
+            255,
+            235,
+            210,
+            255
+          ],
+          "intensity": 140,
+          "range": 10,
+          "cone_angle_deg": 60,
+          "glow_range": 2.5,
+          "glow_intensity": 20,
+          "glow_enabled": true
+        }
+      ]
+    },
+    {
+      "id": "studio_camera",
+      "cuboid": {
+        "position": [
+          0.16833311319351196,
+          0.9262019395828247,
+          -0.18427592515945435
+        ],
+        "half_size": [
+          0.603,
+          0.152,
+          0.356
+        ],
+        "rotation": [
+          0.04485946085505091,
+          0.7276268986433221,
+          0.019727214931066127,
+          0.6842204046457239
+        ],
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "mesh": {
+        "path": "models/camera.glb",
+        "scale": [
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "laser": null,
+      "particle_emitter": null
+    },
+    {
+      "id": "rim_light",
+      "cuboid": {
+        "position": [
+          0.06,
+          1.8,
+          4.1
+        ],
+        "half_size": [
+          0.08,
+          0.08,
+          0.08
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          200,
+          210,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "lights": [
+        {
+          "kind": "Point",
+          "color": [
+            200,
+            220,
+            255,
+            255
+          ],
+          "intensity": 60,
+          "range": 6,
+          "cone_angle_deg": 45,
+          "glow_range": 1.5,
+          "glow_intensity": 12,
+          "glow_enabled": true
+        }
+      ]
+    },
+    {
+      "id": "playground_light",
+      "cuboid": {
+        "position": [
+          4.886664390563965,
+          2.5999999046325684,
+          -4.180014610290527
+        ],
+        "half_size": [
+          0.08,
+          0.08,
+          0.08
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          255,
+          235,
+          200,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "lights": [
+        {
+          "kind": "Point",
+          "color": [
+            255,
+            235,
+            200,
+            255
+          ],
+          "intensity": 90,
+          "range": 9,
+          "cone_angle_deg": 45,
+          "glow_range": 1.5,
+          "glow_intensity": 12,
+          "glow_enabled": true
+        }
+      ]
+    },
+    {
       "id": "spawn_point_entrance",
       "cuboid": {
         "position": [
@@ -3403,28 +4618,28 @@
       "spawn_point": {}
     },
     {
-      "id": "left_hand",
+      "id": "pad_stage",
       "cuboid": {
         "position": [
-          -0.2,
-          1.3,
-          1.2
+          3.1779940128326416,
+          0.05000000074505806,
+          2.714172601699829
         ],
         "half_size": [
-          0.09,
-          0.09,
-          0.03
+          0.6,
+          0.1,
+          0.6
         ],
         "rotation": [
           0,
+          1,
           0,
-          0,
-          1
+          0
         ],
         "color": [
-          220,
-          60,
-          60,
+          120,
+          190,
+          255,
           255
         ],
         "wire_color": [
@@ -3434,44 +4649,25 @@
           255
         ],
         "style": "Solid"
-      },
-      "mesh": {
-        "path": "models/left_hand.glb",
-        "scale": [
-          0.01,
-          0.01,
-          0.01
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
       },
       "is_trigger": false,
       "hidden": false,
-      "rig_attachment": {
-        "joint": "left_grip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+      "teleportal": {
+        "target_id": "pad_physics"
       }
     },
     {
-      "id": "right_hand",
+      "id": "pad_physics",
       "cuboid": {
         "position": [
-          0.2,
-          1.3,
-          1.2
+          3.1131374835968018,
+          0.05000000074505806,
+          -0.800000011920929
         ],
         "half_size": [
-          0.09,
-          0.09,
-          0.03
+          0.6,
+          0.1,
+          0.6
         ],
         "rotation": [
           0,
@@ -3480,9 +4676,9 @@
           1
         ],
         "color": [
-          220,
-          60,
-          60,
+          255,
+          170,
+          120,
           255
         ],
         "wire_color": [
@@ -3492,44 +4688,25 @@
           255
         ],
         "style": "Solid"
-      },
-      "mesh": {
-        "path": "models/right_hand.glb",
-        "scale": [
-          0.01,
-          0.01,
-          0.01
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
       },
       "is_trigger": false,
       "hidden": false,
-      "rig_attachment": {
-        "joint": "right_grip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+      "teleportal": {
+        "target_id": "pad_stage"
       }
     },
     {
-      "id": "world_light",
+      "id": "studio_truss_2",
       "cuboid": {
         "position": [
-          0.0,
-          4.0,
-          0.8
+          -1.625402569770813,
+          1,
+          3.90352463722229
         ],
         "half_size": [
-          0.1,
-          0.1,
-          0.1
+          0.17,
+          1,
+          0.17
         ],
         "rotation": [
           0,
@@ -3551,75 +4728,12 @@
         ],
         "style": "Solid"
       },
-      "mesh": null,
-      "is_trigger": false,
-      "hidden": true,
-      "script": null,
-      "animations": [],
-      "animation_bindings": [],
-      "rig_attachment": null,
-      "grip_pose_left": null,
-      "grip_pose_right": null,
-      "rigid_body": null,
-      "grip_points": [],
-      "slider_joint": null,
-      "terrain_collider": null,
-      "sound": null,
-      "laser": null,
-      "particle_emitter": null,
-      "lights": [
-        {
-          "kind": "Point",
-          "color": [
-            255,
-            248,
-            235,
-            255
-          ],
-          "intensity": 500,
-          "range": 25
-        }
-      ]
-    },
-    {
-      "id": "boy",
-      "cuboid": {
-        "position": [
-          -2.506316661834717,
-          0.010719865560531616,
-          3.3727622032165527
-        ],
-        "half_size": [
-          0.3,
-          0.9,
-          0.3
-        ],
-        "rotation": [
-          0,
-          0.8454219319822058,
-          0,
-          0.5340990141569955
-        ],
-        "color": [
-          255,
-          255,
-          255,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
-      },
       "mesh": {
-        "path": "models/boy/boy.glb",
+        "path": "models/truss.glb",
         "scale": [
-          0.01,
-          0.01,
-          0.01
+          1,
+          1,
+          1
         ],
         "rotation_offset": [
           0,
@@ -3641,8 +4755,47 @@
       "slider_joint": null,
       "terrain_collider": null,
       "sound": null,
-      "particle_emitter": null,
-      "laser": null
+      "laser": null,
+      "particle_emitter": null
+    },
+    {
+      "id": "pad_to_water_world",
+      "cuboid": {
+        "position": [
+          -4.5,
+          0.05,
+          2
+        ],
+        "half_size": [
+          0.6,
+          0.1,
+          0.6
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "color": [
+          90,
+          180,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid"
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "teleportal": {
+        "target_scene": "water_world"
+      }
     }
   ]
 }
