@@ -3091,7 +3091,19 @@
         {
           "clip": "charging_handle",
           "driver": "HandPull",
-          "easing": "Linear"
+          "easing": "Linear",
+          "triggers": [
+            {
+              "at": 0.9,
+              "rising": true,
+              "action": {
+                "SetVar": {
+                  "name": "chamber",
+                  "value": "loaded"
+                }
+              }
+            }
+          ]
         },
         {
           "clip": "trigger",
@@ -3100,18 +3112,81 @@
         },
         {
           "clip": "fire",
-          "driver": "HoldTrigger",
-          "easing": "Linear"
+          "driver": {
+            "Cyclic": {
+              "cycles_per_second": 8.0
+            }
+          },
+          "easing": "Linear",
+          "enabled_when": {
+            "var": "chamber",
+            "equals": "loaded"
+          },
+          "triggers": [
+            {
+              "at": 0.5,
+              "rising": true,
+              "action": {
+                "SpawnParticleBurst": {
+                  "id": "m4a1",
+                  "count": 14
+                }
+              }
+            },
+            {
+              "at": 0.5,
+              "rising": true,
+              "action": {
+                "PlaySound": {
+                  "id": "m4a1"
+                }
+              }
+            }
+          ]
         },
         {
           "clip": "mag_release",
           "driver": "Manual",
-          "easing": "Linear"
+          "easing": "Linear",
+          "triggers": [
+            {
+              "at": 0.85,
+              "rising": true,
+              "action": {
+                "SetVar": {
+                  "name": "mag",
+                  "value": "out"
+                }
+              }
+            }
+          ]
         },
         {
           "clip": "selector",
           "driver": "Manual",
-          "easing": "Linear"
+          "easing": "Linear",
+          "triggers": [
+            {
+              "at": 0.5,
+              "rising": true,
+              "action": {
+                "SetVar": {
+                  "name": "safety",
+                  "value": "fire"
+                }
+              }
+            },
+            {
+              "at": 0.5,
+              "rising": false,
+              "action": {
+                "SetVar": {
+                  "name": "safety",
+                  "value": "safe"
+                }
+              }
+            }
+          ]
         }
       ]
     },
