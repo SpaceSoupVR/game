@@ -3111,9 +3111,14 @@
                 "equals": "loaded"
               },
               "action": {
-                "SetPartVisible": {
+                "DetachPart": {
                   "part": "55645 case_16",
-                  "visible": false
+                  "template": "spent_case",
+                  "impulse": [
+                    0.4,
+                    2.0,
+                    -2.5
+                  ]
                 }
               }
             },
@@ -3261,6 +3266,21 @@
                 "SetVar": {
                   "name": "chamber",
                   "value": "empty"
+                }
+              }
+            },
+            {
+              "at": 0.9,
+              "rising": true,
+              "action": {
+                "DetachPart": {
+                  "part": "55645 case_16",
+                  "template": "spent_case",
+                  "impulse": [
+                    0.4,
+                    2.5,
+                    -3.0
+                  ]
                 }
               }
             }
@@ -3840,6 +3860,37 @@
       "sound": null,
       "particle_emitter": null,
       "laser": null
+    },
+    {
+      "id": "spent_case",
+      "cuboid": {
+        "position": [
+          0.0,
+          -5.0,
+          0.0
+        ],
+        "half_size": [
+          0.01,
+          0.01,
+          0.03
+        ]
+      },
+      "mesh": {
+        "path": "models/shell.glb",
+        "scale": [
+          0.145,
+          0.145,
+          0.145
+        ]
+      },
+      "hidden": true,
+      "rigid_body": {
+        "mode": "Dynamic",
+        "mass": 0.01,
+        "friction": 0.4,
+        "restitution": 0.3,
+        "respawn_interval": 1.5
+      }
     }
   ]
 }
