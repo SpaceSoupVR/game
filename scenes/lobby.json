@@ -3089,29 +3089,29 @@
       "laser": null,
       "part_animations": [
         {
-          "clip": "trigger_pull",
-          "driver": "HoldTrigger",
-          "easing": "Linear"
-        },
-        {
-          "clip": "shell_eject",
-          "driver": "HoldTrigger",
-          "easing": "EaseIn"
-        },
-        {
           "clip": "charging_handle",
           "driver": "HandPull",
           "easing": "Linear"
         },
         {
-          "clip": "mag_eject",
-          "driver": "HoldGrip",
-          "easing": "EaseIn"
+          "clip": "trigger",
+          "driver": "HoldTrigger",
+          "easing": "Linear"
         },
         {
-          "clip": "mag_insert",
-          "driver": "HandPull",
-          "easing": "EaseInOut"
+          "clip": "fire",
+          "driver": "HoldTrigger",
+          "easing": "Linear"
+        },
+        {
+          "clip": "mag_release",
+          "driver": "Manual",
+          "easing": "Linear"
+        },
+        {
+          "clip": "selector",
+          "driver": "Manual",
+          "easing": "Linear"
         }
       ]
     },
