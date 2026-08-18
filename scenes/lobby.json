@@ -3873,7 +3873,26 @@
           0.01,
           0.01,
           0.03
-        ]
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          200,
+          180,
+          120,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid"
       },
       "mesh": {
         "path": "models/shell.glb",
