@@ -2991,7 +2991,7 @@
       },
       "is_trigger": false,
       "hidden": false,
-      "script": null,
+      "script": "fn on_update(dt) { if get_var(\"m4a1_init\") != \"1\" { set_var(\"m4a1_init\",\"1\"); set_var(\"mag_rounds\",\"30\"); set_var(\"chamber\",\"empty\"); set_var(\"safety\",\"fire\"); } }",
       "animations": [],
       "animation_bindings": [],
       "rig_attachment": null,
@@ -3098,8 +3098,92 @@
               "rising": true,
               "action": {
                 "SetVar": {
+                  "name": "bolt",
+                  "value": "back"
+                }
+              }
+            },
+            {
+              "at": 0.9,
+              "rising": true,
+              "when": {
+                "var": "chamber",
+                "equals": "loaded"
+              },
+              "action": {
+                "SetPartVisible": {
+                  "part": "55645 case_16",
+                  "visible": false
+                }
+              }
+            },
+            {
+              "at": 0.9,
+              "rising": true,
+              "when": {
+                "var": "chamber",
+                "equals": "loaded"
+              },
+              "action": {
+                "SetVar": {
+                  "name": "chamber",
+                  "value": "empty"
+                }
+              }
+            },
+            {
+              "at": 0.15,
+              "rising": false,
+              "action": {
+                "SetVar": {
+                  "name": "bolt",
+                  "value": "forward"
+                }
+              }
+            },
+            {
+              "at": 0.15,
+              "rising": false,
+              "when": {
+                "all": [
+                  {
+                    "var": "chamber",
+                    "equals": "empty"
+                  },
+                  {
+                    "var": "mag_rounds",
+                    "op": "gt",
+                    "value": 0
+                  }
+                ]
+              },
+              "action": {
+                "SetVar": {
                   "name": "chamber",
                   "value": "loaded"
+                }
+              }
+            },
+            {
+              "at": 0.15,
+              "rising": false,
+              "when": {
+                "all": [
+                  {
+                    "var": "chamber",
+                    "equals": "empty"
+                  },
+                  {
+                    "var": "mag_rounds",
+                    "op": "gt",
+                    "value": 0
+                  }
+                ]
+              },
+              "action": {
+                "AddVar": {
+                  "name": "mag_rounds",
+                  "delta": -1.0
                 }
               }
             }
@@ -3119,8 +3203,16 @@
           },
           "easing": "Linear",
           "enabled_when": {
-            "var": "chamber",
-            "equals": "loaded"
+            "all": [
+              {
+                "var": "chamber",
+                "equals": "loaded"
+              },
+              {
+                "var": "safety",
+                "equals": "fire"
+              }
+            ]
           },
           "triggers": [
             {
@@ -3141,6 +3233,36 @@
                   "id": "m4a1"
                 }
               }
+            },
+            {
+              "at": 0.5,
+              "rising": true,
+              "when": {
+                "var": "mag_rounds",
+                "op": "gt",
+                "value": 0
+              },
+              "action": {
+                "AddVar": {
+                  "name": "mag_rounds",
+                  "delta": -1.0
+                }
+              }
+            },
+            {
+              "at": 0.5,
+              "rising": true,
+              "when": {
+                "var": "mag_rounds",
+                "op": "le",
+                "value": 0
+              },
+              "action": {
+                "SetVar": {
+                  "name": "chamber",
+                  "value": "empty"
+                }
+              }
             }
           ]
         },
@@ -3154,8 +3276,8 @@
               "rising": true,
               "action": {
                 "SetVar": {
-                  "name": "mag",
-                  "value": "out"
+                  "name": "mag_rounds",
+                  "value": "0"
                 }
               }
             }
