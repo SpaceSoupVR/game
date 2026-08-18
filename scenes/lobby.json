@@ -3198,7 +3198,7 @@
           "clip": "fire",
           "driver": {
             "Cyclic": {
-              "cycles_per_second": 8.0
+              "cycles_per_second": 13.33
             }
           },
           "easing": "Linear",

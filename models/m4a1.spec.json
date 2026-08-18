@@ -1,0 +1,40 @@
+{
+  "name": "M4A1 Carbine",
+  "caliber": "5.56x45mm NATO",
+  "operation": "gas (direct impingement), rotating bolt, selective fire",
+  "cyclic_rpm": 800,
+  "_cyclic_rpm_note": "M4A1 full-auto cyclic rate is 700-950 rpm; 800 is the working nominal. 800 rpm = 13.33 rounds/sec.",
+  "dimensions_cm": {
+    "overall_length": 84.0,
+    "barrel_length": 36.8,
+    "bolt_carrier_travel": 8.9,
+    "charging_handle_travel": 8.9,
+    "trigger_rotation_deg": 8.0,
+    "selector_rotation_deg": 90.0,
+    "magazine": { "capacity": 30, "length": 19.0, "insert_depth": 8.0 },
+    "cartridge": { "overall_length": 5.74, "case_length": 4.47, "bullet_diameter": 0.57 }
+  },
+  "parts": {
+    "bolt":            { "node": "m4a1 bolt_13",             "motion": "slide", "travel_cm": 8.9, "axis": [-1, 0, 0], "note": "bolt carrier group, rides rearward on firing/racking" },
+    "charging_handle": { "node": "m4a1 charging handle_10",  "motion": "slide", "travel_cm": 8.9, "axis": [-1, 0, 0], "note": "moves with the BCG when racked by hand" },
+    "trigger":         { "node": "m4a1 trigga_1",            "motion": "hinge", "rotate_deg": 8.0, "axis": [0, 0, -1], "pivot": "top", "note": "whole fire-control group is one mesh; keep the pull subtle" },
+    "magazine":        { "node": "ar15 30rnd mag (steel)_15","motion": "slide", "travel_cm": 8.0, "axis": [0, -1, 0], "note": "drops straight down out of the well on release" },
+    "selector":        { "node": "m4a1 selector_3",          "motion": "hinge", "rotate_deg": 90.0, "axis": [0, 0, 1], "note": "safe -> semi is 90 deg about the shaft" },
+    "case":            { "node": "55645 case_16",            "note": "spent case; ejects right on the rearward stroke" },
+    "round":           { "node": "55645_17",                 "note": "live round; feeds up from the mag on the forward stroke" }
+  },
+  "cycle_of_operations": [
+    "1 FIRE: hammer releases, strikes firing pin, round fires",
+    "2 UNLOCK: gas drives the carrier back, cam rotates the bolt, unlocking it from the barrel extension",
+    "3 EXTRACT: carrier + bolt travel rearward (~8.9 cm); extractor drags the spent case out of the chamber",
+    "4 EJECT: case clears the chamber, the ejector kicks it out the port to the RIGHT",
+    "5 COCK: carrier compresses the buffer spring at full rear travel and cocks the hammer",
+    "6 FEED: buffer spring drives the carrier forward; the bolt face strips the top round from the magazine",
+    "7 CHAMBER: the round is guided up and forward into the chamber",
+    "8 LOCK: the bolt rotates and locks back into the barrel extension; ready to fire"
+  ],
+  "sources": [
+    "https://fnamerica.com/products/rifles/fn-m4a1/",
+    "https://en.wikipedia.org/wiki/M4_carbine"
+  ]
+}
