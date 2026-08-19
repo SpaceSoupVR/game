@@ -15,10 +15,10 @@
     "cartridge": { "overall_length": 5.74, "case_length": 4.47, "bullet_diameter": 0.57 }
   },
   "parts": {
-    "bolt":            { "node": "m4a1 bolt_13",             "motion": "slide", "travel_cm": 8.9, "axis": [-1, 0, 0], "note": "bolt carrier group, rides rearward on firing/racking" },
-    "charging_handle": { "node": "m4a1 charging handle_10",  "motion": "slide", "travel_cm": 8.9, "axis": [-1, 0, 0], "note": "moves with the BCG when racked by hand" },
+    "bolt":            { "node": "m4a1 bolt_13",             "motion": "slide", "travel_cm": 13.59, "axis": [-1, 0, 0], "note": "bolt carrier group, rides rearward on firing/racking; charging_handle travel is 13.59cm (authored to leave ~1cm of bolt in the port) rather than the real 8.9cm, because this model's ejection port is ~11.8cm vs a real ~4.4cm" },
+    "charging_handle": { "node": "m4a1 charging handle_10",  "motion": "slide", "travel_cm": 13.59, "axis": [-1, 0, 0], "note": "moves with the BCG when racked by hand" },
     "trigger":         { "node": "m4a1 trigga_1",            "motion": "hinge", "rotate_deg": 8.0, "axis": [0, 0, -1], "pivot": "top", "note": "whole fire-control group is one mesh; keep the pull subtle" },
-    "magazine":        { "node": "ar15 30rnd mag (steel)_15","motion": "slide", "travel_cm": 8.0, "axis": [0, -1, 0], "note": "drops straight down out of the well on release" },
+    "magazine":        { "node": "ar15 30rnd mag empty (steel)_14","motion": "slide", "travel_cm": 8.0, "axis": [0, -1, 0], "note": "drops straight down out of the well on release" },
     "selector":        { "node": "m4a1 selector_3",          "motion": "hinge", "rotate_deg": 90.0, "axis": [0, 0, 1], "note": "safe -> semi is 90 deg about the shaft" },
     "case":            { "node": "55645 case_16",            "note": "spent case; ejects right on the rearward stroke" },
     "round":           { "node": "55645_17",                 "note": "live round; feeds up from the mag on the forward stroke" }
