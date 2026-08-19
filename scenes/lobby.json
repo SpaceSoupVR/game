@@ -3079,7 +3079,8 @@
           },
           "grab_range": null,
           "hand_offset_pos": null,
-          "hand_offset_rot": null
+          "hand_offset_rot": null,
+          "support": true
         }
       ],
       "slider_joint": null,
