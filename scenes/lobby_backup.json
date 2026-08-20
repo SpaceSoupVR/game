@@ -3,50 +3,19 @@
   "objects": [
     {
       "id": "skydome",
+      "uuid": "2cc25110-72a3-523b-8414-1fe212294df3",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          1,
-          1,
-          1
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          255,
-          255,
-          255,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [255, 255, 255, 255],
+        "half_size": [1, 1, 1],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": {
         "path": "models/skydom.glb",
-        "scale": [
-          5,
-          5,
-          5
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [5, 5, 5]
       },
       "is_trigger": false,
       "hidden": false,
@@ -61,41 +30,19 @@
       "slider_joint": null,
       "terrain_collider": null,
       "sound": null,
-      "laser": null,
-      "particle_emitter": null
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "physics_cube",
+      "uuid": "fdd452b5-387d-52c4-8f9c-f6a8c7870c35",
       "cuboid": {
-        "position": [
-          4.5474395751953125,
-          0.4281950294971466,
-          -3.9858434200286865
-        ],
-        "half_size": [
-          0.25,
-          0.25,
-          0.25
-        ],
-        "rotation": [
-          -0.045481509535297455,
-          0.003968927987484511,
-          0.9989505812690816,
-          -0.0036627971804136694
-        ],
-        "color": [
-          220,
-          90,
-          60,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 90, 60, 255],
+        "half_size": [0.25, 0.25, 0.25],
+        "position": [4.5474396, 0.42819503, -3.9858434],
+        "rotation": [-0.04548151, 0.003968928, 0.9989506, -0.0036627972],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -107,23 +54,15 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": {
-        "mode": "Dynamic",
-        "shape": "Box",
-        "mass": 1,
-        "friction": 0.5,
-        "restitution": 0.3,
-        "linear_velocity": [
-          0,
-          0,
-          0
-        ],
-        "respawn_interval": 3,
         "collider_half_size": null,
-        "collider_offset": [
-          0,
-          0,
-          0
-        ]
+        "collider_offset": [0, 0, 0],
+        "friction": 0.5,
+        "linear_velocity": [0, 0, 0],
+        "mass": 1,
+        "mode": "Dynamic",
+        "respawn_interval": 3,
+        "restitution": 0.3,
+        "shape": "Box"
       },
       "grip_points": [],
       "slider_joint": null,
@@ -132,36 +71,14 @@
     },
     {
       "id": "lhand_palm",
+      "uuid": "55cd202a-7ae8-5ae1-aae3-bee3030f1744",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.04,
-          0.012,
-          0.05
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.04, 0.012, 0.05],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -171,11 +88,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_palm",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -187,36 +100,14 @@
     },
     {
       "id": "lhand_wrist",
+      "uuid": "845331c7-6407-5ce2-b85a-14a2962445ac",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.025,
-          0.012,
-          0.025
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.025, 0.012, 0.025],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -226,11 +117,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_wrist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -242,36 +129,14 @@
     },
     {
       "id": "lhand_thumb_meta",
+      "uuid": "a9170828-bee1-5fdc-ae44-032fb6c11ccf",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -281,11 +146,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_thumb_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -297,36 +158,14 @@
     },
     {
       "id": "lhand_thumb_prox",
+      "uuid": "54bd13d9-d190-5570-90c0-379e93b63145",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -336,11 +175,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_thumb_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -352,36 +187,14 @@
     },
     {
       "id": "lhand_thumb_dist",
+      "uuid": "57430658-5b2d-5433-a97f-3ad31a3d9565",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -391,11 +204,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_thumb_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -407,36 +216,14 @@
     },
     {
       "id": "lhand_thumb_tip",
+      "uuid": "efd19410-44f3-518f-9ac9-7816c2accae6",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -446,11 +233,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_thumb_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -462,36 +245,14 @@
     },
     {
       "id": "lhand_index_meta",
+      "uuid": "0c04f26b-bd87-57a7-a3f6-654cd9960db1",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -501,11 +262,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -517,36 +274,14 @@
     },
     {
       "id": "lhand_index_prox",
+      "uuid": "fa4b2a70-1483-5a1d-a853-a43d56cc2475",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -556,11 +291,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -572,36 +303,14 @@
     },
     {
       "id": "lhand_index_inter",
+      "uuid": "36bc513d-b6f6-583d-a9ad-2a68f009fa8e",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -611,11 +320,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_inter",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -627,36 +332,14 @@
     },
     {
       "id": "lhand_index_dist",
+      "uuid": "0273ec9d-fe43-5bef-a4fe-643e9e673164",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -666,11 +349,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -682,36 +361,14 @@
     },
     {
       "id": "lhand_index_tip",
+      "uuid": "353ef554-f837-5ad7-95a9-39bd8a0cd2af",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -721,11 +378,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_index_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -737,36 +390,14 @@
     },
     {
       "id": "lhand_middle_meta",
+      "uuid": "a58e8ee0-bc78-545f-924b-399a404b48c3",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -776,11 +407,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -792,36 +419,14 @@
     },
     {
       "id": "lhand_middle_prox",
+      "uuid": "acb722f2-d7ae-56de-b247-2c300ac9e139",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -831,11 +436,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -847,36 +448,14 @@
     },
     {
       "id": "lhand_middle_inter",
+      "uuid": "4d3dc687-4f37-5f79-a412-8800141ec380",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -886,11 +465,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_inter",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -902,36 +477,14 @@
     },
     {
       "id": "lhand_middle_dist",
+      "uuid": "f9657c47-0576-5033-98ce-7caed343e1b4",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -941,11 +494,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -957,36 +506,14 @@
     },
     {
       "id": "lhand_middle_tip",
+      "uuid": "986d9351-d667-5200-b6dd-fa72030a6a71",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -996,11 +523,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_middle_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1012,36 +535,14 @@
     },
     {
       "id": "lhand_ring_meta",
+      "uuid": "68fe3efe-ae5f-51d8-8d89-71aeb31c6ab4",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1051,11 +552,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1067,36 +564,14 @@
     },
     {
       "id": "lhand_ring_prox",
+      "uuid": "52fcd701-c7f4-5509-823d-b5e109361a10",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1106,11 +581,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1122,36 +593,14 @@
     },
     {
       "id": "lhand_ring_inter",
+      "uuid": "1a48224a-d91d-51d7-81c0-0fd512e12c1c",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1161,11 +610,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_inter",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1177,36 +622,14 @@
     },
     {
       "id": "lhand_ring_dist",
+      "uuid": "ef9e7819-472a-5102-b606-251cd870777a",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1216,11 +639,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1232,36 +651,14 @@
     },
     {
       "id": "lhand_ring_tip",
+      "uuid": "1335d8ab-36a6-5053-b5fc-e99d84436f0c",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1271,11 +668,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_ring_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1287,36 +680,14 @@
     },
     {
       "id": "lhand_little_meta",
+      "uuid": "f3298444-0d21-511f-8e00-ae93870aaefd",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1326,11 +697,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1342,36 +709,14 @@
     },
     {
       "id": "lhand_little_prox",
+      "uuid": "77e35818-df16-522c-b7d9-0163a92a71d6",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1381,11 +726,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1397,36 +738,14 @@
     },
     {
       "id": "lhand_little_inter",
+      "uuid": "557218af-1fca-5bd0-a709-fbfe086ab9f4",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1436,11 +755,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_inter",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1452,36 +767,14 @@
     },
     {
       "id": "lhand_little_dist",
+      "uuid": "738829f4-2621-5b6f-b030-5127d5b86c4c",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1491,11 +784,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1507,36 +796,14 @@
     },
     {
       "id": "lhand_little_tip",
+      "uuid": "70c2e768-2723-5a62-8751-b1cc6dee0759",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          220,
-          180,
-          150,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [220, 180, 150, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1546,11 +813,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_little_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1562,36 +825,14 @@
     },
     {
       "id": "rhand_palm",
+      "uuid": "e2514d43-849f-5dd2-8ce6-41e10301fb6c",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.04,
-          0.012,
-          0.05
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.04, 0.012, 0.05],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1601,11 +842,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_palm",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1617,36 +854,14 @@
     },
     {
       "id": "rhand_wrist",
+      "uuid": "7c409c54-a2e9-5dd3-997b-5f54c5be9111",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.025,
-          0.012,
-          0.025
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.025, 0.012, 0.025],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1656,11 +871,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_wrist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1672,36 +883,14 @@
     },
     {
       "id": "rhand_thumb_meta",
+      "uuid": "a0993a78-52c3-579b-856a-a3acea87644f",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1711,11 +900,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_thumb_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1727,36 +912,14 @@
     },
     {
       "id": "rhand_thumb_prox",
+      "uuid": "1bca4338-2125-53a4-88a5-bc19dcd260e8",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1766,11 +929,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_thumb_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1782,36 +941,14 @@
     },
     {
       "id": "rhand_thumb_dist",
+      "uuid": "73cb471b-11df-510e-a878-3323a5936095",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1821,11 +958,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_thumb_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1837,36 +970,14 @@
     },
     {
       "id": "rhand_thumb_tip",
+      "uuid": "760ee914-43e5-5bef-96e3-971bcca585ef",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1876,11 +987,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_thumb_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1892,36 +999,14 @@
     },
     {
       "id": "rhand_index_meta",
+      "uuid": "cd190449-cdbd-55ba-a30c-4bfb3e56b749",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1931,11 +1016,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -1947,36 +1028,14 @@
     },
     {
       "id": "rhand_index_prox",
+      "uuid": "4ed09db6-9fcf-5431-8532-9febf96a6908",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -1986,11 +1045,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2002,36 +1057,14 @@
     },
     {
       "id": "rhand_index_inter",
+      "uuid": "c41a61d5-ad16-5511-a125-ef3c964b3bb3",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2041,11 +1074,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_inter",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2057,36 +1086,14 @@
     },
     {
       "id": "rhand_index_dist",
+      "uuid": "36c2a1a5-12bd-587e-aace-39286d31983b",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2096,11 +1103,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2112,36 +1115,14 @@
     },
     {
       "id": "rhand_index_tip",
+      "uuid": "f2e41a40-3bad-5805-81cc-b316973a1563",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2151,11 +1132,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_index_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2167,36 +1144,14 @@
     },
     {
       "id": "rhand_middle_meta",
+      "uuid": "67bee969-c9da-583f-97c8-3f88f2b9df92",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2206,11 +1161,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2222,36 +1173,14 @@
     },
     {
       "id": "rhand_middle_prox",
+      "uuid": "2e90d6f1-e97f-53fb-b572-2920c7a6db90",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2261,11 +1190,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2277,36 +1202,14 @@
     },
     {
       "id": "rhand_middle_inter",
+      "uuid": "dcbd6829-c947-53ef-93db-389d904ae065",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2316,11 +1219,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_inter",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2332,36 +1231,14 @@
     },
     {
       "id": "rhand_middle_dist",
+      "uuid": "32c2a77a-455c-5850-91ea-0e23ab6bdac8",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2371,11 +1248,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2387,36 +1260,14 @@
     },
     {
       "id": "rhand_middle_tip",
+      "uuid": "02d3e205-3eca-551c-ac16-c66a044a5adc",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2426,11 +1277,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_middle_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2442,36 +1289,14 @@
     },
     {
       "id": "rhand_ring_meta",
+      "uuid": "1dbb85e3-963b-5339-8804-e1d45c6c6b50",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2481,11 +1306,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2497,36 +1318,14 @@
     },
     {
       "id": "rhand_ring_prox",
+      "uuid": "c614484c-d9ea-5308-8a15-1f0a1b8a68b6",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2536,11 +1335,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2552,36 +1347,14 @@
     },
     {
       "id": "rhand_ring_inter",
+      "uuid": "6654494b-e057-52c3-b4da-8ff5548564d0",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2591,11 +1364,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_inter",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2607,36 +1376,14 @@
     },
     {
       "id": "rhand_ring_dist",
+      "uuid": "5cc938ae-0773-57da-82ee-01500729f05c",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2646,11 +1393,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2662,36 +1405,14 @@
     },
     {
       "id": "rhand_ring_tip",
+      "uuid": "59adebfe-52ca-517a-bbce-58497537c200",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2701,11 +1422,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_ring_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2717,36 +1434,14 @@
     },
     {
       "id": "rhand_little_meta",
+      "uuid": "5e96b168-e43b-5e99-84e1-14945e8d4a3b",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.009,
-          0.009,
-          0.014
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.009, 0.009, 0.014],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2756,11 +1451,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_meta",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2772,36 +1463,14 @@
     },
     {
       "id": "rhand_little_prox",
+      "uuid": "df83ad97-372f-5443-bc30-cd2bbb74a992",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2811,11 +1480,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_prox",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2827,36 +1492,14 @@
     },
     {
       "id": "rhand_little_inter",
+      "uuid": "5c43567c-a92b-5248-9adf-b574c1fbb718",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2866,11 +1509,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_inter",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2882,36 +1521,14 @@
     },
     {
       "id": "rhand_little_dist",
+      "uuid": "293ac19b-83cf-5b0c-8586-5e97ee5bd7a0",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.007,
-          0.007,
-          0.011
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.007, 0.007, 0.011],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2921,11 +1538,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_dist",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2937,36 +1550,14 @@
     },
     {
       "id": "rhand_little_tip",
+      "uuid": "5a382313-7232-5d64-af15-c342bb74d8e1",
       "cuboid": {
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "half_size": [
-          0.006,
-          0.006,
-          0.008
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          230,
-          190,
-          160,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [230, 190, 160, 255],
+        "half_size": [0.006, 0.006, 0.008],
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -2976,11 +1567,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_little_tip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -2992,36 +1579,14 @@
     },
     {
       "id": "physics_stack_a",
+      "uuid": "52ec6e55-1a42-54ea-ae6f-46096eb35a7b",
       "cuboid": {
-        "position": [
-          5.234960556030273,
-          0.36525237560272217,
-          -3.900216579437256
-        ],
-        "half_size": [
-          0.2,
-          0.2,
-          0.2
-        ],
-        "rotation": [
-          -0.0048300044626277076,
-          0.07646023983644061,
-          -0.0006963507701830695,
-          0.9970606891642304
-        ],
-        "color": [
-          200,
-          60,
-          200,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [200, 60, 200, 255],
+        "half_size": [0.2, 0.2, 0.2],
+        "position": [5.2349606, 0.36525238, -3.9002166],
+        "rotation": [-0.0048300046, 0.07646024, -0.00069635076, 0.9970607],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -3033,23 +1598,15 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": {
-        "mode": "Dynamic",
-        "shape": "Box",
-        "mass": 1,
-        "friction": 0.6,
-        "restitution": 0.1,
-        "linear_velocity": [
-          0,
-          0,
-          0
-        ],
-        "respawn_interval": 8,
         "collider_half_size": null,
-        "collider_offset": [
-          0,
-          0,
-          0
-        ]
+        "collider_offset": [0, 0, 0],
+        "friction": 0.6,
+        "linear_velocity": [0, 0, 0],
+        "mass": 1,
+        "mode": "Dynamic",
+        "respawn_interval": 8,
+        "restitution": 0.1,
+        "shape": "Box"
       },
       "grip_points": [],
       "slider_joint": null,
@@ -3058,36 +1615,14 @@
     },
     {
       "id": "physics_stack_b",
+      "uuid": "c323f9d9-83d0-5787-a793-b2874f54cda6",
       "cuboid": {
-        "position": [
-          5.509814739227295,
-          0.35796162486076355,
-          -4.651795864105225
-        ],
-        "half_size": [
-          0.2,
-          0.2,
-          0.2
-        ],
-        "rotation": [
-          0.6989270303146506,
-          0.08002128985218547,
-          -0.08126714008280815,
-          0.7060405451591979
-        ],
-        "color": [
-          160,
-          60,
-          200,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [160, 60, 200, 255],
+        "half_size": [0.2, 0.2, 0.2],
+        "position": [5.5098147, 0.35796162, -4.651796],
+        "rotation": [0.69892704, 0.08002129, -0.08126714, 0.70604056],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -3099,23 +1634,15 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": {
-        "mode": "Dynamic",
-        "shape": "Box",
-        "mass": 1,
-        "friction": 0.6,
-        "restitution": 0.1,
-        "linear_velocity": [
-          0,
-          0,
-          0
-        ],
-        "respawn_interval": 8,
         "collider_half_size": null,
-        "collider_offset": [
-          0,
-          0,
-          0
-        ]
+        "collider_offset": [0, 0, 0],
+        "friction": 0.6,
+        "linear_velocity": [0, 0, 0],
+        "mass": 1,
+        "mode": "Dynamic",
+        "respawn_interval": 8,
+        "restitution": 0.1,
+        "shape": "Box"
       },
       "grip_points": [],
       "slider_joint": null,
@@ -3124,36 +1651,14 @@
     },
     {
       "id": "physics_stack_c",
+      "uuid": "ec061ed5-f615-5298-942e-32ea251e3a91",
       "cuboid": {
-        "position": [
-          4.718116283416748,
-          0.3668033480644226,
-          -4.92427396774292
-        ],
-        "half_size": [
-          0.2,
-          0.2,
-          0.2
-        ],
-        "rotation": [
-          0.9788166836051038,
-          0.0006013696855923415,
-          0.20471553618189028,
-          0.003014547489876787
-        ],
-        "color": [
-          120,
-          60,
-          200,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [120, 60, 200, 255],
+        "half_size": [0.2, 0.2, 0.2],
+        "position": [4.7181163, 0.36680335, -4.924274],
+        "rotation": [0.9788167, 0.0006013697, 0.20471554, 0.0030145475],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -3165,23 +1670,15 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": {
-        "mode": "Dynamic",
-        "shape": "Box",
-        "mass": 1,
-        "friction": 0.6,
-        "restitution": 0.1,
-        "linear_velocity": [
-          0,
-          0,
-          0
-        ],
-        "respawn_interval": 8,
         "collider_half_size": null,
-        "collider_offset": [
-          0,
-          0,
-          0
-        ]
+        "collider_offset": [0, 0, 0],
+        "friction": 0.6,
+        "linear_velocity": [0, 0, 0],
+        "mass": 1,
+        "mode": "Dynamic",
+        "respawn_interval": 8,
+        "restitution": 0.1,
+        "shape": "Box"
       },
       "grip_points": [],
       "slider_joint": null,
@@ -3190,36 +1687,14 @@
     },
     {
       "id": "mirror",
+      "uuid": "3b1fcb3a-f4af-5857-8d8b-3f79c447e1b7",
       "cuboid": {
-        "position": [
-          0.047704100608825684,
-          1.2999999523162842,
-          3.7978529930114746
-        ],
-        "half_size": [
-          1.5,
-          1.2,
-          0.03
-        ],
-        "rotation": [
-          0,
-          1,
-          0,
-          0
-        ],
-        "color": [
-          15,
-          15,
-          18,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [15, 15, 18, 255],
+        "half_size": [1.5, 1.2, 0.03],
+        "position": [0.0477041, 1.3, 3.797853],
+        "rotation": [0, 1, 0, 0],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -3231,23 +1706,15 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": {
-        "mode": "Static",
-        "shape": "Box",
-        "mass": null,
-        "friction": 0.5,
-        "restitution": 0,
-        "linear_velocity": [
-          0,
-          0,
-          0
-        ],
-        "respawn_interval": null,
         "collider_half_size": null,
-        "collider_offset": [
-          0,
-          0,
-          0
-        ]
+        "collider_offset": [0, 0, 0],
+        "friction": 0.5,
+        "linear_velocity": [0, 0, 0],
+        "mass": null,
+        "mode": "Static",
+        "respawn_interval": null,
+        "restitution": 0,
+        "shape": "Box"
       },
       "grip_points": [],
       "slider_joint": null,
@@ -3256,36 +1723,14 @@
     },
     {
       "id": "laser_green",
+      "uuid": "70e30de0-19b2-5cb4-919c-79ee38650ea0",
       "cuboid": {
-        "position": [
-          -2.2590479850769043,
-          1.1581989526748657,
-          5.355620384216309
-        ],
-        "half_size": [
-          0.04,
-          0.04,
-          0.04
-        ],
-        "rotation": [
-          -0.2221609000868016,
-          0.9717695517017685,
-          -1.6292426093357627e-08,
-          0.07942589538661625
-        ],
-        "color": [
-          40,
-          220,
-          90,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [40, 220, 90, 255],
+        "half_size": [0.04, 0.04, 0.04],
+        "position": [-2.259048, 1.158199, 5.3556204],
+        "rotation": [-0.2221609, 0.9717696, -1.6292427e-08, 0.07942589],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": null,
       "is_trigger": false,
@@ -3303,48 +1748,21 @@
       "sound": null,
       "particle_emitter": null,
       "laser": {
-        "color": [
-          80,
-          255,
-          120,
-          255
-        ],
-        "max_distance": 15,
-        "beam_width": 0.015
+        "beam_width": 0.015,
+        "color": [80, 255, 120, 255],
+        "max_distance": 15
       }
     },
     {
       "id": "laser_red",
+      "uuid": "e923013d-8271-52f7-82dc-9f82fbd329df",
       "cuboid": {
-        "position": [
-          3.0293097496032715,
-          0.9564617276191711,
-          4.32363224029541
-        ],
-        "half_size": [
-          0.04,
-          0.04,
-          0.04
-        ],
-        "rotation": [
-          0.44969525009324895,
-          -0.47713583683773064,
-          0.5820370728880063,
-          0.48098692397266957
-        ],
-        "color": [
-          200,
-          40,
-          40,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 40, 40, 255],
+        "half_size": [0.04, 0.04, 0.04],
+        "position": [3.0293097, 0.9564617, 4.3236322],
+        "rotation": [0.44969526, -0.47713584, 0.5820371, 0.48098692],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": null,
       "is_trigger": false,
@@ -3362,62 +1780,26 @@
       "sound": null,
       "particle_emitter": null,
       "laser": {
-        "color": [
-          255,
-          60,
-          60,
-          255
-        ],
-        "max_distance": 10,
-        "beam_width": 0.015
+        "beam_width": 0.015,
+        "color": [255, 60, 60, 255],
+        "max_distance": 10
       }
     },
     {
       "id": "floor",
+      "uuid": "46ecee59-22a0-5d3a-987c-e252cf3506a9",
       "cuboid": {
-        "position": [
-          0,
-          -0.10000000149011612,
-          0.0005871348548680544
-        ],
-        "half_size": [
-          50,
-          0.1,
-          50
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          120,
-          120,
-          120,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [120, 120, 120, 255],
+        "half_size": [50, 0.1, 50],
+        "position": [0, -0.1, 0.00058713485],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": {
         "path": "models/floor.glb",
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [1, 1, 1]
       },
       "is_trigger": false,
       "hidden": false,
@@ -3428,23 +1810,15 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": {
-        "mode": "Static",
-        "shape": "Box",
-        "mass": null,
-        "friction": 0.8,
-        "restitution": 0,
-        "linear_velocity": [
-          0,
-          0,
-          0
-        ],
-        "respawn_interval": null,
         "collider_half_size": null,
-        "collider_offset": [
-          0,
-          0,
-          0
-        ]
+        "collider_offset": [0, 0, 0],
+        "friction": 0.8,
+        "linear_velocity": [0, 0, 0],
+        "mass": null,
+        "mode": "Static",
+        "respawn_interval": null,
+        "restitution": 0,
+        "shape": "Box"
       },
       "grip_points": [],
       "slider_joint": null,
@@ -3455,149 +1829,25 @@
     },
     {
       "id": "m4a1",
+      "uuid": "9bc72e7f-356d-5fb8-9a51-58f4ecea1dbd",
       "cuboid": {
-        "position": [
-          1.7800496816635132,
-          0.9918263554573059,
-          3.5050315856933594
-        ],
-        "half_size": [
-          0.45,
-          0.12,
-          0.05
-        ],
-        "rotation": [
-          0,
-          0,
-          0.549600091922801,
-          0.8354278777718929
-        ],
-        "color": [
-          255,
-          255,
-          255,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [255, 255, 255, 255],
+        "half_size": [0.45, 0.12, 0.05],
+        "position": [1.7800497, 0.99182636, 3.5050316],
+        "rotation": [0, 0, 0.54960006, 0.8354279],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": {
         "path": "models/m4a1.glb",
-        "scale": [
-          0.145,
-          0.145,
-          0.145
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [0.145, 0.145, 0.145]
       },
       "is_trigger": false,
       "hidden": false,
       "script": null,
       "animations": [],
       "animation_bindings": [],
-      "rig_attachment": null,
-      "grip_pose_left": null,
-      "grip_pose_right": null,
-      "rigid_body": null,
-      "grip_points": [
-        {
-          "name": "main_grip",
-          "kind": "Snap",
-          "hand": "right",
-          "local_pos": [
-            -0.26,
-            -0.1,
-            0.0
-          ],
-          "local_rot": [
-            0,
-            -0.7071067811865475,
-            0,
-            0.7071067811865476
-          ],
-          "hand_offset_scale": [
-            1,
-            1,
-            1
-          ],
-          "finger_curl": {
-            "thumb1": 0.55,
-            "thumb2": 0.6,
-            "thumb3": 0.5,
-            "index1": 0.45,
-            "index2": 0.35,
-            "index3": 0.25,
-            "middle1": 0.85,
-            "middle2": 0.85,
-            "middle3": 0.7,
-            "ring1": 0.85,
-            "ring2": 0.85,
-            "ring3": 0.7,
-            "pinky1": 0.8,
-            "pinky2": 0.8,
-            "pinky3": 0.65
-          },
-          "grab_range": null,
-          "hand_offset_pos": null,
-          "hand_offset_rot": null
-        },
-        {
-          "name": "support_grip",
-          "kind": "Snap",
-          "hand": "left",
-          "local_pos": [
-            0.15,
-            0.01,
-            0.0
-          ],
-          "local_rot": [
-            0,
-            -0.7071067811865475,
-            0,
-            0.7071067811865476
-          ],
-          "hand_offset_scale": [
-            1,
-            1,
-            1
-          ],
-          "finger_curl": {
-            "thumb1": 0.4,
-            "thumb2": 0.3,
-            "thumb3": 0.2,
-            "index1": 0.75,
-            "index2": 0.75,
-            "index3": 0.55,
-            "middle1": 0.8,
-            "middle2": 0.8,
-            "middle3": 0.6,
-            "ring1": 0.8,
-            "ring2": 0.8,
-            "ring3": 0.6,
-            "pinky1": 0.8,
-            "pinky2": 0.8,
-            "pinky3": 0.6
-          },
-          "grab_range": null,
-          "hand_offset_pos": null,
-          "hand_offset_rot": null
-        }
-      ],
-      "slider_joint": null,
-      "terrain_collider": null,
-      "sound": null,
-      "particle_emitter": null,
-      "laser": null,
       "part_animations": [
         {
           "clip": "trigger_pull",
@@ -3614,54 +1864,90 @@
           "driver": "HoldGrip",
           "easing": "EaseIn"
         }
-      ]
+      ],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [
+        {
+          "finger_curl": {
+            "index1": 0.45,
+            "index2": 0.35,
+            "index3": 0.25,
+            "middle1": 0.85,
+            "middle2": 0.85,
+            "middle3": 0.7,
+            "pinky1": 0.8,
+            "pinky2": 0.8,
+            "pinky3": 0.65,
+            "ring1": 0.85,
+            "ring2": 0.85,
+            "ring3": 0.7,
+            "thumb1": 0.55,
+            "thumb2": 0.6,
+            "thumb3": 0.5
+          },
+          "grab_range": null,
+          "hand": "right",
+          "hand_offset_pos": null,
+          "hand_offset_rot": null,
+          "hand_offset_scale": [1, 1, 1],
+          "kind": "Snap",
+          "local_pos": [-0.26, -0.1, 0.0],
+          "local_rot": [0, -0.70710677, 0, 0.70710677],
+          "name": "main_grip"
+        },
+        {
+          "finger_curl": {
+            "index1": 0.75,
+            "index2": 0.75,
+            "index3": 0.55,
+            "middle1": 0.8,
+            "middle2": 0.8,
+            "middle3": 0.6,
+            "pinky1": 0.8,
+            "pinky2": 0.8,
+            "pinky3": 0.6,
+            "ring1": 0.8,
+            "ring2": 0.8,
+            "ring3": 0.6,
+            "thumb1": 0.4,
+            "thumb2": 0.3,
+            "thumb3": 0.2
+          },
+          "grab_range": null,
+          "hand": "left",
+          "hand_offset_pos": null,
+          "hand_offset_rot": null,
+          "hand_offset_scale": [1, 1, 1],
+          "kind": "Snap",
+          "local_pos": [0.15, 0.01, 0.0],
+          "local_rot": [0, -0.70710677, 0, 0.70710677],
+          "name": "support_grip"
+        }
+      ],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "boy",
+      "uuid": "1aa019ab-9f3f-577f-81bd-a2c734cfd3b8",
       "cuboid": {
-        "position": [
-          -2.506316661834717,
-          0.010719865560531616,
-          3.3727622032165527
-        ],
-        "half_size": [
-          0.3,
-          0.9,
-          0.3
-        ],
-        "rotation": [
-          0,
-          0.8454219319822058,
-          0,
-          0.5340990141569955
-        ],
-        "color": [
-          255,
-          255,
-          255,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [255, 255, 255, 255],
+        "half_size": [0.3, 0.9, 0.3],
+        "position": [-2.5063167, 0.010719866, 3.3727622],
+        "rotation": [0, 0.8454219, 0, 0.53409904],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": {
         "path": "models/boy/boy.glb",
-        "scale": [
-          0.01,
-          0.01,
-          0.01
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [0.01, 0.01, 0.01]
       },
       "is_trigger": false,
       "hidden": false,
@@ -3681,50 +1967,19 @@
     },
     {
       "id": "left_controller",
+      "uuid": "e71ad16f-c445-59de-84d6-57914285f9b4",
       "cuboid": {
-        "position": [
-          -1.4870320558547974,
-          1.349470853805542,
-          -0.5288136601448059
-        ],
-        "half_size": [
-          0.05,
-          0.05,
-          0.05
-        ],
-        "rotation": [
-          -0.4566701019486967,
-          -0.505374944303214,
-          -0.5053745258968431,
-          0.5297595418972946
-        ],
-        "color": [
-          80,
-          80,
-          85,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [80, 80, 85, 255],
+        "half_size": [0.05, 0.05, 0.05],
+        "position": [-1.487032, 1.3494709, -0.52881366],
+        "rotation": [-0.4566701, -0.50537497, -0.50537455, 0.5297595],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": {
         "path": "models/meta_left.glb",
-        "scale": [
-          0.5,
-          0.5,
-          0.5
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [0.5, 0.5, 0.5]
       },
       "is_trigger": false,
       "hidden": false,
@@ -3733,11 +1988,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "left_grip",
-        "offset": [
-          1.5934186858856947e-08,
-          0.15359679911560986,
-          -3.4923263037001107e-07
-        ]
+        "offset": [1.5934187e-08, 0.1535968, -3.4923264e-07]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -3751,50 +2002,19 @@
     },
     {
       "id": "right_controller",
+      "uuid": "0ca446ba-4b6a-5031-81df-02836ec8f884",
       "cuboid": {
-        "position": [
-          -1.3486016988754272,
-          1.5622365474700928,
-          -0.4492678940296173
-        ],
-        "half_size": [
-          0.05,
-          0.05,
-          0.05
-        ],
-        "rotation": [
-          -0.45667185414037365,
-          0.5053744958300526,
-          0.505374105551324,
-          0.5297588602739105
-        ],
-        "color": [
-          80,
-          80,
-          85,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [80, 80, 85, 255],
+        "half_size": [0.05, 0.05, 0.05],
+        "position": [-1.3486017, 1.5622365, -0.4492679],
+        "rotation": [-0.45667186, 0.5053745, 0.50537413, 0.5297589],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": {
         "path": "models/meta_right.glb",
-        "scale": [
-          0.5,
-          0.5,
-          0.5
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [0.5, 0.5, 0.5]
       },
       "is_trigger": false,
       "hidden": false,
@@ -3803,11 +2023,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "right_grip",
-        "offset": [
-          0,
-          0,
-          0
-        ]
+        "offset": [0, 0, 0]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -3821,50 +2037,19 @@
     },
     {
       "id": "headset",
+      "uuid": "19682d3f-8fba-53e0-8c0b-8c85235298cc",
       "cuboid": {
-        "position": [
-          -1.0672259330749512,
-          1.74476957321167,
-          -0.44254976511001587
-        ],
-        "half_size": [
-          0.05,
-          0.05,
-          0.05
-        ],
-        "rotation": [
-          -3.1595348559676495e-09,
-          -4.0180679896045617e-14,
-          -1.3546043118857574e-14,
-          1
-        ],
-        "color": [
-          80,
-          80,
-          85,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [80, 80, 85, 255],
+        "half_size": [0.05, 0.05, 0.05],
+        "position": [-1.0672259, 1.7447696, -0.44254977],
+        "rotation": [-3.1595349e-09, -4.018068e-14, -1.3546043e-14, 1],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": {
         "path": "models/headset.glb",
-        "scale": [
-          0.5,
-          0.5,
-          0.5
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [0.5, 0.5, 0.5]
       },
       "is_trigger": false,
       "hidden": false,
@@ -3873,11 +2058,7 @@
       "animation_bindings": [],
       "rig_attachment": {
         "joint": "head",
-        "offset": [
-          0.004516273736955621,
-          0.0828936096757532,
-          0.051409036444906936
-        ]
+        "offset": [0.0045162737, 0.08289361, 0.051409036]
       },
       "grip_pose_left": null,
       "grip_pose_right": null,
@@ -3891,36 +2072,15 @@
     },
     {
       "id": "m4a1_laser_sight",
+      "uuid": "b5843ca9-40ba-5a35-9bca-6f1bd55418a8",
+      "parent": "9bc72e7f-356d-5fb8-9a51-58f4ecea1dbd",
       "cuboid": {
-        "position": [
-          1.8912208797786723,
-          1.401266056398914,
-          3.5050315856933594
-        ],
-        "half_size": [
-          0.02,
-          0.02,
-          0.02
-        ],
-        "rotation": [
-          0.3886259512872365,
-          -0.5907367165735181,
-          0.3886259512872365,
-          0.5907367165735181
-        ],
-        "color": [
-          40,
-          255,
-          120,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [40, 255, 120, 255],
+        "half_size": [0.02, 0.02, 0.02],
+        "position": [0.41999993, 0.060000036, 0.0],
+        "rotation": [3.5529805e-08, -0.70710677, 3.5529805e-08, 0.70710677],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": null,
       "is_trigger": false,
@@ -3938,48 +2098,21 @@
       "sound": null,
       "particle_emitter": null,
       "laser": {
-        "color": [
-          80,
-          255,
-          120,
-          255
-        ],
-        "max_distance": 12,
-        "beam_width": 0.012
+        "beam_width": 0.012,
+        "color": [80, 255, 120, 255],
+        "max_distance": 12
       }
     },
     {
       "id": "smoke_grenade",
+      "uuid": "413ed24d-fca5-5b92-b5aa-33214d450d0c",
       "cuboid": {
-        "position": [
-          1.5,
-          0.534942626953125,
-          -9.581842422485352
-        ],
-        "half_size": [
-          0.035,
-          0.06,
-          0.035
-        ],
-        "rotation": [
-          0.70710678,
-          0,
-          0,
-          0.707106782373095
-        ],
-        "color": [
-          70,
-          90,
-          55,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [70, 90, 55, 255],
+        "half_size": [0.035, 0.06, 0.035],
+        "position": [1.5, 0.5349426, -9.581842],
+        "rotation": [0.70710677, 0, 0, 0.70710677],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": null,
       "is_trigger": false,
@@ -3996,67 +2129,31 @@
       "terrain_collider": null,
       "sound": null,
       "particle_emitter": {
-        "particle_size": 0.09,
-        "spawn_rate": 26,
-        "color": [
-          225,
-          225,
-          225,
-          130
-        ],
+        "color": [225, 225, 225, 130],
         "lifetime": 6,
+        "particle_size": 0.09,
+        "size_growth": 2.8,
+        "spawn_rate": 26,
         "speed": 0.22,
-        "spread_deg": 150,
-        "size_growth": 2.8
+        "spread_deg": 150
       },
       "laser": null
     },
     {
       "id": "work_light_stand",
+      "uuid": "490883ae-04d5-5db1-8c82-177826900be1",
       "cuboid": {
-        "position": [
-          -2.5,
-          0.9269999861717224,
-          -1.8271269798278809
-        ],
-        "half_size": [
-          0.5,
-          0.93,
-          0.5
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          200,
-          200,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 200, 200, 255],
+        "half_size": [0.5, 0.93, 0.5],
+        "position": [-2.5, 0.927, -1.827127],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": {
         "path": "models/twin-headed_work_light_stand.glb",
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [1, 1, 1]
       },
       "is_trigger": false,
       "hidden": false,
@@ -4071,41 +2168,20 @@
       "slider_joint": null,
       "terrain_collider": null,
       "sound": null,
-      "laser": null,
-      "particle_emitter": null
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "work_light_stand_lamp_left",
+      "uuid": "7748c33a-6a0f-560c-901d-fdceca408fa8",
+      "parent": "490883ae-04d5-5db1-8c82-177826900be1",
       "cuboid": {
-        "position": [
-          -2.76910488,
-          1.6362629261717223,
-          -1.9712173998278808
-        ],
-        "half_size": [
-          0.1,
-          0.1,
-          0.1
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          200,
-          200,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 200, 200, 255],
+        "half_size": [0.1, 0.1, 0.1],
+        "position": [-0.269105, 0.7092629, -0.1440904],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": null,
       "is_trigger": false,
@@ -4120,56 +2196,30 @@
       "grip_points": [],
       "slider_joint": null,
       "terrain_collider": null,
-      "sound": null,
-      "laser": null,
-      "particle_emitter": null,
       "lights": [
         {
-          "kind": "Spot",
-          "color": [
-            255,
-            244,
-            220,
-            255
-          ],
+          "color": [255, 244, 220, 255],
+          "cone_angle_deg": 70,
           "intensity": 150,
-          "range": 15,
-          "cone_angle_deg": 70
+          "kind": "Spot",
+          "range": 15
         }
-      ]
+      ],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "work_light_stand_lamp_right",
+      "uuid": "0b066bb7-0c53-5e6b-9ff5-f09b689c49e9",
+      "parent": "490883ae-04d5-5db1-8c82-177826900be1",
       "cuboid": {
-        "position": [
-          -2.23972893,
-          1.6490631861717224,
-          -1.9678728898278808
-        ],
-        "half_size": [
-          0.1,
-          0.1,
-          0.1
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          200,
-          200,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 200, 200, 255],
+        "half_size": [0.1, 0.1, 0.1],
+        "position": [0.260271, 0.7220632, -0.1407459],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": null,
       "is_trigger": false,
@@ -4184,56 +2234,29 @@
       "grip_points": [],
       "slider_joint": null,
       "terrain_collider": null,
-      "sound": null,
-      "laser": null,
-      "particle_emitter": null,
       "lights": [
         {
-          "kind": "Spot",
-          "color": [
-            255,
-            244,
-            220,
-            255
-          ],
+          "color": [255, 244, 220, 255],
+          "cone_angle_deg": 70,
           "intensity": 150,
-          "range": 15,
-          "cone_angle_deg": 70
+          "kind": "Spot",
+          "range": 15
         }
-      ]
+      ],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "light_bounce_test_panel",
+      "uuid": "f709281c-d2f9-54a3-80e4-f3403d3c4f5e",
       "cuboid": {
-        "position": [
-          -2.2876338958740234,
-          1.399999976158142,
-          1.312366247177124
-        ],
-        "half_size": [
-          0.6,
-          0.6,
-          0.03
-        ],
-        "rotation": [
-          0,
-          0.3826834290904157,
-          0,
-          0.9238795338677012
-        ],
-        "color": [
-          235,
-          235,
-          230,
-          255
-        ],
-        "wire_color": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "style": "Solid"
+        "color": [235, 235, 230, 255],
+        "half_size": [0.6, 0.6, 0.03],
+        "position": [-2.287634, 1.4, 1.3123662],
+        "rotation": [0, 0.38268343, 0, 0.9238795],
+        "style": "Solid",
+        "wire_color": [0, 0, 0, 0]
       },
       "mesh": null,
       "is_trigger": false,
@@ -4245,23 +2268,15 @@
       "grip_pose_left": null,
       "grip_pose_right": null,
       "rigid_body": {
-        "mode": "Static",
-        "shape": "Box",
-        "mass": null,
-        "friction": 0.5,
-        "restitution": 0,
-        "linear_velocity": [
-          0,
-          0,
-          0
-        ],
-        "respawn_interval": null,
         "collider_half_size": null,
-        "collider_offset": [
-          0,
-          0,
-          0
-        ]
+        "collider_offset": [0, 0, 0],
+        "friction": 0.5,
+        "linear_velocity": [0, 0, 0],
+        "mass": null,
+        "mode": "Static",
+        "respawn_interval": null,
+        "restitution": 0,
+        "shape": "Box"
       },
       "grip_points": [],
       "slider_joint": null,
@@ -4270,50 +2285,19 @@
     },
     {
       "id": "studio_truss",
+      "uuid": "881161f5-7a7c-57b4-9f47-bd4f2740c225",
       "cuboid": {
-        "position": [
-          1.7313103675842285,
-          1,
-          3.880305051803589
-        ],
-        "half_size": [
-          0.17,
-          1,
-          0.17
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          200,
-          200,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 200, 200, 255],
+        "half_size": [0.17, 1, 0.17],
+        "position": [1.7313104, 1, 3.880305],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": {
         "path": "models/truss.glb",
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [1, 1, 1]
       },
       "is_trigger": false,
       "hidden": false,
@@ -4328,55 +2312,24 @@
       "slider_joint": null,
       "terrain_collider": null,
       "sound": null,
-      "laser": null,
-      "particle_emitter": null
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "studio_light",
+      "uuid": "2eed5d5f-b61a-58d6-afac-4718cacf2052",
       "cuboid": {
-        "position": [
-          -3.9509153366088867,
-          0.4632379114627838,
-          -1.0218294858932495
-        ],
-        "half_size": [
-          0.465,
-          0.307,
-          1.043
-        ],
-        "rotation": [
-          0,
-          0.5459659057500779,
-          0,
-          0.8378073941894385
-        ],
-        "color": [
-          200,
-          200,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 200, 200, 255],
+        "half_size": [0.465, 0.307, 1.043],
+        "position": [-3.9509153, 0.4632379, -1.0218295],
+        "rotation": [0, 0.5459659, 0, 0.8378074],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": {
         "path": "models/studio_light.glb",
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [1, 1, 1]
       },
       "is_trigger": false,
       "hidden": false,
@@ -4390,73 +2343,37 @@
       "grip_points": [],
       "slider_joint": null,
       "terrain_collider": null,
-      "sound": null,
-      "laser": null,
-      "particle_emitter": null,
       "lights": [
         {
-          "kind": "Spot",
-          "color": [
-            255,
-            235,
-            210,
-            255
-          ],
-          "intensity": 140,
-          "range": 10,
+          "color": [255, 235, 210, 255],
           "cone_angle_deg": 60,
-          "glow_range": 2.5,
+          "glow_enabled": true,
           "glow_intensity": 20,
-          "glow_enabled": true
+          "glow_range": 2.5,
+          "intensity": 140,
+          "kind": "Spot",
+          "range": 10
         }
-      ]
+      ],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "studio_camera",
+      "uuid": "4b84fada-6ebe-500c-b388-7371e3ca5e1f",
       "cuboid": {
-        "position": [
-          0.16833311319351196,
-          0.9262019395828247,
-          -0.18427592515945435
-        ],
-        "half_size": [
-          0.603,
-          0.152,
-          0.356
-        ],
-        "rotation": [
-          0.04485946085505091,
-          0.7276268986433221,
-          0.019727214931066127,
-          0.6842204046457239
-        ],
-        "color": [
-          200,
-          200,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 200, 200, 255],
+        "half_size": [0.603, 0.152, 0.356],
+        "position": [0.16833311, 0.92620194, -0.18427593],
+        "rotation": [0.04485946, 0.7276269, 0.019727215, 0.68422043],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": {
         "path": "models/camera.glb",
-        "scale": [
-          0.01,
-          0.01,
-          0.01
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [0.01, 0.01, 0.01]
       },
       "is_trigger": false,
       "hidden": false,
@@ -4471,147 +2388,71 @@
       "slider_joint": null,
       "terrain_collider": null,
       "sound": null,
-      "laser": null,
-      "particle_emitter": null
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "rim_light",
+      "uuid": "de6e680b-21be-52d0-87ed-192c7d869c1a",
       "cuboid": {
-        "position": [
-          0.06,
-          1.8,
-          4.1
-        ],
-        "half_size": [
-          0.08,
-          0.08,
-          0.08
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          200,
-          210,
-          255,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 210, 255, 255],
+        "half_size": [0.08, 0.08, 0.08],
+        "position": [0.06, 1.8, 4.1],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "is_trigger": false,
       "hidden": false,
       "lights": [
         {
-          "kind": "Point",
-          "color": [
-            200,
-            220,
-            255,
-            255
-          ],
-          "intensity": 60,
-          "range": 6,
+          "color": [200, 220, 255, 255],
           "cone_angle_deg": 45,
-          "glow_range": 1.5,
+          "glow_enabled": true,
           "glow_intensity": 12,
-          "glow_enabled": true
+          "glow_range": 1.5,
+          "intensity": 60,
+          "kind": "Point",
+          "range": 6
         }
       ]
     },
     {
       "id": "playground_light",
+      "uuid": "cc1374e7-8373-5d2d-bc8d-9910d4f3abe3",
       "cuboid": {
-        "position": [
-          4.886664390563965,
-          2.5999999046325684,
-          -4.180014610290527
-        ],
-        "half_size": [
-          0.08,
-          0.08,
-          0.08
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          255,
-          235,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [255, 235, 200, 255],
+        "half_size": [0.08, 0.08, 0.08],
+        "position": [4.8866644, 2.6, -4.1800146],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "is_trigger": false,
       "hidden": false,
       "lights": [
         {
-          "kind": "Point",
-          "color": [
-            255,
-            235,
-            200,
-            255
-          ],
-          "intensity": 90,
-          "range": 9,
+          "color": [255, 235, 200, 255],
           "cone_angle_deg": 45,
-          "glow_range": 1.5,
+          "glow_enabled": true,
           "glow_intensity": 12,
-          "glow_enabled": true
+          "glow_range": 1.5,
+          "intensity": 90,
+          "kind": "Point",
+          "range": 9
         }
       ]
     },
     {
       "id": "spawn_point_entrance",
+      "uuid": "072b7c02-5d4a-5fb2-bd4c-2654396f971b",
       "cuboid": {
-        "position": [
-          0,
-          0.015392482280731201,
-          2.1170566082000732
-        ],
-        "half_size": [
-          0.05,
-          0.05,
-          0.05
-        ],
-        "rotation": [
-          0,
-          1,
-          0,
-          0
-        ],
-        "color": [
-          140,
-          255,
-          170,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [140, 255, 170, 255],
+        "half_size": [0.05, 0.05, 0.05],
+        "position": [0, 0.015392482, 2.1170566],
+        "rotation": [0, 1, 0, 0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "is_trigger": false,
       "hidden": false,
@@ -4619,36 +2460,14 @@
     },
     {
       "id": "pad_stage",
+      "uuid": "0377903c-1ab4-556d-90e2-03a847ea08e1",
       "cuboid": {
-        "position": [
-          3.1779940128326416,
-          0.05000000074505806,
-          2.714172601699829
-        ],
-        "half_size": [
-          0.6,
-          0.1,
-          0.6
-        ],
-        "rotation": [
-          0,
-          1,
-          0,
-          0
-        ],
-        "color": [
-          120,
-          190,
-          255,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [120, 190, 255, 255],
+        "half_size": [0.6, 0.1, 0.6],
+        "position": [3.177994, 0.05, 2.7141726],
+        "rotation": [0, 1, 0, 0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "is_trigger": false,
       "hidden": false,
@@ -4658,36 +2477,14 @@
     },
     {
       "id": "pad_physics",
+      "uuid": "3f2dff7a-9b13-5e8c-a4e5-79885e5b1679",
       "cuboid": {
-        "position": [
-          3.1131374835968018,
-          0.05000000074505806,
-          -0.800000011920929
-        ],
-        "half_size": [
-          0.6,
-          0.1,
-          0.6
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          255,
-          170,
-          120,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [255, 170, 120, 255],
+        "half_size": [0.6, 0.1, 0.6],
+        "position": [3.1131375, 0.05, -0.8],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "is_trigger": false,
       "hidden": false,
@@ -4697,50 +2494,19 @@
     },
     {
       "id": "studio_truss_2",
+      "uuid": "49809815-29db-59f6-a8d6-ac05262de37e",
       "cuboid": {
-        "position": [
-          -1.625402569770813,
-          1,
-          3.90352463722229
-        ],
-        "half_size": [
-          0.17,
-          1,
-          0.17
-        ],
-        "rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "color": [
-          200,
-          200,
-          200,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [200, 200, 200, 255],
+        "half_size": [0.17, 1, 0.17],
+        "position": [-1.6254026, 1, 3.9035246],
+        "rotation": [0, 0, 0, 1],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "mesh": {
         "path": "models/truss.glb",
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rotation_offset": [
-          0,
-          0,
-          0,
-          1
-        ]
+        "rotation_offset": [0, 0, 0, 1],
+        "scale": [1, 1, 1]
       },
       "is_trigger": false,
       "hidden": false,
@@ -4755,41 +2521,19 @@
       "slider_joint": null,
       "terrain_collider": null,
       "sound": null,
-      "laser": null,
-      "particle_emitter": null
+      "particle_emitter": null,
+      "laser": null
     },
     {
       "id": "pad_to_water_world",
+      "uuid": "9c9789f7-c47b-5fbe-833c-68a894408d0e",
       "cuboid": {
-        "position": [
-          -4.5,
-          0.05,
-          2
-        ],
-        "half_size": [
-          0.6,
-          0.1,
-          0.6
-        ],
-        "rotation": [
-          0,
-          1,
-          0,
-          0
-        ],
-        "color": [
-          90,
-          180,
-          255,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [90, 180, 255, 255],
+        "half_size": [0.6, 0.1, 0.6],
+        "position": [-4.5, 0.05, 2],
+        "rotation": [0, 1, 0, 0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "is_trigger": false,
       "hidden": false,

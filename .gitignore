@@ -1,3 +1,8 @@
 .claude/
 target/
 .DS_Store
+
+# Local crash-recovery snapshots written by scene_editor_web's atomic save
+# (scene_io.write_json_atomic). Recovery state, not content -- committing them
+# would grow the repo by a copy of every scene on every save.
+.history/
