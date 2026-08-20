@@ -3,155 +3,63 @@
   "objects": [
     {
       "id": "floor",
+      "uuid": "ae7b9a6c-116b-5527-8e7e-44b81770f1e1",
       "cuboid": {
-        "position": [
-          0.0,
-          -0.1,
-          0.0
-        ],
-        "half_size": [
-          50.0,
-          0.1,
-          50.0
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "color": [
-          120,
-          120,
-          120,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [120, 120, 120, 255],
+        "half_size": [5e+01, 0.1, 5e+01],
+        "position": [0.0, -0.1, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
+      },
+      "mesh": {
+        "path": "models/floor.glb",
+        "rotation_offset": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
       },
       "is_trigger": false,
       "hidden": false,
-      "mesh": {
-        "path": "models/floor.glb",
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ],
-        "rotation_offset": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ]
-      },
       "rigid_body": {
-        "mode": "Static",
-        "shape": "Box",
-        "mass": null,
-        "friction": 0.8,
-        "restitution": 0.0,
-        "linear_velocity": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "respawn_interval": null,
         "collider_half_size": null,
-        "collider_offset": [
-          0.0,
-          0.0,
-          0.0
-        ]
+        "collider_offset": [0.0, 0.0, 0.0],
+        "friction": 0.8,
+        "linear_velocity": [0.0, 0.0, 0.0],
+        "mass": null,
+        "mode": "Static",
+        "respawn_interval": null,
+        "restitution": 0.0,
+        "shape": "Box"
       }
     },
     {
       "id": "watersky",
+      "uuid": "2affe09b-b2db-5894-8fc8-30755adf12e0",
       "cuboid": {
-        "position": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "half_size": [
-          1.0,
-          1.0,
-          1.0
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "color": [
-          255,
-          255,
-          255,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [255, 255, 255, 255],
+        "half_size": [1.0, 1.0, 1.0],
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
-      "is_trigger": false,
-      "hidden": false,
       "mesh": {
         "path": "models/watersky.glb",
-        "scale": [
-          0.007,
-          0.007,
-          0.007
-        ],
-        "rotation_offset": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ]
-      }
+        "rotation_offset": [0.0, 0.0, 0.0, 1.0],
+        "scale": [0.007, 0.007, 0.007]
+      },
+      "is_trigger": false,
+      "hidden": false
     },
     {
       "id": "spawn_point_entrance",
+      "uuid": "55530731-5bc9-53c8-9000-0e87cceb43b9",
       "cuboid": {
-        "position": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "half_size": [
-          0.05,
-          0.05,
-          0.05
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "color": [
-          140,
-          255,
-          170,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [140, 255, 170, 255],
+        "half_size": [0.05, 0.05, 0.05],
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "is_trigger": false,
       "hidden": false,
@@ -159,36 +67,14 @@
     },
     {
       "id": "pad_to_lobby",
+      "uuid": "aba7192b-5ebf-50ff-88b7-141891589bb9",
       "cuboid": {
-        "position": [
-          0.0,
-          0.05,
-          2.0
-        ],
-        "half_size": [
-          0.6,
-          0.1,
-          0.6
-        ],
-        "rotation": [
-          0.0,
-          1.0,
-          0.0,
-          0.0
-        ],
-        "color": [
-          255,
-          170,
-          120,
-          255
-        ],
-        "wire_color": [
-          200,
-          200,
-          255,
-          255
-        ],
-        "style": "Solid"
+        "color": [255, 170, 120, 255],
+        "half_size": [0.6, 0.1, 0.6],
+        "position": [0.0, 0.05, 2.0],
+        "rotation": [0.0, 1.0, 0.0, 0.0],
+        "style": "Solid",
+        "wire_color": [200, 200, 255, 255]
       },
       "is_trigger": false,
       "hidden": false,
