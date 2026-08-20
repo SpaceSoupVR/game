@@ -6,7 +6,7 @@
       "uuid": "ae7b9a6c-116b-5527-8e7e-44b81770f1e1",
       "cuboid": {
         "color": [120, 120, 120, 255],
-        "half_size": [5e+01, 0.1, 5e+01],
+        "half_size": [50.0, 0.1, 50.0],
         "position": [0.0, -0.1, 0.0],
         "rotation": [0.0, 0.0, 0.0, 1.0],
         "style": "Solid",
