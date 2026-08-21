@@ -20,3 +20,11 @@ target/
 # brushes, which is an honest blockout state; "+ Add materials" is in the
 # picker, and an install takes a second or two.
 materials/
+
+# Brush geometry exported for a DCC handoff (game/exports/*.obj + .mtl).
+#
+# Generated from the scene by `export_brushes`, so the scene is the source of
+# truth and the OBJ is a derivative -- committing it would put a second copy of
+# every level in history that silently goes stale the moment anyone edits a
+# brush. Regenerate it from the editor's Geometry panel or the CLI.
+exports/
