@@ -6,3 +6,17 @@ target/
 # (scene_io.write_json_atomic). Recovery state, not content -- committing them
 # would grow the repo by a copy of every scene on every save.
 .history/
+
+# The material library is installed on demand, not committed.
+#
+# Same reasoning as the terrain starter set, taken one step further. A small
+# committed set exists so the engine renders properly out of the box
+# (textures/terrain/), but the LIBRARY is unbounded -- it is where a level's
+# whole palette accumulates, one 250KB material at a time, and git keeps every
+# version of a binary forever. Replacing one material would double its cost in
+# history for a file nobody diffs.
+#
+# A fresh clone therefore starts with an empty library and untextured grey
+# brushes, which is an honest blockout state; "+ Add materials" is in the
+# picker, and an install takes a second or two.
+materials/
