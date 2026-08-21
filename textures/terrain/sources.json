@@ -1,0 +1,26 @@
+{
+  "ground": {
+    "assetId": "Grass005",
+    "license": "CC0-1.0",
+    "resolution": "1K",
+    "source": "ambientCG"
+  },
+  "high": {
+    "assetId": "Gravel043",
+    "license": "CC0-1.0",
+    "resolution": "1K",
+    "source": "ambientCG"
+  },
+  "rock": {
+    "assetId": "Rock063",
+    "license": "CC0-1.0",
+    "resolution": "1K",
+    "source": "ambientCG"
+  },
+  "sediment": {
+    "assetId": "Ground037",
+    "license": "CC0-1.0",
+    "resolution": "1K",
+    "source": "ambientCG"
+  }
+}
