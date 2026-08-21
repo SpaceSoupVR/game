@@ -1,15 +1,21 @@
 # Terrain layer textures
 
-Four colour maps, one per material layer, named by the ROLE the shader gives the
-layer rather than by what it depicts. Replacing what "rock" looks like is a file
-swap and touches no code. The slots are fixed and not rearrangeable:
+A colour map and a normal map per material layer, named by the ROLE the shader
+gives the layer rather than by what it depicts. Replacing what "rock" looks like
+is a file swap and touches no code. The slots are fixed and not rearrangeable:
 
-| File | Layer |
-|---|---|
-| `ground.jpg`   | 0 — ground |
-| `rock.jpg`     | 1 — rock |
-| `high.jpg`     | 2 — high ground |
-| `sediment.jpg` | 3 — sediment |
+| Colour | Normal | Layer |
+|---|---|---|
+| `ground.jpg`   | `ground_n.jpg`   | 0 — ground |
+| `rock.jpg`     | `rock_n.jpg`     | 1 — rock |
+| `high.jpg`     | `high_n.jpg`     | 2 — high ground |
+| `sediment.jpg` | `sediment_n.jpg` | 3 — sediment |
+
+Normal maps are **OpenGL convention** (`NormalGL`, green is +Y). ambientCG ships
+both; a DirectX map loads without complaint and lights every bump from the
+opposite side, which reads as "the lighting is wrong" rather than "the wrong
+file is installed". A missing normal map is fine — that layer simply lights as
+though it were smooth.
 
 **`sources.json` records where each one came from** and is written by the
 installer. It is the authority; this file deliberately does not repeat its
@@ -29,15 +35,14 @@ A starter set is committed so the engine renders properly out of the box, and
 because the deploy pushes `game/` to the headset wholesale — a texture the
 headset cannot see is not a texture. It is deliberately small:
 
-- **Colour maps only.** The terrain shader samples colour and nothing else
-  today. Shipping normal, roughness, AO and displacement would be megabytes of
-  files nothing reads.
+- **Colour and normal only.** The shader reads those two. Roughness, ambient
+  occlusion and displacement would be megabytes of files nothing looks at.
 - **1K, not 2K or 4K.** These tile across a whole map and the Quest is not a
   fast machine.
 
-That keeps the whole set around 2MB. Going further does not scale: a full PBR
-set at 2K is 40MB+, git keeps every version of a binary forever, and replacing
-one texture doubles its cost in history.
+That keeps all eight files around 2.2MB. Going further does not scale: a full
+PBR set at 2K is 40MB+, git keeps every version of a binary forever, and
+replacing one texture doubles its cost in history.
 
 ## Installing or replacing one
 
@@ -50,8 +55,8 @@ references the ambientCG ids.
 
 ## Getting the other maps later
 
-Normal maps are the next real visual step; flat ground in VR reads as obviously
-fake because you have depth perception. The originals carry them:
+Roughness, ambient occlusion and displacement are in the originals if the shader
+ever grows to read them:
 
 ```
 curl -L -o Rock063.zip "https://ambientcg.com/get?file=Rock063_1K-JPG.zip"
