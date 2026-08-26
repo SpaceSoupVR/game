@@ -1,5 +1,11 @@
 {
   "name": "lobby",
+  "sky": {
+    "id": "kloofendal_48d_partly_cloudy_puresky",
+    "intensity": 1.0,
+    "rotation_deg": 0.0,
+    "show_background": true
+  },
   "objects": [
     {
       "id": "lhand_palm",
@@ -2170,6 +2176,27 @@
         "respawn_interval": 1.5,
         "restitution": 0.3
       }
+    },
+    {
+      "id": "sun",
+      "uuid": "5c1e0a72-4d3b-5a91-b0e6-7f2c94a10d33",
+      "cuboid": {
+        "color": [255, 244, 214, 255],
+        "half_size": [0.1, 0.1, 0.1],
+        "position": [0, 8, 0],
+        "rotation": [-0.421702, 0.213972, 0.0, 0.881126],
+        "style": "Solid",
+        "wire_color": [255, 244, 214, 255]
+      },
+      "hidden": true,
+      "lights": [
+        {
+          "color": [255, 244, 214, 255],
+          "intensity": 0.35,
+          "kind": "Directional",
+          "range": 25
+        }
+      ]
     }
   ]
 }
