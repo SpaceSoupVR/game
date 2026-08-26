@@ -1971,7 +1971,7 @@
         {
           "color": [255, 244, 220, 255],
           "cone_angle_deg": 70,
-          "intensity": 150,
+          "intensity": 5,
           "kind": "Spot",
           "range": 15
         }
@@ -2009,7 +2009,7 @@
         {
           "color": [255, 244, 220, 255],
           "cone_angle_deg": 70,
-          "intensity": 150,
+          "intensity": 5,
           "kind": "Spot",
           "range": 15
         }
@@ -2106,7 +2106,7 @@
       "lights": [
         {
           "color": [255, 248, 235, 255],
-          "intensity": 500,
+          "intensity": 10,
           "kind": "Point",
           "range": 25
         }
