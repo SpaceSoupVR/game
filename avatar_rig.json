@@ -19,6 +19,12 @@
   ],
   "max_lean_deg": 30.0,
   "thumb_touch_curl": 0.35,
+  "rest_curl_thumb": 0.05,
+  "rest_curl_index": 0.08,
+  "rest_curl_middle": 0.12,
+  "rest_curl_ring": 0.12,
+  "rest_curl_little": 0.12,
+  "hand_scale": 1.0,
   "wrist_calibration_auto": true,
   "wrist_calibration_offset_axis": [
     1.0,
