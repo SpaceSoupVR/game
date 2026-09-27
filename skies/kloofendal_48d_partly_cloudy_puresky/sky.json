@@ -1,0 +1,24 @@
+{
+  "name": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+  "categories": [
+    "outdoor",
+    "skies",
+    "nature",
+    "midday",
+    "partly cloudy",
+    "high contrast",
+    "natural light",
+    "pure skies"
+  ],
+  "authors": [
+    "Greg Zaal",
+    "Jarod Guest"
+  ],
+  "resolution": "1k",
+  "installedAt": "2026-08-25T02:18:48Z",
+  "source": {
+    "provider": "polyhaven",
+    "assetId": "kloofendal_48d_partly_cloudy_puresky",
+    "license": "CC0-1.0"
+  }
+}

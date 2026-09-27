@@ -1,9 +1,10 @@
 {
     "name": "Studio Test Map",
     "version": "0.1.0",
-    "entry_scene": "lobby",
+    "entry_scene": "test_room",
     "scenes": [
         "lobby",
-        "water_world"
+        "water_world",
+        "test_room"
     ]
-} 
+}

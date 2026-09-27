@@ -1,0 +1,149 @@
+{
+  "version": 2,
+  "entries": [
+    {
+      "object_id": "hall_shell",
+      "file": "000.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hall_pillar",
+      "file": "001.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hallway",
+      "file": "002.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hallway_sconce_south",
+      "file": "003.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hallway_sconce_north",
+      "file": "004.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hall_spot_1",
+      "file": "005.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hall_spot_2",
+      "file": "006.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "spawn_point_hall",
+      "file": "007.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hall_spot_corner",
+      "file": "008.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "brick_hall",
+      "file": "009.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "brick_lamp",
+      "file": "010.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "brick_wall_wash",
+      "file": "011.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hall_probe",
+      "file": "012.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "brick_probe",
+      "file": "013.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "__brushes__",
+      "file": "014.png",
+      "width": 1024,
+      "height": 512,
+      "target": "brush",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "__brushes_dir__",
+      "file": "015.png",
+      "width": 1024,
+      "height": 512,
+      "target": "brush",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "__brushes_sun__",
+      "file": "016.png",
+      "width": 4096,
+      "height": 2048,
+      "target": "brush",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "__terrain_sky__",
+      "file": "017.png",
+      "width": 768,
+      "height": 768,
+      "target": "terrain",
+      "encoding": "srgb8"
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "object_id": "lhand_palm",
+      "file": "000.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_wrist",
+      "file": "001.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_thumb_meta",
+      "file": "002.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_thumb_prox",
+      "file": "003.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_thumb_dist",
+      "file": "004.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_thumb_tip",
+      "file": "005.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_index_meta",
+      "file": "006.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_index_prox",
+      "file": "007.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_index_inter",
+      "file": "008.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_index_dist",
+      "file": "009.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_index_tip",
+      "file": "010.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_middle_meta",
+      "file": "011.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_middle_prox",
+      "file": "012.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_middle_inter",
+      "file": "013.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_middle_dist",
+      "file": "014.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_middle_tip",
+      "file": "015.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_ring_meta",
+      "file": "016.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_ring_prox",
+      "file": "017.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_ring_inter",
+      "file": "018.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_ring_dist",
+      "file": "019.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_ring_tip",
+      "file": "020.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_little_meta",
+      "file": "021.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_little_prox",
+      "file": "022.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_little_inter",
+      "file": "023.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_little_dist",
+      "file": "024.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lhand_little_tip",
+      "file": "025.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_palm",
+      "file": "026.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_wrist",
+      "file": "027.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_thumb_meta",
+      "file": "028.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_thumb_prox",
+      "file": "029.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_thumb_dist",
+      "file": "030.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_thumb_tip",
+      "file": "031.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_index_meta",
+      "file": "032.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_index_prox",
+      "file": "033.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_index_inter",
+      "file": "034.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_index_dist",
+      "file": "035.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_index_tip",
+      "file": "036.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_middle_meta",
+      "file": "037.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_middle_prox",
+      "file": "038.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_middle_inter",
+      "file": "039.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_middle_dist",
+      "file": "040.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_middle_tip",
+      "file": "041.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_ring_meta",
+      "file": "042.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_ring_prox",
+      "file": "043.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_ring_inter",
+      "file": "044.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_ring_dist",
+      "file": "045.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_ring_tip",
+      "file": "046.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_little_meta",
+      "file": "047.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_little_prox",
+      "file": "048.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_little_inter",
+      "file": "049.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_little_dist",
+      "file": "050.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "rhand_little_tip",
+      "file": "051.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "floor",
+      "file": "052.png",
+      "width": 512,
+      "height": 1024,
+      "target": "object"
+    },
+    {
+      "object_id": "m4a1",
+      "file": "053.png",
+      "width": 1,
+      "height": 1,
+      "target": "object"
+    },
+    {
+      "object_id": "m4a1_laser_sight",
+      "file": "054.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "work_light_stand",
+      "file": "055.png",
+      "width": 512,
+      "height": 256,
+      "target": "object"
+    },
+    {
+      "object_id": "work_light_stand_lamp_left",
+      "file": "056.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "work_light_stand_lamp_right",
+      "file": "057.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "spawn_point_entrance",
+      "file": "058.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "left_hand",
+      "file": "059.png",
+      "width": 1,
+      "height": 1,
+      "target": "object"
+    },
+    {
+      "object_id": "right_hand",
+      "file": "060.png",
+      "width": 1,
+      "height": 1,
+      "target": "object"
+    },
+    {
+      "object_id": "world_light",
+      "file": "061.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "boy",
+      "file": "062.png",
+      "width": 1,
+      "height": 1,
+      "target": "object"
+    },
+    {
+      "object_id": "spent_case",
+      "file": "063.png",
+      "width": 128,
+      "height": 128,
+      "target": "object"
+    },
+    {
+      "object_id": "sun",
+      "file": "064.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    }
+  ]
+}

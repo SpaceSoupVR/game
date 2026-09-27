@@ -1,0 +1,1648 @@
+{
+  "name": "test_room",
+  "sky": {
+    "id": "kloofendal_48d_partly_cloudy_puresky",
+    "intensity": 1.0,
+    "rotation_deg": 0.0,
+    "show_background": true
+  },
+  "post": {
+    "exposure": 1.0,
+    "tonemap": "Aces"
+  },
+  "objects": [
+    {
+      "id": "hall_shell",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+      "cuboid": {
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "half_size": [
+          3.0,
+          1.7,
+          10.0
+        ],
+        "position": [
+          0.0,
+          1.7,
+          -6.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "brush": {
+        "solids": [
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  3.4
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  0.3
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  4.0
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  16.0
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          }
+        ],
+        "subtract": [
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  2.7
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  2.7
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  3.1
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  3.7
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  15.7
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          },
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.8
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  0.8
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  2.2
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  4.4
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  -3.6900000000000004
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          },
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  3.1
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  -2.5
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  2.2
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  -2.2
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  3.8
+                ],
+                "material": "Marble020",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hall_pillar",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+      "cuboid": {
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "half_size": [
+          0.45,
+          1.55,
+          0.45
+        ],
+        "position": [
+          0.0,
+          1.55,
+          -7.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "brush": {
+        "solids": [
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.45
+                ],
+                "material": "Grass005",
+                "scale": [
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  0.45
+                ],
+                "material": "Grass005",
+                "scale": [
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  3.1
+                ],
+                "material": "Grass005",
+                "scale": [
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "Grass005",
+                "scale": [
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  -6.55
+                ],
+                "material": "Grass005",
+                "scale": [
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  7.45
+                ],
+                "material": "Grass005",
+                "scale": [
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hallway",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000301",
+      "cuboid": {
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "half_size": [
+          3.5,
+          1.6,
+          1.5
+        ],
+        "position": [
+          6.5,
+          1.3,
+          -3.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "brush": {
+        "solids": [
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  10.0
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  2.9
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  0.3
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  -1.5
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  4.5
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          }
+        ],
+        "subtract": [
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  10.0
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  2.6
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  -1.8
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  4.2
+                ],
+                "material": "Rock063",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hallway_sconce_south",
+      "cuboid": {
+        "position": [
+          5.0,
+          1.9,
+          -4.2
+        ],
+        "half_size": [
+          0.08,
+          0.17,
+          0.13
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "mesh": {
+        "path": "models/lights/industrial_wall_sconce/industrial_wall_sconce_1k.gltf"
+      },
+      "sockets": [
+        {
+          "name": "bulb",
+          "local_pos": [
+            0.0,
+            0.107,
+            0.19
+          ],
+          "local_rot": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "Point",
+          "socket": "bulb",
+          "enabled": true,
+          "intensity": 3.0,
+          "mode": "Baked",
+          "color": [
+            255,
+            236,
+            205,
+            255
+          ],
+          "range": 6.0
+        }
+      ],
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000303"
+    },
+    {
+      "id": "hallway_sconce_north",
+      "cuboid": {
+        "position": [
+          8.0,
+          1.9,
+          -1.8
+        ],
+        "half_size": [
+          0.08,
+          0.17,
+          0.13
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": {
+        "path": "models/lights/industrial_wall_sconce/industrial_wall_sconce_1k.gltf"
+      },
+      "sockets": [
+        {
+          "name": "bulb",
+          "local_pos": [
+            0.0,
+            0.107,
+            0.19
+          ],
+          "local_rot": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "lights": [
+        {
+          "kind": "Point",
+          "socket": "bulb",
+          "enabled": true,
+          "intensity": 3.0,
+          "mode": "Baked",
+          "color": [
+            255,
+            236,
+            205,
+            255
+          ],
+          "range": 6.0
+        }
+      ],
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000304"
+    },
+    {
+      "id": "hall_spot_1",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000101",
+      "cuboid": {
+        "color": [
+          255,
+          244,
+          214,
+          255
+        ],
+        "half_size": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "position": [
+          0.0,
+          3.1,
+          -4.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "lights": [
+        {
+          "kind": "Spot",
+          "mode": "Baked",
+          "color": [
+            255,
+            244,
+            214,
+            255
+          ],
+          "intensity": 9.0,
+          "range": 14.0,
+          "cone_angle_deg": 64.0,
+          "inner_cone_angle_deg": 30.0,
+          "socket": "bulb",
+          "enabled": true
+        }
+      ],
+      "mesh": {
+        "path": "models/lights/hanging_industrial_lamp/hanging_industrial_lamp_1k.gltf"
+      },
+      "sockets": [
+        {
+          "name": "bulb",
+          "local_pos": [
+            0.0,
+            -1.18,
+            0.0
+          ],
+          "local_rot": [
+            -0.7071067811865475,
+            0.0,
+            0.0,
+            0.7071067811865476
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hall_spot_2",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000102",
+      "cuboid": {
+        "color": [
+          255,
+          244,
+          214,
+          255
+        ],
+        "half_size": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "position": [
+          0.0,
+          3.1,
+          1.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "lights": [
+        {
+          "kind": "Spot",
+          "mode": "Baked",
+          "color": [
+            255,
+            244,
+            214,
+            255
+          ],
+          "intensity": 3.0,
+          "range": 8.0,
+          "cone_angle_deg": 90.0,
+          "inner_cone_angle_deg": 20.0,
+          "socket": "bulb",
+          "enabled": true
+        }
+      ],
+      "mesh": {
+        "path": "models/lights/hanging_industrial_lamp/hanging_industrial_lamp_1k.gltf"
+      },
+      "sockets": [
+        {
+          "name": "bulb",
+          "local_pos": [
+            0.0,
+            -1.18,
+            0.0
+          ],
+          "local_rot": [
+            -0.7071067811865475,
+            0.0,
+            0.0,
+            0.7071067811865476
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spawn_point_hall",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+      "cuboid": {
+        "color": [
+          140,
+          255,
+          170,
+          255
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "position": [
+          0.0,
+          0.02,
+          2.2
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "spawn_point": {}
+    },
+    {
+      "id": "hall_spot_corner",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000103",
+      "cuboid": {
+        "color": [
+          255,
+          240,
+          210,
+          255
+        ],
+        "half_size": [
+          0.08,
+          0.08,
+          0.08
+        ],
+        "position": [
+          1.85,
+          1.7,
+          -14.2
+        ],
+        "rotation": [
+          0.0,
+          -0.70710678,
+          0.0,
+          0.70710678
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "hidden": true,
+      "lights": [
+        {
+          "kind": "Spot",
+          "mode": "Baked",
+          "color": [
+            255,
+            240,
+            210,
+            255
+          ],
+          "intensity": 6.0,
+          "range": 4.0,
+          "cone_angle_deg": 34.0,
+          "inner_cone_angle_deg": 16.0
+        }
+      ]
+    },
+    {
+      "id": "brick_hall",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000201",
+      "cuboid": {
+        "color": [
+          200,
+          200,
+          200,
+          255
+        ],
+        "half_size": [
+          4.0,
+          1.7,
+          6.0
+        ],
+        "position": [
+          14.0,
+          1.7,
+          -2.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "brush": {
+        "solids": [
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  18.0
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  -10.0
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  3.4
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  0.3
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  4.0
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  8.0
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          }
+        ],
+        "subtract": [
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  17.7
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  -10.3
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  3.1
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  3.7
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  7.7
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          },
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  14.8
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  -13.2
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  2.2
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  4.4
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  -3.6
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          },
+          {
+            "faces": [
+              {
+                "plane": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  10.5
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  -1.0,
+                  0.0,
+                  0.0,
+                  -9.9
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  1.0,
+                  0.0,
+                  2.2
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  -1.0,
+                  0.0,
+                  -0.0
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  -2.2
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              },
+              {
+                "plane": [
+                  0.0,
+                  0.0,
+                  -1.0,
+                  3.8
+                ],
+                "material": "Bricks075A",
+                "scale": [
+                  2.0,
+                  2.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "brick_lamp",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000202",
+      "cuboid": {
+        "color": [
+          255,
+          236,
+          205,
+          255
+        ],
+        "half_size": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "position": [
+          14.0,
+          3.1,
+          -3.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "lights": [
+        {
+          "kind": "Spot",
+          "mode": "Baked",
+          "color": [
+            255,
+            236,
+            205,
+            255
+          ],
+          "intensity": 7.0,
+          "range": 12.0,
+          "cone_angle_deg": 70.0,
+          "inner_cone_angle_deg": 30.0,
+          "socket": "bulb",
+          "enabled": true
+        }
+      ],
+      "mesh": {
+        "path": "models/lights/hanging_industrial_lamp/hanging_industrial_lamp_1k.gltf"
+      },
+      "sockets": [
+        {
+          "name": "bulb",
+          "local_pos": [
+            0.0,
+            -1.18,
+            0.0
+          ],
+          "local_rot": [
+            -0.7071067811865475,
+            0.0,
+            0.0,
+            0.7071067811865476
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brick_wall_wash",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000203",
+      "cuboid": {
+        "color": [
+          210,
+          225,
+          255,
+          255
+        ],
+        "half_size": [
+          0.08,
+          0.08,
+          0.08
+        ],
+        "position": [
+          14.0,
+          2.9,
+          3.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "style": "Solid",
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ]
+      },
+      "hidden": true,
+      "lights": [
+        {
+          "kind": "Spot",
+          "mode": "Baked",
+          "color": [
+            210,
+            225,
+            255,
+            255
+          ],
+          "intensity": 6.0,
+          "range": 16.0,
+          "cone_angle_deg": 50.0,
+          "inner_cone_angle_deg": 18.0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "hall_probe",
+      "cuboid": {
+        "position": [
+          0.0,
+          1.55,
+          -6.0
+        ],
+        "half_size": [
+          2.7,
+          1.55,
+          9.7
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "hidden": true,
+      "reflection_probe": {
+        "resolution": 128
+      }
+    },
+    {
+      "id": "brick_probe",
+      "cuboid": {
+        "position": [
+          14.0,
+          1.55,
+          -2.0
+        ],
+        "half_size": [
+          3.6999999999999997,
+          1.55,
+          5.7
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "hidden": true,
+      "reflection_probe": {
+        "resolution": 128
+      }
+    }
+  ],
+  "terrain": {
+    "kind": "heightfield",
+    "origin": [
+      -55.0,
+      0.0,
+      -55.0
+    ],
+    "path": "terrain/test_room.r16",
+    "resolution": [
+      129,
+      129
+    ],
+    "size": [
+      110.0,
+      110.0
+    ],
+    "height_range": [
+      -4.0,
+      10.0
+    ]
+  },
+  "water": [
+    {
+      "height": -0.368,
+      "bounds": [
+        -38.0,
+        -38.0,
+        -14.0,
+        -14.0
+      ],
+      "shallow": [
+        96,
+        156,
+        142
+      ],
+      "deep": [
+        12,
+        44,
+        74
+      ],
+      "depth_scale": 1.14,
+      "shore_fade": 0.25,
+      "wave_speed": 0.25,
+      "wave_scale": 0.8,
+      "wave_strength": 0.07,
+      "opacity": 0.7
+    }
+  ]
+}
