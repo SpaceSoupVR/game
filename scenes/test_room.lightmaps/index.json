@@ -138,8 +138,16 @@
       "encoding": "srgb8"
     },
     {
-      "object_id": "__terrain_sky__",
+      "object_id": "__brushes_stationary_0__",
       "file": "017.png",
+      "width": 2048,
+      "height": 1024,
+      "target": "brush",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "__terrain_sky__",
+      "file": "018.png",
       "width": 768,
       "height": 768,
       "target": "terrain",

@@ -94,7 +94,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#0",
-      "range": 3.6599669456481934,
+      "range": 3.704392433166504,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -130,7 +130,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#1",
-      "range": 3.6399075984954834,
+      "range": 3.6896960735321045,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -166,7 +166,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#2",
-      "range": 125.52877807617188,
+      "range": 125.53380584716797,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -202,7 +202,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#3",
-      "range": 1.8434391021728516,
+      "range": 2.033012628555298,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -238,7 +238,7 @@
         -7.699999809265137
       ],
       "object_id": "brick_probe#0",
-      "range": 329.1673583984375,
+      "range": 329.16644287109375,
       "resolution": 256,
       "volume": "brick_probe"
     },
@@ -274,7 +274,7 @@
         -7.699999809265137
       ],
       "object_id": "brick_probe#1",
-      "range": 197.07484436035156,
+      "range": 197.07289123535156,
       "resolution": 256,
       "volume": "brick_probe"
     },
@@ -382,7 +382,7 @@
         -4.199999809265137
       ],
       "object_id": "hallway#0#0",
-      "range": 427.7102355957031,
+      "range": 427.6988525390625,
       "resolution": 256,
       "volume": "hallway#0"
     },
@@ -418,7 +418,7 @@
         -4.199999809265137
       ],
       "object_id": "hallway#0#1",
-      "range": 427.52984619140625,
+      "range": 427.52899169921875,
       "resolution": 256,
       "volume": "hallway#0"
     },
