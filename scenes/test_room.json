@@ -751,7 +751,7 @@
           "socket": "bulb",
           "enabled": true,
           "intensity": 3.0,
-          "mode": "Baked",
+          "mode": "Stationary",
           "color": [
             255,
             236,
@@ -808,7 +808,7 @@
           "socket": "bulb",
           "enabled": true,
           "intensity": 3.0,
-          "mode": "Baked",
+          "mode": "Stationary",
           "color": [
             255,
             236,
@@ -857,7 +857,7 @@
       "lights": [
         {
           "kind": "Spot",
-          "mode": "Baked",
+          "mode": "Stationary",
           "color": [
             255,
             244,
@@ -929,7 +929,7 @@
       "lights": [
         {
           "kind": "Spot",
-          "mode": "Baked",
+          "mode": "Stationary",
           "color": [
             255,
             244,
@@ -1038,7 +1038,7 @@
       "lights": [
         {
           "kind": "Spot",
-          "mode": "Baked",
+          "mode": "Stationary",
           "color": [
             255,
             240,
@@ -1458,7 +1458,7 @@
       "lights": [
         {
           "kind": "Spot",
-          "mode": "Baked",
+          "mode": "Stationary",
           "color": [
             255,
             236,
@@ -1531,7 +1531,7 @@
       "lights": [
         {
           "kind": "Spot",
-          "mode": "Baked",
+          "mode": "Stationary",
           "color": [
             210,
             225,
