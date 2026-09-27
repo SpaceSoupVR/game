@@ -28,3 +28,12 @@ materials/
 # every level in history that silently goes stale the moment anyone edits a
 # brush. Regenerate it from the editor's Geometry panel or the CLI.
 exports/
+
+# Derived from sky.hdr by the editor's two-suns check, and recomputed whenever
+# the panorama changes. Committing it would mean a stale answer travelling with
+# the repo and disagreeing with the file sitting next to it.
+skies/*/sun.json
+
+# The editor's bake-preview scenes: temporary copies written for a preview
+# bake and removed after it. One left behind is not a level.
+scenes/__bake_preview__*.json

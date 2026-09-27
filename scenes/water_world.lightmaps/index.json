@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "object_id": "floor",
+      "file": "000.png",
+      "width": 512,
+      "height": 1024,
+      "target": "object"
+    },
+    {
+      "object_id": "watersky",
+      "file": "001.png",
+      "width": 1,
+      "height": 1,
+      "target": "object"
+    },
+    {
+      "object_id": "spawn_point_entrance",
+      "file": "002.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "pad_to_lobby",
+      "file": "003.png",
+      "width": 1,
+      "height": 1,
+      "target": "object"
+    }
+  ]
+}

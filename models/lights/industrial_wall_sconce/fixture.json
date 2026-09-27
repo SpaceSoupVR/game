@@ -1,0 +1,21 @@
+{
+  "_comment": "Fixture metadata for the editor: which sockets a light can mount on, and what kind of light this housing is for.",
+  "sockets": [
+    {
+      "name": "bulb",
+      "local_pos": [
+        0.0,
+        0.107,
+        0.19
+      ],
+      "local_rot": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "intended_light_kind": "Point",
+  "bulb_socket": "bulb"
+}

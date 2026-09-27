@@ -1,0 +1,23 @@
+{
+  "_comment": [
+    "Metres per tile, per layer, in the order the loader binds them:",
+    "0 ground (Grass005), 1 rock (Rock063), 2 high (Gravel043), 3 sediment (Ground037) -- the order in TERRAIN_LAYER_FILES.",
+    "",
+    "These are PHYSICAL SIZES, not taste. Every layer here is an ambientCG",
+    "surface material, and ambientCG authors its surface scans against a 2 m",
+    "square unless the asset page says otherwise. Tiling one over 8 m stretches",
+    "it 4x, which is why the grass read as blurry beside a marble column whose",
+    "brush UVs were already close to life size -- the same texel budget spread",
+    "over sixteen times the area.",
+    "",
+    "If a specific asset turns out to be authored at 1 m or 4 m, change that one",
+    "number rather than scaling the set: they are independent measurements."
+  ],
+  "repeat": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "normal_strength": 1.0
+}

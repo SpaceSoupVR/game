@@ -1,0 +1,531 @@
+{
+  "probes": [
+    {
+      "encoding": "sqrt16",
+      "file": "0.png",
+      "max": [
+        5.0,
+        3.0,
+        14.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_north#0#0",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "1.png",
+      "max": [
+        5.0,
+        3.0,
+        14.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_north#0#1",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "2.png",
+      "max": [
+        5.0,
+        3.0,
+        14.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_north#0#2",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "3.png",
+      "max": [
+        5.0,
+        3.0,
+        14.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_north#0#3",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "4.png",
+      "max": [
+        5.0,
+        3.0,
+        14.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_north#0#4",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "5.png",
+      "max": [
+        5.0,
+        3.0,
+        14.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_north#0#5",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "6.png",
+      "max": [
+        5.0,
+        3.0,
+        14.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_north#0#6",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "7.png",
+      "max": [
+        5.0,
+        3.0,
+        14.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_north#0#7",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "8.png",
+      "max": [
+        14.0,
+        3.0,
+        5.0
+      ],
+      "min": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_east#0#0",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "9.png",
+      "max": [
+        14.0,
+        3.0,
+        5.0
+      ],
+      "min": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_east#0#1",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "10.png",
+      "max": [
+        14.0,
+        3.0,
+        5.0
+      ],
+      "min": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_east#0#2",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "11.png",
+      "max": [
+        14.0,
+        3.0,
+        5.0
+      ],
+      "min": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_east#0#3",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "12.png",
+      "max": [
+        14.0,
+        3.0,
+        5.0
+      ],
+      "min": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_east#0#4",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "13.png",
+      "max": [
+        14.0,
+        3.0,
+        5.0
+      ],
+      "min": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "object_id": "hall_arm_east#0#5",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "14.png",
+      "max": [
+        22.0,
+        3.0,
+        9.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        0.0
+      ],
+      "object_id": "east_chamber#0#0",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "15.png",
+      "max": [
+        22.0,
+        3.0,
+        9.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        0.0
+      ],
+      "object_id": "east_chamber#0#1",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "16.png",
+      "max": [
+        22.0,
+        3.0,
+        9.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        0.0
+      ],
+      "object_id": "east_chamber#0#2",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "17.png",
+      "max": [
+        22.0,
+        3.0,
+        9.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        0.0
+      ],
+      "object_id": "east_chamber#0#3",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "18.png",
+      "max": [
+        22.0,
+        3.0,
+        9.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        0.0
+      ],
+      "object_id": "east_chamber#0#4",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "19.png",
+      "max": [
+        22.0,
+        3.0,
+        9.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        0.0
+      ],
+      "object_id": "east_chamber#0#5",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "20.png",
+      "max": [
+        8.0,
+        3.0,
+        22.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        15.0
+      ],
+      "object_id": "north_chamber#0#0",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "21.png",
+      "max": [
+        8.0,
+        3.0,
+        22.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        15.0
+      ],
+      "object_id": "north_chamber#0#1",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "22.png",
+      "max": [
+        8.0,
+        3.0,
+        22.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        15.0
+      ],
+      "object_id": "north_chamber#0#2",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "23.png",
+      "max": [
+        8.0,
+        3.0,
+        22.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        15.0
+      ],
+      "object_id": "north_chamber#0#3",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "24.png",
+      "max": [
+        8.0,
+        3.0,
+        22.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        15.0
+      ],
+      "object_id": "north_chamber#0#4",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "25.png",
+      "max": [
+        8.0,
+        3.0,
+        22.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        15.0
+      ],
+      "object_id": "north_chamber#0#5",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "26.png",
+      "max": [
+        22.0,
+        3.0,
+        17.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        9.5
+      ],
+      "object_id": "far_chamber#0#0",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "27.png",
+      "max": [
+        22.0,
+        3.0,
+        17.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        9.5
+      ],
+      "object_id": "far_chamber#0#1",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "28.png",
+      "max": [
+        22.0,
+        3.0,
+        17.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        9.5
+      ],
+      "object_id": "far_chamber#0#2",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "29.png",
+      "max": [
+        22.0,
+        3.0,
+        17.0
+      ],
+      "min": [
+        14.5,
+        0.0,
+        9.5
+      ],
+      "object_id": "far_chamber#0#3",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "30.png",
+      "max": [
+        34.0,
+        9.0,
+        34.0
+      ],
+      "min": [
+        -12.0,
+        -6.0,
+        -12.0
+      ],
+      "object_id": "outdoors",
+      "range": 1.0,
+      "resolution": 64
+    }
+  ]
+}

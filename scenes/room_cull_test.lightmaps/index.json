@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "object_id": "hall_arm_north",
+      "file": "000.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "hall_arm_east",
+      "file": "001.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "east_chamber",
+      "file": "002.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "north_chamber",
+      "file": "003.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "far_chamber",
+      "file": "004.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "hall_pillar",
+      "file": "005.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lamp_hall_n",
+      "file": "006.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lamp_hall_e",
+      "file": "007.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lamp_east",
+      "file": "008.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lamp_north",
+      "file": "009.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "lamp_far",
+      "file": "010.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "spawn",
+      "file": "011.png",
+      "width": 48,
+      "height": 32,
+      "target": "object"
+    },
+    {
+      "object_id": "__brushes__",
+      "file": "012.png",
+      "width": 512,
+      "height": 512,
+      "target": "brush"
+    },
+    {
+      "object_id": "__brushes_dir__",
+      "file": "013.png",
+      "width": 512,
+      "height": 512,
+      "target": "brush"
+    }
+  ]
+}

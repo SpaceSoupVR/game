@@ -1,0 +1,1970 @@
+{
+ "name": "room_cull_test",
+ "sky": {
+  "id": "kloofendal_48d_partly_cloudy_puresky",
+  "intensity": 1.0,
+  "rotation_deg": 0.0,
+  "show_background": true
+ },
+ "post": {
+  "exposure": 1.0,
+  "tonemap": "Aces"
+ },
+ "objects": [
+  {
+   "id": "hall_arm_north",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000001",
+   "cuboid": {
+    "color": [
+     200,
+     200,
+     200,
+     255
+    ],
+    "half_size": [
+     3.0,
+     2.0,
+     7.5
+    ],
+    "position": [
+     2.5,
+     1.5,
+     7.0
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ]
+   },
+   "brush": {
+    "solids": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         5.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         0.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         14.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         0.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ],
+    "subtract": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         5.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         14.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         0.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     },
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         3.6
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -1.8
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         2.2
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         14.7
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -13.8
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "hall_arm_east",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000002",
+   "cuboid": {
+    "color": [
+     200,
+     200,
+     200,
+     255
+    ],
+    "half_size": [
+     5.0,
+     2.0,
+     3.0
+    ],
+    "position": [
+     9.5,
+     1.5,
+     2.5
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ]
+   },
+   "brush": {
+    "solids": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         14.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -4.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         5.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         0.5
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ],
+    "subtract": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         14.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -5.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         5.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         0.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     },
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         14.7
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -13.8
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         2.2
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         3.4
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -1.6
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "east_chamber",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000003",
+   "cuboid": {
+    "color": [
+     200,
+     200,
+     200,
+     255
+    ],
+    "half_size": [
+     4.25,
+     2.0,
+     5.0
+    ],
+    "position": [
+     18.25,
+     1.5,
+     4.5
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ]
+   },
+   "brush": {
+    "solids": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         22.5
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -14.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.5
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.5
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         9.5
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         0.5
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ],
+    "subtract": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         22.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -14.5
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         9.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         0.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     },
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         14.7
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -13.8
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         2.2
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         3.4
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -1.6
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     },
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         17.8
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -16.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         2.2
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         9.7
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -8.8
+        ],
+        "material": "Bricks075A",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "north_chamber",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000004",
+   "cuboid": {
+    "color": [
+     200,
+     200,
+     200,
+     255
+    ],
+    "half_size": [
+     4.5,
+     2.0,
+     4.0
+    ],
+    "position": [
+     4.0,
+     1.5,
+     18.5
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ]
+   },
+   "brush": {
+    "solids": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         8.5
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         0.5
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.5
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.5
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         22.5
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -14.5
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ],
+    "subtract": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         8.0
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.0
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         22.0
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -15.0
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     },
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         3.6
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -1.8
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         2.2
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         14.7
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -13.8
+        ],
+        "material": "Rock063",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "far_chamber",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000005",
+   "cuboid": {
+    "color": [
+     200,
+     200,
+     200,
+     255
+    ],
+    "half_size": [
+     4.25,
+     2.0,
+     4.25
+    ],
+    "position": [
+     18.25,
+     1.5,
+     13.25
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ]
+   },
+   "brush": {
+    "solids": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         22.5
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -14.0
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.5
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.5
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         17.5
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -9.0
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ],
+    "subtract": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         22.0
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -14.5
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.0
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         17.0
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -9.5
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     },
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         17.8
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -16.0
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         2.2
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         9.7
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -8.8
+        ],
+        "material": "Gravel043",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "hall_pillar",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000006",
+   "cuboid": {
+    "color": [
+     200,
+     200,
+     200,
+     255
+    ],
+    "half_size": [
+     0.5,
+     1.5,
+     0.5
+    ],
+    "position": [
+     2.5,
+     1.5,
+     6.5
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ]
+   },
+   "brush": {
+    "solids": [
+     {
+      "faces": [
+       {
+        "plane": [
+         1.0,
+         0.0,
+         0.0,
+         3.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         -1.0,
+         0.0,
+         0.0,
+         -2.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         1.0,
+         0.0,
+         3.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         -1.0,
+         0.0,
+         0.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         1.0,
+         7.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       },
+       {
+        "plane": [
+         0.0,
+         0.0,
+         -1.0,
+         -6.0
+        ],
+        "material": "Marble020",
+        "scale": [
+         2.0,
+         2.0
+        ]
+       }
+      ]
+     }
+    ],
+    "subtract": []
+   }
+  },
+  {
+   "id": "lamp_hall_n",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000007",
+   "hidden": true,
+   "cuboid": {
+    "color": [
+     255,
+     240,
+     210,
+     255
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "position": [
+     2.5,
+     2.8,
+     10.0
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     255,
+     255,
+     200,
+     255
+    ]
+   },
+   "lights": [
+    {
+     "kind": "Spot",
+     "mode": "Realtime",
+     "intensity": 7.0,
+     "range": 9.0,
+     "cone_angle_deg": 85.0,
+     "color": [
+      255,
+      244,
+      224,
+      255
+     ],
+     "direction": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lamp_hall_e",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000008",
+   "hidden": true,
+   "cuboid": {
+    "color": [
+     255,
+     240,
+     210,
+     255
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "position": [
+     9.5,
+     2.8,
+     2.5
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     255,
+     255,
+     200,
+     255
+    ]
+   },
+   "lights": [
+    {
+     "kind": "Spot",
+     "mode": "Realtime",
+     "intensity": 7.0,
+     "range": 9.0,
+     "cone_angle_deg": 85.0,
+     "color": [
+      255,
+      244,
+      224,
+      255
+     ],
+     "direction": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lamp_east",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000009",
+   "hidden": true,
+   "cuboid": {
+    "color": [
+     255,
+     240,
+     210,
+     255
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "position": [
+     18.0,
+     2.8,
+     4.5
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     255,
+     255,
+     200,
+     255
+    ]
+   },
+   "lights": [
+    {
+     "kind": "Spot",
+     "mode": "Realtime",
+     "intensity": 7.0,
+     "range": 9.0,
+     "cone_angle_deg": 85.0,
+     "color": [
+      255,
+      244,
+      224,
+      255
+     ],
+     "direction": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lamp_north",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000010",
+   "hidden": true,
+   "cuboid": {
+    "color": [
+     255,
+     240,
+     210,
+     255
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "position": [
+     4.0,
+     2.8,
+     18.5
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     255,
+     255,
+     200,
+     255
+    ]
+   },
+   "lights": [
+    {
+     "kind": "Spot",
+     "mode": "Realtime",
+     "intensity": 7.0,
+     "range": 9.0,
+     "cone_angle_deg": 85.0,
+     "color": [
+      255,
+      244,
+      224,
+      255
+     ],
+     "direction": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lamp_far",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000011",
+   "hidden": true,
+   "cuboid": {
+    "color": [
+     255,
+     240,
+     210,
+     255
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "position": [
+     18.0,
+     2.8,
+     13.0
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     255,
+     255,
+     200,
+     255
+    ]
+   },
+   "lights": [
+    {
+     "kind": "Spot",
+     "mode": "Realtime",
+     "intensity": 7.0,
+     "range": 9.0,
+     "cone_angle_deg": 85.0,
+     "color": [
+      255,
+      244,
+      224,
+      255
+     ],
+     "direction": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spawn",
+   "uuid": "b0b0c0d0-0000-4000-8000-000000000012",
+   "spawn_point": {},
+   "cuboid": {
+    "color": [
+     140,
+     255,
+     170,
+     255
+    ],
+    "half_size": [
+     0.05,
+     0.05,
+     0.05
+    ],
+    "position": [
+     2.5,
+     0.02,
+     11.0
+    ],
+    "rotation": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "style": "Solid",
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ]
+   }
+  }
+ ]
+}
