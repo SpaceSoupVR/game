@@ -94,7 +94,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#0",
-      "range": 3.704360246658325,
+      "range": 3.704373836517334,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -130,7 +130,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#1",
-      "range": 3.689663887023926,
+      "range": 3.6896774768829346,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -202,7 +202,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#3",
-      "range": 2.032979965209961,
+      "range": 2.032994508743286,
       "resolution": 256,
       "volume": "hall_probe"
     },
