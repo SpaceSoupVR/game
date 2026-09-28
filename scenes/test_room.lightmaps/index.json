@@ -160,6 +160,22 @@
       "height": 768,
       "target": "terrain",
       "encoding": "srgb8"
+    },
+    {
+      "object_id": "__terrain_stationary_0__",
+      "file": "020.png",
+      "width": 768,
+      "height": 768,
+      "target": "terrain",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "__terrain_stationary_1__",
+      "file": "021.png",
+      "width": 768,
+      "height": 768,
+      "target": "terrain",
+      "encoding": "srgb8"
     }
   ]
 }
