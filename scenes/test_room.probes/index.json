@@ -1,4 +1,57 @@
 {
+  "buildings": [
+    {
+      "encoding": "sqrt16",
+      "file": "building_0.png",
+      "max": [
+        3.0,
+        3.4000000953674316,
+        4.0
+      ],
+      "min": [
+        -3.0,
+        0.0,
+        -16.0
+      ],
+      "object_id": "hall_shell",
+      "range": 1.0,
+      "resolution": 256
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "building_1.png",
+      "max": [
+        10.0,
+        2.9000000953674316,
+        -1.5
+      ],
+      "min": [
+        3.0,
+        -0.30000007152557373,
+        -4.5
+      ],
+      "object_id": "hallway",
+      "range": 112.54969787597656,
+      "resolution": 256
+    },
+    {
+      "encoding": "sqrt16",
+      "file": "building_2.png",
+      "max": [
+        18.0,
+        3.4000000953674316,
+        4.0
+      ],
+      "min": [
+        10.0,
+        0.0,
+        -8.0
+      ],
+      "object_id": "brick_hall",
+      "range": 1.0,
+      "resolution": 256
+    }
+  ],
   "portals": [
     {
       "axis": 2,
