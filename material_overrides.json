@@ -1,0 +1,6 @@
+{
+  "_comment": "Committed settings for materials from the downloaded library (materials/ is not committed). \"roughness\": {\"min\", \"max\"} is what the material's roughness map's 0 and 1 stand for. Rock063 ships at 0.33-0.59, which read as wet, mirror-like rock in the hallway (headset, 2026-09-29); read here as dry stone.",
+  "Rock063": {
+    "roughness": { "min": 0.55, "max": 1.0 }
+  }
+}
