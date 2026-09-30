@@ -71,21 +71,21 @@
       "encoding": "sqrt16+depth16+normal16",
       "file": "cards_2.png",
       "object_id": "hall_spot_1",
-      "range": 1.0,
+      "range": 2473.431396484375,
       "resolution": 64
     },
     {
       "encoding": "sqrt16+depth16+normal16",
       "file": "cards_3.png",
       "object_id": "hall_spot_2",
-      "range": 1.0,
+      "range": 824.49658203125,
       "resolution": 64
     },
     {
       "encoding": "sqrt16+depth16+normal16",
       "file": "cards_4.png",
       "object_id": "brick_lamp",
-      "range": 1.0,
+      "range": 1923.8072509765625,
       "resolution": 64
     }
   ],
