@@ -57,14 +57,14 @@
       "encoding": "sqrt16+depth16+normal16",
       "file": "cards_0.png",
       "object_id": "hallway_sconce_south",
-      "range": 221.08792114257812,
+      "range": 1201.358154296875,
       "resolution": 64
     },
     {
       "encoding": "sqrt16+depth16+normal16",
       "file": "cards_1.png",
       "object_id": "hallway_sconce_north",
-      "range": 221.08802795410156,
+      "range": 1201.2921142578125,
       "resolution": 64
     },
     {
