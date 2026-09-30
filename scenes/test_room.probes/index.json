@@ -52,6 +52,43 @@
       "resolution": 256
     }
   ],
+  "cards": [
+    {
+      "encoding": "sqrt16+depth16",
+      "file": "cards_0.png",
+      "object_id": "hallway_sconce_south",
+      "range": 221.08792114257812,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16+depth16",
+      "file": "cards_1.png",
+      "object_id": "hallway_sconce_north",
+      "range": 221.08802795410156,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16+depth16",
+      "file": "cards_2.png",
+      "object_id": "hall_spot_1",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16+depth16",
+      "file": "cards_3.png",
+      "object_id": "hall_spot_2",
+      "range": 1.0,
+      "resolution": 64
+    },
+    {
+      "encoding": "sqrt16+depth16",
+      "file": "cards_4.png",
+      "object_id": "brick_lamp",
+      "range": 1.0,
+      "resolution": 64
+    }
+  ],
   "portals": [
     {
       "axis": 2,
@@ -219,7 +256,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#2",
-      "range": 25.50286102294922,
+      "range": 3.619896173477173,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -291,7 +328,7 @@
         -7.699999809265137
       ],
       "object_id": "brick_probe#0",
-      "range": 31.108983993530273,
+      "range": 4.251134872436523,
       "resolution": 256,
       "volume": "brick_probe"
     },
@@ -327,7 +364,7 @@
         -7.699999809265137
       ],
       "object_id": "brick_probe#1",
-      "range": 18.6804141998291,
+      "range": 3.7668521404266357,
       "resolution": 256,
       "volume": "brick_probe"
     },
@@ -399,7 +436,7 @@
         -7.699999809265137
       ],
       "object_id": "brick_probe#3",
-      "range": 5.911520957946777,
+      "range": 1.0,
       "resolution": 256,
       "volume": "brick_probe"
     },
@@ -435,7 +472,7 @@
         -4.199999809265137
       ],
       "object_id": "hallway#0#0",
-      "range": 589.4075927734375,
+      "range": 4.534706115722656,
       "resolution": 256,
       "volume": "hallway#0"
     },
@@ -471,7 +508,7 @@
         -4.199999809265137
       ],
       "object_id": "hallway#0#1",
-      "range": 589.4081420898438,
+      "range": 4.403964996337891,
       "resolution": 256,
       "volume": "hallway#0"
     },
@@ -543,7 +580,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#4",
-      "range": 19.799530029296875,
+      "range": 3.680732011795044,
       "resolution": 256,
       "volume": "hall_probe"
     },
