@@ -54,35 +54,35 @@
   ],
   "cards": [
     {
-      "encoding": "sqrt16+depth16",
+      "encoding": "sqrt16+depth16+normal16",
       "file": "cards_0.png",
       "object_id": "hallway_sconce_south",
       "range": 221.08792114257812,
       "resolution": 64
     },
     {
-      "encoding": "sqrt16+depth16",
+      "encoding": "sqrt16+depth16+normal16",
       "file": "cards_1.png",
       "object_id": "hallway_sconce_north",
       "range": 221.08802795410156,
       "resolution": 64
     },
     {
-      "encoding": "sqrt16+depth16",
+      "encoding": "sqrt16+depth16+normal16",
       "file": "cards_2.png",
       "object_id": "hall_spot_1",
       "range": 1.0,
       "resolution": 64
     },
     {
-      "encoding": "sqrt16+depth16",
+      "encoding": "sqrt16+depth16+normal16",
       "file": "cards_3.png",
       "object_id": "hall_spot_2",
       "range": 1.0,
       "resolution": 64
     },
     {
-      "encoding": "sqrt16+depth16",
+      "encoding": "sqrt16+depth16+normal16",
       "file": "cards_4.png",
       "object_id": "brick_lamp",
       "range": 1.0,
