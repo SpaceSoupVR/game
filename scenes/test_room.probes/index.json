@@ -31,7 +31,7 @@
         -4.5
       ],
       "object_id": "hallway",
-      "range": 1.0,
+      "range": 1.055199384689331,
       "resolution": 256
     },
     {
@@ -184,7 +184,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#0",
-      "range": 3.704294204711914,
+      "range": 3.8090269565582275,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -220,7 +220,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#1",
-      "range": 3.68959903717041,
+      "range": 3.6450626850128174,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -256,7 +256,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#2",
-      "range": 3.619896173477173,
+      "range": 4.346545219421387,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -292,7 +292,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#3",
-      "range": 2.0329136848449707,
+      "range": 2.0037081241607666,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -328,7 +328,7 @@
         -7.699999809265137
       ],
       "object_id": "brick_probe#0",
-      "range": 4.251134872436523,
+      "range": 5.77933406829834,
       "resolution": 256,
       "volume": "brick_probe"
     },
@@ -364,7 +364,7 @@
         -7.699999809265137
       ],
       "object_id": "brick_probe#1",
-      "range": 3.7668521404266357,
+      "range": 4.849991798400879,
       "resolution": 256,
       "volume": "brick_probe"
     },
@@ -472,7 +472,7 @@
         -4.199999809265137
       ],
       "object_id": "hallway#0#0",
-      "range": 4.534706115722656,
+      "range": 12.350006103515625,
       "resolution": 256,
       "volume": "hallway#0"
     },
@@ -508,7 +508,7 @@
         -4.199999809265137
       ],
       "object_id": "hallway#0#1",
-      "range": 4.403964996337891,
+      "range": 10.476981163024902,
       "resolution": 256,
       "volume": "hallway#0"
     },
@@ -580,7 +580,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#4",
-      "range": 3.680732011795044,
+      "range": 3.6236705780029297,
       "resolution": 256,
       "volume": "hall_probe"
     },
@@ -616,7 +616,7 @@
         -15.699999809265137
       ],
       "object_id": "hall_probe#5",
-      "range": 1.476182222366333,
+      "range": 1.4401068687438965,
       "resolution": 256,
       "volume": "hall_probe"
     }
