@@ -54,7 +54,7 @@
   ],
   "cards": [
     {
-      "encoding": "sqrt16+depth16+normal16",
+      "encoding": "sqrt16+depth16+normal16+albedo16",
       "file": "cards_0.png",
       "glare": "cards_0.glare.json",
       "object_id": "hallway_sconce_south",
@@ -62,7 +62,7 @@
       "resolution": 64
     },
     {
-      "encoding": "sqrt16+depth16+normal16",
+      "encoding": "sqrt16+depth16+normal16+albedo16",
       "file": "cards_1.png",
       "glare": "cards_1.glare.json",
       "object_id": "hallway_sconce_north",
@@ -70,7 +70,7 @@
       "resolution": 64
     },
     {
-      "encoding": "sqrt16+depth16+normal16",
+      "encoding": "sqrt16+depth16+normal16+albedo16",
       "file": "cards_2.png",
       "glare": "cards_2.glare.json",
       "object_id": "hall_spot_1",
@@ -78,7 +78,7 @@
       "resolution": 64
     },
     {
-      "encoding": "sqrt16+depth16+normal16",
+      "encoding": "sqrt16+depth16+normal16+albedo16",
       "file": "cards_3.png",
       "glare": "cards_3.glare.json",
       "object_id": "hall_spot_2",
@@ -86,7 +86,7 @@
       "resolution": 64
     },
     {
-      "encoding": "sqrt16+depth16+normal16",
+      "encoding": "sqrt16+depth16+normal16+albedo16",
       "file": "cards_4.png",
       "glare": "cards_4.glare.json",
       "object_id": "brick_lamp",
