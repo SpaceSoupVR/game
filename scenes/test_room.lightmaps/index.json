@@ -114,8 +114,88 @@
       "encoding": "f16"
     },
     {
-      "object_id": "hallway_sconce_south#stationary_0",
+      "object_id": "brick_fire",
       "file": "014.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "brick_fire_coals",
+      "file": "015.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "brick_fire_smoke",
+      "file": "016.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "brick_fire_embers",
+      "file": "017.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "cave_bonfire",
+      "file": "018.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "cave_bonfire_coals",
+      "file": "019.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "cave_bonfire_smoke",
+      "file": "020.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "cave_bonfire_embers",
+      "file": "021.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hall_dust",
+      "file": "022.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "cave",
+      "file": "023.png",
+      "width": 1024,
+      "height": 512,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "hallway_sconce_south#stationary_0",
+      "file": "024.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -123,7 +203,7 @@
     },
     {
       "object_id": "hallway_sconce_south#stationary_1",
-      "file": "015.png",
+      "file": "025.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -131,7 +211,7 @@
     },
     {
       "object_id": "hallway_sconce_north#stationary_0",
-      "file": "016.png",
+      "file": "026.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -139,7 +219,7 @@
     },
     {
       "object_id": "hallway_sconce_north#stationary_1",
-      "file": "017.png",
+      "file": "027.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -147,7 +227,7 @@
     },
     {
       "object_id": "hall_spot_1#stationary_0",
-      "file": "018.png",
+      "file": "028.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -155,7 +235,7 @@
     },
     {
       "object_id": "hall_spot_1#stationary_1",
-      "file": "019.png",
+      "file": "029.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -163,7 +243,7 @@
     },
     {
       "object_id": "hall_spot_2#stationary_0",
-      "file": "020.png",
+      "file": "030.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -171,7 +251,7 @@
     },
     {
       "object_id": "hall_spot_2#stationary_1",
-      "file": "021.png",
+      "file": "031.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -179,7 +259,7 @@
     },
     {
       "object_id": "brick_lamp#stationary_0",
-      "file": "022.png",
+      "file": "032.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -187,7 +267,7 @@
     },
     {
       "object_id": "brick_lamp#stationary_1",
-      "file": "023.png",
+      "file": "033.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -195,7 +275,7 @@
     },
     {
       "object_id": "__brushes__",
-      "file": "024.png",
+      "file": "034.png",
       "width": 1024,
       "height": 512,
       "target": "brush",
@@ -203,7 +283,7 @@
     },
     {
       "object_id": "__brushes_dir__",
-      "file": "025.png",
+      "file": "035.png",
       "width": 1024,
       "height": 512,
       "target": "brush",
@@ -211,7 +291,7 @@
     },
     {
       "object_id": "__brushes_sun__",
-      "file": "026.png",
+      "file": "036.png",
       "width": 4096,
       "height": 2048,
       "target": "brush",
@@ -219,7 +299,7 @@
     },
     {
       "object_id": "__brushes_stationary_0__",
-      "file": "027.png",
+      "file": "037.png",
       "width": 2048,
       "height": 1024,
       "target": "brush",
@@ -227,7 +307,7 @@
     },
     {
       "object_id": "__brushes_stationary_1__",
-      "file": "028.png",
+      "file": "038.png",
       "width": 2048,
       "height": 1024,
       "target": "brush",
@@ -235,7 +315,7 @@
     },
     {
       "object_id": "__terrain_sky__",
-      "file": "029.png",
+      "file": "039.png",
       "width": 768,
       "height": 768,
       "target": "terrain",
@@ -243,7 +323,7 @@
     },
     {
       "object_id": "__terrain_stationary_0__",
-      "file": "030.png",
+      "file": "040.png",
       "width": 768,
       "height": 768,
       "target": "terrain",
@@ -251,7 +331,7 @@
     },
     {
       "object_id": "__terrain_stationary_1__",
-      "file": "031.png",
+      "file": "041.png",
       "width": 768,
       "height": 768,
       "target": "terrain",
