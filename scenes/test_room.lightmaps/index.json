@@ -189,7 +189,7 @@
       "object_id": "cave",
       "file": "023.png",
       "width": 1024,
-      "height": 1024,
+      "height": 512,
       "target": "object",
       "encoding": "f16"
     },
