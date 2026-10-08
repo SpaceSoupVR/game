@@ -978,6 +978,7 @@
       "depth_scale": 0.4,
       "fetch": 20,
       "height": -0.368,
+      "max_wade_depth": 10,
       "shallow": [150, 180, 130],
       "shore_fade": 0.12,
       "swell": 0.015,
