@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "entries": [
+    {
+      "object_id": "__brushes_lamps__",
+      "file": "brushes_lamps.png",
+      "width": 1024,
+      "height": 512,
+      "target": "brush",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "__brushes_sky__",
+      "file": "brushes_sky.png",
+      "width": 1024,
+      "height": 512,
+      "target": "brush",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "__brushes_sunlight__",
+      "file": "brushes_sunlight.png",
+      "width": 1024,
+      "height": 512,
+      "target": "brush",
+      "encoding": "f16"
+    }
+  ]
+}
