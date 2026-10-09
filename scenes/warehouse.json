@@ -1,0 +1,376 @@
+{
+ "name": "warehouse",
+ "objects": [
+  {
+   "id": "mirror",
+   "cuboid": {
+    "position": [
+     0.0,
+     1.0,
+     -2.0
+    ],
+    "half_size": [
+     0.9,
+     1.0,
+     0.03
+    ],
+    "rotation": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "color": [
+     15,
+     15,
+     18,
+     255
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "pistol",
+   "cuboid": {
+    "position": [
+     0.3,
+     1.0,
+     -0.8
+    ],
+    "half_size": [
+     0.092,
+     0.063,
+     0.016
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "prop": {
+    "path": "models/props/pistol/pistol.prop.json"
+   }
+  },
+  {
+   "id": "pad_boy",
+   "cuboid": {
+    "position": [
+     -0.75,
+     1.0,
+     -1.3
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     70,
+     130,
+     230,
+     255
+    ],
+    "wire_color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "style": "SolidAndWire"
+   },
+   "selector": {
+    "set": "body",
+    "value": "boy"
+   }
+  },
+  {
+   "id": "sign_boy",
+   "cuboid": {
+    "position": [
+     -0.75,
+     1.22,
+     -1.3
+    ],
+    "half_size": [
+     0.15,
+     0.06,
+     0.005
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/signs/sign_boy.glb"
+   }
+  },
+  {
+   "id": "pad_soldier",
+   "cuboid": {
+    "position": [
+     -0.35,
+     1.0,
+     -1.3
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     90,
+     140,
+     70,
+     255
+    ],
+    "wire_color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "style": "SolidAndWire"
+   },
+   "selector": {
+    "set": "body",
+    "value": "soldier"
+   }
+  },
+  {
+   "id": "sign_soldier",
+   "cuboid": {
+    "position": [
+     -0.35,
+     1.22,
+     -1.3
+    ],
+    "half_size": [
+     0.15,
+     0.06,
+     0.005
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/signs/sign_soldier.glb"
+   }
+  },
+  {
+   "id": "pad_hands_default",
+   "cuboid": {
+    "position": [
+     0.35,
+     1.0,
+     -1.3
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     150,
+     150,
+     155,
+     255
+    ],
+    "wire_color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "style": "SolidAndWire"
+   },
+   "selector": {
+    "set": "hands",
+    "value": "own"
+   }
+  },
+  {
+   "id": "sign_hands_default",
+   "cuboid": {
+    "position": [
+     0.35,
+     1.22,
+     -1.3
+    ],
+    "half_size": [
+     0.15,
+     0.06,
+     0.005
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/signs/sign_hands_default.glb"
+   }
+  },
+  {
+   "id": "pad_gloves",
+   "cuboid": {
+    "position": [
+     0.75,
+     1.0,
+     -1.3
+    ],
+    "half_size": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     227,
+     154,
+     59,
+     255
+    ],
+    "wire_color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "style": "SolidAndWire"
+   },
+   "selector": {
+    "set": "hands",
+    "value": "gloves"
+   }
+  },
+  {
+   "id": "sign_gloves",
+   "cuboid": {
+    "position": [
+     0.75,
+     1.22,
+     -1.3
+    ],
+    "half_size": [
+     0.15,
+     0.06,
+     0.005
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/signs/sign_gloves.glb"
+   }
+  }
+ ]
+}

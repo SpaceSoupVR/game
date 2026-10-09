@@ -1,0 +1,65 @@
+{
+  "left": {
+    "hand_scale": 1.0,
+    "curl_max_deg": 80.0,
+    "thumb_touch": 0.35,
+    "rest": [
+      0.05,
+      0.08,
+      0.12,
+      0.12,
+      0.12
+    ],
+    "wrist_pos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrist_rot_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "finger_spread": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thumb_twist": 0.0
+  },
+  "right": {
+    "hand_scale": 1.0,
+    "curl_max_deg": 80.0,
+    "thumb_touch": 0.35,
+    "rest": [
+      0.05,
+      0.08,
+      0.12,
+      0.12,
+      0.12
+    ],
+    "wrist_pos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrist_rot_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "finger_spread": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "thumb_twist": 0.0
+  },
+  "editing_left": false,
+  "multiplayer_enabled": false,
+  "height_cm": 186.0
+}
