@@ -1,0 +1,2133 @@
+{
+ "name": "one_world",
+ "objects": [
+  {
+   "id": "plaza",
+   "cuboid": {
+    "position": [
+     0,
+     -0.1,
+     0
+    ],
+    "half_size": [
+     9,
+     0.1,
+     9
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     213,
+     198,
+     169,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "plaza_rim",
+   "cuboid": {
+    "position": [
+     0,
+     -0.22,
+     0
+    ],
+    "half_size": [
+     9.6,
+     0.12,
+     9.6
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     23,
+     90,
+     125,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "path",
+   "cuboid": {
+    "position": [
+     0,
+     0.02,
+     4.6
+    ],
+    "half_size": [
+     0.9,
+     0.012,
+     4.4
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     168,
+     149,
+     121,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "pond_rim",
+   "cuboid": {
+    "position": [
+     4.6,
+     0.012,
+     3.8
+    ],
+    "half_size": [
+     2.25,
+     0.012,
+     1.75
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     178,
+     168,
+     148,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "pond",
+   "cuboid": {
+    "position": [
+     4.6,
+     0.03,
+     3.8
+    ],
+    "half_size": [
+     2.0,
+     0.015,
+     1.5
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     94,
+     158,
+     196,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree1_trunk",
+   "cuboid": {
+    "position": [
+     -5.5,
+     0.5,
+     -4.5
+    ],
+    "half_size": [
+     0.14,
+     0.5,
+     0.14
+    ],
+    "rotation": [
+     0,
+     0.0,
+     0,
+     1.0
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree1_leaf_a",
+   "cuboid": {
+    "position": [
+     -5.5,
+     1.35,
+     -4.5
+    ],
+    "half_size": [
+     0.8,
+     0.5,
+     0.8
+    ],
+    "rotation": [
+     0,
+     0.0,
+     0,
+     1.0
+    ],
+    "color": [
+     86,
+     130,
+     74,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree1_leaf_b",
+   "cuboid": {
+    "position": [
+     -5.5,
+     2.15,
+     -4.5
+    ],
+    "half_size": [
+     0.55,
+     0.4,
+     0.55
+    ],
+    "rotation": [
+     0,
+     0.0,
+     0,
+     1.0
+    ],
+    "color": [
+     104,
+     150,
+     82,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree1_leaf_c",
+   "cuboid": {
+    "position": [
+     -5.5,
+     2.75,
+     -4.5
+    ],
+    "half_size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "rotation": [
+     0,
+     0.0,
+     0,
+     1.0
+    ],
+    "color": [
+     120,
+     164,
+     92,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree2_trunk",
+   "cuboid": {
+    "position": [
+     -6.2,
+     0.5,
+     2.5
+    ],
+    "half_size": [
+     0.14,
+     0.5,
+     0.14
+    ],
+    "rotation": [
+     0,
+     0.2164,
+     0,
+     0.9763
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree2_leaf_a",
+   "cuboid": {
+    "position": [
+     -6.2,
+     1.35,
+     2.5
+    ],
+    "half_size": [
+     0.8,
+     0.5,
+     0.8
+    ],
+    "rotation": [
+     0,
+     0.2164,
+     0,
+     0.9763
+    ],
+    "color": [
+     86,
+     130,
+     74,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree2_leaf_b",
+   "cuboid": {
+    "position": [
+     -6.2,
+     2.15,
+     2.5
+    ],
+    "half_size": [
+     0.55,
+     0.4,
+     0.55
+    ],
+    "rotation": [
+     0,
+     0.2164,
+     0,
+     0.9763
+    ],
+    "color": [
+     104,
+     150,
+     82,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree2_leaf_c",
+   "cuboid": {
+    "position": [
+     -6.2,
+     2.75,
+     2.5
+    ],
+    "half_size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "rotation": [
+     0,
+     0.2164,
+     0,
+     0.9763
+    ],
+    "color": [
+     120,
+     164,
+     92,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree3_trunk",
+   "cuboid": {
+    "position": [
+     6.3,
+     0.5,
+     -4.8
+    ],
+    "half_size": [
+     0.14,
+     0.5,
+     0.14
+    ],
+    "rotation": [
+     0,
+     -0.342,
+     0,
+     0.9397
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree3_leaf_a",
+   "cuboid": {
+    "position": [
+     6.3,
+     1.35,
+     -4.8
+    ],
+    "half_size": [
+     0.8,
+     0.5,
+     0.8
+    ],
+    "rotation": [
+     0,
+     -0.342,
+     0,
+     0.9397
+    ],
+    "color": [
+     86,
+     130,
+     74,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree3_leaf_b",
+   "cuboid": {
+    "position": [
+     6.3,
+     2.15,
+     -4.8
+    ],
+    "half_size": [
+     0.55,
+     0.4,
+     0.55
+    ],
+    "rotation": [
+     0,
+     -0.342,
+     0,
+     0.9397
+    ],
+    "color": [
+     104,
+     150,
+     82,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree3_leaf_c",
+   "cuboid": {
+    "position": [
+     6.3,
+     2.75,
+     -4.8
+    ],
+    "half_size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "rotation": [
+     0,
+     -0.342,
+     0,
+     0.9397
+    ],
+    "color": [
+     120,
+     164,
+     92,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree4_trunk",
+   "cuboid": {
+    "position": [
+     2.8,
+     0.5,
+     -6.0
+    ],
+    "half_size": [
+     0.14,
+     0.5,
+     0.14
+    ],
+    "rotation": [
+     0,
+     0.5736,
+     0,
+     0.8192
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree4_leaf_a",
+   "cuboid": {
+    "position": [
+     2.8,
+     1.35,
+     -6.0
+    ],
+    "half_size": [
+     0.8,
+     0.5,
+     0.8
+    ],
+    "rotation": [
+     0,
+     0.5736,
+     0,
+     0.8192
+    ],
+    "color": [
+     86,
+     130,
+     74,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree4_leaf_b",
+   "cuboid": {
+    "position": [
+     2.8,
+     2.15,
+     -6.0
+    ],
+    "half_size": [
+     0.55,
+     0.4,
+     0.55
+    ],
+    "rotation": [
+     0,
+     0.5736,
+     0,
+     0.8192
+    ],
+    "color": [
+     104,
+     150,
+     82,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree4_leaf_c",
+   "cuboid": {
+    "position": [
+     2.8,
+     2.75,
+     -6.0
+    ],
+    "half_size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "rotation": [
+     0,
+     0.5736,
+     0,
+     0.8192
+    ],
+    "color": [
+     120,
+     164,
+     92,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree5_trunk",
+   "cuboid": {
+    "position": [
+     -2.5,
+     0.5,
+     6.2
+    ],
+    "half_size": [
+     0.14,
+     0.5,
+     0.14
+    ],
+    "rotation": [
+     0,
+     0.0872,
+     0,
+     0.9962
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree5_leaf_a",
+   "cuboid": {
+    "position": [
+     -2.5,
+     1.35,
+     6.2
+    ],
+    "half_size": [
+     0.8,
+     0.5,
+     0.8
+    ],
+    "rotation": [
+     0,
+     0.0872,
+     0,
+     0.9962
+    ],
+    "color": [
+     86,
+     130,
+     74,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree5_leaf_b",
+   "cuboid": {
+    "position": [
+     -2.5,
+     2.15,
+     6.2
+    ],
+    "half_size": [
+     0.55,
+     0.4,
+     0.55
+    ],
+    "rotation": [
+     0,
+     0.0872,
+     0,
+     0.9962
+    ],
+    "color": [
+     104,
+     150,
+     82,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "tree5_leaf_c",
+   "cuboid": {
+    "position": [
+     -2.5,
+     2.75,
+     6.2
+    ],
+    "half_size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "rotation": [
+     0,
+     0.0872,
+     0,
+     0.9962
+    ],
+    "color": [
+     120,
+     164,
+     92,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "lantern1",
+   "cuboid": {
+    "position": [
+     -3.0,
+     0.0,
+     -3.0
+    ],
+    "half_size": [
+     0.25,
+     1.16,
+     0.25
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/Lantern.glb",
+    "scale": [
+     0.09,
+     0.09,
+     0.09
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "lantern1_light",
+   "cuboid": {
+    "position": [
+     -3.0,
+     1.9,
+     -3.0
+    ],
+    "half_size": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     240,
+     200,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "hidden": true,
+   "lights": [
+    {
+     "kind": "Point",
+     "color": [
+      255,
+      198,
+      112,
+      255
+     ],
+     "intensity": 140,
+     "range": 9
+    }
+   ]
+  },
+  {
+   "id": "lantern2",
+   "cuboid": {
+    "position": [
+     3.0,
+     0.0,
+     -3.0
+    ],
+    "half_size": [
+     0.25,
+     1.16,
+     0.25
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/Lantern.glb",
+    "scale": [
+     0.09,
+     0.09,
+     0.09
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "lantern2_light",
+   "cuboid": {
+    "position": [
+     3.0,
+     1.9,
+     -3.0
+    ],
+    "half_size": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     240,
+     200,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "hidden": true,
+   "lights": [
+    {
+     "kind": "Point",
+     "color": [
+      255,
+      198,
+      112,
+      255
+     ],
+     "intensity": 140,
+     "range": 9
+    }
+   ]
+  },
+  {
+   "id": "lantern3",
+   "cuboid": {
+    "position": [
+     -4.5,
+     0.0,
+     3.5
+    ],
+    "half_size": [
+     0.25,
+     1.16,
+     0.25
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/Lantern.glb",
+    "scale": [
+     0.09,
+     0.09,
+     0.09
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "lantern3_light",
+   "cuboid": {
+    "position": [
+     -4.5,
+     1.9,
+     3.5
+    ],
+    "half_size": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     240,
+     200,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "hidden": true,
+   "lights": [
+    {
+     "kind": "Point",
+     "color": [
+      255,
+      198,
+      112,
+      255
+     ],
+     "intensity": 140,
+     "range": 9
+    }
+   ]
+  },
+  {
+   "id": "duck",
+   "cuboid": {
+    "position": [
+     4.6,
+     -0.03,
+     3.8
+    ],
+    "half_size": [
+     0.4,
+     0.4,
+     0.4
+    ],
+    "rotation": [
+     0,
+     -0.4226,
+     0,
+     0.9063
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/Duck.glb",
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "duckling",
+   "cuboid": {
+    "position": [
+     3.6,
+     -0.02,
+     4.4
+    ],
+    "half_size": [
+     0.2,
+     0.2,
+     0.2
+    ],
+    "rotation": [
+     0,
+     0.9397,
+     0,
+     0.342
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/Duck.glb",
+    "scale": [
+     0.22,
+     0.22,
+     0.22
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "dock",
+   "cuboid": {
+    "position": [
+     2.95,
+     0.09,
+     3.6
+    ],
+    "half_size": [
+     0.7,
+     0.04,
+     0.35
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     150,
+     112,
+     74,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "dock_leg_a",
+   "cuboid": {
+    "position": [
+     3.4,
+     0.0,
+     3.35
+    ],
+    "half_size": [
+     0.06,
+     0.09,
+     0.06
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "dock_leg_b",
+   "cuboid": {
+    "position": [
+     3.4,
+     0.0,
+     3.85
+    ],
+    "half_size": [
+     0.06,
+     0.09,
+     0.06
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "bench_seat",
+   "cuboid": {
+    "position": [
+     1.2,
+     0.42,
+     1.7
+    ],
+    "half_size": [
+     0.6,
+     0.05,
+     0.22
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     150,
+     112,
+     74,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "bench_leg_a",
+   "cuboid": {
+    "position": [
+     0.75,
+     0.2,
+     1.7
+    ],
+    "half_size": [
+     0.07,
+     0.2,
+     0.18
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "bench_leg_b",
+   "cuboid": {
+    "position": [
+     1.65,
+     0.2,
+     1.7
+    ],
+    "half_size": [
+     0.07,
+     0.2,
+     0.18
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "pedestal",
+   "cuboid": {
+    "position": [
+     0,
+     0.4,
+     -2.2
+    ],
+    "half_size": [
+     0.45,
+     0.4,
+     0.45
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     196,
+     182,
+     158,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "helmet",
+   "cuboid": {
+    "position": [
+     0,
+     1.21,
+     -2.2
+    ],
+    "half_size": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "rotation": [
+     0,
+     0.9848,
+     0,
+     0.1736
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/DamagedHelmet.glb",
+    "scale": [
+     0.45,
+     0.45,
+     0.45
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "stall_top",
+   "cuboid": {
+    "position": [
+     -5.0,
+     2.0,
+     -1.6
+    ],
+    "half_size": [
+     1.1,
+     0.06,
+     0.8
+    ],
+    "rotation": [
+     0,
+     0.0698,
+     0,
+     0.9976
+    ],
+    "color": [
+     193,
+     79,
+     46,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "stall_post_a",
+   "cuboid": {
+    "position": [
+     -5.9,
+     0.95,
+     -2.2
+    ],
+    "half_size": [
+     0.07,
+     1.0,
+     0.07
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "stall_post_b",
+   "cuboid": {
+    "position": [
+     -4.1,
+     0.95,
+     -2.2
+    ],
+    "half_size": [
+     0.07,
+     1.0,
+     0.07
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "stall_post_c",
+   "cuboid": {
+    "position": [
+     -5.9,
+     0.95,
+     -1.0
+    ],
+    "half_size": [
+     0.07,
+     1.0,
+     0.07
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "stall_post_d",
+   "cuboid": {
+    "position": [
+     -4.1,
+     0.95,
+     -1.0
+    ],
+    "half_size": [
+     0.07,
+     1.0,
+     0.07
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     110,
+     78,
+     48,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   }
+  },
+  {
+   "id": "stall_counter",
+   "cuboid": {
+    "position": [
+     -5.0,
+     0.5,
+     -1.2
+    ],
+    "half_size": [
+     1.0,
+     0.5,
+     0.3
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     150,
+     112,
+     74,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "rigid_body": {
+    "mode": "Static",
+    "shape": "Box"
+   }
+  },
+  {
+   "id": "crate_a",
+   "cuboid": {
+    "position": [
+     -4.2,
+     0.25,
+     -0.2
+    ],
+    "half_size": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/BoxTextured.glb",
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "crate_b",
+   "cuboid": {
+    "position": [
+     -4.17,
+     0.76,
+     -0.15
+    ],
+    "half_size": [
+     0.25,
+     0.25,
+     0.25
+    ],
+    "rotation": [
+     0,
+     0.1564,
+     0,
+     0.9877
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/BoxTextured.glb",
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "crate_c",
+   "cuboid": {
+    "position": [
+     -3.4,
+     0.18,
+     -0.6
+    ],
+    "half_size": [
+     0.18,
+     0.18,
+     0.18
+    ],
+    "rotation": [
+     0,
+     -0.1045,
+     0,
+     0.9945
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Wireframe"
+   },
+   "mesh": {
+    "path": "models/props/BoxTextured.glb",
+    "scale": [
+     0.35,
+     0.35,
+     0.35
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "sun",
+   "cuboid": {
+    "position": [
+     0,
+     7.5,
+     1.5
+    ],
+    "half_size": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     240,
+     200,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "hidden": true,
+   "lights": [
+    {
+     "kind": "Point",
+     "color": [
+      255,
+      244,
+      228,
+      255
+     ],
+     "intensity": 380,
+     "range": 32
+    }
+   ]
+  },
+  {
+   "id": "pond_glow",
+   "cuboid": {
+    "position": [
+     4.6,
+     1.2,
+     3.8
+    ],
+    "half_size": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     240,
+     200,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "hidden": true,
+   "lights": [
+    {
+     "kind": "Point",
+     "color": [
+      140,
+      200,
+      240,
+      255
+     ],
+     "intensity": 60,
+     "range": 6
+    }
+   ]
+  },
+  {
+   "id": "stall_light",
+   "cuboid": {
+    "position": [
+     -5.0,
+     1.8,
+     -1.6
+    ],
+    "half_size": [
+     0.08,
+     0.08,
+     0.08
+    ],
+    "rotation": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "color": [
+     255,
+     240,
+     200,
+     255
+    ],
+    "wire_color": [
+     200,
+     200,
+     255,
+     255
+    ],
+    "style": "Solid"
+   },
+   "hidden": true,
+   "lights": [
+    {
+     "kind": "Point",
+     "color": [
+      255,
+      190,
+      120,
+      255
+     ],
+     "intensity": 90,
+     "range": 7
+    }
+   ]
+  }
+ ]
+}
