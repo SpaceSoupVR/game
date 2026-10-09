@@ -1,0 +1,15 @@
+{
+  "bodies": [
+    { "id": "boy", "label": "Boy", "model": "models/boy/boy.glb" },
+    { "id": "soldier", "label": "Soldier", "model": "models/soldier/soldier.glb" }
+  ],
+  "hands": [
+    { "id": "own", "label": "Default" },
+    {
+      "id": "gloves",
+      "label": "Gloves",
+      "left": "models/hands/vr_hand_left.glb",
+      "right": "models/hands/vr_hand_right.glb"
+    }
+  ]
+}
