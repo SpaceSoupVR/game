@@ -1,397 +1,1163 @@
 {
- "name": "warehouse",
- "objects": [
-  {
-   "id": "mirror",
-   "cuboid": {
-    "position": [
-     0.0,
-     1.0,
-     -2.0
-    ],
-    "half_size": [
-     0.9,
-     1.0,
-     0.03
-    ],
-    "rotation": [
-     0,
-     1,
-     0,
-     0
-    ],
-    "color": [
-     15,
-     15,
-     18,
-     255
-    ],
-    "wire_color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "style": "Solid"
-   }
+  "name": "warehouse",
+  "post": {
+    "exposure": 1.0,
+    "tonemap": "Aces"
   },
-  {
-   "id": "pistol",
-   "cuboid": {
-    "position": [
-     0.3,
-     1.0,
-     -0.8
+  "terrain": {
+    "origin": [
+      -400.0,
+      0.0,
+      -200.0
     ],
-    "half_size": [
-     0.092,
-     0.063,
-     0.016
+    "splat": {
+      "path": "terrain/warehouse.splat",
+      "resolution": [
+        1024,
+        512
+      ],
+      "layers": 4
+    },
+    "kind": "heightfield",
+    "path": "terrain/warehouse.r16",
+    "resolution": [
+      401,
+      201
     ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
+    "size": [
+      800.0,
+      400.0
     ],
-    "color": [
-     255,
-     255,
-     255,
-     255
-    ],
-    "wire_color": [
-     200,
-     200,
-     255,
-     255
-    ],
-    "style": "Wireframe"
-   },
-   "prop": {
-    "path": "models/props/pistol/pistol.prop.json"
-   }
+    "height_range": [
+      -20.0,
+      80.0
+    ]
   },
-  {
-   "id": "pad_boy",
-   "cuboid": {
-    "position": [
-     -0.75,
-     1.0,
-     -1.3
-    ],
-    "half_size": [
-     0.1,
-     0.1,
-     0.1
-    ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
-    ],
-    "color": [
-     70,
-     130,
-     230,
-     255
-    ],
-    "wire_color": [
-     255,
-     255,
-     255,
-     255
-    ],
-    "style": "SolidAndWire"
-   },
-   "selector": {
-    "set": "body",
-    "value": "boy"
-   }
-  },
-  {
-   "id": "sign_boy",
-   "cuboid": {
-    "position": [
-     -0.75,
-     1.22,
-     -1.3
-    ],
-    "half_size": [
-     0.15,
-     0.06,
-     0.005
-    ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
-    ],
-    "color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "wire_color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "style": "Wireframe"
-   },
-   "mesh": {
-    "path": "models/signs/sign_boy.glb"
-   }
-  },
-  {
-   "id": "pad_soldier",
-   "cuboid": {
-    "position": [
-     -0.35,
-     1.0,
-     -1.3
-    ],
-    "half_size": [
-     0.1,
-     0.1,
-     0.1
-    ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
-    ],
-    "color": [
-     90,
-     140,
-     70,
-     255
-    ],
-    "wire_color": [
-     255,
-     255,
-     255,
-     255
-    ],
-    "style": "SolidAndWire"
-   },
-   "selector": {
-    "set": "body",
-    "value": "soldier"
-   }
-  },
-  {
-   "id": "sign_soldier",
-   "cuboid": {
-    "position": [
-     -0.35,
-     1.22,
-     -1.3
-    ],
-    "half_size": [
-     0.15,
-     0.06,
-     0.005
-    ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
-    ],
-    "color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "wire_color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "style": "Wireframe"
-   },
-   "mesh": {
-    "path": "models/signs/sign_soldier.glb"
-   }
-  },
-  {
-   "id": "pad_hands_default",
-   "cuboid": {
-    "position": [
-     0.35,
-     1.0,
-     -1.3
-    ],
-    "half_size": [
-     0.1,
-     0.1,
-     0.1
-    ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
-    ],
-    "color": [
-     150,
-     150,
-     155,
-     255
-    ],
-    "wire_color": [
-     255,
-     255,
-     255,
-     255
-    ],
-    "style": "SolidAndWire"
-   },
-   "selector": {
-    "set": "hands",
-    "value": "own"
-   }
-  },
-  {
-   "id": "sign_hands_default",
-   "cuboid": {
-    "position": [
-     0.35,
-     1.22,
-     -1.3
-    ],
-    "half_size": [
-     0.15,
-     0.06,
-     0.005
-    ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
-    ],
-    "color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "wire_color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "style": "Wireframe"
-   },
-   "mesh": {
-    "path": "models/signs/sign_hands_default.glb"
-   }
-  },
-  {
-   "id": "pad_gloves",
-   "cuboid": {
-    "position": [
-     0.75,
-     1.0,
-     -1.3
-    ],
-    "half_size": [
-     0.1,
-     0.1,
-     0.1
-    ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
-    ],
-    "color": [
-     227,
-     154,
-     59,
-     255
-    ],
-    "wire_color": [
-     255,
-     255,
-     255,
-     255
-    ],
-    "style": "SolidAndWire"
-   },
-   "selector": {
-    "set": "hands",
-    "value": "gloves"
-   }
-  },
-  {
-   "id": "sign_gloves",
-   "cuboid": {
-    "position": [
-     0.75,
-     1.22,
-     -1.3
-    ],
-    "half_size": [
-     0.15,
-     0.06,
-     0.005
-    ],
-    "rotation": [
-     0,
-     0,
-     0,
-     1
-    ],
-    "color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "wire_color": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "style": "Wireframe"
-   },
-   "mesh": {
-    "path": "models/signs/sign_gloves.glb"
-   }
-  }
- ],
- "terrain": {
-  "origin": [
-   -50.0,
-   0.0,
-   -50.0
+  "water": [
+    {
+      "height": 0.5,
+      "bounds": [
+        -400.0,
+        -200.0,
+        400.0,
+        200.0
+      ],
+      "shallow": [
+        90,
+        150,
+        140
+      ],
+      "deep": [
+        10,
+        40,
+        70
+      ],
+      "depth_scale": 4.0,
+      "shore_fade": 0.35,
+      "wind_speed": 3.0,
+      "wind_direction": 30.0,
+      "fetch": 100.0,
+      "choppiness": 0.6,
+      "name": "pond"
+    }
   ],
-  "kind": "heightfield",
-  "path": "terrain/warehouse.r16",
-  "resolution": [
-   129,
-   129
+  "scatter": [
+    {
+      "id": "scatter_trees",
+      "name": "Trees",
+      "seed": 1451627903,
+      "prototypes": [
+        {
+          "mesh": "models/train/trees/oak_big_1.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_2.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_3.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_4.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_1.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_2.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_3.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_4.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_1.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_2.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_3.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_1.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_2.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_3.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_1.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_2.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_3.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        }
+      ],
+      "strokes": [
+        {
+          "id": 0,
+          "center": [
+            -340.0,
+            -45.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 1,
+          "center": [
+            -250.0,
+            40.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 2,
+          "center": [
+            -150.0,
+            -55.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 3,
+          "center": [
+            -60.0,
+            55.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 4,
+          "center": [
+            30.0,
+            -60.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 5,
+          "center": [
+            120.0,
+            50.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 6,
+          "center": [
+            220.0,
+            -55.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 7,
+          "center": [
+            330.0,
+            50.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 8,
+          "center": [
+            -200.0,
+            75.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        },
+        {
+          "id": 9,
+          "center": [
+            100.0,
+            -85.0
+          ],
+          "radius": 28.0,
+          "density": 0.006
+        }
+      ],
+      "overrides": [],
+      "season": "early_autumn"
+    },
+    {
+      "id": "scatter_trees:oak_sapling_2.glb",
+      "name": "Trees: oak_sapling_2.glb",
+      "seed": 2139668367,
+      "prototypes": [
+        {
+          "mesh": "models/train/trees/oak_sapling_2.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        }
+      ],
+      "strokes": [
+        {
+          "id": 0,
+          "center": [
+            -100.0,
+            30.0
+          ],
+          "radius": 18.0,
+          "density": 0.01
+        },
+        {
+          "id": 1,
+          "center": [
+            60.0,
+            0.0
+          ],
+          "radius": 18.0,
+          "density": 0.01
+        },
+        {
+          "id": 2,
+          "center": [
+            260.0,
+            10.0
+          ],
+          "radius": 18.0,
+          "density": 0.01
+        },
+        {
+          "id": 3,
+          "center": [
+            -280.0,
+            -5.0
+          ],
+          "radius": 18.0,
+          "density": 0.01
+        }
+      ],
+      "overrides": [],
+      "season": "early_autumn"
+    }
   ],
-  "size": [
-   100.0,
-   100.0
-  ],
-  "height_range": [
-   -10.0,
-   30.0
+  "objects": [
+    {
+      "id": "mirror",
+      "cuboid": {
+        "position": [
+          0.0,
+          -3.0,
+          -2.0
+        ],
+        "half_size": [
+          0.9,
+          1.0,
+          0.03
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "color": [
+          15,
+          15,
+          18,
+          255
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Solid",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "pistol",
+      "cuboid": {
+        "position": [
+          0.3,
+          -3.0,
+          -0.8
+        ],
+        "half_size": [
+          0.09182196,
+          0.06309175,
+          0.015965043
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "prop": {
+        "path": "models/props/pistol/pistol.prop.json"
+      }
+    },
+    {
+      "id": "pad_soldier",
+      "cuboid": {
+        "position": [
+          -0.35,
+          -3.0,
+          -1.3
+        ],
+        "half_size": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          90,
+          140,
+          70,
+          255
+        ],
+        "wire_color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "selector": {
+        "set": "body",
+        "value": "soldier"
+      }
+    },
+    {
+      "id": "sign_soldier",
+      "cuboid": {
+        "position": [
+          -0.35,
+          -2.7800000000000002,
+          -1.3
+        ],
+        "half_size": [
+          0.15,
+          0.06,
+          0.005
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": {
+        "path": "models/signs/sign_soldier.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "pad_gloves",
+      "cuboid": {
+        "position": [
+          0.75,
+          -3.0,
+          -1.3
+        ],
+        "half_size": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          227,
+          154,
+          59,
+          255
+        ],
+        "wire_color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "selector": {
+        "set": "hands",
+        "value": "gloves"
+      }
+    },
+    {
+      "id": "sign_gloves",
+      "cuboid": {
+        "position": [
+          0.75,
+          -2.7800000000000002,
+          -1.3
+        ],
+        "half_size": [
+          0.15,
+          0.06,
+          0.005
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": {
+        "path": "models/signs/sign_gloves.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "tent",
+      "cuboid": {
+        "position": [
+          0.0,
+          -4.0,
+          0.0
+        ],
+        "half_size": [
+          4.72,
+          1.33,
+          5.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": {
+        "path": "models/tent.glb",
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.01,
+          0.01,
+          0.01
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "walk_floor_tent",
+      "cuboid": {
+        "position": [
+          0.0,
+          -4.0,
+          -0.03
+        ],
+        "half_size": [
+          4.4,
+          0.05,
+          4.7
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "walk_area": {
+        "fence_height": 2.5,
+        "lift": 0.05,
+        "flat": true
+      }
+    },
+    {
+      "id": "spawn_point_tent",
+      "cuboid": {
+        "position": [
+          0.0,
+          -3.98,
+          3.0
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "spawn_point_terrain",
+      "cuboid": {
+        "position": [
+          0.0,
+          3.53,
+          12.0
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "soldier",
+      "cuboid": {
+        "position": [
+          0.0,
+          4.89,
+          16.0
+        ],
+        "half_size": [
+          0.3,
+          0.9,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": {
+        "path": "models/soldier/soldier.glb",
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    }
   ]
- }
 }

@@ -1,0 +1,16 @@
+{
+  "arm": {
+    "clavicle_assist": 0.0,
+    "clavicle_max_deg": 18.0,
+    "pole_bind_follow": 1.0,
+    "elbow_pole": [
+      0.0,
+      -0.2,
+      -1.0
+    ],
+    "elbow_out": 0.9
+  },
+  "reach_frac": 0.6,
+  "side_m": 0.22,
+  "drop_m": 0.42
+}
