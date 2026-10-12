@@ -61,5 +61,7 @@
   },
   "editing_left": false,
   "multiplayer_enabled": false,
-  "height_cm": 186.0
+  "height_cm": 186.0,
+  "body": "",
+  "hands": ""
 }

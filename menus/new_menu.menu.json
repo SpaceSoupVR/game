@@ -1,0 +1,58 @@
+{
+  "name": "new_menu",
+  "title": "Menu",
+  "width": 480.0,
+  "height": 720.0,
+  "background": "#1f1e1c",
+  "title_color": "#f1eee8",
+  "widgets": [
+    {
+      "id": 1,
+      "kind": "button",
+      "text": "Three",
+      "x": 128.0,
+      "y": 236.0,
+      "w": 200.0,
+      "h": 56.0,
+      "color": "#e8a24a",
+      "text_color": "#1c1b19",
+      "value": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "on": true,
+      "action": "Run"
+    },
+    {
+      "id": 2,
+      "kind": "button",
+      "text": "Hello",
+      "x": 216.0,
+      "y": 72.0,
+      "w": 200.0,
+      "h": 56.0,
+      "color": "#e8a24a",
+      "text_color": "#1c1b19",
+      "value": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "on": true,
+      "action": ""
+    },
+    {
+      "id": 3,
+      "kind": "button",
+      "text": "Test",
+      "x": 56.0,
+      "y": 136.0,
+      "w": 200.0,
+      "h": 56.0,
+      "color": "#e8a24a",
+      "text_color": "#1c1b19",
+      "value": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "on": true,
+      "action": ""
+    }
+  ]
+}

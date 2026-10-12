@@ -1,0 +1,62 @@
+{
+  "scene": "warehouse",
+  "player_start": "spawn_point_tent",
+  "open_menus": [
+    "start"
+  ],
+  "menu_rules": [
+    {
+      "menu": "start",
+      "action": "start_game",
+      "then": [
+        {
+          "do": "hide_menu",
+          "menu": "start"
+        },
+        {
+          "do": "teleport_player",
+          "spawn": "spawn_point_terrain"
+        }
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "object": "soldier",
+      "health": 100.0,
+      "hits": [
+        {
+          "weapon": "pistol",
+          "body_shots": 5,
+          "head_shots": 1
+        },
+        {
+          "weapon": "m4a1",
+          "body_shots": 2,
+          "head_shots": 1
+        }
+      ],
+      "on_death": [
+        {
+          "do": "hide_object",
+          "object": "soldier"
+        }
+      ]
+    }
+  ],
+  "swarms": [
+    {
+      "entity": "models/scp/scp.entity.json",
+      "count": 30,
+      "spread_m": 150.0,
+      "health": 100.0,
+      "hits": [
+        {
+          "weapon": "pistol",
+          "body_shots": 4,
+          "head_shots": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "models": [
+    {
+      "file": "oak_big_1.glb",
+      "weight": 2.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 19.46,
+      "size_class": "big"
+    },
+    {
+      "file": "oak_big_2.glb",
+      "weight": 2.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 20.28,
+      "size_class": "big"
+    },
+    {
+      "file": "oak_big_3.glb",
+      "weight": 2.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 19.21,
+      "size_class": "big"
+    },
+    {
+      "file": "oak_big_4.glb",
+      "weight": 2.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 21.39,
+      "size_class": "big"
+    },
+    {
+      "file": "oak_large_1.glb",
+      "weight": 3.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 26.48,
+      "size_class": "large"
+    },
+    {
+      "file": "oak_large_2.glb",
+      "weight": 3.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 26.99,
+      "size_class": "large"
+    },
+    {
+      "file": "oak_large_3.glb",
+      "weight": 3.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 27.88,
+      "size_class": "large"
+    },
+    {
+      "file": "oak_large_4.glb",
+      "weight": 3.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 24.86,
+      "size_class": "large"
+    },
+    {
+      "file": "oak_medium_1.glb",
+      "weight": 3.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 10.54,
+      "size_class": "medium"
+    },
+    {
+      "file": "oak_medium_2.glb",
+      "weight": 3.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 10.29,
+      "size_class": "medium"
+    },
+    {
+      "file": "oak_medium_3.glb",
+      "weight": 3.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 12.69,
+      "size_class": "medium"
+    },
+    {
+      "file": "oak_sapling_1.glb",
+      "weight": 1.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 1.14,
+      "size_class": "sapling"
+    },
+    {
+      "file": "oak_sapling_2.glb",
+      "weight": 1.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 1.16,
+      "size_class": "sapling"
+    },
+    {
+      "file": "oak_sapling_3.glb",
+      "weight": 1.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 1.19,
+      "size_class": "sapling"
+    },
+    {
+      "file": "oak_small_1.glb",
+      "weight": 2.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 5.68,
+      "size_class": "small"
+    },
+    {
+      "file": "oak_small_2.glb",
+      "weight": 2.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 5.39,
+      "size_class": "small"
+    },
+    {
+      "file": "oak_small_3.glb",
+      "weight": 2.0,
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "max_slope": 30,
+      "height_m": 5.36,
+      "size_class": "small"
+    }
+  ]
+}
