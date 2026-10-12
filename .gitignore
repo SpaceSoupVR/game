@@ -37,3 +37,5 @@ skies/*/sun.json
 # The editor's bake-preview scenes: temporary copies written for a preview
 # bake and removed after it. One left behind is not a level.
 scenes/__bake_preview__*.json
+.cortex/
+*.bak
