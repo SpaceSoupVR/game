@@ -1,0 +1,138 @@
+{
+  "name": "steam_vent",
+  "version": 1,
+  "emitters": [
+    {
+      "name": "steam",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 14
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              1.4,
+              2.2
+            ]
+          }
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 8,
+          "about": "up"
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              1.1,
+              1.7
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": 0.04
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            0.9,
+            0
+          ],
+          "drag": 1.6
+        },
+        {
+          "module": "size_over_life",
+          "to": 0.28
+        },
+        {
+          "module": "puff_fade",
+          "peak": 0.45,
+          "rise": 0.08,
+          "power": 1.8
+        },
+        {
+          "module": "jitter",
+          "reach": 0.04,
+          "pace": 1.4
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "albedo": [
+            0.92,
+            0.92,
+            0.94
+          ]
+        },
+        {
+          "module": "colour_over_life",
+          "gradient": [
+            [
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0.344,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1,
+              0.55
+            ]
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_sixway",
+          "book": "smoke"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "flipbook"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.1
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "scalability": {
+    "cull_distance": 60,
+    "min_pixels": 2,
+    "importance": 0.5,
+    "max_live": 1
+  },
+  "budget": {
+    "fill_megapixel_layers": 1.5,
+    "instances": 100,
+    "lights": 0
+  }
+}

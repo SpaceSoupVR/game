@@ -1,0 +1,153 @@
+{
+  "name": "pond_mist",
+  "version": 1,
+  "emitters": [
+    {
+      "name": "mist",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 1.2
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              7,
+              10
+            ]
+          }
+        },
+        {
+          "module": "shape_disc",
+          "radius": 3.2
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 20,
+          "about": "up"
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              0.02,
+              0.06
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.3,
+              0.45
+            ]
+          }
+        },
+        {
+          "module": "spin",
+          "rate": 0.06,
+          "start": 3.14
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            0.012,
+            0
+          ],
+          "drag": 0.5
+        },
+        {
+          "module": "air_drift",
+          "strength": 1
+        },
+        {
+          "module": "size_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1.8
+              ]
+            ]
+          }
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                0
+              ],
+              [
+                0.3,
+                0.09
+              ],
+              [
+                0.75,
+                0.06
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "albedo": [
+            0.9,
+            0.92,
+            0.95
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_sixway",
+          "book": "smoke"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "flipbook"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.4
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "scalability": {
+    "cull_distance": 45,
+    "min_pixels": 2,
+    "importance": 0.3,
+    "max_live": 1
+  },
+  "budget": {
+    "fill_megapixel_layers": 1.5,
+    "instances": 100,
+    "lights": 0
+  }
+}
