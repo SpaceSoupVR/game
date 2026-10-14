@@ -1287,17 +1287,17 @@
       }
     },
     {
-      "id": "fx_pond_mist",
-      "uuid": "ae48b515-e33a-4b08-a12d-56ac60d81597",
+      "id": "fx_pond_fog",
+      "uuid": "9e0ccd15-a1a9-4b07-a13c-12f303648ee8",
       "cuboid": {
-        "half_size": [4.5, 0.1, 4.5],
-        "position": [-24.5, -0.28, -25.5],
+        "half_size": [5.3, 0.75, 5.3],
+        "position": [-24.0, -0.37, -25.3],
         "rotation": [0, 0, 0, 1]
       },
       "hidden": true,
       "effect": {
         "kind": "smoke",
-        "asset": "pond_mist",
+        "asset": "pond_fog",
         "rate": 1,
         "scale": 1,
         "tint": [255, 255, 255, 255]

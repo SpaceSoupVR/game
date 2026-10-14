@@ -1,0 +1,68 @@
+{
+  "name": "pond_fog",
+  "version": 1,
+  "emitters": [
+    {
+      "name": "slab",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 1.0
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": 1.0
+        },
+        {
+          "module": "shape_disc",
+          "radius": 4.0,
+          "fills_object": true
+        }
+      ],
+      "update": [
+        {
+          "module": "light_cpu",
+          "mode": "scatter",
+          "phase_g": 0.55,
+          "albedo": [
+            0.95,
+            0.96,
+            0.97
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_fog",
+          "density": 0.8,
+          "height": 1.5,
+          "falloff": 0.22,
+          "edge": 1.4,
+          "wind": [
+            0.12,
+            0.0,
+            0.07
+          ]
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "scalability": {
+    "cull_distance": 120,
+    "min_pixels": 2,
+    "importance": 0.35,
+    "max_live": 1
+  },
+  "budget": {
+    "fill_megapixel_layers": 1.5,
+    "instances": 4,
+    "lights": 0
+  }
+}
