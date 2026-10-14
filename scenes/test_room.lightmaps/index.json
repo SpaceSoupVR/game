@@ -186,8 +186,24 @@
       "encoding": "f16"
     },
     {
-      "object_id": "cave",
+      "object_id": "fx_steam_vent",
       "file": "023.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "fx_cave_sparks",
+      "file": "026.png",
+      "width": 48,
+      "height": 32,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "cave",
+      "file": "028.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -195,62 +211,6 @@
     },
     {
       "object_id": "hallway_sconce_south#stationary_0",
-      "file": "024.png",
-      "width": 512,
-      "height": 512,
-      "target": "object",
-      "encoding": "srgb8"
-    },
-    {
-      "object_id": "hallway_sconce_south#stationary_1",
-      "file": "025.png",
-      "width": 512,
-      "height": 512,
-      "target": "object",
-      "encoding": "srgb8"
-    },
-    {
-      "object_id": "hallway_sconce_north#stationary_0",
-      "file": "026.png",
-      "width": 512,
-      "height": 512,
-      "target": "object",
-      "encoding": "srgb8"
-    },
-    {
-      "object_id": "hallway_sconce_north#stationary_1",
-      "file": "027.png",
-      "width": 512,
-      "height": 512,
-      "target": "object",
-      "encoding": "srgb8"
-    },
-    {
-      "object_id": "hall_spot_1#stationary_0",
-      "file": "028.png",
-      "width": 512,
-      "height": 512,
-      "target": "object",
-      "encoding": "srgb8"
-    },
-    {
-      "object_id": "hall_spot_1#stationary_1",
-      "file": "029.png",
-      "width": 512,
-      "height": 512,
-      "target": "object",
-      "encoding": "srgb8"
-    },
-    {
-      "object_id": "hall_spot_2#stationary_0",
-      "file": "030.png",
-      "width": 512,
-      "height": 512,
-      "target": "object",
-      "encoding": "srgb8"
-    },
-    {
-      "object_id": "hall_spot_2#stationary_1",
       "file": "031.png",
       "width": 512,
       "height": 512,
@@ -258,7 +218,7 @@
       "encoding": "srgb8"
     },
     {
-      "object_id": "brick_lamp#stationary_0",
+      "object_id": "hallway_sconce_south#stationary_1",
       "file": "032.png",
       "width": 512,
       "height": 512,
@@ -266,7 +226,7 @@
       "encoding": "srgb8"
     },
     {
-      "object_id": "brick_lamp#stationary_1",
+      "object_id": "hallway_sconce_north#stationary_0",
       "file": "033.png",
       "width": 512,
       "height": 512,
@@ -274,8 +234,64 @@
       "encoding": "srgb8"
     },
     {
-      "object_id": "__brushes__",
+      "object_id": "hallway_sconce_north#stationary_1",
       "file": "034.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "hall_spot_1#stationary_0",
+      "file": "035.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "hall_spot_1#stationary_1",
+      "file": "036.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "hall_spot_2#stationary_0",
+      "file": "037.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "hall_spot_2#stationary_1",
+      "file": "038.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "brick_lamp#stationary_0",
+      "file": "039.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "brick_lamp#stationary_1",
+      "file": "040.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "srgb8"
+    },
+    {
+      "object_id": "__brushes__",
+      "file": "045.png",
       "width": 1024,
       "height": 512,
       "target": "brush",
@@ -283,7 +299,7 @@
     },
     {
       "object_id": "__brushes_dir__",
-      "file": "035.png",
+      "file": "046.png",
       "width": 1024,
       "height": 512,
       "target": "brush",
@@ -291,7 +307,7 @@
     },
     {
       "object_id": "__brushes_sun__",
-      "file": "036.png",
+      "file": "047.png",
       "width": 4096,
       "height": 2048,
       "target": "brush",
@@ -299,7 +315,7 @@
     },
     {
       "object_id": "__brushes_stationary_0__",
-      "file": "037.png",
+      "file": "048.png",
       "width": 2048,
       "height": 1024,
       "target": "brush",
@@ -307,7 +323,7 @@
     },
     {
       "object_id": "__brushes_stationary_1__",
-      "file": "038.png",
+      "file": "049.png",
       "width": 2048,
       "height": 1024,
       "target": "brush",
@@ -315,7 +331,7 @@
     },
     {
       "object_id": "__terrain_sky__",
-      "file": "039.png",
+      "file": "050.png",
       "width": 768,
       "height": 768,
       "target": "terrain",
@@ -323,7 +339,7 @@
     },
     {
       "object_id": "__terrain_stationary_0__",
-      "file": "040.png",
+      "file": "051.png",
       "width": 768,
       "height": 768,
       "target": "terrain",
@@ -331,7 +347,7 @@
     },
     {
       "object_id": "__terrain_stationary_1__",
-      "file": "041.png",
+      "file": "052.png",
       "width": 768,
       "height": 768,
       "target": "terrain",
