@@ -36,9 +36,9 @@
       "render": [
         {
           "module": "sprite_fog",
-          "density": 0.8,
-          "height": 1.5,
-          "falloff": 0.22,
+          "density": 0.3,
+          "height": 0.5,
+          "falloff": 0.1,
           "edge": 1.4,
           "wind": [
             0.12,
