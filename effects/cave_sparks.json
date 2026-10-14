@@ -1,0 +1,124 @@
+{
+  "name": "cave_sparks",
+  "version": 1,
+  "emitters": [
+    {
+      "name": "sparks",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 5
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              0.5,
+              1.3
+            ]
+          }
+        },
+        {
+          "module": "shape_disc",
+          "radius": 0.25
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 18,
+          "about": "up"
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              1.5,
+              3.5
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": 0.004
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            -2.5,
+            0
+          ],
+          "drag": 1.2
+        },
+        {
+          "module": "jitter",
+          "reach": 0.05,
+          "pace": 3
+        },
+        {
+          "module": "air_drift",
+          "strength": 1
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                1
+              ],
+              [
+                0.7,
+                0.8
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_emissive",
+          "book": "ember",
+          "radiance": 25,
+          "colour": [
+            1,
+            0.5,
+            0.15
+          ]
+        },
+        {
+          "module": "placement",
+          "mode": "streak",
+          "streak_seconds": 0.03
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.02
+        },
+        {
+          "module": "motion",
+          "layer": "bright"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "scalability": {
+    "cull_distance": 60,
+    "min_pixels": 2,
+    "importance": 0.6,
+    "max_live": 1
+  },
+  "budget": {
+    "fill_megapixel_layers": 1.5,
+    "instances": 100,
+    "lights": 0
+  }
+}

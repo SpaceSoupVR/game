@@ -1,0 +1,267 @@
+{
+  "name": "sea_spray",
+  "version": 1,
+  "emitters": [
+    {
+      "name": "drops",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 28
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              0.5,
+              1
+            ]
+          }
+        },
+        {
+          "module": "shape_disc",
+          "radius": 1.4
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 35,
+          "about": "up"
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              1,
+              2.6
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.005,
+              0.012
+            ]
+          }
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            -9.8,
+            0
+          ],
+          "drag": 2.5
+        },
+        {
+          "module": "air_drift",
+          "strength": 1.5
+        },
+        {
+          "module": "size_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                0
+              ],
+              [
+                0.1,
+                0.7
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "light_cpu",
+          "mode": "scatter",
+          "phase_g": 0.6,
+          "albedo": [
+            0.85,
+            0.92,
+            0.95
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_scatter",
+          "book": "spray"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "flipbook",
+          "play": "seed"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.05
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    },
+    {
+      "name": "haze",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 3
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              1.5,
+              2.5
+            ]
+          }
+        },
+        {
+          "module": "shape_disc",
+          "radius": 1.2
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 30,
+          "about": "up"
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              0.2,
+              0.5
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.1,
+              0.18
+            ]
+          }
+        },
+        {
+          "module": "spin",
+          "rate": 0.2,
+          "start": 3.14
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            0.05,
+            0
+          ],
+          "drag": 1
+        },
+        {
+          "module": "air_drift",
+          "strength": 1.5
+        },
+        {
+          "module": "size_over_life",
+          "to": 0.45
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                0
+              ],
+              [
+                0.2,
+                0.08
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "albedo": [
+            0.85,
+            0.9,
+            0.93
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_sixway",
+          "book": "smoke"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "flipbook"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.15
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "scalability": {
+    "cull_distance": 60,
+    "min_pixels": 2,
+    "importance": 0.4,
+    "max_live": 1
+  },
+  "budget": {
+    "fill_megapixel_layers": 1.5,
+    "instances": 100,
+    "lights": 0
+  }
+}

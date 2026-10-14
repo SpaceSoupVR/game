@@ -1251,6 +1251,40 @@
         "respawn_sunk": 6,
         "shape": "Box"
       }
+    },
+    {
+      "id": "fx_steam_vent",
+      "uuid": "3651f7ea-2baa-4383-b521-c91c034d3ccc",
+      "cuboid": {
+        "half_size": [0.1, 0.02, 0.1],
+        "position": [14, 0.02, -3],
+        "rotation": [0, 0, 0, 1]
+      },
+      "hidden": true,
+      "effect": {
+        "kind": "smoke",
+        "asset": "steam_vent",
+        "rate": 1,
+        "scale": 1,
+        "tint": [255, 255, 255, 255]
+      }
+    },
+    {
+      "id": "fx_cave_sparks",
+      "uuid": "5c9c2bb5-dafc-4aab-a769-678a7d04cebe",
+      "cuboid": {
+        "half_size": [0.1, 0.02, 0.1],
+        "position": [23, -0.45, 33.5],
+        "rotation": [0, 0, 0, 1]
+      },
+      "hidden": true,
+      "effect": {
+        "kind": "embers",
+        "asset": "cave_sparks",
+        "rate": 1,
+        "scale": 1,
+        "tint": [255, 255, 255, 255]
+      }
     }
   ],
   "post": {

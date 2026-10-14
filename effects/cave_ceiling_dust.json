@@ -1,0 +1,227 @@
+{
+  "name": "cave_ceiling_dust",
+  "version": 1,
+  "emitters": [
+    {
+      "name": "grit",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 8
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              0.72,
+              0.8
+            ]
+          }
+        },
+        {
+          "module": "shape_disc",
+          "radius": 0.4
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 10
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              0,
+              0.1
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.004,
+              0.008
+            ]
+          }
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            -9.8,
+            0
+          ],
+          "drag": 0.6
+        },
+        {
+          "module": "jitter",
+          "reach": 0.01,
+          "pace": 2
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "albedo": [
+            0.55,
+            0.5,
+            0.42
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_plain",
+          "book": "mote"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.02
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    },
+    {
+      "name": "sift",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 1.2
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              3,
+              5
+            ]
+          }
+        },
+        {
+          "module": "shape_disc",
+          "radius": 0.3
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 15
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              0.02,
+              0.08
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.04,
+              0.07
+            ]
+          }
+        },
+        {
+          "module": "spin",
+          "rate": 0.1,
+          "start": 3.14
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            -0.18,
+            0
+          ],
+          "drag": 0.8
+        },
+        {
+          "module": "air_drift",
+          "strength": 0.6
+        },
+        {
+          "module": "size_over_life",
+          "to": 0.3
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                0
+              ],
+              [
+                0.2,
+                0.12
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "albedo": [
+            0.6,
+            0.55,
+            0.46
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_sixway",
+          "book": "smoke"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "flipbook"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.2
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "scalability": {
+    "cull_distance": 60,
+    "min_pixels": 2,
+    "importance": 0.3,
+    "max_live": 1
+  },
+  "budget": {
+    "fill_megapixel_layers": 1.5,
+    "instances": 100,
+    "lights": 0
+  }
+}
