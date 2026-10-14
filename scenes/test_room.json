@@ -1290,7 +1290,7 @@
       "id": "fx_pond_fog",
       "uuid": "9e0ccd15-a1a9-4b07-a13c-12f303648ee8",
       "cuboid": {
-        "half_size": [5.3, 0.25, 5.3],
+        "half_size": [5.3, 0.6, 5.3],
         "position": [-24.0, -0.37, -25.3],
         "rotation": [0, 0, 0, 1]
       },
