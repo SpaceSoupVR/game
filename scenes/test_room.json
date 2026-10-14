@@ -1285,6 +1285,39 @@
         "scale": 1,
         "tint": [255, 255, 255, 255]
       }
+    },
+    {
+      "id": "fx_pond_mist",
+      "uuid": "ae48b515-e33a-4b08-a12d-56ac60d81597",
+      "cuboid": {
+        "half_size": [4.5, 0.1, 4.5],
+        "position": [-24.5, -0.28, -25.5],
+        "rotation": [0, 0, 0, 1]
+      },
+      "hidden": true,
+      "effect": {
+        "kind": "smoke",
+        "asset": "pond_mist",
+        "rate": 1,
+        "scale": 1,
+        "tint": [255, 255, 255, 255]
+      }
+    },
+    {
+      "id": "fx_cave_dust",
+      "uuid": "4f78411a-6048-40f0-9cde-73ea51b347ed",
+      "cuboid": {
+        "half_size": [2.2, 1.2, 2.2],
+        "position": [22.6, 0.75, 33.5],
+        "rotation": [0, 0, 0, 1]
+      },
+      "hidden": true,
+      "effect": {
+        "kind": "dust",
+        "rate": 0.8,
+        "scale": 1,
+        "tint": [255, 255, 255, 255]
+      }
     }
   ],
   "post": {
@@ -1301,8 +1334,8 @@
     {
       "bounds": [-38, -38, -14, -14],
       "choppiness": 0.4,
-      "deep": [20, 34, 22],
-      "depth_scale": 0.4,
+      "deep": [38, 62, 40],
+      "depth_scale": 0.7,
       "fetch": 20,
       "height": -0.368,
       "max_wade_depth": 10,

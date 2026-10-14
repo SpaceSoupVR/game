@@ -186,8 +186,16 @@
       "encoding": "f16"
     },
     {
-      "object_id": "fx_steam_vent",
+      "object_id": "cave",
       "file": "023.png",
+      "width": 512,
+      "height": 512,
+      "target": "object",
+      "encoding": "f16"
+    },
+    {
+      "object_id": "fx_steam_vent",
+      "file": "024.png",
       "width": 48,
       "height": 32,
       "target": "object",
@@ -195,23 +203,15 @@
     },
     {
       "object_id": "fx_cave_sparks",
-      "file": "026.png",
+      "file": "025.png",
       "width": 48,
       "height": 32,
       "target": "object",
       "encoding": "f16"
     },
     {
-      "object_id": "cave",
-      "file": "028.png",
-      "width": 512,
-      "height": 512,
-      "target": "object",
-      "encoding": "f16"
-    },
-    {
       "object_id": "hallway_sconce_south#stationary_0",
-      "file": "031.png",
+      "file": "026.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -219,7 +219,7 @@
     },
     {
       "object_id": "hallway_sconce_south#stationary_1",
-      "file": "032.png",
+      "file": "027.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -227,7 +227,7 @@
     },
     {
       "object_id": "hallway_sconce_north#stationary_0",
-      "file": "033.png",
+      "file": "028.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -235,7 +235,7 @@
     },
     {
       "object_id": "hallway_sconce_north#stationary_1",
-      "file": "034.png",
+      "file": "029.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -243,7 +243,7 @@
     },
     {
       "object_id": "hall_spot_1#stationary_0",
-      "file": "035.png",
+      "file": "030.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -251,7 +251,7 @@
     },
     {
       "object_id": "hall_spot_1#stationary_1",
-      "file": "036.png",
+      "file": "031.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -259,7 +259,7 @@
     },
     {
       "object_id": "hall_spot_2#stationary_0",
-      "file": "037.png",
+      "file": "032.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -267,7 +267,7 @@
     },
     {
       "object_id": "hall_spot_2#stationary_1",
-      "file": "038.png",
+      "file": "033.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -275,7 +275,7 @@
     },
     {
       "object_id": "brick_lamp#stationary_0",
-      "file": "039.png",
+      "file": "034.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -283,7 +283,7 @@
     },
     {
       "object_id": "brick_lamp#stationary_1",
-      "file": "040.png",
+      "file": "035.png",
       "width": 512,
       "height": 512,
       "target": "object",
@@ -291,7 +291,7 @@
     },
     {
       "object_id": "__brushes__",
-      "file": "045.png",
+      "file": "036.png",
       "width": 1024,
       "height": 512,
       "target": "brush",
@@ -299,7 +299,7 @@
     },
     {
       "object_id": "__brushes_dir__",
-      "file": "046.png",
+      "file": "037.png",
       "width": 1024,
       "height": 512,
       "target": "brush",
@@ -307,7 +307,7 @@
     },
     {
       "object_id": "__brushes_sun__",
-      "file": "047.png",
+      "file": "038.png",
       "width": 4096,
       "height": 2048,
       "target": "brush",
@@ -315,7 +315,7 @@
     },
     {
       "object_id": "__brushes_stationary_0__",
-      "file": "048.png",
+      "file": "039.png",
       "width": 2048,
       "height": 1024,
       "target": "brush",
@@ -323,7 +323,7 @@
     },
     {
       "object_id": "__brushes_stationary_1__",
-      "file": "049.png",
+      "file": "040.png",
       "width": 2048,
       "height": 1024,
       "target": "brush",
@@ -331,7 +331,7 @@
     },
     {
       "object_id": "__terrain_sky__",
-      "file": "050.png",
+      "file": "041.png",
       "width": 768,
       "height": 768,
       "target": "terrain",
@@ -339,7 +339,7 @@
     },
     {
       "object_id": "__terrain_stationary_0__",
-      "file": "051.png",
+      "file": "042.png",
       "width": 768,
       "height": 768,
       "target": "terrain",
@@ -347,7 +347,7 @@
     },
     {
       "object_id": "__terrain_stationary_1__",
-      "file": "052.png",
+      "file": "043.png",
       "width": 768,
       "height": 768,
       "target": "terrain",

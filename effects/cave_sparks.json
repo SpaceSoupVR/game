@@ -7,7 +7,7 @@
       "spawn": [
         {
           "module": "rate",
-          "per_second": 5
+          "per_second": 9
         }
       ],
       "initialize": [
@@ -15,32 +15,32 @@
           "module": "life",
           "value": {
             "range": [
-              0.5,
-              1.3
+              0.6,
+              1.6
             ]
           }
         },
         {
           "module": "shape_disc",
-          "radius": 0.25
+          "radius": 0.3
         },
         {
           "module": "shape_cone",
-          "angle_deg": 18,
+          "angle_deg": 22,
           "about": "up"
         },
         {
           "module": "speed",
           "value": {
             "range": [
-              1.5,
-              3.5
+              2.0,
+              4.2
             ]
           }
         },
         {
           "module": "size",
-          "value": 0.004
+          "value": 0.006
         }
       ],
       "update": [
@@ -48,19 +48,19 @@
           "module": "ballistic",
           "accel": [
             0,
-            -2.5,
+            -1.5,
             0
           ],
-          "drag": 1.2
+          "drag": 1.0
         },
         {
           "module": "jitter",
-          "reach": 0.05,
-          "pace": 3
+          "reach": 0.06,
+          "pace": 3.5
         },
         {
           "module": "air_drift",
-          "strength": 1
+          "strength": 1.0
         },
         {
           "module": "opacity_over_life",
@@ -71,8 +71,8 @@
                 1
               ],
               [
-                0.7,
-                0.8
+                0.6,
+                0.85
               ],
               [
                 1,
@@ -86,17 +86,17 @@
         {
           "module": "sprite_emissive",
           "book": "ember",
-          "radiance": 25,
+          "radiance": 60,
           "colour": [
-            1,
-            0.5,
-            0.15
+            1.0,
+            0.55,
+            0.18
           ]
         },
         {
           "module": "placement",
           "mode": "streak",
-          "streak_seconds": 0.03
+          "streak_seconds": 0.06
         },
         {
           "module": "soft_depth",
