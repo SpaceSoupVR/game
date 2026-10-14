@@ -1,0 +1,700 @@
+{
+  "name": "muzzle_suppressed",
+  "version": 1,
+  "inputs": [
+    "heat"
+  ],
+  "emitters": [
+    {
+      "name": "first_round_pop",
+      "spawn": [
+        {
+          "module": "burst",
+          "count": 1
+        },
+        {
+          "module": "by_input",
+          "input": "heat",
+          "target": "chance",
+          "curve": [
+            [
+              0,
+              1
+            ],
+            [
+              0.04,
+              0
+            ]
+          ]
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": "one_frame"
+        },
+        {
+          "module": "shape_point"
+        },
+        {
+          "module": "size",
+          "value": {
+            "lognormal": [
+              0.011,
+              0.25
+            ]
+          }
+        },
+        {
+          "module": "spin",
+          "start": 3.1416
+        }
+      ],
+      "update": [],
+      "render": [
+        {
+          "module": "sprite_emissive",
+          "book": "muzzle_core",
+          "radiance": 0.5,
+          "colour": [
+            1.0,
+            0.8,
+            0.6
+          ],
+          "heat_ramp": true
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "flipbook",
+          "play": "seed"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.03
+        },
+        {
+          "module": "motion",
+          "layer": "bright"
+        }
+      ],
+      "events": []
+    },
+    {
+      "name": "smoke",
+      "spawn": [
+        {
+          "module": "burst",
+          "count": {
+            "range": [
+              4,
+              6
+            ]
+          }
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              1.2,
+              2.2
+            ]
+          }
+        },
+        {
+          "module": "shape_point"
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 10
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              2,
+              5
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.0075,
+              0.015
+            ]
+          }
+        },
+        {
+          "module": "spin",
+          "rate": 0.4,
+          "start": 3.1416
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            0.15,
+            0
+          ],
+          "drag": 16
+        },
+        {
+          "module": "air_drift"
+        },
+        {
+          "module": "swirl",
+          "radius": 0.05,
+          "turn": 1.2
+        },
+        {
+          "module": "size_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                1
+              ],
+              [
+                0.1,
+                4.5
+              ],
+              [
+                0.4,
+                7.5
+              ],
+              [
+                1,
+                10.0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                0
+              ],
+              [
+                0.04,
+                0.2
+              ],
+              [
+                0.3,
+                0.13
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "by_input",
+          "input": "heat",
+          "target": "opacity",
+          "curve": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1.8
+            ]
+          ]
+        },
+        {
+          "module": "by_input",
+          "input": "heat",
+          "target": "size",
+          "curve": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1.25
+            ]
+          ]
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "phase_g": 0.6,
+          "albedo": [
+            0.78,
+            0.8,
+            0.86
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_sixway",
+          "book": "smoke"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.12
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    },
+    {
+      "name": "barrel_thread",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 3,
+          "for_seconds": 4
+        },
+        {
+          "module": "by_input",
+          "input": "heat",
+          "target": "rate",
+          "curve": [
+            [
+              0,
+              0
+            ],
+            [
+              0.25,
+              0.6
+            ],
+            [
+              1,
+              1.4
+            ]
+          ]
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              1.5,
+              2.5
+            ]
+          }
+        },
+        {
+          "module": "shape_point"
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 25,
+          "about": "up"
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              0.2,
+              0.4
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.005,
+              0.01
+            ]
+          }
+        },
+        {
+          "module": "spin",
+          "rate": 0.3,
+          "start": 3.1416
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            0.25,
+            0
+          ],
+          "drag": 1.2
+        },
+        {
+          "module": "air_drift"
+        },
+        {
+          "module": "swirl",
+          "radius": 0.03,
+          "turn": 2.0
+        },
+        {
+          "module": "size_over_life",
+          "to": 0.03
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                0
+              ],
+              [
+                0.1,
+                0.11
+              ],
+              [
+                0.5,
+                0.07
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "phase_g": 0.6,
+          "albedo": [
+            0.78,
+            0.8,
+            0.86
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_sixway",
+          "book": "smoke"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.05
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    },
+    {
+      "name": "port",
+      "at": "port",
+      "spawn": [
+        {
+          "module": "burst",
+          "count": {
+            "range": [
+              2,
+              4
+            ]
+          }
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              0.4,
+              0.8
+            ]
+          }
+        },
+        {
+          "module": "shape_point"
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 20
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.005,
+              0.01
+            ]
+          }
+        },
+        {
+          "module": "spin",
+          "rate": 0.5,
+          "start": 3.1416
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            0.2,
+            0
+          ],
+          "drag": 9
+        },
+        {
+          "module": "air_drift"
+        },
+        {
+          "module": "size_over_life",
+          "to": 0.04
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                0
+              ],
+              [
+                0.1,
+                0.14
+              ],
+              [
+                0.4,
+                0.09
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "phase_g": 0.6,
+          "albedo": [
+            0.78,
+            0.8,
+            0.86
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_sixway",
+          "book": "smoke"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.05
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": []
+    },
+    {
+      "name": "port_thread",
+      "spawn": [
+        {
+          "module": "rate",
+          "per_second": 2,
+          "for_seconds": 3
+        },
+        {
+          "module": "by_input",
+          "input": "heat",
+          "target": "rate",
+          "curve": [
+            [
+              0,
+              0
+            ],
+            [
+              0.25,
+              0.6
+            ],
+            [
+              1,
+              1.4
+            ]
+          ]
+        }
+      ],
+      "initialize": [
+        {
+          "module": "life",
+          "value": {
+            "range": [
+              1.5,
+              2.5
+            ]
+          }
+        },
+        {
+          "module": "shape_point"
+        },
+        {
+          "module": "shape_cone",
+          "angle_deg": 25,
+          "about": "up"
+        },
+        {
+          "module": "speed",
+          "value": {
+            "range": [
+              0.2,
+              0.4
+            ]
+          }
+        },
+        {
+          "module": "size",
+          "value": {
+            "range": [
+              0.005,
+              0.01
+            ]
+          }
+        },
+        {
+          "module": "spin",
+          "rate": 0.3,
+          "start": 3.1416
+        }
+      ],
+      "update": [
+        {
+          "module": "ballistic",
+          "accel": [
+            0,
+            0.25,
+            0
+          ],
+          "drag": 1.2
+        },
+        {
+          "module": "air_drift"
+        },
+        {
+          "module": "swirl",
+          "radius": 0.03,
+          "turn": 2.0
+        },
+        {
+          "module": "size_over_life",
+          "to": 0.03
+        },
+        {
+          "module": "opacity_over_life",
+          "value": {
+            "curve": [
+              [
+                0,
+                0
+              ],
+              [
+                0.1,
+                0.11
+              ],
+              [
+                0.5,
+                0.07
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "module": "light_cpu",
+          "mode": "sixway",
+          "phase_g": 0.6,
+          "albedo": [
+            0.78,
+            0.8,
+            0.86
+          ]
+        }
+      ],
+      "render": [
+        {
+          "module": "sprite_sixway",
+          "book": "smoke"
+        },
+        {
+          "module": "placement",
+          "mode": "facing"
+        },
+        {
+          "module": "soft_depth",
+          "metres": 0.05
+        },
+        {
+          "module": "motion",
+          "layer": "soft"
+        }
+      ],
+      "events": [],
+      "at": "port"
+    }
+  ],
+  "scalability": {
+    "cull_distance": 60,
+    "min_pixels": 2,
+    "importance": 0.9,
+    "max_live": 5,
+    "near_fade": [
+      0.15,
+      0.35
+    ],
+    "reference_distance": 0.7
+  },
+  "budget": {
+    "fill_megapixel_layers": 1.4,
+    "instances": 110,
+    "lights": 0
+  }
+}
