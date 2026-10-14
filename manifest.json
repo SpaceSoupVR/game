@@ -2,6 +2,10 @@
     "name": "Studio Test Map",
     "version": "0.1.0",
     "entry_scene": "test_room",
+    "locomotion": {
+        "walk_speed": 1.6,
+        "run_speed": 3.0
+    },
     "scenes": [
         "lobby",
         "water_world",

@@ -3,11 +3,11 @@
   "version": 1,
   "emitters": [
     {
-      "name": "mist",
+      "name": "wisps",
       "spawn": [
         {
           "module": "rate",
-          "per_second": 1.2
+          "per_second": 5.0
         }
       ],
       "initialize": [
@@ -15,57 +15,45 @@
           "module": "life",
           "value": {
             "range": [
-              7,
-              10
+              13,
+              19
             ]
           }
         },
         {
           "module": "shape_disc",
-          "radius": 3.2
-        },
-        {
-          "module": "shape_cone",
-          "angle_deg": 20,
-          "about": "up"
-        },
-        {
-          "module": "speed",
-          "value": {
-            "range": [
-              0.02,
-              0.06
-            ]
-          }
+          "radius": 4.0,
+          "fills_object": true
         },
         {
           "module": "size",
           "value": {
             "range": [
-              0.3,
-              0.45
+              0.24,
+              0.36
             ]
           }
         },
         {
           "module": "spin",
-          "rate": 0.06,
-          "start": 3.14
+          "rate": 0.0,
+          "start": 0.15
         }
       ],
       "update": [
         {
           "module": "ballistic",
           "accel": [
-            0,
-            0.012,
-            0
+            0.016,
+            0.0,
+            0.009
           ],
-          "drag": 0.5
+          "drag": 0.35
         },
         {
-          "module": "air_drift",
-          "strength": 1
+          "module": "jitter",
+          "reach": 0.08,
+          "pace": 0.2
         },
         {
           "module": "size_over_life",
@@ -73,11 +61,11 @@
             "curve": [
               [
                 0,
-                1
+                0.8
               ],
               [
                 1,
-                1.8
+                1.3
               ]
             ]
           }
@@ -92,11 +80,11 @@
               ],
               [
                 0.3,
-                0.09
+                0.2
               ],
               [
-                0.75,
-                0.06
+                0.7,
+                0.16
               ],
               [
                 1,
@@ -107,29 +95,31 @@
         },
         {
           "module": "light_cpu",
-          "mode": "sixway",
+          "mode": "scatter",
+          "phase_g": 0.45,
           "albedo": [
-            0.9,
-            0.92,
-            0.95
+            0.93,
+            0.94,
+            0.96
           ]
         }
       ],
       "render": [
         {
-          "module": "sprite_sixway",
+          "module": "sprite_scatter",
           "book": "smoke"
         },
         {
           "module": "placement",
-          "mode": "facing"
+          "mode": "streak",
+          "streak_seconds": 55
         },
         {
           "module": "flipbook"
         },
         {
           "module": "soft_depth",
-          "metres": 0.4
+          "metres": 0.25
         },
         {
           "module": "motion",
@@ -140,14 +130,14 @@
     }
   ],
   "scalability": {
-    "cull_distance": 45,
+    "cull_distance": 80,
     "min_pixels": 2,
     "importance": 0.3,
     "max_live": 1
   },
   "budget": {
     "fill_megapixel_layers": 1.5,
-    "instances": 100,
+    "instances": 150,
     "lights": 0
   }
 }
