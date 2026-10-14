@@ -1334,8 +1334,8 @@
     {
       "bounds": [-38, -38, -14, -14],
       "choppiness": 0.4,
-      "deep": [38, 62, 40],
-      "depth_scale": 0.7,
+      "deep": [28, 36, 22],
+      "depth_scale": 0.55,
       "fetch": 20,
       "height": -0.368,
       "max_wade_depth": 10,
