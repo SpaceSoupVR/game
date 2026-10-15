@@ -1,0 +1,26 @@
+{
+  "authors": [
+    "Greg Zaal"
+  ],
+  "categories": [
+    "outdoor",
+    "natural light",
+    "nature",
+    "partly cloudy",
+    "clear",
+    "skies",
+    "high contrast",
+    "midday",
+    "pure skies"
+  ],
+  "evs": 22,
+  "installedAt": "2026-10-14T16:56:06Z",
+  "name": "Kloofendal 43d Clear (Pure Sky)",
+  "resolution": "4k",
+  "source": {
+    "assetId": "kloofendal_43d_clear_puresky",
+    "license": "CC0-1.0",
+    "provider": "polyhaven"
+  },
+  "whenShot": 1684320360
+}

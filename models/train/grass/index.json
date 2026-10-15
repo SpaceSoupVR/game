@@ -1,0 +1,31 @@
+{
+  "models": [
+    {
+      "file": "grass_clump_1.glb",
+      "weight": 1,
+      "scale": [
+        0.7,
+        1.4
+      ],
+      "max_slope": 45
+    },
+    {
+      "file": "grass_clump_2.glb",
+      "weight": 1,
+      "scale": [
+        0.7,
+        1.4
+      ],
+      "max_slope": 45
+    },
+    {
+      "file": "grass_clump_3.glb",
+      "weight": 1,
+      "scale": [
+        0.7,
+        1.4
+      ],
+      "max_slope": 45
+    }
+  ]
+}

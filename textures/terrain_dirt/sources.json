@@ -1,0 +1,62 @@
+{
+  "ground": {
+    "ao": true,
+    "assetId": "dirt_floor",
+    "authors": [
+      "eye-candy.xyz"
+    ],
+    "displacement": true,
+    "license": "CC0-1.0",
+    "metres_per_tile": 2.07,
+    "name": "Dirt Floor",
+    "normal": true,
+    "resolution": "2K",
+    "roughness": true,
+    "source": "polyhaven"
+  },
+  "high": {
+    "ao": true,
+    "assetId": "leafy_grass",
+    "authors": [
+      "Charlotte Baglioni"
+    ],
+    "displacement": true,
+    "license": "CC0-1.0",
+    "metres_per_tile": 2.0,
+    "name": "Leafy Grass",
+    "normal": true,
+    "resolution": "2K",
+    "roughness": true,
+    "source": "polyhaven"
+  },
+  "rock": {
+    "ao": true,
+    "assetId": "brown_mud_03",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "displacement": true,
+    "license": "CC0-1.0",
+    "metres_per_tile": 1.3,
+    "name": "Brown Mud 03",
+    "normal": true,
+    "resolution": "2K",
+    "roughness": true,
+    "source": "polyhaven"
+  },
+  "sediment": {
+    "ao": true,
+    "assetId": "rocky_trail_02",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "displacement": true,
+    "license": "CC0-1.0",
+    "metres_per_tile": 2.0,
+    "name": "Rocky Trail 02",
+    "normal": true,
+    "resolution": "2K",
+    "roughness": true,
+    "source": "polyhaven"
+  }
+}

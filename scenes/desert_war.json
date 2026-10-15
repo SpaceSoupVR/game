@@ -1,0 +1,2194 @@
+{
+  "name": "desert_war",
+  "post": {
+    "exposure": 1.0,
+    "tonemap": "Aces"
+  },
+  "terrain": {
+    "origin": [
+      -500.0,
+      0.0,
+      -780.0
+    ],
+    "splat": {
+      "path": "terrain/desert_war.splat",
+      "resolution": [
+        1024,
+        2048
+      ],
+      "layers": 4
+    },
+    "kind": "heightfield",
+    "path": "terrain/desert_war.r16",
+    "resolution": [
+      501,
+      781
+    ],
+    "size": [
+      1000.0,
+      1560.0
+    ],
+    "height_range": [
+      -20.0,
+      80.0
+    ]
+  },
+  "scatter": [
+    {
+      "id": "scatter_trees",
+      "name": "Trees",
+      "seed": 1451627903,
+      "prototypes": [
+        {
+          "mesh": "models/train/trees/oak_big_1.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_2.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_3.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_4.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_1.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_2.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_3.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_4.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_1.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_2.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_3.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_1.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_2.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_3.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_1.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_2.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_3.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.40499997,
+            0.495
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        }
+      ],
+      "strokes": [
+        {
+          "id": 0,
+          "center": [
+            70.1,
+            -244.5
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 1,
+          "center": [
+            65.9,
+            203.9
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 2,
+          "center": [
+            177.6,
+            56.3
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 4,
+          "center": [
+            284.8,
+            -140.2
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 6,
+          "center": [
+            289.7,
+            243.9
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 7,
+          "center": [
+            176.2,
+            122.0
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 10,
+          "center": [
+            211.2,
+            -343.0
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 11,
+          "center": [
+            144.0,
+            214.6
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 12,
+          "center": [
+            98.6,
+            65.6
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 13,
+          "center": [
+            131.2,
+            281.0
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 14,
+          "center": [
+            163.4,
+            -307.1
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 15,
+          "center": [
+            159.0,
+            -71.5
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 16,
+          "center": [
+            70.9,
+            471.4
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 17,
+          "center": [
+            97.0,
+            -406.6
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 18,
+          "center": [
+            309.0,
+            47.8
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 19,
+          "center": [
+            62.3,
+            330.3
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 21,
+          "center": [
+            87.2,
+            417.6
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 22,
+          "center": [
+            157.9,
+            322.5
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 23,
+          "center": [
+            30.0,
+            546.2
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 24,
+          "center": [
+            255.0,
+            -45.7
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 25,
+          "center": [
+            -14.5,
+            451.9
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 26,
+          "center": [
+            228.9,
+            -199.1
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 27,
+          "center": [
+            -41.7,
+            -445.4
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 28,
+          "center": [
+            281.4,
+            -204.4
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 29,
+          "center": [
+            306.8,
+            94.0
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 30,
+          "center": [
+            96.4,
+            -337.4
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 31,
+          "center": [
+            265.6,
+            -263.6
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 33,
+          "center": [
+            244.1,
+            26.9
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 35,
+          "center": [
+            165.6,
+            -169.4
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 37,
+          "center": [
+            -4.9,
+            -395.8
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 39,
+          "center": [
+            101.3,
+            161.2
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 40,
+          "center": [
+            85.4,
+            -188.6
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 43,
+          "center": [
+            24.4,
+            -520.8
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 44,
+          "center": [
+            83.2,
+            526.1
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 47,
+          "center": [
+            237.4,
+            276.3
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 49,
+          "center": [
+            48.2,
+            -355.2
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 51,
+          "center": [
+            301.3,
+            158.8
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 52,
+          "center": [
+            326.3,
+            -42.6
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 53,
+          "center": [
+            218.0,
+            363.1
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 56,
+          "center": [
+            116.2,
+            486.3
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 57,
+          "center": [
+            130.7,
+            -490.0
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 58,
+          "center": [
+            9.9,
+            284.5
+          ],
+          "radius": 20.0,
+          "density": 0.006
+        },
+        {
+          "id": 60,
+          "center": [
+            -33.0,
+            350.7
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 63,
+          "center": [
+            226.8,
+            -433.6
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 65,
+          "center": [
+            163.1,
+            493.9
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 66,
+          "center": [
+            -5.2,
+            -276.6
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 68,
+          "center": [
+            65.1,
+            -98.2
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 70,
+          "center": [
+            -48.1,
+            392.6
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 71,
+          "center": [
+            219.3,
+            -445.0
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 72,
+          "center": [
+            -68.1,
+            -435.6
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 74,
+          "center": [
+            66.8,
+            89.3
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 75,
+          "center": [
+            260.5,
+            376.3
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 78,
+          "center": [
+            20.5,
+            230.8
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 79,
+          "center": [
+            341.2,
+            -145.2
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 82,
+          "center": [
+            46.7,
+            167.8
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 83,
+          "center": [
+            125.5,
+            518.2
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        }
+      ],
+      "overrides": [],
+      "season": "late_autumn"
+    }
+  ],
+  "objects": [
+    {
+      "id": "spawn_north_1",
+      "cuboid": {
+        "position": [
+          -57.51,
+          1.44,
+          564.53
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "spawn_north_2",
+      "cuboid": {
+        "position": [
+          -85.83,
+          1.66,
+          523.32
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "pad_pistol_north",
+      "cuboid": {
+        "position": [
+          -31.27,
+          1.59,
+          541.79
+        ],
+        "half_size": [
+          0.25,
+          0.15,
+          0.25
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          200,
+          140,
+          60,
+          255
+        ],
+        "wire_color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "selector": {
+        "set": "weapon",
+        "value": "pistol"
+      }
+    },
+    {
+      "id": "sign_pistol_north",
+      "cuboid": {
+        "position": [
+          -31.27,
+          1.81,
+          541.79
+        ],
+        "half_size": [
+          0.15,
+          0.06,
+          0.005
+        ],
+        "rotation": [
+          0.0,
+          -0.44307,
+          0.0,
+          0.89649
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": {
+        "path": "models/signs/sign_pistol.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "pad_rifle_north",
+      "cuboid": {
+        "position": [
+          -57.99,
+          1.74,
+          506.84
+        ],
+        "half_size": [
+          0.25,
+          0.15,
+          0.25
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          70,
+          110,
+          170,
+          255
+        ],
+        "wire_color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "selector": {
+        "set": "weapon",
+        "value": "rifle"
+      }
+    },
+    {
+      "id": "sign_rifle_north",
+      "cuboid": {
+        "position": [
+          -57.99,
+          1.96,
+          506.84
+        ],
+        "half_size": [
+          0.15,
+          0.06,
+          0.005
+        ],
+        "rotation": [
+          0.0,
+          -0.44307,
+          0.0,
+          0.89649
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": {
+        "path": "models/signs/sign_rifle.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "pistol_north",
+      "cuboid": {
+        "position": [
+          -29.93,
+          2.66,
+          531.91
+        ],
+        "half_size": [
+          0.09182196,
+          0.06309175,
+          0.015965043
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "prop": {
+        "path": "models/props/pistol/pistol.prop.json"
+      }
+    },
+    {
+      "id": "rifle_north",
+      "cuboid": {
+        "position": [
+          -48.4,
+          2.4,
+          508.27
+        ],
+        "half_size": [
+          0.41999546,
+          0.13657467,
+          0.036371253
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "prop": {
+        "path": "models/props/m4a1/m4a1.prop.json"
+      }
+    },
+    {
+      "id": "board_height_north",
+      "cuboid": {
+        "position": [
+          -24.48,
+          3.15,
+          519.91
+        ],
+        "half_size": [
+          0.6,
+          0.25,
+          0.01
+        ],
+        "rotation": [
+          0.0,
+          -0.43051,
+          0.0,
+          0.90259
+        ],
+        "color": [
+          31,
+          30,
+          28,
+          255
+        ],
+        "wire_color": [
+          232,
+          162,
+          74,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "menu_panel": {
+        "menu": "height"
+      }
+    },
+    {
+      "id": "spawn_south_1",
+      "cuboid": {
+        "position": [
+          -57.51,
+          0.16,
+          -564.53
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "spawn_south_2",
+      "cuboid": {
+        "position": [
+          -85.83,
+          0.57,
+          -523.32
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "pad_pistol_south",
+      "cuboid": {
+        "position": [
+          -31.27,
+          0.8,
+          -541.79
+        ],
+        "half_size": [
+          0.25,
+          0.15,
+          0.25
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          200,
+          140,
+          60,
+          255
+        ],
+        "wire_color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "selector": {
+        "set": "weapon",
+        "value": "pistol"
+      }
+    },
+    {
+      "id": "sign_pistol_south",
+      "cuboid": {
+        "position": [
+          -31.27,
+          1.02,
+          -541.79
+        ],
+        "half_size": [
+          0.15,
+          0.06,
+          0.005
+        ],
+        "rotation": [
+          0.0,
+          -0.89649,
+          0.0,
+          0.44307
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": {
+        "path": "models/signs/sign_pistol.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "pad_rifle_south",
+      "cuboid": {
+        "position": [
+          -57.99,
+          1.1,
+          -506.84
+        ],
+        "half_size": [
+          0.25,
+          0.15,
+          0.25
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          70,
+          110,
+          170,
+          255
+        ],
+        "wire_color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "selector": {
+        "set": "weapon",
+        "value": "rifle"
+      }
+    },
+    {
+      "id": "sign_rifle_south",
+      "cuboid": {
+        "position": [
+          -57.99,
+          1.32,
+          -506.84
+        ],
+        "half_size": [
+          0.15,
+          0.06,
+          0.005
+        ],
+        "rotation": [
+          0.0,
+          -0.89649,
+          0.0,
+          0.44307
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": {
+        "path": "models/signs/sign_rifle.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "pistol_south",
+      "cuboid": {
+        "position": [
+          -29.93,
+          1.8,
+          -531.91
+        ],
+        "half_size": [
+          0.09182196,
+          0.06309175,
+          0.015965043
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "prop": {
+        "path": "models/props/pistol/pistol.prop.json"
+      }
+    },
+    {
+      "id": "rifle_south",
+      "cuboid": {
+        "position": [
+          -48.4,
+          1.95,
+          -508.27
+        ],
+        "half_size": [
+          0.41999546,
+          0.13657467,
+          0.036371253
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "prop": {
+        "path": "models/props/m4a1/m4a1.prop.json"
+      }
+    },
+    {
+      "id": "board_height_south",
+      "cuboid": {
+        "position": [
+          -24.48,
+          2.5,
+          -519.91
+        ],
+        "half_size": [
+          0.6,
+          0.25,
+          0.01
+        ],
+        "rotation": [
+          0.0,
+          -0.90259,
+          0.0,
+          0.43051
+        ],
+        "color": [
+          31,
+          30,
+          28,
+          255
+        ],
+        "wire_color": [
+          232,
+          162,
+          74,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "menu_panel": {
+        "menu": "height"
+      }
+    },
+    {
+      "id": "walk_floor",
+      "cuboid": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half_size": [
+          500.0,
+          0.05,
+          780.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          90,
+          220,
+          140,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "walk_area": {
+        "fence_height": 8.0,
+        "lift": 0.05
+      },
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "crate_pistol_north",
+      "cuboid": {
+        "position": [
+          -29.93,
+          2.01,
+          531.91
+        ],
+        "half_size": [
+          0.45,
+          0.3,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          120,
+          96,
+          60,
+          255
+        ],
+        "wire_color": [
+          70,
+          55,
+          35,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "crate_rifle_north",
+      "cuboid": {
+        "position": [
+          -48.4,
+          1.75,
+          508.27
+        ],
+        "half_size": [
+          0.45,
+          0.3,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          120,
+          96,
+          60,
+          255
+        ],
+        "wire_color": [
+          70,
+          55,
+          35,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "crate_pistol_south",
+      "cuboid": {
+        "position": [
+          -29.93,
+          1.15,
+          -531.91
+        ],
+        "half_size": [
+          0.45,
+          0.3,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          120,
+          96,
+          60,
+          255
+        ],
+        "wire_color": [
+          70,
+          55,
+          35,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    },
+    {
+      "id": "crate_rifle_south",
+      "cuboid": {
+        "position": [
+          -48.4,
+          1.3,
+          -508.27
+        ],
+        "half_size": [
+          0.45,
+          0.3,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          120,
+          96,
+          60,
+          255
+        ],
+        "wire_color": [
+          70,
+          55,
+          35,
+          255
+        ],
+        "style": "SolidAndWire",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null
+    }
+  ]
+}

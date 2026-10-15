@@ -1,0 +1,12 @@
+{
+  "name": "height",
+  "title": "Your height",
+  "width": 480.0,
+  "height": 200.0,
+  "background": "#1f1e1c",
+  "title_color": "#f1eee8",
+  "widgets": [
+    { "id": 1, "kind": "label", "text": "{height_cm} cm", "x": 40.0, "y": 70.0, "w": 400.0, "h": 72.0, "color": "#1f1e1c", "text_color": "#e8a24a", "value": 0.0, "min": 0.0, "max": 1.0, "on": true, "action": "" },
+    { "id": 2, "kind": "label", "text": "Measured from your headset. Stand straight.", "x": 40.0, "y": 150.0, "w": 400.0, "h": 24.0, "color": "#1f1e1c", "text_color": "#9a9792", "value": 0.0, "min": 0.0, "max": 1.0, "on": true, "action": "" }
+  ]
+}

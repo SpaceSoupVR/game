@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "name": "bodycam",
+  "lighting": {
+    "sun_azimuth_deg": 35.0,
+    "sun_elevation_deg": 48.0,
+    "sun_color": [
+      255,
+      241,
+      214
+    ],
+    "sun_intensity": 2.0,
+    "fill_intensity": 0.22,
+    "fill_color": [
+      170,
+      196,
+      255
+    ],
+    "sky_zenith": [
+      0.22,
+      0.38,
+      0.78
+    ],
+    "sky_horizon": [
+      0.62,
+      0.68,
+      0.76
+    ],
+    "ground": [
+      0.34,
+      0.28,
+      0.2
+    ],
+    "sky_intensity": 1.15,
+    "exposure": 1.05
+  },
+  "materials": {
+    "gltf_roughness": true
+  },
+  "lens": {
+    "fov_deg": 78.0,
+    "distortion": 0.14,
+    "chromatic_aberration": 0.3,
+    "vignette": 0.42,
+    "bloom": 0.35,
+    "bloom_threshold": 0.72,
+    "sharpen": 0.55,
+    "grain": 0.16,
+    "handheld": 0.18
+  },
+  "grade": {
+    "contrast": 1.18,
+    "saturation": 0.86,
+    "lift": -0.02,
+    "warmth": -0.06
+  },
+  "overlay": {
+    "enabled": true,
+    "rec_dot": true,
+    "corner_marks": true
+  }
+}
