@@ -1,0 +1,13 @@
+{
+  "_comment": [
+    "0 ground brown_mud_02, 1 rock muddy_tracks, 2 high mud_forest, 3 sediment brown_mud_leaves_01; 4K from Poly Haven"
+  ],
+  "repeat": [
+    1.3,
+    2.25,
+    2.35,
+    1.3
+  ],
+  "normal_strength": 1.3,
+  "parallax": 0.09
+}

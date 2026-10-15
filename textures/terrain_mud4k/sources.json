@@ -1,0 +1,46 @@
+{
+  "ground": {
+    "assetId": "brown_mud_02",
+    "name": "Brown Mud 02",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "license": "CC0-1.0",
+    "metres_per_tile": 1.3,
+    "resolution": "4K",
+    "source": "polyhaven"
+  },
+  "rock": {
+    "assetId": "muddy_tracks",
+    "name": "Muddy Tracks",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "license": "CC0-1.0",
+    "metres_per_tile": 2.25,
+    "resolution": "4K",
+    "source": "polyhaven"
+  },
+  "high": {
+    "assetId": "mud_forest",
+    "name": "Mud Forest",
+    "authors": [
+      "eye-candy.xyz"
+    ],
+    "license": "CC0-1.0",
+    "metres_per_tile": 2.35,
+    "resolution": "4K",
+    "source": "polyhaven"
+  },
+  "sediment": {
+    "assetId": "brown_mud_leaves_01",
+    "name": "Brown Mud Leaves 01",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "license": "CC0-1.0",
+    "metres_per_tile": 1.3,
+    "resolution": "4K",
+    "source": "polyhaven"
+  }
+}
