@@ -23279,5 +23279,35 @@
       "spawn_point": null,
       "teleportal": null
     }
+  ],
+  "water": [
+    {
+      "height": -1.05,
+      "bounds": [
+        -60.0,
+        -60.0,
+        60.0,
+        60.0
+      ],
+      "shallow": [
+        95,
+        62,
+        35
+      ],
+      "deep": [
+        95,
+        62,
+        35
+      ],
+      "depth_scale": 0.4,
+      "shore_fade": 0.12,
+      "wind_speed": 1.0,
+      "wind_direction": 30.0,
+      "fetch": 100.0,
+      "choppiness": 0.3,
+      "name": "trench mud",
+      "gloss": 0.5,
+      "mud": 1.0
+    }
   ]
 }
