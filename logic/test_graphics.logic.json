@@ -1,0 +1,32 @@
+{
+ "scene": "test_graphics",
+ "player_start": "spawn",
+ "open_menus": [],
+ "menu_rules": [],
+ "teams": [],
+ "menu_button": null,
+ "hand_menu": true,
+ "npcs": [],
+ "swarms": [
+  {
+   "entity": "models/soldier/soldier.entity.json",
+   "count": 3,
+   "spread_m": 28.0,
+   "health": 100.0,
+   "hits": [
+    {
+     "weapon": "pistol",
+     "body_shots": 5,
+     "head_shots": 1
+    },
+    {
+     "weapon": "m4a1",
+     "body_shots": 2,
+     "head_shots": 1
+    }
+   ],
+   "attack_damage": 0.0,
+   "player_health": 100.0
+  }
+ ]
+}

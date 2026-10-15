@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "file": "stone_1.glb",
+      "weight": 1,
+      "scale": [
+        0.4,
+        1.6
+      ],
+      "max_slope": 60
+    },
+    {
+      "file": "stone_2.glb",
+      "weight": 1,
+      "scale": [
+        0.4,
+        1.6
+      ],
+      "max_slope": 60
+    },
+    {
+      "file": "stone_3.glb",
+      "weight": 1,
+      "scale": [
+        0.4,
+        1.6
+      ],
+      "max_slope": 60
+    },
+    {
+      "file": "stone_4.glb",
+      "weight": 1,
+      "scale": [
+        0.4,
+        1.6
+      ],
+      "max_slope": 60
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "authors": [
+    "Jarod Guest",
+    "Sergej Majboroda"
+  ],
+  "categories": [
+    "outdoor",
+    "skies",
+    "natural light",
+    "nature",
+    "low contrast",
+    "overcast",
+    "morning-afternoon",
+    "pure skies"
+  ],
+  "evs": 12,
+  "installedAt": "2026-10-14T18:12:44Z",
+  "name": "Overcast Soil (Pure Sky)",
+  "resolution": "4k",
+  "source": {
+    "assetId": "overcast_soil_puresky",
+    "license": "CC0-1.0",
+    "provider": "polyhaven"
+  },
+  "whenShot": 1697731980
+}

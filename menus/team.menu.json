@@ -1,0 +1,16 @@
+{
+  "name": "team",
+  "title": "Team",
+  "width": 560.0,
+  "height": 420.0,
+  "background": "#1f1e1c",
+  "title_color": "#f1eee8",
+  "widgets": [
+    { "id": 1, "kind": "button", "text": "Switch team", "x": 40.0, "y": 60.0, "w": 220.0, "h": 56.0, "color": "#e8a24a", "text_color": "#1c1b19", "value": 0.5, "min": 0.0, "max": 1.0, "on": true, "action": "switch_team" },
+    { "id": 2, "kind": "button", "text": "Close", "x": 300.0, "y": 60.0, "w": 220.0, "h": 56.0, "color": "#3a3835", "text_color": "#f1eee8", "value": 0.5, "min": 0.0, "max": 1.0, "on": true, "action": "close" },
+    { "id": 3, "kind": "label", "text": "Leaderboard", "x": 40.0, "y": 140.0, "w": 480.0, "h": 32.0, "color": "#1f1e1c", "text_color": "#f1eee8", "value": 0.0, "min": 0.0, "max": 1.0, "on": true, "action": "" },
+    { "id": 4, "kind": "label", "text": "Player          Team     K/D     Ping", "x": 40.0, "y": 180.0, "w": 480.0, "h": 28.0, "color": "#1f1e1c", "text_color": "#9a9792", "value": 0.0, "min": 0.0, "max": 1.0, "on": true, "action": "" },
+    { "id": 5, "kind": "label", "text": "{leaderboard}", "x": 40.0, "y": 212.0, "w": 480.0, "h": 180.0, "color": "#1f1e1c", "text_color": "#f1eee8", "value": 0.0, "min": 0.0, "max": 1.0, "on": true, "action": "" },
+    { "id": 6, "kind": "label", "text": "{players} players online", "x": 40.0, "y": 390.0, "w": 480.0, "h": 24.0, "color": "#1f1e1c", "text_color": "#9a9792", "value": 0.0, "min": 0.0, "max": 1.0, "on": true, "action": "" }
+  ]
+}

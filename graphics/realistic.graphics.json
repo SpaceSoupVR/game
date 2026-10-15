@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "name": "realistic",
+  "lighting": {
+    "sun_azimuth_deg": 35.0,
+    "sun_elevation_deg": 48.0,
+    "sun_color": [
+      220,
+      226,
+      235
+    ],
+    "sun_intensity": 2.0,
+    "fill_intensity": 0.22,
+    "fill_color": [
+      170,
+      196,
+      255
+    ],
+    "sky_zenith": [
+      0.22,
+      0.38,
+      0.78
+    ],
+    "sky_horizon": [
+      0.62,
+      0.68,
+      0.76
+    ],
+    "ground": [
+      0.34,
+      0.28,
+      0.2
+    ],
+    "sky_intensity": 1.15,
+    "exposure": 0.55,
+    "scene_sky": true,
+    "sky_sun": true
+  },
+  "materials": {
+    "gltf_roughness": true
+  },
+  "shading": {
+    "ambient_occlusion": 0.75,
+    "occlusion_radius_m": 0.6
+  },
+  "lens": {
+    "fov_deg": 70.0,
+    "distortion": 0.0,
+    "chromatic_aberration": 0.0,
+    "vignette": 0.0,
+    "bloom": 0.12,
+    "bloom_threshold": 0.85,
+    "sharpen": 0.25,
+    "grain": 0.0,
+    "handheld": 0.0
+  },
+  "grade": {
+    "contrast": 1.12,
+    "saturation": 0.52,
+    "lift": -0.01,
+    "warmth": -0.45
+  },
+  "overlay": {
+    "enabled": false,
+    "rec_dot": false,
+    "corner_marks": false
+  },
+  "atmosphere": {
+    "visibility_km": 2.5
+  },
+  "performance": {
+    "render_scale": 0.8
+  }
+}

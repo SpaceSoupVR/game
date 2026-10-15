@@ -1,0 +1,26 @@
+{
+  "authors": [
+    "Jarod Guest",
+    "Sergey Rudavin"
+  ],
+  "categories": [
+    "outdoor",
+    "skies",
+    "nature",
+    "midday",
+    "overcast",
+    "low contrast",
+    "natural light",
+    "pure skies"
+  ],
+  "evs": 6,
+  "installedAt": "2026-10-14T18:12:49Z",
+  "name": "Mud Road (Pure Sky)",
+  "resolution": "4k",
+  "source": {
+    "assetId": "mud_road_puresky",
+    "license": "CC0-1.0",
+    "provider": "polyhaven"
+  },
+  "whenShot": 1455619320
+}

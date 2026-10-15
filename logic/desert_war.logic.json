@@ -1,0 +1,87 @@
+{
+  "scene": "desert_war",
+  "player_start": "spawn_north_1",
+  "open_menus": [
+    "start"
+  ],
+  "menu_rules": [
+    {
+      "menu": "start",
+      "action": "start_game",
+      "then": [
+        {
+          "do": "hide_menu",
+          "menu": "start"
+        },
+        {
+          "do": "teleport_player",
+          "spawn": "spawn_north_2"
+        }
+      ]
+    },
+    {
+      "menu": "team",
+      "action": "switch_team",
+      "then": [
+        {
+          "do": "switch_team"
+        },
+        {
+          "do": "hide_menu",
+          "menu": "team"
+        }
+      ]
+    },
+    {
+      "menu": "team",
+      "action": "close",
+      "then": [
+        {
+          "do": "hide_menu",
+          "menu": "team"
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "name": "north",
+      "spawns": [
+        "spawn_north_1",
+        "spawn_north_2"
+      ]
+    },
+    {
+      "name": "south",
+      "spawns": [
+        "spawn_south_1",
+        "spawn_south_2"
+      ]
+    }
+  ],
+  "menu_button": "team",
+  "hand_menu": false,
+  "npcs": [],
+  "swarms": [
+    {
+      "entity": "models/soldier/soldier.entity.json",
+      "count": 8,
+      "spread_m": 120.0,
+      "health": 100.0,
+      "hits": [
+        {
+          "weapon": "pistol",
+          "body_shots": 5,
+          "head_shots": 1
+        },
+        {
+          "weapon": "m4a1",
+          "body_shots": 2,
+          "head_shots": 1
+        }
+      ],
+      "attack_damage": 15.0,
+      "player_health": 100.0
+    }
+  ]
+}
