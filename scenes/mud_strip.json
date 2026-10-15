@@ -43,23 +43,23 @@
         0.8
       ],
       "shallow": [
-        95,
-        62,
-        35
+        105,
+        85,
+        62
       ],
       "deep": [
-        95,
-        62,
-        35
+        105,
+        85,
+        62
       ],
-      "depth_scale": 0.3,
+      "depth_scale": 0.25,
       "shore_fade": 0.08,
       "wind_speed": 1.0,
       "wind_direction": 30.0,
       "fetch": 100.0,
       "choppiness": 0.3,
       "name": "mud",
-      "gloss": 0.5,
+      "gloss": 0.6,
       "mud": 1.0
     },
     {
