@@ -1,0 +1,151 @@
+{
+  "name": "mud_strip",
+  "post": {
+    "exposure": 1.0,
+    "tonemap": "Aces"
+  },
+  "terrain": {
+    "origin": [
+      -8.0,
+      0.0,
+      -4.0
+    ],
+    "textures": "textures/terrain_trench",
+    "kind": "heightfield",
+    "path": "terrain/mud_strip.r16",
+    "resolution": [
+      65,
+      33
+    ],
+    "size": [
+      16.0,
+      8.0
+    ],
+    "height_range": [
+      -1.0,
+      1.0
+    ]
+  },
+  "scatter": [],
+  "sky": {
+    "id": "overcast_soil_puresky",
+    "intensity": 1.0,
+    "rotation_deg": 0.0,
+    "show_background": true
+  },
+  "water": [
+    {
+      "height": -0.1,
+      "bounds": [
+        -5.3,
+        -0.8,
+        5.3,
+        0.8
+      ],
+      "shallow": [
+        95,
+        62,
+        35
+      ],
+      "deep": [
+        95,
+        62,
+        35
+      ],
+      "depth_scale": 0.3,
+      "shore_fade": 0.08,
+      "wind_speed": 1.0,
+      "wind_direction": 30.0,
+      "fetch": 100.0,
+      "choppiness": 0.3,
+      "name": "mud",
+      "gloss": 0.5,
+      "mud": 1.0
+    },
+    {
+      "height": -0.08,
+      "bounds": [
+        -0.9,
+        -0.6,
+        0.9,
+        0.6
+      ],
+      "shallow": [
+        120,
+        135,
+        125
+      ],
+      "deep": [
+        35,
+        45,
+        38
+      ],
+      "depth_scale": 0.6,
+      "shore_fade": 0.05,
+      "wind_speed": 0.6,
+      "wind_direction": 30.0,
+      "fetch": 50.0,
+      "choppiness": 0.3,
+      "name": "puddle"
+    }
+  ],
+  "objects": [
+    {
+      "id": "spawn",
+      "cuboid": {
+        "position": [
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    }
+  ]
+}
