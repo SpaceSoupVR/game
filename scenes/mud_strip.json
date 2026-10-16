@@ -35,7 +35,7 @@
   },
   "water": [
     {
-      "height": 0.045,
+      "height": 0.09,
       "bounds": [
         -7.9,
         -3.9,
@@ -43,102 +43,24 @@
         3.9
       ],
       "shallow": [
-        105,
-        85,
-        62
+        110,
+        88,
+        64
       ],
       "deep": [
-        105,
-        85,
-        62
+        95,
+        74,
+        52
       ],
-      "depth_scale": 0.25,
-      "shore_fade": 0.03,
+      "depth_scale": 0.35,
+      "shore_fade": 0.02,
       "wind_speed": 1.0,
       "wind_direction": 30.0,
       "fetch": 100.0,
       "choppiness": 0.3,
       "name": "slush",
-      "gloss": 0.6,
+      "gloss": 0.55,
       "mud": 1.0
-    },
-    {
-      "height": 0.05,
-      "bounds": [
-        -4.300000000000001,
-        -0.6,
-        -2.1,
-        0.7999999999999999
-      ],
-      "shallow": [
-        120,
-        135,
-        125
-      ],
-      "deep": [
-        35,
-        45,
-        38
-      ],
-      "depth_scale": 0.6,
-      "shore_fade": 0.03,
-      "wind_speed": 0.6,
-      "wind_direction": 30.0,
-      "fetch": 50.0,
-      "choppiness": 0.3,
-      "name": "puddle 1"
-    },
-    {
-      "height": 0.05,
-      "bounds": [
-        -0.9999999999999999,
-        -1.2,
-        1.7999999999999998,
-        0.6000000000000001
-      ],
-      "shallow": [
-        120,
-        135,
-        125
-      ],
-      "deep": [
-        35,
-        45,
-        38
-      ],
-      "depth_scale": 0.6,
-      "shore_fade": 0.03,
-      "wind_speed": 0.6,
-      "wind_direction": 30.0,
-      "fetch": 50.0,
-      "choppiness": 0.3,
-      "name": "puddle 2"
-    },
-    {
-      "height": 0.05,
-      "bounds": [
-        2.6,
-        -0.35,
-        4.6,
-        0.85
-      ],
-      "shallow": [
-        120,
-        135,
-        125
-      ],
-      "deep": [
-        35,
-        45,
-        38
-      ],
-      "depth_scale": 0.6,
-      "shore_fade": 0.03,
-      "wind_speed": 0.6,
-      "wind_direction": 30.0,
-      "fetch": 50.0,
-      "choppiness": 0.3,
-      "name": "puddle 3"
     }
   ],
   "objects": [
