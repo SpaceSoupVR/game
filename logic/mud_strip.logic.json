@@ -16,6 +16,16 @@
       "hits": [],
       "attack_damage": 0.0,
       "player_health": 100.0
+    },
+    {
+      "entity": "models/soldier/soldier_still.entity.json",
+      "count": 1,
+      "spread_m": 0.0,
+      "spawn": "guard_spawn",
+      "health": 100.0,
+      "hits": [],
+      "attack_damage": 0.0,
+      "player_health": 100.0
     }
   ]
 }

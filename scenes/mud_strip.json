@@ -120,6 +120,63 @@
       "laser": null,
       "spawn_point": {},
       "teleportal": null
+    },
+    {
+      "id": "guard_spawn",
+      "cuboid": {
+        "position": [
+          1.5,
+          0.04,
+          -2.2
+        ],
+        "half_size": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
     }
   ]
 }
