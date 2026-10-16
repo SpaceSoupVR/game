@@ -32,7 +32,7 @@
       0.2
     ],
     "sky_intensity": 1.15,
-    "exposure": 0.55,
+    "exposure": 1.0,
     "scene_sky": true,
     "sky_sun": true
   },

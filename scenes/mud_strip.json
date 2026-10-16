@@ -28,9 +28,9 @@
   },
   "scatter": [],
   "sky": {
-    "id": "overcast_soil_puresky",
+    "id": "kloofendal_48d_partly_cloudy_puresky",
     "intensity": 1.0,
-    "rotation_deg": 0.0,
+    "rotation_deg": 40.0,
     "show_background": true
   },
   "water": [

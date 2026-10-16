@@ -32,7 +32,7 @@
       0.2
     ],
     "sky_intensity": 1.15,
-    "exposure": 1.05
+    "exposure": 1.0
   },
   "materials": {
     "gltf_roughness": true
