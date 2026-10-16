@@ -9,5 +9,8 @@
     2.35
   ],
   "normal_strength": 1.3,
-  "parallax": 0.09
+  "parallax": 0.09,
+  "mud_layer": 3,
+  "deform": 0.08,
+  "wet_dark": 0.5
 }
