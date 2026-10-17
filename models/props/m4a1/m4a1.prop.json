@@ -1,2665 +1,2665 @@
 {
-  "schemaVersion": "1.0.0",
-  "prop": {
-    "name": "m4a1",
-    "model": "m4a1.glb",
-    "rest_pos": [
-      0.35,
-      1.05,
-      -0.35
+ "schemaVersion": "1.0.0",
+ "prop": {
+  "name": "m4a1",
+  "model": "m4a1.glb",
+  "rest_pos": [
+   0.35,
+   1.05,
+   -0.35
+  ],
+  "rest_rot_deg": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "scale": 0.1046,
+  "pieces": [
+   {
+    "id": "upper",
+    "name": "Upper receiver",
+    "meshes": [
+     "Object_4"
     ],
-    "rest_rot_deg": [
-      0.0,
-      0.0,
+    "kind": "Still"
+   },
+   {
+    "id": "trigger_piece",
+    "name": "Trigger",
+    "meshes": [
+     "Object_6"
+    ],
+    "kind": "Pressable"
+   },
+   {
+    "id": "stock",
+    "name": "Stock",
+    "meshes": [
+     "Object_8"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "selector_piece",
+    "name": "Fire selector",
+    "meshes": [
+     "Object_10"
+    ],
+    "kind": "Pressable"
+   },
+   {
+    "id": "mag_catch",
+    "name": "Magazine catch",
+    "meshes": [
+     "Object_12"
+    ],
+    "kind": "Pressable"
+   },
+   {
+    "id": "lower",
+    "name": "Lower receiver",
+    "meshes": [
+     "Object_14"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "handguard",
+    "name": "Handguard",
+    "meshes": [
+     "Object_16"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "grip",
+    "name": "Pistol grip",
+    "meshes": [
+     "Object_18"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "flash_hider",
+    "name": "Flash hider",
+    "meshes": [
+     "Object_20"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "dust_cover",
+    "name": "Dust cover",
+    "meshes": [
+     "Object_22"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "charging_handle",
+    "name": "Charging handle",
+    "meshes": [
+     "Object_24"
+    ],
+    "kind": "Pressable"
+   },
+   {
+    "id": "carry_handle",
+    "name": "Carry handle",
+    "meshes": [
+     "Object_26"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "bolt_catch",
+    "name": "Bolt catch",
+    "meshes": [
+     "Object_28"
+    ],
+    "kind": "Pressable"
+   },
+   {
+    "id": "bolt",
+    "name": "Bolt carrier",
+    "meshes": [
+     "Object_30"
+    ],
+    "kind": "Moves"
+   },
+   {
+    "id": "magazine_piece",
+    "name": "Magazine",
+    "meshes": [
+     "Object_32"
+    ],
+    "kind": "Holder"
+   },
+   {
+    "id": "magazine_spare",
+    "name": "Spare magazine",
+    "meshes": [
+     "Object_34",
+     "Object_35",
+     "Object_36"
+    ],
+    "kind": "Spawned"
+   },
+   {
+    "id": "casing",
+    "name": "Casing",
+    "meshes": [
+     "Object_38"
+    ],
+    "kind": "Spawned",
+    "nose": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "id": "cartridge",
+    "name": "Cartridge",
+    "meshes": [
+     "Object_40",
+     "Object_41"
+    ],
+    "kind": "Spawned",
+    "nose": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "id": "bullet",
+    "name": "Bullet",
+    "meshes": [
+     "Object_41"
+    ],
+    "kind": "Spawned",
+    "nose": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "id": "barrel",
+    "name": "Barrel",
+    "meshes": [
+     "Object_43"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "follower",
+    "name": "Follower",
+    "meshes": [
+     "FollowerPlate"
+    ],
+    "kind": "Spawned"
+   }
+  ],
+  "points": [
+   {
+    "id": "main_grip",
+    "name": "Main grip",
+    "kind": {
+     "Grip": {
+      "hand": "Both",
+      "pose": "Main hand \u00b7 Grip"
+     }
+    },
+    "parent": null,
+    "pos": [
+     -1.95,
+     -0.85,
+     0.3
+    ],
+    "rot_deg": [
+     90.0,
+     -90.0,
+     0.0
+    ]
+   },
+   {
+    "id": "support_grip",
+    "name": "Support grip",
+    "kind": {
+     "Grip": {
+      "hand": "Left",
+      "pose": "Support hand \u00b7 Steady",
+      "support": true,
+      "holds": [
+       {
+        "hand": "Left",
+        "from": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "pos": [
+         1.0,
+         -0.5,
+         0.0
+        ],
+        "rot_deg": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "pose": "Support hand \u00b7 Steady"
+       }
+      ]
+     }
+    },
+    "parent": null,
+    "pos": [
+     1.0,
+     -0.5,
+     0.0
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "id": "trigger",
+    "name": "Trigger",
+    "kind": {
+     "Control": {
+      "input": "Pull",
+      "moves_piece": "trigger_piece",
+      "shift": [
+       -0.08,
+       0.0,
+       0.0
+      ],
+      "turn_deg": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "press_pose": "Main hand \u00b7 Trigger squeeze",
+      "range_cm": 6.0
+     }
+    },
+    "parent": null,
+    "pos": [
+     -1.05,
+     -0.35,
+     0.1
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "id": "charge",
+    "name": "Charging handle",
+    "kind": {
+     "Control": {
+      "input": "Pull",
+      "moves_piece": "charging_handle",
+      "shift": [
+       -0.85,
+       0.0,
+       0.0
+      ],
+      "turn_deg": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "grab": "Both",
+      "range_cm": 9.0,
+      "holds": [
+       {
+        "hand": "Left",
+        "from": [
+         -1.0,
+         0.3,
+         0.0
+        ],
+        "pos": [
+         -2.3,
+         0.75,
+         -0.3
+        ],
+        "rot_deg": [
+         180.0,
+         -81.47,
+         -180.0
+        ],
+        "pose": "Support hand \u00b7 Steady"
+       },
+       {
+        "hand": "Right",
+        "from": [
+         -1.0,
+         0.3,
+         0.0
+        ],
+        "pos": [
+         -2.3,
+         0.75,
+         0.3
+        ],
+        "rot_deg": [
+         0.0,
+         -81.47,
+         0.0
+        ],
+        "pose": "Support hand \u00b7 Steady"
+       }
+      ],
+      "pulls": "bolt_follow"
+     }
+    },
+    "parent": "charging_handle",
+    "pos": [
+     -1.7,
+     0.45,
+     0.0
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "id": "mag_release",
+    "name": "Magazine release",
+    "kind": {
+     "Control": {
+      "input": "Button",
+      "moves_piece": null,
+      "shift": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "turn_deg": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "range_cm": 6.0
+     }
+    },
+    "parent": null,
+    "pos": [
+     -0.65,
+     -0.15,
+     0.25
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "id": "bolt_release",
+    "name": "Bolt catch",
+    "kind": {
+     "Control": {
+      "input": "Button",
+      "moves_piece": null,
+      "shift": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "turn_deg": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "range_cm": 6.0
+     }
+    },
+    "parent": null,
+    "pos": [
+     -0.77,
+     0.05,
+     -0.3
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "id": "selector",
+    "name": "Fire selector",
+    "kind": {
+     "Control": {
+      "input": "Button",
+      "moves_piece": "selector_piece",
+      "shift": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "turn_deg": [
+       0.0,
+       0.0,
+       -90.0
+      ],
+      "range_cm": 6.0
+     }
+    },
+    "parent": null,
+    "pos": [
+     -1.47,
+     -0.1,
+     -0.25
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "id": "muzzle",
+    "name": "Muzzle",
+    "kind": {
+     "Spot": {
+      "speed": 30.0
+     }
+    },
+    "parent": null,
+    "pos": [
+     3.95,
+     0.22,
+     0.0
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "id": "casing_exit",
+    "name": "Casing exit",
+    "kind": {
+     "Spot": {
+      "speed": 2.5
+     }
+    },
+    "parent": null,
+    "pos": [
+     -0.2,
+     0.2,
+     0.35
+    ],
+    "rot_deg": [
+     0.0,
+     -90.0,
+     45.0
+    ]
+   },
+   {
+    "id": "mag_drop",
+    "name": "Magazine drop",
+    "kind": {
+     "Spot": {
+      "speed": 0.5
+     }
+    },
+    "parent": null,
+    "pos": [
+     -0.31,
+     -1.8,
+     0.0
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     -90.0
+    ]
+   },
+   {
+    "id": "magwell",
+    "name": "Magwell",
+    "kind": {
+     "Socket": {
+      "item": "magazine_piece",
+      "depth": 1.1,
+      "range_cm": 5.0,
+      "supply": true,
+      "hold_pos": [
+       -0.31,
+       -1.4,
+       -0.35
+      ],
+      "hold_rot_deg": [
+       107.28,
+       -19.3,
+       -174.13
+      ],
+      "hold_pose": "Support hand \u00b7 Magazine (L)",
+      "holds": [
+       {
+        "hand": "Left",
+        "from": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "pos": [
+         -0.31,
+         -1.4,
+         -0.35
+        ],
+        "rot_deg": [
+         107.28,
+         -19.3,
+         -174.13
+        ],
+        "pose": "Support hand \u00b7 Magazine (L)"
+       },
+       {
+        "hand": "Right",
+        "from": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "pos": [
+         -0.31,
+         -1.4,
+         0.35
+        ],
+        "rot_deg": [
+         72.72,
+         -19.3,
+         -5.87
+        ],
+        "pose": "Support hand \u00b7 Magazine (R)"
+       }
+      ],
+      "holder": "magazine",
+      "top_round": {
+       "piece": "cartridge",
+       "pos": [
+        -0.4,
+        0.165,
+        0.0
+       ],
+       "rot_deg": [
+        0.0,
+        0.0,
+        -90.0
+       ]
+      },
+      "feeds": {
+       "holder": "chamber",
+       "control": "charge",
+       "at": 0.94
+      },
+      "stack": {
+       "step": [
+        0.0,
+        -0.047,
+        0.0
+       ],
+       "stagger": [
+        0.0,
+        0.0,
+        0.038
+       ],
+       "path": [
+        [
+         -0.405,
+         0.165,
+         0.0
+        ],
+        [
+         -0.402,
+         0.075,
+         0.0
+        ],
+        [
+         -0.402,
+         -0.4,
+         0.0
+        ],
+        [
+         -0.385,
+         -0.7,
+         0.0
+        ],
+        [
+         -0.363,
+         -0.85,
+         0.0
+        ],
+        [
+         -0.343,
+         -1.0,
+         0.0
+        ],
+        [
+         -0.309,
+         -1.15,
+         0.0
+        ],
+        [
+         -0.268,
+         -1.3,
+         0.0
+        ],
+        [
+         -0.227,
+         -1.45,
+         0.0
+        ]
+       ],
+       "pitch": 0.047
+      },
+      "follower": {
+       "piece": "follower",
+       "gap": [
+        0.0,
+        -0.01,
+        0.0
+       ]
+      }
+     }
+    },
+    "parent": null,
+    "pos": [
+     -0.31,
+     0.1,
+     0.0
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     -95.0
+    ]
+   },
+   {
+    "id": "bolt_follow",
+    "name": "Bolt",
+    "kind": {
+     "Control": {
+      "input": "Pull",
+      "moves_piece": "bolt",
+      "shift": [
+       -0.85,
+       0.0,
+       0.0
+      ],
+      "turn_deg": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "range_cm": 9.0
+     }
+    },
+    "parent": null,
+    "pos": [
+     -0.6,
+     0.28,
+     0.0
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "hand_poses": [
+   {
+    "name": "Open hand",
+    "curls": [
+     0.15,
+     0.1,
+     0.12,
+     0.12,
+     0.14
+    ]
+   },
+   {
+    "name": "Main hand \u00b7 Grip",
+    "curls": [
+     0.66,
+     0.6,
+     0.75,
+     0.71,
+     0.86
+    ],
+    "joints": [
+     [
+      [
+       6.0,
+       -6.0,
+       -42.0
+      ],
+      [
+       -15.0,
+       -5.0,
+       -20.0
+      ],
+      [
+       -20.0,
+       -20.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       -27.0,
+       11.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       -20.0,
+       -1.0,
+       2.0
+      ]
+     ]
+    ],
+    "rot_deg": [
+     1.0,
+     -16.0,
+     -8.0
+    ],
+    "shift_cm": [
+     0.9,
+     3.5,
+     0.7
+    ]
+   },
+   {
+    "name": "Main hand \u00b7 Trigger squeeze",
+    "curls": [
+     0.66,
+     0.85,
+     0.75,
+     0.71,
+     0.86
+    ],
+    "joints": [
+     [
+      [
+       6.0,
+       -6.0,
+       -42.0
+      ],
+      [
+       -15.0,
+       -5.0,
+       -20.0
+      ],
+      [
+       -20.0,
+       -20.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       -27.0,
+       11.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       -20.0,
+       -1.0,
+       2.0
+      ]
+     ]
+    ],
+    "rot_deg": [
+     1.0,
+     -16.0,
+     -8.0
+    ],
+    "shift_cm": [
+     0.9,
+     3.5,
+     0.7
+    ]
+   },
+   {
+    "name": "Support hand \u00b7 Steady",
+    "curls": [
+     0.0,
+     0.83,
+     0.92,
+     0.55,
+     0.55
+    ],
+    "joints": [
+     [
+      [
+       -19.0,
+       -22.0,
+       -36.0
+      ],
+      [
+       5.0,
+       0.0,
+       0.0
+      ],
+      [
+       11.0,
+       -20.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       1.0,
+       6.0,
+       -20.0
+      ],
+      [
+       -20.0,
+       10.0,
+       -3.0
+      ],
+      [
+       -20.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       -17.0,
+       14.0,
+       -16.0
+      ],
+      [
+       -20.0,
+       -3.0,
+       0.0
+      ],
+      [
+       -13.0,
+       8.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       19.0,
+       -25.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       27.0,
+       -25.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    ]
+   },
+   {
+    "name": "Support hand \u00b7 Slide from behind (L)",
+    "curls": [
+     0.55,
+     0.7,
+     0.75,
+     0.85,
+     0.9
+    ]
+   },
+   {
+    "name": "Support hand \u00b7 Slide from behind (R)",
+    "curls": [
+     0.55,
+     0.7,
+     0.75,
+     0.85,
+     0.9
+    ]
+   },
+   {
+    "name": "Support hand \u00b7 Slide from the side (L)",
+    "curls": [
+     0.45,
+     0.62,
+     0.7,
+     0.8,
+     0.85
+    ],
+    "joints": [
+     [
+      [
+       0.0,
+       0.0,
+       25.0
+      ],
+      [
+       10.0,
+       0.0,
+       0.0
+      ],
+      [
+       10.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       10.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       -10.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    ]
+   },
+   {
+    "name": "Support hand \u00b7 Slide from the side (R)",
+    "curls": [
+     0.45,
+     0.62,
+     0.7,
+     0.8,
+     0.85
+    ],
+    "joints": [
+     [
+      [
+       0.0,
+       0.0,
+       25.0
+      ],
+      [
+       10.0,
+       0.0,
+       0.0
+      ],
+      [
+       10.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       10.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       -10.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    ]
+   },
+   {
+    "name": "Support hand \u00b7 Magazine (L)",
+    "curls": [
+     0.5,
+     0.35,
+     0.6,
+     0.7,
+     0.75
+    ],
+    "joints": [
+     [
+      [
+       0.0,
+       20.0,
+       20.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       -10.0,
+       0.0,
+       0.0
+      ],
+      [
+       15.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    ]
+   },
+   {
+    "name": "Support hand \u00b7 Magazine (R)",
+    "curls": [
+     0.5,
+     0.35,
+     0.6,
+     0.7,
+     0.75
+    ],
+    "joints": [
+     [
+      [
+       0.0,
+       20.0,
+       20.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       -10.0,
+       0.0,
+       0.0
+      ],
+      [
+       15.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ],
+     [
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    ]
+   }
+  ],
+  "holders": [
+   {
+    "id": "magazine",
+    "name": "Magazine",
+    "capacity": 30,
+    "item": "cartridge",
+    "start_count": 30
+   },
+   {
+    "id": "chamber",
+    "name": "Chamber",
+    "capacity": 1,
+    "item": "cartridge",
+    "start_count": 1,
+    "shown": {
+     "piece": "cartridge",
+     "pos": [
+      0.25,
+      0.28,
       0.0
-    ],
-    "scale": 0.1046,
-    "pieces": [
-      {
-        "id": "upper",
-        "name": "Upper receiver",
-        "meshes": [
-          "Object_4"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "trigger_piece",
-        "name": "Trigger",
-        "meshes": [
-          "Object_6"
-        ],
-        "kind": "Pressable"
-      },
-      {
-        "id": "stock",
-        "name": "Stock",
-        "meshes": [
-          "Object_8"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "selector_piece",
-        "name": "Fire selector",
-        "meshes": [
-          "Object_10"
-        ],
-        "kind": "Pressable"
-      },
-      {
-        "id": "mag_catch",
-        "name": "Magazine catch",
-        "meshes": [
-          "Object_12"
-        ],
-        "kind": "Pressable"
-      },
-      {
-        "id": "lower",
-        "name": "Lower receiver",
-        "meshes": [
-          "Object_14"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "handguard",
-        "name": "Handguard",
-        "meshes": [
-          "Object_16"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "grip",
-        "name": "Pistol grip",
-        "meshes": [
-          "Object_18"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "flash_hider",
-        "name": "Flash hider",
-        "meshes": [
-          "Object_20"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "dust_cover",
-        "name": "Dust cover",
-        "meshes": [
-          "Object_22"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "charging_handle",
-        "name": "Charging handle",
-        "meshes": [
-          "Object_24"
-        ],
-        "kind": "Pressable"
-      },
-      {
-        "id": "carry_handle",
-        "name": "Carry handle",
-        "meshes": [
-          "Object_26"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "bolt_catch",
-        "name": "Bolt catch",
-        "meshes": [
-          "Object_28"
-        ],
-        "kind": "Pressable"
-      },
-      {
-        "id": "bolt",
-        "name": "Bolt carrier",
-        "meshes": [
-          "Object_30"
-        ],
-        "kind": "Moves"
-      },
-      {
-        "id": "magazine_piece",
-        "name": "Magazine",
-        "meshes": [
-          "Object_32"
-        ],
-        "kind": "Holder"
-      },
-      {
-        "id": "magazine_spare",
-        "name": "Spare magazine",
-        "meshes": [
-          "Object_34",
-          "Object_35",
-          "Object_36"
-        ],
-        "kind": "Spawned"
-      },
-      {
-        "id": "casing",
-        "name": "Casing",
-        "meshes": [
-          "Object_38"
-        ],
-        "kind": "Spawned",
-        "nose": [
-          0.0,
-          1.0,
-          0.0
-        ]
-      },
-      {
-        "id": "cartridge",
-        "name": "Cartridge",
-        "meshes": [
-          "Object_40",
-          "Object_41"
-        ],
-        "kind": "Spawned",
-        "nose": [
-          0.0,
-          1.0,
-          0.0
-        ]
-      },
-      {
-        "id": "bullet",
-        "name": "Bullet",
-        "meshes": [
-          "Object_41"
-        ],
-        "kind": "Spawned",
-        "nose": [
-          0.0,
-          1.0,
-          0.0
-        ]
-      },
-      {
-        "id": "barrel",
-        "name": "Barrel",
-        "meshes": [
-          "Object_43"
-        ],
-        "kind": "Still"
-      },
-      {
-        "id": "follower",
-        "name": "Follower",
-        "meshes": [
-          "FollowerPlate"
-        ],
-        "kind": "Spawned"
-      }
-    ],
-    "points": [
-      {
-        "id": "main_grip",
-        "name": "Main grip",
-        "kind": {
-          "Grip": {
-            "hand": "Both",
-            "pose": "Main hand · Grip"
-          }
-        },
-        "parent": null,
-        "pos": [
-          -1.95,
-          -0.85,
-          0.3
-        ],
-        "rot_deg": [
-          90.0,
-          -90.0,
-          0.0
-        ]
-      },
-      {
-        "id": "support_grip",
-        "name": "Support grip",
-        "kind": {
-          "Grip": {
-            "hand": "Left",
-            "pose": "Support hand · Steady",
-            "support": true,
-            "holds": [
-              {
-                "hand": "Left",
-                "from": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "pos": [
-                  1.0,
-                  -0.5,
-                  0.0
-                ],
-                "rot_deg": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "pose": "Support hand · Steady"
-              }
-            ]
-          }
-        },
-        "parent": null,
-        "pos": [
-          1.0,
-          -0.5,
-          0.0
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      {
-        "id": "trigger",
-        "name": "Trigger",
-        "kind": {
-          "Control": {
-            "input": "Pull",
-            "moves_piece": "trigger_piece",
-            "shift": [
-              -0.08,
-              0.0,
-              0.0
-            ],
-            "turn_deg": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "press_pose": "Main hand · Trigger squeeze",
-            "range_cm": 6.0
-          }
-        },
-        "parent": null,
-        "pos": [
-          -1.05,
-          -0.35,
-          0.1
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      {
-        "id": "charge",
-        "name": "Charging handle",
-        "kind": {
-          "Control": {
-            "input": "Pull",
-            "moves_piece": "charging_handle",
-            "shift": [
-              -0.85,
-              0.0,
-              0.0
-            ],
-            "turn_deg": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "grab": "Both",
-            "range_cm": 9.0,
-            "holds": [
-              {
-                "hand": "Left",
-                "from": [
-                  -1.0,
-                  0.3,
-                  0.0
-                ],
-                "pos": [
-                  -2.3,
-                  0.75,
-                  -0.3
-                ],
-                "rot_deg": [
-                  180.0,
-                  -81.47,
-                  -180.0
-                ],
-                "pose": "Support hand · Steady"
-              },
-              {
-                "hand": "Right",
-                "from": [
-                  -1.0,
-                  0.3,
-                  0.0
-                ],
-                "pos": [
-                  -2.3,
-                  0.75,
-                  0.3
-                ],
-                "rot_deg": [
-                  0.0,
-                  -81.47,
-                  0.0
-                ],
-                "pose": "Support hand · Steady"
-              }
-            ],
-            "pulls": "bolt_follow"
-          }
-        },
-        "parent": "charging_handle",
-        "pos": [
-          -1.7,
-          0.45,
-          0.0
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      {
-        "id": "mag_release",
-        "name": "Magazine release",
-        "kind": {
-          "Control": {
-            "input": "Button",
-            "moves_piece": null,
-            "shift": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "turn_deg": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "range_cm": 6.0
-          }
-        },
-        "parent": null,
-        "pos": [
-          -0.65,
-          -0.15,
-          0.25
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      {
-        "id": "bolt_release",
-        "name": "Bolt catch",
-        "kind": {
-          "Control": {
-            "input": "Button",
-            "moves_piece": null,
-            "shift": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "turn_deg": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "range_cm": 6.0
-          }
-        },
-        "parent": null,
-        "pos": [
-          -0.77,
-          0.05,
-          -0.3
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      {
-        "id": "selector",
-        "name": "Fire selector",
-        "kind": {
-          "Control": {
-            "input": "Button",
-            "moves_piece": "selector_piece",
-            "shift": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "turn_deg": [
-              0.0,
-              0.0,
-              -90.0
-            ],
-            "range_cm": 6.0
-          }
-        },
-        "parent": null,
-        "pos": [
-          -1.47,
-          -0.1,
-          -0.25
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      {
-        "id": "muzzle",
-        "name": "Muzzle",
-        "kind": {
-          "Spot": {
-            "speed": 30.0
-          }
-        },
-        "parent": null,
-        "pos": [
-          3.95,
-          0.22,
-          0.0
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      },
-      {
-        "id": "casing_exit",
-        "name": "Casing exit",
-        "kind": {
-          "Spot": {
-            "speed": 2.5
-          }
-        },
-        "parent": null,
-        "pos": [
-          -0.2,
-          0.2,
-          0.35
-        ],
-        "rot_deg": [
-          0.0,
-          -90.0,
-          45.0
-        ]
-      },
-      {
-        "id": "mag_drop",
-        "name": "Magazine drop",
-        "kind": {
-          "Spot": {
-            "speed": 0.5
-          }
-        },
-        "parent": null,
-        "pos": [
-          -0.31,
-          -1.8,
-          0.0
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          -90.0
-        ]
-      },
-      {
-        "id": "magwell",
-        "name": "Magwell",
-        "kind": {
-          "Socket": {
-            "item": "magazine_piece",
-            "depth": 1.1,
-            "range_cm": 5.0,
-            "supply": true,
-            "hold_pos": [
-              -0.31,
-              -1.4,
-              -0.35
-            ],
-            "hold_rot_deg": [
-              107.28,
-              -19.3,
-              -174.13
-            ],
-            "hold_pose": "Support hand · Magazine (L)",
-            "holds": [
-              {
-                "hand": "Left",
-                "from": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "pos": [
-                  -0.31,
-                  -1.4,
-                  -0.35
-                ],
-                "rot_deg": [
-                  107.28,
-                  -19.3,
-                  -174.13
-                ],
-                "pose": "Support hand · Magazine (L)"
-              },
-              {
-                "hand": "Right",
-                "from": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "pos": [
-                  -0.31,
-                  -1.4,
-                  0.35
-                ],
-                "rot_deg": [
-                  72.72,
-                  -19.3,
-                  -5.87
-                ],
-                "pose": "Support hand · Magazine (R)"
-              }
-            ],
-            "holder": "magazine",
-            "top_round": {
-              "piece": "cartridge",
-              "pos": [
-                -0.4,
-                0.165,
-                0.0
-              ],
-              "rot_deg": [
-                0.0,
-                0.0,
-                -90.0
-              ]
-            },
-            "feeds": {
-              "holder": "chamber",
-              "control": "charge",
-              "at": 0.94
-            },
-            "stack": {
-              "step": [
-                0.0,
-                -0.047,
-                0.0
-              ],
-              "stagger": [
-                0.0,
-                0.0,
-                0.038
-              ],
-              "path": [
-                [
-                  -0.405,
-                  0.165,
-                  0.0
-                ],
-                [
-                  -0.402,
-                  0.075,
-                  0.0
-                ],
-                [
-                  -0.402,
-                  -0.4,
-                  0.0
-                ],
-                [
-                  -0.385,
-                  -0.7,
-                  0.0
-                ],
-                [
-                  -0.363,
-                  -0.85,
-                  0.0
-                ],
-                [
-                  -0.343,
-                  -1.0,
-                  0.0
-                ],
-                [
-                  -0.309,
-                  -1.15,
-                  0.0
-                ],
-                [
-                  -0.268,
-                  -1.3,
-                  0.0
-                ],
-                [
-                  -0.227,
-                  -1.45,
-                  0.0
-                ]
-              ],
-              "pitch": 0.047
-            },
-            "follower": {
-              "piece": "follower",
-              "gap": [
-                0.0,
-                -0.01,
-                0.0
-              ]
-            }
-          }
-        },
-        "parent": null,
-        "pos": [
-          -0.31,
-          0.1,
-          0.0
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          -95.0
-        ]
-      },
-      {
-        "id": "bolt_follow",
-        "name": "Bolt",
-        "kind": {
-          "Control": {
-            "input": "Pull",
-            "moves_piece": "bolt",
-            "shift": [
-              -0.85,
-              0.0,
-              0.0
-            ],
-            "turn_deg": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "range_cm": 9.0
-          }
-        },
-        "parent": null,
-        "pos": [
-          -0.6,
-          0.28,
-          0.0
-        ],
-        "rot_deg": [
-          0.0,
-          0.0,
-          0.0
-        ]
-      }
-    ],
-    "hand_poses": [
-      {
-        "name": "Open hand",
-        "curls": [
-          0.15,
-          0.1,
-          0.12,
-          0.12,
-          0.14
-        ]
-      },
-      {
-        "name": "Main hand · Grip",
-        "curls": [
-          0.66,
-          0.6,
-          0.75,
-          0.71,
-          0.86
-        ],
-        "joints": [
-          [
-            [
-              6.0,
-              -6.0,
-              -42.0
-            ],
-            [
-              -15.0,
-              -5.0,
-              -20.0
-            ],
-            [
-              -20.0,
-              -20.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              -27.0,
-              11.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              -20.0,
-              -1.0,
-              2.0
-            ]
-          ]
-        ],
-        "rot_deg": [
-          1.0,
-          -16.0,
-          -8.0
-        ],
-        "shift_cm": [
-          0.9,
-          3.5,
-          0.7
-        ]
-      },
-      {
-        "name": "Main hand · Trigger squeeze",
-        "curls": [
-          0.66,
-          0.85,
-          0.75,
-          0.71,
-          0.86
-        ],
-        "joints": [
-          [
-            [
-              6.0,
-              -6.0,
-              -42.0
-            ],
-            [
-              -15.0,
-              -5.0,
-              -20.0
-            ],
-            [
-              -20.0,
-              -20.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              -27.0,
-              11.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              -20.0,
-              -1.0,
-              2.0
-            ]
-          ]
-        ],
-        "rot_deg": [
-          1.0,
-          -16.0,
-          -8.0
-        ],
-        "shift_cm": [
-          0.9,
-          3.5,
-          0.7
-        ]
-      },
-      {
-        "name": "Support hand · Steady",
-        "curls": [
-          0.0,
-          0.83,
-          0.92,
-          0.55,
-          0.55
-        ],
-        "joints": [
-          [
-            [
-              -19.0,
-              -22.0,
-              -36.0
-            ],
-            [
-              5.0,
-              0.0,
-              0.0
-            ],
-            [
-              11.0,
-              -20.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              1.0,
-              6.0,
-              -20.0
-            ],
-            [
-              -20.0,
-              10.0,
-              -3.0
-            ],
-            [
-              -20.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              -17.0,
-              14.0,
-              -16.0
-            ],
-            [
-              -20.0,
-              -3.0,
-              0.0
-            ],
-            [
-              -13.0,
-              8.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              19.0,
-              -25.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              27.0,
-              -25.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        ]
-      },
-      {
-        "name": "Support hand · Slide from behind (L)",
-        "curls": [
-          0.55,
-          0.7,
-          0.75,
-          0.85,
-          0.9
-        ]
-      },
-      {
-        "name": "Support hand · Slide from behind (R)",
-        "curls": [
-          0.55,
-          0.7,
-          0.75,
-          0.85,
-          0.9
-        ]
-      },
-      {
-        "name": "Support hand · Slide from the side (L)",
-        "curls": [
-          0.45,
-          0.62,
-          0.7,
-          0.8,
-          0.85
-        ],
-        "joints": [
-          [
-            [
-              0.0,
-              0.0,
-              25.0
-            ],
-            [
-              10.0,
-              0.0,
-              0.0
-            ],
-            [
-              10.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              10.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              -10.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        ]
-      },
-      {
-        "name": "Support hand · Slide from the side (R)",
-        "curls": [
-          0.45,
-          0.62,
-          0.7,
-          0.8,
-          0.85
-        ],
-        "joints": [
-          [
-            [
-              0.0,
-              0.0,
-              25.0
-            ],
-            [
-              10.0,
-              0.0,
-              0.0
-            ],
-            [
-              10.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              10.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              -10.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        ]
-      },
-      {
-        "name": "Support hand · Magazine (L)",
-        "curls": [
-          0.5,
-          0.35,
-          0.6,
-          0.7,
-          0.75
-        ],
-        "joints": [
-          [
-            [
-              0.0,
-              20.0,
-              20.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              -10.0,
-              0.0,
-              0.0
-            ],
-            [
-              15.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        ]
-      },
-      {
-        "name": "Support hand · Magazine (R)",
-        "curls": [
-          0.5,
-          0.35,
-          0.6,
-          0.7,
-          0.75
-        ],
-        "joints": [
-          [
-            [
-              0.0,
-              20.0,
-              20.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              -10.0,
-              0.0,
-              0.0
-            ],
-            [
-              15.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ],
-          [
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        ]
-      }
-    ],
-    "holders": [
-      {
-        "id": "magazine",
-        "name": "Magazine",
-        "capacity": 30,
-        "item": "cartridge",
-        "start_count": 30
-      },
-      {
-        "id": "chamber",
-        "name": "Chamber",
-        "capacity": 1,
-        "item": "cartridge",
-        "start_count": 1,
-        "shown": {
-          "piece": "cartridge",
-          "pos": [
-            0.25,
-            0.28,
-            0.0
-          ],
-          "rot_deg": [
-            0.0,
-            0.0,
-            -90.0
-          ],
-          "parent": "bolt"
-        }
-      }
-    ],
-    "variables": [
-      {
-        "id": "shots_fired",
-        "name": "Shots fired",
-        "kind": "Number",
-        "start": 0.0
-      },
-      {
-        "id": "bolt_locked",
-        "name": "Bolt locked back",
-        "kind": "YesNo",
-        "start": 0.0
-      },
-      {
-        "id": "mag_in",
-        "name": "Magazine in",
-        "kind": "YesNo",
-        "start": 1.0
-      },
-      {
-        "id": "racked",
-        "name": "Bolt pulled all the way",
-        "kind": "YesNo",
-        "start": 0.0
-      },
-      {
-        "id": "trigger_held",
-        "name": "Trigger held",
-        "kind": "YesNo",
-        "start": 0.0
-      },
-      {
-        "id": "fire_mode",
-        "name": "Fire mode (0 safe / 1 semi / 2 auto)",
-        "kind": "Number",
-        "start": 1.0
-      }
-    ],
-    "moves": [
-      {
-        "id": "fire",
-        "name": "Fire",
-        "duration": 0.08,
-        "tracks": [
-          {
-            "piece": "bolt",
-            "keys": [
-              {
-                "t": 0.0,
-                "pos": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "rot_deg": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              },
-              {
-                "t": 0.022,
-                "pos": [
-                  -0.85,
-                  0.0,
-                  0.0
-                ],
-                "rot_deg": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              },
-              {
-                "t": 0.04,
-                "pos": [
-                  -0.85,
-                  0.0,
-                  0.0
-                ],
-                "rot_deg": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              },
-              {
-                "t": 0.08,
-                "pos": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "rot_deg": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              }
-            ]
-          }
-        ],
-        "moments": [
-          {
-            "id": "eject_casing",
-            "name": "Eject casing",
-            "t": 0.018
-          },
-          {
-            "id": "bolt_back",
-            "name": "Bolt all the way back",
-            "t": 0.022
-          }
-        ]
-      }
-    ],
-    "rules": [
-      {
-        "id": "held_on",
-        "name": "Trigger is held",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "trigger",
-            "at": 0.6
-          }
-        },
-        "conditions": [],
-        "then": [
-          {
-            "SetVar": {
-              "var": "trigger_held",
-              "value": 1.0
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "held_off",
-        "name": "Trigger let go",
-        "enabled": true,
-        "when": {
-          "ControlReleased": {
-            "control": "trigger",
-            "at": 0.4
-          }
-        },
-        "conditions": [],
-        "then": [
-          {
-            "SetVar": {
-              "var": "trigger_held",
-              "value": 0.0
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "dry_fire",
-        "name": "Click when empty",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "trigger",
-            "at": 0.6
-          }
-        },
-        "conditions": [
-          {
-            "HandOn": {
-              "grip": "main_grip"
-            }
-          },
-          {
-            "HolderIsEmpty": {
-              "holder": "chamber"
-            }
-          },
-          {
-            "VarIs": {
-              "var": "bolt_locked",
-              "op": "Is",
-              "value": 0.0
-            }
-          },
-          {
-            "VarIs": {
-              "var": "fire_mode",
-              "op": "IsNot",
-              "value": 0.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "PlaySound": {
-              "sound": "dry_click"
-            }
-          },
-          {
-            "Vibrate": {
-              "hand": "Holding",
-              "strength": 0.25,
-              "seconds": 0.03
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "shoot",
-        "name": "Shoot",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "trigger",
-            "at": 0.6
-          }
-        },
-        "conditions": [
-          {
-            "HandOn": {
-              "grip": "main_grip"
-            }
-          },
-          {
-            "HolderHasItem": {
-              "holder": "chamber"
-            }
-          },
-          {
-            "VarIs": {
-              "var": "bolt_locked",
-              "op": "Is",
-              "value": 0.0
-            }
-          },
-          {
-            "VarIs": {
-              "var": "fire_mode",
-              "op": "IsNot",
-              "value": 0.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "RunSteps": {
-              "group": "fire_shot"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "eject",
-        "name": "Throw out the empty casing",
-        "enabled": true,
-        "when": {
-          "MoveReached": {
-            "mv": "fire",
-            "moment": "eject_casing"
-          }
-        },
-        "conditions": [],
-        "then": [
-          {
-            "LaunchNew": {
-              "piece": "casing",
-              "spot": "casing_exit"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "lock_back",
-        "name": "Last round: bolt catch holds the bolt",
-        "enabled": true,
-        "when": {
-          "MoveReached": {
-            "mv": "fire",
-            "moment": "bolt_back"
-          }
-        },
-        "conditions": [
-          {
-            "HolderIsEmpty": {
-              "holder": "magazine"
-            }
-          },
-          {
-            "VarIs": {
-              "var": "mag_in",
-              "op": "Is",
-              "value": 1.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "StopMove": {
-              "mv": "fire"
-            }
-          },
-          {
-            "SetControlRest": {
-              "control": "bolt_follow",
-              "value": 1.0
-            }
-          },
-          {
-            "SetControl": {
-              "control": "bolt_follow",
-              "value": 1.0
-            }
-          },
-          {
-            "SetVar": {
-              "var": "bolt_locked",
-              "value": 1.0
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "slide_lock"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "chamber_next",
-        "name": "Load the next round",
-        "enabled": true,
-        "when": {
-          "MoveFinished": {
-            "mv": "fire"
-          }
-        },
-        "conditions": [
-          {
-            "HolderHasItem": {
-              "holder": "magazine"
-            }
-          }
-        ],
-        "then": [
-          {
-            "MoveFirstItem": {
-              "from": "magazine",
-              "to": "chamber"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "auto_repeat",
-        "name": "Full auto keeps firing",
-        "enabled": true,
-        "when": {
-          "MoveFinished": {
-            "mv": "fire"
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "fire_mode",
-              "op": "Is",
-              "value": 2.0
-            }
-          },
-          {
-            "VarIs": {
-              "var": "trigger_held",
-              "op": "Is",
-              "value": 1.0
-            }
-          },
-          {
-            "HolderHasItem": {
-              "holder": "chamber"
-            }
-          },
-          {
-            "VarIs": {
-              "var": "bolt_locked",
-              "op": "Is",
-              "value": 0.0
-            }
-          },
-          {
-            "HandOn": {
-              "grip": "main_grip"
-            }
-          }
-        ],
-        "then": [
-          {
-            "RunSteps": {
-              "group": "fire_shot"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "mag_release_r",
-        "name": "Drop the magazine",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "mag_release",
-            "at": 0.5
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "mag_in",
-              "op": "Is",
-              "value": 1.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "ShowPiece": {
-              "piece": "magazine_piece",
-              "visible": false
-            }
-          },
-          {
-            "LaunchNew": {
-              "piece": "magazine_piece",
-              "spot": "mag_drop"
-            }
-          },
-          {
-            "EmptyHolder": {
-              "holder": "magazine"
-            }
-          },
-          {
-            "SetVar": {
-              "var": "mag_in",
-              "value": 0.0
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "mag_out"
-            }
-          },
-          {
-            "Vibrate": {
-              "hand": "Holding",
-              "strength": 0.2,
-              "seconds": 0.04
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "mag_inserted",
-        "name": "Magazine pushed in",
-        "enabled": true,
-        "when": {
-          "Inserted": {
-            "socket": "magwell"
-          }
-        },
-        "conditions": [],
-        "then": [
-          {
-            "ShowPiece": {
-              "piece": "magazine_piece",
-              "visible": true
-            }
-          },
-          {
-            "FillHolder": {
-              "holder": "magazine"
-            }
-          },
-          {
-            "SetVar": {
-              "var": "mag_in",
-              "value": 1.0
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "mag_in"
-            }
-          },
-          {
-            "Vibrate": {
-              "hand": "Holding",
-              "strength": 0.5,
-              "seconds": 0.05
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "bolt_release_chamber",
-        "name": "Bolt catch: bolt flies home and chambers",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "bolt_release",
-            "at": 0.5
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "bolt_locked",
-              "op": "Is",
-              "value": 1.0
-            }
-          },
-          {
-            "HolderHasItem": {
-              "holder": "magazine"
-            }
-          }
-        ],
-        "then": [
-          {
-            "SetControlRest": {
-              "control": "bolt_follow",
-              "value": 0.0
-            }
-          },
-          {
-            "SetVar": {
-              "var": "bolt_locked",
-              "value": 0.0
-            }
-          },
-          {
-            "MoveFirstItem": {
-              "from": "magazine",
-              "to": "chamber"
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "slide_release"
-            }
-          },
-          {
-            "Vibrate": {
-              "hand": "Holding",
-              "strength": 0.5,
-              "seconds": 0.05
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "bolt_release_empty",
-        "name": "Bolt catch with no ammo: bolt just closes",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "bolt_release",
-            "at": 0.5
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "bolt_locked",
-              "op": "Is",
-              "value": 1.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "SetControlRest": {
-              "control": "bolt_follow",
-              "value": 0.0
-            }
-          },
-          {
-            "SetVar": {
-              "var": "bolt_locked",
-              "value": 0.0
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "slide_release"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "charge_unlock",
-        "name": "Grabbing a locked charging handle frees the bolt",
-        "enabled": true,
-        "when": {
-          "Grabbed": {
-            "grip": "charge"
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "bolt_locked",
-              "op": "Is",
-              "value": 1.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "SetVar": {
-              "var": "bolt_locked",
-              "value": 0.0
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "rack_back",
-        "name": "Bolt pulled all the way back",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "charge",
-            "at": 0.9
-          }
-        },
-        "conditions": [],
-        "then": [
-          {
-            "SetVar": {
-              "var": "racked",
-              "value": 1.0
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "rack"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "rack_eject",
-        "name": "Pulling it back throws out the chambered round",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "charge",
-            "at": 0.9
-          }
-        },
-        "conditions": [
-          {
-            "HolderHasItem": {
-              "holder": "chamber"
-            }
-          }
-        ],
-        "then": [
-          {
-            "LaunchFromHolder": {
-              "holder": "chamber",
-              "spot": "casing_exit"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "rack_chamber",
-        "name": "Bolt goes home and chambers a round",
-        "enabled": true,
-        "when": {
-          "ControlReleased": {
-            "control": "charge",
-            "at": 0.1
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "racked",
-              "op": "Is",
-              "value": 1.0
-            }
-          },
-          {
-            "HolderIsEmpty": {
-              "holder": "chamber"
-            }
-          }
-        ],
-        "then": [
-          {
-            "MoveFirstItem": {
-              "from": "magazine",
-              "to": "chamber"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "rack_home",
-        "name": "Bolt slams home",
-        "enabled": true,
-        "when": {
-          "ControlReleased": {
-            "control": "charge",
-            "at": 0.1
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "racked",
-              "op": "Is",
-              "value": 1.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "SetVar": {
-              "var": "racked",
-              "value": 0.0
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "slide_release"
-            }
-          },
-          {
-            "Vibrate": {
-              "hand": "Holding",
-              "strength": 0.4,
-              "seconds": 0.05
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "sel_step",
-        "name": "Selector: next mode",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "selector",
-            "at": 0.5
-          }
-        },
-        "conditions": [],
-        "then": [
-          {
-            "ChangeVar": {
-              "var": "fire_mode",
-              "by": 1.0
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "dry_click"
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "sel_wrap",
-        "name": "Selector: wraps back to safe",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "selector",
-            "at": 0.5
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "fire_mode",
-              "op": "Is",
-              "value": 3.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "SetVar": {
-              "var": "fire_mode",
-              "value": 0.0
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "sel_rest_safe",
-        "name": "Selector lever: safe",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "selector",
-            "at": 0.5
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "fire_mode",
-              "op": "Is",
-              "value": 0.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "SetControlRest": {
-              "control": "selector",
-              "value": 0.0
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "sel_rest_semi",
-        "name": "Selector lever: semi",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "selector",
-            "at": 0.5
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "fire_mode",
-              "op": "Is",
-              "value": 1.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "SetControlRest": {
-              "control": "selector",
-              "value": 0.5
-            }
-          }
-        ],
-        "otherwise": []
-      },
-      {
-        "id": "sel_rest_auto",
-        "name": "Selector lever: auto",
-        "enabled": true,
-        "when": {
-          "ControlPassed": {
-            "control": "selector",
-            "at": 0.5
-          }
-        },
-        "conditions": [
-          {
-            "VarIs": {
-              "var": "fire_mode",
-              "op": "Is",
-              "value": 2.0
-            }
-          }
-        ],
-        "then": [
-          {
-            "SetControlRest": {
-              "control": "selector",
-              "value": 1.0
-            }
-          }
-        ],
-        "otherwise": []
-      }
-    ],
-    "step_groups": [
-      {
-        "id": "fire_shot",
-        "name": "Fire one round",
-        "actions": [
-          {
-            "PlayMove": {
-              "mv": "fire"
-            }
-          },
-          {
-            "LaunchFromHolder": {
-              "holder": "chamber",
-              "spot": "muzzle",
-              "as_piece": "bullet"
-            }
-          },
-          {
-            "PlaySound": {
-              "sound": "shot"
-            }
-          },
-          {
-            "Vibrate": {
-              "hand": "Holding",
-              "strength": 0.9,
-              "seconds": 0.06
-            }
-          },
-          {
-            "ChangeVar": {
-              "var": "shots_fired",
-              "by": 1.0
-            }
-          }
-        ]
-      }
-    ],
-    "sounds": [
-      {
-        "id": "shot",
-        "name": "Gunshot",
-        "file": "pistol_sounds/shot.wav",
-        "volume": 1.0
-      },
-      {
-        "id": "dry_click",
-        "name": "Dry fire click",
-        "file": "pistol_sounds/dry_click.wav",
-        "volume": 0.7
-      },
-      {
-        "id": "slide_lock",
-        "name": "Bolt locks back",
-        "file": "pistol_sounds/slide_lock.wav",
-        "volume": 0.7
-      },
-      {
-        "id": "slide_release",
-        "name": "Bolt slams forward",
-        "file": "pistol_sounds/slide_release.wav",
-        "volume": 0.8
-      },
-      {
-        "id": "mag_out",
-        "name": "Magazine out",
-        "file": "pistol_sounds/mag_out.wav",
-        "volume": 0.7
-      },
-      {
-        "id": "mag_in",
-        "name": "Magazine in",
-        "file": "pistol_sounds/mag_in.wav",
-        "volume": 0.8
-      },
-      {
-        "id": "rack",
-        "name": "Rack the bolt",
-        "file": "pistol_sounds/rack.wav",
-        "volume": 0.8
-      }
-    ],
-    "materials": {
-      "FollowerPlate": {
-        "color": [
-          118,
-          134,
-          92
-        ],
-        "gloss": 0.3
-      },
-      "Object_10": {
-        "color": [
-          60,
-          62,
-          66
-        ],
-        "gloss": 0.25
-      },
-      "Object_12": {
-        "color": [
-          60,
-          62,
-          66
-        ],
-        "gloss": 0.25
-      },
-      "Object_14": {
-        "color": [
-          52,
-          54,
-          58
-        ],
-        "gloss": 0.25
-      },
-      "Object_16": {
-        "color": [
-          38,
-          38,
-          42
-        ],
-        "gloss": 0.15
-      },
-      "Object_18": {
-        "color": [
-          38,
-          38,
-          42
-        ],
-        "gloss": 0.15
-      },
-      "Object_20": {
-        "color": [
-          45,
-          46,
-          50
-        ],
-        "gloss": 0.25
-      },
-      "Object_22": {
-        "color": [
-          52,
-          54,
-          58
-        ],
-        "gloss": 0.25
-      },
-      "Object_24": {
-        "color": [
-          55,
-          56,
-          60
-        ],
-        "gloss": 0.25
-      },
-      "Object_26": {
-        "color": [
-          38,
-          38,
-          42
-        ],
-        "gloss": 0.15
-      },
-      "Object_28": {
-        "color": [
-          60,
-          62,
-          66
-        ],
-        "gloss": 0.25
-      },
-      "Object_30": {
-        "color": [
-          120,
-          124,
-          130
-        ],
-        "gloss": 0.45
-      },
-      "Object_32": {
-        "color": [
-          55,
-          57,
-          60
-        ],
-        "gloss": 0.3
-      },
-      "Object_34": {
-        "color": [
-          55,
-          57,
-          60
-        ],
-        "gloss": 0.3
-      },
-      "Object_35": {
-        "color": [
-          205,
-          165,
-          92
-        ],
-        "gloss": 0.3
-      },
-      "Object_36": {
-        "color": [
-          205,
-          165,
-          92
-        ],
-        "gloss": 0.3
-      },
-      "Object_38": {
-        "color": [
-          205,
-          165,
-          92
-        ],
-        "gloss": 0.3
-      },
-      "Object_4": {
-        "color": [
-          52,
-          54,
-          58
-        ],
-        "gloss": 0.25
-      },
-      "Object_40": {
-        "color": [
-          205,
-          165,
-          92
-        ],
-        "gloss": 0.3
-      },
-      "Object_41": {
-        "color": [
-          186,
-          118,
-          70
-        ],
-        "gloss": 0.3
-      },
-      "Object_43": {
-        "color": [
-          60,
-          62,
-          66
-        ],
-        "gloss": 0.3
-      },
-      "Object_6": {
-        "color": [
-          70,
-          72,
-          76
-        ],
-        "gloss": 0.3
-      },
-      "Object_8": {
-        "color": [
-          38,
-          38,
-          42
-        ],
-        "gloss": 0.15
-      }
+     ],
+     "rot_deg": [
+      0.0,
+      0.0,
+      -90.0
+     ],
+     "parent": "bolt"
     }
+   }
+  ],
+  "variables": [
+   {
+    "id": "shots_fired",
+    "name": "Shots fired",
+    "kind": "Number",
+    "start": 0.0
+   },
+   {
+    "id": "bolt_locked",
+    "name": "Bolt locked back",
+    "kind": "YesNo",
+    "start": 0.0
+   },
+   {
+    "id": "mag_in",
+    "name": "Magazine in",
+    "kind": "YesNo",
+    "start": 1.0
+   },
+   {
+    "id": "racked",
+    "name": "Bolt pulled all the way",
+    "kind": "YesNo",
+    "start": 0.0
+   },
+   {
+    "id": "trigger_held",
+    "name": "Trigger held",
+    "kind": "YesNo",
+    "start": 0.0
+   },
+   {
+    "id": "fire_mode",
+    "name": "Fire mode (0 safe / 1 semi / 2 auto)",
+    "kind": "Number",
+    "start": 1.0
+   }
+  ],
+  "moves": [
+   {
+    "id": "fire",
+    "name": "Fire",
+    "duration": 0.08,
+    "tracks": [
+     {
+      "piece": "bolt",
+      "keys": [
+       {
+        "t": 0.0,
+        "pos": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "rot_deg": [
+         0.0,
+         0.0,
+         0.0
+        ]
+       },
+       {
+        "t": 0.022,
+        "pos": [
+         -0.85,
+         0.0,
+         0.0
+        ],
+        "rot_deg": [
+         0.0,
+         0.0,
+         0.0
+        ]
+       },
+       {
+        "t": 0.04,
+        "pos": [
+         -0.85,
+         0.0,
+         0.0
+        ],
+        "rot_deg": [
+         0.0,
+         0.0,
+         0.0
+        ]
+       },
+       {
+        "t": 0.08,
+        "pos": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "rot_deg": [
+         0.0,
+         0.0,
+         0.0
+        ]
+       }
+      ]
+     }
+    ],
+    "moments": [
+     {
+      "id": "eject_casing",
+      "name": "Eject casing",
+      "t": 0.018
+     },
+     {
+      "id": "bolt_back",
+      "name": "Bolt all the way back",
+      "t": 0.022
+     }
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "id": "held_on",
+    "name": "Trigger is held",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "trigger",
+      "at": 0.6
+     }
+    },
+    "conditions": [],
+    "then": [
+     {
+      "SetVar": {
+       "var": "trigger_held",
+       "value": 1.0
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "held_off",
+    "name": "Trigger let go",
+    "enabled": true,
+    "when": {
+     "ControlReleased": {
+      "control": "trigger",
+      "at": 0.4
+     }
+    },
+    "conditions": [],
+    "then": [
+     {
+      "SetVar": {
+       "var": "trigger_held",
+       "value": 0.0
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "dry_fire",
+    "name": "Click when empty",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "trigger",
+      "at": 0.6
+     }
+    },
+    "conditions": [
+     {
+      "HandOn": {
+       "grip": "main_grip"
+      }
+     },
+     {
+      "HolderIsEmpty": {
+       "holder": "chamber"
+      }
+     },
+     {
+      "VarIs": {
+       "var": "bolt_locked",
+       "op": "Is",
+       "value": 0.0
+      }
+     },
+     {
+      "VarIs": {
+       "var": "fire_mode",
+       "op": "IsNot",
+       "value": 0.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "PlaySound": {
+       "sound": "dry_click"
+      }
+     },
+     {
+      "Vibrate": {
+       "hand": "Holding",
+       "strength": 0.25,
+       "seconds": 0.03
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "shoot",
+    "name": "Shoot",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "trigger",
+      "at": 0.6
+     }
+    },
+    "conditions": [
+     {
+      "HandOn": {
+       "grip": "main_grip"
+      }
+     },
+     {
+      "HolderHasItem": {
+       "holder": "chamber"
+      }
+     },
+     {
+      "VarIs": {
+       "var": "bolt_locked",
+       "op": "Is",
+       "value": 0.0
+      }
+     },
+     {
+      "VarIs": {
+       "var": "fire_mode",
+       "op": "IsNot",
+       "value": 0.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "RunSteps": {
+       "group": "fire_shot"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "eject",
+    "name": "Throw out the empty casing",
+    "enabled": true,
+    "when": {
+     "MoveReached": {
+      "mv": "fire",
+      "moment": "eject_casing"
+     }
+    },
+    "conditions": [],
+    "then": [
+     {
+      "LaunchNew": {
+       "piece": "casing",
+       "spot": "casing_exit"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "lock_back",
+    "name": "Last round: bolt catch holds the bolt",
+    "enabled": true,
+    "when": {
+     "MoveReached": {
+      "mv": "fire",
+      "moment": "bolt_back"
+     }
+    },
+    "conditions": [
+     {
+      "HolderIsEmpty": {
+       "holder": "magazine"
+      }
+     },
+     {
+      "VarIs": {
+       "var": "mag_in",
+       "op": "Is",
+       "value": 1.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "StopMove": {
+       "mv": "fire"
+      }
+     },
+     {
+      "SetControlRest": {
+       "control": "bolt_follow",
+       "value": 1.0
+      }
+     },
+     {
+      "SetControl": {
+       "control": "bolt_follow",
+       "value": 1.0
+      }
+     },
+     {
+      "SetVar": {
+       "var": "bolt_locked",
+       "value": 1.0
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "slide_lock"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "chamber_next",
+    "name": "Load the next round",
+    "enabled": true,
+    "when": {
+     "MoveFinished": {
+      "mv": "fire"
+     }
+    },
+    "conditions": [
+     {
+      "HolderHasItem": {
+       "holder": "magazine"
+      }
+     }
+    ],
+    "then": [
+     {
+      "MoveFirstItem": {
+       "from": "magazine",
+       "to": "chamber"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "auto_repeat",
+    "name": "Full auto keeps firing",
+    "enabled": true,
+    "when": {
+     "MoveFinished": {
+      "mv": "fire"
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "fire_mode",
+       "op": "Is",
+       "value": 2.0
+      }
+     },
+     {
+      "VarIs": {
+       "var": "trigger_held",
+       "op": "Is",
+       "value": 1.0
+      }
+     },
+     {
+      "HolderHasItem": {
+       "holder": "chamber"
+      }
+     },
+     {
+      "VarIs": {
+       "var": "bolt_locked",
+       "op": "Is",
+       "value": 0.0
+      }
+     },
+     {
+      "HandOn": {
+       "grip": "main_grip"
+      }
+     }
+    ],
+    "then": [
+     {
+      "RunSteps": {
+       "group": "fire_shot"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "mag_release_r",
+    "name": "Drop the magazine",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "mag_release",
+      "at": 0.5
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "mag_in",
+       "op": "Is",
+       "value": 1.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "ShowPiece": {
+       "piece": "magazine_piece",
+       "visible": false
+      }
+     },
+     {
+      "LaunchNew": {
+       "piece": "magazine_piece",
+       "spot": "mag_drop"
+      }
+     },
+     {
+      "EmptyHolder": {
+       "holder": "magazine"
+      }
+     },
+     {
+      "SetVar": {
+       "var": "mag_in",
+       "value": 0.0
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "mag_out"
+      }
+     },
+     {
+      "Vibrate": {
+       "hand": "Holding",
+       "strength": 0.2,
+       "seconds": 0.04
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "mag_inserted",
+    "name": "Magazine pushed in",
+    "enabled": true,
+    "when": {
+     "Inserted": {
+      "socket": "magwell"
+     }
+    },
+    "conditions": [],
+    "then": [
+     {
+      "ShowPiece": {
+       "piece": "magazine_piece",
+       "visible": true
+      }
+     },
+     {
+      "FillHolder": {
+       "holder": "magazine"
+      }
+     },
+     {
+      "SetVar": {
+       "var": "mag_in",
+       "value": 1.0
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "mag_in"
+      }
+     },
+     {
+      "Vibrate": {
+       "hand": "Holding",
+       "strength": 0.5,
+       "seconds": 0.05
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "bolt_release_chamber",
+    "name": "Bolt catch: bolt flies home and chambers",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "bolt_release",
+      "at": 0.5
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "bolt_locked",
+       "op": "Is",
+       "value": 1.0
+      }
+     },
+     {
+      "HolderHasItem": {
+       "holder": "magazine"
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetControlRest": {
+       "control": "bolt_follow",
+       "value": 0.0
+      }
+     },
+     {
+      "SetVar": {
+       "var": "bolt_locked",
+       "value": 0.0
+      }
+     },
+     {
+      "MoveFirstItem": {
+       "from": "magazine",
+       "to": "chamber"
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "slide_release"
+      }
+     },
+     {
+      "Vibrate": {
+       "hand": "Holding",
+       "strength": 0.5,
+       "seconds": 0.05
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "bolt_release_empty",
+    "name": "Bolt catch with no ammo: bolt just closes",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "bolt_release",
+      "at": 0.5
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "bolt_locked",
+       "op": "Is",
+       "value": 1.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetControlRest": {
+       "control": "bolt_follow",
+       "value": 0.0
+      }
+     },
+     {
+      "SetVar": {
+       "var": "bolt_locked",
+       "value": 0.0
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "slide_release"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "charge_unlock",
+    "name": "Grabbing a locked charging handle frees the bolt",
+    "enabled": true,
+    "when": {
+     "Grabbed": {
+      "grip": "charge"
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "bolt_locked",
+       "op": "Is",
+       "value": 1.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetVar": {
+       "var": "bolt_locked",
+       "value": 0.0
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "rack_back",
+    "name": "Bolt pulled all the way back",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "charge",
+      "at": 0.9
+     }
+    },
+    "conditions": [],
+    "then": [
+     {
+      "SetVar": {
+       "var": "racked",
+       "value": 1.0
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "rack"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "rack_eject",
+    "name": "Pulling it back throws out the chambered round",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "charge",
+      "at": 0.9
+     }
+    },
+    "conditions": [
+     {
+      "HolderHasItem": {
+       "holder": "chamber"
+      }
+     }
+    ],
+    "then": [
+     {
+      "LaunchFromHolder": {
+       "holder": "chamber",
+       "spot": "casing_exit"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "rack_chamber",
+    "name": "Bolt goes home and chambers a round",
+    "enabled": true,
+    "when": {
+     "ControlReleased": {
+      "control": "charge",
+      "at": 0.1
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "racked",
+       "op": "Is",
+       "value": 1.0
+      }
+     },
+     {
+      "HolderIsEmpty": {
+       "holder": "chamber"
+      }
+     }
+    ],
+    "then": [
+     {
+      "MoveFirstItem": {
+       "from": "magazine",
+       "to": "chamber"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "rack_home",
+    "name": "Bolt slams home",
+    "enabled": true,
+    "when": {
+     "ControlReleased": {
+      "control": "charge",
+      "at": 0.1
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "racked",
+       "op": "Is",
+       "value": 1.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetVar": {
+       "var": "racked",
+       "value": 0.0
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "slide_release"
+      }
+     },
+     {
+      "Vibrate": {
+       "hand": "Holding",
+       "strength": 0.4,
+       "seconds": 0.05
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "sel_step",
+    "name": "Selector: next mode",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "selector",
+      "at": 0.5
+     }
+    },
+    "conditions": [],
+    "then": [
+     {
+      "ChangeVar": {
+       "var": "fire_mode",
+       "by": 1.0
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "dry_click"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "sel_wrap",
+    "name": "Selector: wraps back to safe",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "selector",
+      "at": 0.5
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "fire_mode",
+       "op": "Is",
+       "value": 3.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetVar": {
+       "var": "fire_mode",
+       "value": 0.0
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "sel_rest_safe",
+    "name": "Selector lever: safe",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "selector",
+      "at": 0.5
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "fire_mode",
+       "op": "Is",
+       "value": 0.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetControlRest": {
+       "control": "selector",
+       "value": 0.0
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "sel_rest_semi",
+    "name": "Selector lever: semi",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "selector",
+      "at": 0.5
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "fire_mode",
+       "op": "Is",
+       "value": 1.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetControlRest": {
+       "control": "selector",
+       "value": 0.5
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "sel_rest_auto",
+    "name": "Selector lever: auto",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "selector",
+      "at": 0.5
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "fire_mode",
+       "op": "Is",
+       "value": 2.0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetControlRest": {
+       "control": "selector",
+       "value": 1.0
+      }
+     }
+    ],
+    "otherwise": []
+   }
+  ],
+  "step_groups": [
+   {
+    "id": "fire_shot",
+    "name": "Fire one round",
+    "actions": [
+     {
+      "PlayMove": {
+       "mv": "fire"
+      }
+     },
+     {
+      "LaunchFromHolder": {
+       "holder": "chamber",
+       "spot": "muzzle",
+       "as_piece": "bullet"
+      }
+     },
+     {
+      "PlaySound": {
+       "sound": "shot"
+      }
+     },
+     {
+      "Vibrate": {
+       "hand": "Holding",
+       "strength": 0.9,
+       "seconds": 0.06
+      }
+     },
+     {
+      "ChangeVar": {
+       "var": "shots_fired",
+       "by": 1.0
+      }
+     }
+    ]
+   }
+  ],
+  "sounds": [
+   {
+    "id": "shot",
+    "name": "Gunshot",
+    "file": "pistol_sounds/shot.wav",
+    "volume": 1.0
+   },
+   {
+    "id": "dry_click",
+    "name": "Dry fire click",
+    "file": "pistol_sounds/dry_click.wav",
+    "volume": 0.7
+   },
+   {
+    "id": "slide_lock",
+    "name": "Bolt locks back",
+    "file": "pistol_sounds/slide_lock.wav",
+    "volume": 0.7
+   },
+   {
+    "id": "slide_release",
+    "name": "Bolt slams forward",
+    "file": "pistol_sounds/slide_release.wav",
+    "volume": 0.8
+   },
+   {
+    "id": "mag_out",
+    "name": "Magazine out",
+    "file": "pistol_sounds/mag_out.wav",
+    "volume": 0.7
+   },
+   {
+    "id": "mag_in",
+    "name": "Magazine in",
+    "file": "pistol_sounds/mag_in.wav",
+    "volume": 0.8
+   },
+   {
+    "id": "rack",
+    "name": "Rack the bolt",
+    "file": "pistol_sounds/rack.wav",
+    "volume": 0.8
+   }
+  ],
+  "materials": {
+   "FollowerPlate": {
+    "color": [
+     118,
+     134,
+     92
+    ],
+    "gloss": 0.3
+   },
+   "Object_10": {
+    "color": [
+     60,
+     62,
+     66
+    ],
+    "gloss": 0.25
+   },
+   "Object_12": {
+    "color": [
+     60,
+     62,
+     66
+    ],
+    "gloss": 0.25
+   },
+   "Object_14": {
+    "color": [
+     52,
+     54,
+     58
+    ],
+    "gloss": 0.25
+   },
+   "Object_16": {
+    "color": [
+     38,
+     38,
+     42
+    ],
+    "gloss": 0.15
+   },
+   "Object_18": {
+    "color": [
+     38,
+     38,
+     42
+    ],
+    "gloss": 0.15
+   },
+   "Object_20": {
+    "color": [
+     45,
+     46,
+     50
+    ],
+    "gloss": 0.25
+   },
+   "Object_22": {
+    "color": [
+     52,
+     54,
+     58
+    ],
+    "gloss": 0.25
+   },
+   "Object_24": {
+    "color": [
+     55,
+     56,
+     60
+    ],
+    "gloss": 0.25
+   },
+   "Object_26": {
+    "color": [
+     38,
+     38,
+     42
+    ],
+    "gloss": 0.15
+   },
+   "Object_28": {
+    "color": [
+     60,
+     62,
+     66
+    ],
+    "gloss": 0.25
+   },
+   "Object_30": {
+    "color": [
+     120,
+     124,
+     130
+    ],
+    "gloss": 0.45
+   },
+   "Object_32": {
+    "color": [
+     55,
+     57,
+     60
+    ],
+    "gloss": 0.3
+   },
+   "Object_34": {
+    "color": [
+     55,
+     57,
+     60
+    ],
+    "gloss": 0.3
+   },
+   "Object_35": {
+    "color": [
+     205,
+     165,
+     92
+    ],
+    "gloss": 0.3
+   },
+   "Object_36": {
+    "color": [
+     205,
+     165,
+     92
+    ],
+    "gloss": 0.3
+   },
+   "Object_38": {
+    "color": [
+     205,
+     165,
+     92
+    ],
+    "gloss": 0.3
+   },
+   "Object_4": {
+    "color": [
+     52,
+     54,
+     58
+    ],
+    "gloss": 0.25
+   },
+   "Object_40": {
+    "color": [
+     205,
+     165,
+     92
+    ],
+    "gloss": 0.3
+   },
+   "Object_41": {
+    "color": [
+     186,
+     118,
+     70
+    ],
+    "gloss": 0.3
+   },
+   "Object_43": {
+    "color": [
+     60,
+     62,
+     66
+    ],
+    "gloss": 0.3
+   },
+   "Object_6": {
+    "color": [
+     70,
+     72,
+     76
+    ],
+    "gloss": 0.3
+   },
+   "Object_8": {
+    "color": [
+     38,
+     38,
+     42
+    ],
+    "gloss": 0.15
+   }
   }
+ }
 }
