@@ -1,0 +1,9 @@
+{
+  "scene": "mud_strip",
+  "agent": "human",
+  "geometry": "68e50f7b43c8c2a0",
+  "triangles": 16384,
+  "cell_size": 0.1,
+  "polygons": 2,
+  "bake_ms": 7.201833
+}

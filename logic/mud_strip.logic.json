@@ -1,31 +1,41 @@
 {
-  "scene": "mud_strip",
-  "player_start": "spawn",
-  "open_menus": [],
-  "menu_rules": [],
-  "teams": [],
-  "menu_button": null,
-  "hand_menu": true,
-  "npcs": [],
-  "swarms": [
-    {
-      "entity": "models/soldier/soldier_pace.entity.json",
-      "count": 1,
-      "spread_m": 0.5,
-      "health": 100.0,
-      "hits": [],
-      "attack_damage": 0.0,
-      "player_health": 100.0
-    },
-    {
-      "entity": "models/soldier/soldier_still.entity.json",
-      "count": 1,
-      "spread_m": 0.0,
-      "spawn": "guard_spawn",
-      "health": 100.0,
-      "hits": [],
-      "attack_damage": 0.0,
-      "player_health": 100.0
-    }
-  ]
+ "scene": "mud_strip",
+ "player_start": "spawn",
+ "open_menus": [],
+ "menu_rules": [],
+ "teams": [],
+ "menu_button": null,
+ "hand_menu": true,
+ "npcs": [],
+ "swarms": [
+  {
+   "entity": "models/soldier/soldier_pace.entity.json",
+   "count": 1,
+   "spread_m": 0.5,
+   "health": 100.0,
+   "hits": [],
+   "attack_damage": 0.0,
+   "player_health": 100.0
+  },
+  {
+   "entity": "models/soldier/soldier_still.entity.json",
+   "count": 1,
+   "spread_m": 0.0,
+   "spawn": "guard_spawn",
+   "health": 100.0,
+   "hits": [],
+   "attack_damage": 0.0,
+   "player_health": 100.0
+  },
+  {
+   "entity": "models/soldier/soldier_thrower.entity.json",
+   "count": 1,
+   "spread_m": 0.0,
+   "spawn": "thrower_spawn",
+   "health": 100.0,
+   "hits": [],
+   "attack_damage": 0.0,
+   "player_health": 100.0
+  }
+ ]
 }

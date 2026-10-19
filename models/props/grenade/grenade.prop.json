@@ -1,0 +1,486 @@
+{
+ "schemaVersion": "1.0.0",
+ "prop": {
+  "name": "Mk2 Grenade",
+  "rest_pos": [
+   0.0,
+   1.0,
+   0.0
+  ],
+  "rest_rot_deg": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "scale": 0.0257,
+  "pieces": [
+   {
+    "id": "body",
+    "name": "Body",
+    "meshes": [
+     "Grenade_Body"
+    ],
+    "kind": "Still"
+   },
+   {
+    "id": "spoon",
+    "name": "Spoon",
+    "meshes": [
+     "Grenade_Spoon"
+    ],
+    "kind": "Still",
+    "pivot": [
+     0.2,
+     2.0,
+     0.0
+    ],
+    "nose": [
+     1.0,
+     0.3,
+     0.0
+    ]
+   },
+   {
+    "id": "pin",
+    "name": "Pin",
+    "meshes": [
+     "Grenade_Pin"
+    ],
+    "kind": "Pressable",
+    "pivot": [
+     0.49,
+     2.7,
+     -0.49
+    ],
+    "nose": [
+     0.7,
+     0.0,
+     -0.7
+    ]
+   }
+  ],
+  "points": [
+   {
+    "id": "main_grip",
+    "name": "Grip",
+    "kind": {
+     "Grip": {
+      "hand": "Both",
+      "pose": "Main hand \u00b7 Clutch"
+     }
+    },
+    "parent": null,
+    "pos": [
+     0.0,
+     -0.2,
+     0.0
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     90.0
+    ]
+   },
+   {
+    "id": "pin_pull",
+    "name": "Pin pull",
+    "kind": {
+     "Control": {
+      "input": "Pull",
+      "moves_piece": "pin",
+      "shift": [
+       1.6,
+       0.0,
+       -1.6
+      ],
+      "turn_deg": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "grab": "Both",
+      "range_cm": 10.0
+     }
+    },
+    "parent": null,
+    "pos": [
+     0.8,
+     2.7,
+     -0.8
+    ],
+    "rot_deg": [
+     0.0,
+     45.0,
+     0.0
+    ]
+   },
+   {
+    "id": "spoon_spot",
+    "name": "Spoon away",
+    "kind": {
+     "Spot": {
+      "speed": 5.0
+     }
+    },
+    "parent": null,
+    "pos": [
+     1.1,
+     1.8,
+     0.0
+    ],
+    "rot_deg": [
+     0.0,
+     0.0,
+     55.0
+    ]
+   },
+   {
+    "id": "pin_spot",
+    "name": "Pin away",
+    "kind": {
+     "Spot": {
+      "speed": 1.5
+     }
+    },
+    "parent": null,
+    "pos": [
+     0.9,
+     2.7,
+     -0.9
+    ],
+    "rot_deg": [
+     0.0,
+     45.0,
+     0.0
+    ]
+   }
+  ],
+  "hand_poses": [
+   {
+    "name": "Open hand",
+    "curls": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "name": "Main hand \u00b7 Clutch",
+    "curls": [
+     0.75,
+     0.85,
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   {
+    "name": "Pinch",
+    "curls": [
+     0.65,
+     0.7,
+     0.2,
+     0.2,
+     0.2
+    ]
+   }
+  ],
+  "holders": [],
+  "variables": [
+   {
+    "id": "pin_pulled",
+    "name": "Pin pulled",
+    "kind": "YesNo",
+    "start": 0
+   },
+   {
+    "id": "cooking",
+    "name": "Fuse burning",
+    "kind": "YesNo",
+    "start": 0
+   },
+   {
+    "id": "spent",
+    "name": "Exploded",
+    "kind": "YesNo",
+    "start": 0
+   }
+  ],
+  "moves": [
+   {
+    "id": "fuse",
+    "name": "Fuse",
+    "duration": 5.0,
+    "tracks": [
+     {
+      "piece": "body",
+      "keys": [
+       {
+        "t": 0.0,
+        "pos": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "rot_deg": [
+         0.0,
+         0.0,
+         0.0
+        ]
+       },
+       {
+        "t": 5.0,
+        "pos": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "rot_deg": [
+         0.0,
+         0.0,
+         0.0
+        ]
+       }
+      ]
+     }
+    ],
+    "moments": [
+     {
+      "id": "boom",
+      "name": "Boom",
+      "t": 4.95
+     }
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "id": "pin_out",
+    "name": "Pin comes out",
+    "enabled": true,
+    "when": {
+     "ControlPassed": {
+      "control": "pin_pull",
+      "at": 0.85
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "pin_pulled",
+       "op": "Is",
+       "value": 0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetVar": {
+       "var": "pin_pulled",
+       "value": 1
+      }
+     },
+     {
+      "ShowPiece": {
+       "piece": "pin",
+       "visible": false
+      }
+     },
+     {
+      "LaunchNew": {
+       "piece": "pin",
+       "spot": "pin_spot"
+      }
+     },
+     {
+      "Vibrate": {
+       "hand": "Holding",
+       "strength": 0.5,
+       "seconds": 0.1
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "spoon_flies",
+    "name": "Let go with the pin out",
+    "enabled": true,
+    "when": {
+     "LetGo": {
+      "grip": "main_grip"
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "pin_pulled",
+       "op": "Is",
+       "value": 1
+      }
+     },
+     {
+      "VarIs": {
+       "var": "cooking",
+       "op": "Is",
+       "value": 0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetVar": {
+       "var": "cooking",
+       "value": 1
+      }
+     },
+     {
+      "ShowPiece": {
+       "piece": "spoon",
+       "visible": false
+      }
+     },
+     {
+      "LaunchNew": {
+       "piece": "spoon",
+       "spot": "spoon_spot"
+      }
+     },
+     {
+      "Burst": {
+       "flash": 0.3,
+       "sparks": 14,
+       "spark_size": 0.0015,
+       "max_life_s": 0.4
+      }
+     },
+     {
+      "PlayMove": {
+       "mv": "fuse"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "thrown_live",
+    "name": "Hurled with the pin out",
+    "enabled": true,
+    "when": "Thrown",
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "cooking",
+       "op": "Is",
+       "value": 0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetVar": {
+       "var": "pin_pulled",
+       "value": 1
+      }
+     },
+     {
+      "ShowPiece": {
+       "piece": "pin",
+       "visible": false
+      }
+     },
+     {
+      "SetVar": {
+       "var": "cooking",
+       "value": 1
+      }
+     },
+     {
+      "ShowPiece": {
+       "piece": "spoon",
+       "visible": false
+      }
+     },
+     {
+      "LaunchNew": {
+       "piece": "spoon",
+       "spot": "spoon_spot"
+      }
+     },
+     {
+      "Burst": {
+       "flash": 0.3,
+       "sparks": 14,
+       "spark_size": 0.0015,
+       "max_life_s": 0.4
+      }
+     },
+     {
+      "PlayMove": {
+       "mv": "fuse"
+      }
+     }
+    ],
+    "otherwise": []
+   },
+   {
+    "id": "boom",
+    "name": "Fuse runs out",
+    "enabled": true,
+    "when": {
+     "MoveReached": {
+      "mv": "fuse",
+      "moment": "boom"
+     }
+    },
+    "conditions": [
+     {
+      "VarIs": {
+       "var": "spent",
+       "op": "Is",
+       "value": 0
+      }
+     }
+    ],
+    "then": [
+     {
+      "SetVar": {
+       "var": "spent",
+       "value": 1
+      }
+     },
+     {
+      "Vibrate": {
+       "hand": "Both",
+       "strength": 1.0,
+       "seconds": 0.4
+      }
+     },
+     {
+      "Burst": {
+       "flash": 1.3,
+       "sparks": 1200,
+       "spark_size": 0.005,
+       "smoke": 60,
+       "mist": 1.0,
+       "crater_radius_m": 0.55,
+       "crater_depth": 0.45,
+       "max_life_s": 2.0
+      }
+     },
+     {
+      "ShowPiece": {
+       "piece": "body",
+       "visible": false
+      }
+     }
+    ],
+    "otherwise": []
+   }
+  ],
+  "step_groups": [],
+  "sounds": []
+ }
+}
