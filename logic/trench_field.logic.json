@@ -1,0 +1,59 @@
+{
+ "scene": "trench_field",
+ "player_start": "player_spawn",
+ "menu_rules": [],
+ "hand_menu": true,
+ "npcs": [],
+ "swarms": [
+  {
+   "entity": "models/soldier/soldier_pace.entity.json",
+   "count": 2,
+   "spread_m": 1.5,
+   "spawn": "enemy_pace_spawn",
+   "health": 100.0,
+   "hits": [],
+   "attack_damage": 0.0,
+   "player_health": 100.0
+  },
+  {
+   "entity": "models/soldier/soldier_still.entity.json",
+   "count": 3,
+   "spread_m": 5.0,
+   "spawn": "enemy_guard_spawn",
+   "health": 100.0,
+   "hits": [],
+   "attack_damage": 0.0,
+   "player_health": 100.0
+  },
+  {
+   "entity": "models/soldier/soldier_thrower.entity.json",
+   "count": 1,
+   "spread_m": 0.0,
+   "spawn": "enemy_thrower_spawn",
+   "health": 100.0,
+   "hits": [],
+   "attack_damage": 0.0,
+   "player_health": 100.0
+  },
+  {
+   "entity": "models/soldier/soldier.entity.json",
+   "count": 3,
+   "spread_m": 25.0,
+   "spawn": "patrol_spawn",
+   "health": 100.0,
+   "hits": [],
+   "attack_damage": 10.0,
+   "player_health": 100.0
+  },
+  {
+   "entity": "models/soldier/soldier.entity.json",
+   "count": 6,
+   "spread_m": 38.0,
+   "spawn": "wander_spawn",
+   "health": 100.0,
+   "hits": [],
+   "attack_damage": 0.0,
+   "player_health": 100.0
+  }
+ ]
+}

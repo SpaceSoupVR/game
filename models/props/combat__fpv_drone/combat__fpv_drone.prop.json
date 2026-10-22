@@ -1,0 +1,565 @@
+{
+  "schemaVersion": "1.0.0",
+  "prop": {
+    "name": "combat__fpv_drone",
+    "model": "combat__fpv_drone.glb",
+    "rest_pos": [
+      0.35,
+      1.0,
+      -0.35
+    ],
+    "rest_rot_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": 1.0,
+    "pieces": [
+      {
+        "id": "body",
+        "name": "Body",
+        "meshes": [
+          "BATT_CONNECTOR_low_DRONE_0",
+          "BLOCK_MORKVA_0",
+          "BOLT_CAM_low_DRONE_0",
+          "DETONATOR_MORKVA_0",
+          "ENGINE_COLLECTOR_low_DRONE_0",
+          "FLY_CONTROLLER_low_DRONE_0",
+          "IZOLENTA_MORKVA_0",
+          "MORKOVKA_MORKVA_0",
+          "MORKOVKA_PJEZA_MORKVA_0",
+          "PROVOD11_low_DRONE_0",
+          "PROVOD12_low_DRONE_0",
+          "PROVOD13_low_DRONE_0",
+          "PROVOD14_low_DRONE_0",
+          "PROVOD15_low_DRONE_0",
+          "PROVOD16_low_DRONE_0",
+          "PROVOD17_low_DRONE_0",
+          "PROVOD18_low_DRONE_0",
+          "PROVOD1_low_DRONE_0",
+          "PROVOD2_low_DRONE_0",
+          "PROVOD3_low_DRONE_0",
+          "PROVOD4_low_DRONE_0",
+          "PROVOD5_low_DRONE_0",
+          "PROVOD6_low_DRONE_0",
+          "PROVOD7_low_DRONE_0",
+          "PROVOD8_low_DRONE_0",
+          "PROVOD9_low_DRONE_0",
+          "PROVOD_BLOCK_MORKVA_0",
+          "PROVOD_DETONATOR_MORKVA_0",
+          "PROVOD_MAIN_MORKVA_0",
+          "PROVOD_PLATE_MORKVA_0",
+          "PROVOD_PROVOLOKA_MORKVA_0",
+          "PROVOLOKA_L_MORKVA_0",
+          "PROVOLOKA_R_MORKVA_0",
+          "STYAZKA1_MORKVA_0",
+          "STYAZKA2_MORKVA_0",
+          "VTX_ANT1_low_DRONE_0",
+          "VTX_ANT_HOLDER_low_DRONE_0",
+          "VTX_ANT_low_DRONE_0",
+          "VTX_ANT_metalelement_low_DRONE_0",
+          "VTX_low_DRONE_0",
+          "ant_conn_low_DRONE_0",
+          "ant_holder_low_DRONE_0",
+          "batt_conn_provod_low_DRONE_0",
+          "batt_low_DRONE_0",
+          "bolt1_low_DRONE_0",
+          "bolt228_low_DRONE_0",
+          "bolt2_low_DRONE_0",
+          "bolt3_low_DRONE_0",
+          "bolt_ant_down_low_DRONE_0",
+          "bolt_ant_holder_low_DRONE_0",
+          "bolt_ant_low_DRONE_0",
+          "bolt_low_DRONE_0",
+          "boltvtx1_low_DRONE_0",
+          "boltvtx_low_DRONE_0",
+          "camera_holder_low_DRONE_0",
+          "camera_low_DRONE_0",
+          "conn_batt_low_DRONE_0",
+          "conn_low_DRONE_0",
+          "connector1_low_DRONE_0",
+          "connector_vtx_low_DRONE_0",
+          "frame_low_DRONE_0",
+          "gayka1_low_DRONE_0",
+          "izolenta_low_DRONE_0",
+          "kembr_low_DRONE_0",
+          "kondensator_low_DRONE_0",
+          "plata_holder_low_DRONE_0",
+          "pripoy1_low_DRONE_0",
+          "pripoy2_low_DRONE_0",
+          "pripoy_low_DRONE_0",
+          "remen1_low_DRONE_0",
+          "remen1_skoba_low_DRONE_0",
+          "remen_low_DRONE_0",
+          "remen_skoba_low_DRONE_0",
+          "resiver_low_DRONE_0",
+          "rotor_in_low_DRONE_0",
+          "rotor_korpus_bl_low_DRONE_0",
+          "rotor_korpus_fl_low_DRONE_0",
+          "rotor_korpus_fr_low_DRONE_0",
+          "rotor_korpus_low_DRONE_0",
+          "rx_ant_low_DRONE_0",
+          "shtift_long2_low_DRONE_0",
+          "shtift_long_low_DRONE_0",
+          "shtift_short_low_DRONE_0",
+          "styazka1_low_DRONE_0",
+          "styazka2_low_DRONE_0",
+          "styazka3_low_DRONE_0"
+        ],
+        "kind": "Still"
+      },
+      {
+        "id": "rotor_front_right",
+        "name": "Propeller, front right",
+        "meshes": [
+          "vint_fr_low_DRONE_0"
+        ],
+        "kind": "Moves",
+        "pivot": [
+          -0.15558529,
+          0.025623728,
+          0.1551622
+        ]
+      },
+      {
+        "id": "rotor_front_left",
+        "name": "Propeller, front left",
+        "meshes": [
+          "vint_fl_low_DRONE_0"
+        ],
+        "kind": "Moves",
+        "pivot": [
+          0.15558532,
+          0.025623722,
+          0.15516235
+        ]
+      },
+      {
+        "id": "rotor_back_right",
+        "name": "Propeller, back right",
+        "meshes": [
+          "vint_br_low_DRONE_0"
+        ],
+        "kind": "Moves",
+        "pivot": [
+          -0.15558533,
+          0.025623707,
+          -0.15516241
+        ]
+      },
+      {
+        "id": "rotor_back_left",
+        "name": "Propeller, back left",
+        "meshes": [
+          "vint_bl_low_DRONE_0"
+        ],
+        "kind": "Moves",
+        "pivot": [
+          0.15558524,
+          0.025623705,
+          -0.15516226
+        ]
+      }
+    ],
+    "points": [
+      {
+        "id": "camera",
+        "name": "Camera",
+        "kind": {
+          "Spot": {
+            "speed": 1.0
+          }
+        },
+        "parent": null,
+        "pos": [
+          0.0,
+          0.002879252,
+          0.124204785
+        ],
+        "rot_deg": [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      }
+    ],
+    "hand_poses": [
+      {
+        "name": "Open hand",
+        "curls": [
+          0.15,
+          0.1,
+          0.12,
+          0.12,
+          0.14
+        ]
+      },
+      {
+        "name": "Main hand · Grip",
+        "curls": [
+          0.7,
+          0.3,
+          0.9,
+          0.92,
+          0.9
+        ]
+      },
+      {
+        "name": "Main hand · Trigger squeeze",
+        "curls": [
+          0.7,
+          0.65,
+          0.9,
+          0.92,
+          0.9
+        ]
+      },
+      {
+        "name": "Support hand · Steady",
+        "curls": [
+          0.45,
+          0.55,
+          0.55,
+          0.55,
+          0.55
+        ]
+      },
+      {
+        "name": "Pinch",
+        "curls": [
+          0.65,
+          0.6,
+          0.2,
+          0.15,
+          0.15
+        ]
+      },
+      {
+        "name": "Point",
+        "curls": [
+          0.6,
+          0.0,
+          0.95,
+          0.95,
+          0.95
+        ]
+      },
+      {
+        "name": "Fist",
+        "curls": [
+          0.95,
+          0.95,
+          0.95,
+          0.95,
+          0.95
+        ]
+      }
+    ],
+    "holders": [],
+    "variables": [],
+    "moves": [
+      {
+        "id": "spin",
+        "name": "Spin propellers",
+        "duration": 0.1,
+        "tracks": [
+          {
+            "piece": "rotor_front_right",
+            "keys": [
+              {
+                "t": 0.0,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.05,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  180.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.1,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  360.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "piece": "rotor_front_left",
+            "keys": [
+              {
+                "t": 0.0,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.05,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -180.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.1,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -360.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "piece": "rotor_back_right",
+            "keys": [
+              {
+                "t": 0.0,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.05,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -180.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.1,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -360.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "piece": "rotor_back_left",
+            "keys": [
+              {
+                "t": 0.0,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.05,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  180.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.1,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  360.0,
+                  0.0
+                ]
+              }
+            ]
+          }
+        ],
+        "moments": [],
+        "looping": true,
+        "rate_control": "throttle"
+      }
+    ],
+    "rules": [
+      {
+        "id": "crash_explodes",
+        "name": "Explodes when it crashes",
+        "enabled": true,
+        "when": "Crashed",
+        "conditions": [],
+        "then": [
+          {
+            "Burst": {
+              "flash": 12.0,
+              "sparks": 9000,
+              "spark_size": 0.006,
+              "smoke": 500,
+              "mist": 1.0,
+              "crater_radius_m": 4.5,
+              "crater_depth": 0.6,
+              "max_life_s": 3.0,
+              "knockdown_radius_m": 20.0
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "body",
+              "visible": false
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "rotor_front_right",
+              "visible": false
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "rotor_front_left",
+              "visible": false
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "rotor_back_right",
+              "visible": false
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "rotor_back_left",
+              "visible": false
+            }
+          }
+        ],
+        "otherwise": []
+      }
+    ],
+    "step_groups": [],
+    "sounds": [],
+    "flight": {
+      "camera_point": "camera",
+      "max_speed_mps": 14.0,
+      "climb_mps": 5.0,
+      "turn_deg_s": 130.0,
+      "max_tilt_deg": 32.0,
+      "cam_tilt_deg": 25.0,
+      "fov_deg": 90.0,
+      "spin_move": "spin",
+      "throttle_control": "throttle",
+      "response": 3.0,
+      "crash_speed_mps": 4.0,
+      "keys": [
+        {
+          "key": "ArrowUp",
+          "action": "Forward"
+        },
+        {
+          "key": "ArrowDown",
+          "action": "Back"
+        },
+        {
+          "key": "ArrowLeft",
+          "action": "TurnLeft"
+        },
+        {
+          "key": "ArrowRight",
+          "action": "TurnRight"
+        },
+        {
+          "key": "w",
+          "action": "Forward"
+        },
+        {
+          "key": "s",
+          "action": "Back"
+        },
+        {
+          "key": "a",
+          "action": "TurnLeft"
+        },
+        {
+          "key": "d",
+          "action": "TurnRight"
+        },
+        {
+          "key": "2",
+          "action": "Up"
+        },
+        {
+          "key": "1",
+          "action": "Down"
+        },
+        {
+          "key": "Shift",
+          "action": "Boost"
+        }
+      ]
+    }
+  }
+}

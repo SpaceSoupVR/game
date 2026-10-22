@@ -1,0 +1,1356 @@
+{
+  "name": "trench_field",
+  "post": {
+    "exposure": 1.0,
+    "tonemap": "Aces"
+  },
+  "terrain": {
+    "origin": [
+      -130.0,
+      0.0,
+      -130.0
+    ],
+    "splat": {
+      "path": "terrain/trench_field.splat",
+      "resolution": [
+        512,
+        512
+      ],
+      "layers": 4
+    },
+    "textures": "textures/terrain_trench",
+    "kind": "heightfield",
+    "path": "terrain/trench_field.r16",
+    "resolution": [
+      261,
+      261
+    ],
+    "size": [
+      260.0,
+      260.0
+    ],
+    "height_range": [
+      -20.0,
+      80.0
+    ]
+  },
+  "scatter": [
+    {
+      "id": "scatter_trees",
+      "name": "Trees",
+      "seed": 1451627903,
+      "prototypes": [
+        {
+          "mesh": "models/train/trees/oak_big_1.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_2.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_3.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_big_4.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_1.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_2.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_3.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_large_4.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_1.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_2.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_medium_3.glb",
+          "weight": 3.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_1.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_2.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_sapling_3.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_1.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_2.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/trees/oak_small_3.glb",
+          "weight": 2.0,
+          "scale_range": [
+            0.45,
+            0.55
+          ],
+          "max_slope_deg": 30.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        }
+      ],
+      "strokes": [
+        {
+          "id": 0,
+          "center": [
+            -100.0,
+            100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 1,
+          "center": [
+            -50.0,
+            100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 2,
+          "center": [
+            0.0,
+            100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 3,
+          "center": [
+            50.0,
+            100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 4,
+          "center": [
+            100.0,
+            100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 5,
+          "center": [
+            -100.0,
+            -100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 6,
+          "center": [
+            -50.0,
+            -100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 7,
+          "center": [
+            0.0,
+            -100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 8,
+          "center": [
+            50.0,
+            -100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 9,
+          "center": [
+            100.0,
+            -100.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 10,
+          "center": [
+            -118.0,
+            -60.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 11,
+          "center": [
+            -118.0,
+            0.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 12,
+          "center": [
+            -118.0,
+            60.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 13,
+          "center": [
+            118.0,
+            -60.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 14,
+          "center": [
+            118.0,
+            0.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 15,
+          "center": [
+            118.0,
+            60.0
+          ],
+          "radius": 20.0,
+          "density": 0.012
+        },
+        {
+          "id": 16,
+          "center": [
+            -35.0,
+            0.0
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 17,
+          "center": [
+            35.0,
+            2.0
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 18,
+          "center": [
+            -105.0,
+            -10.0
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 19,
+          "center": [
+            105.0,
+            8.0
+          ],
+          "radius": 9.0,
+          "density": 0.012
+        },
+        {
+          "id": 20,
+          "center": [
+            -40.0,
+            60.0
+          ],
+          "radius": 1.5,
+          "density": 0.6
+        }
+      ],
+      "overrides": [],
+      "season": "late_autumn"
+    },
+    {
+      "id": "scatter_bushes",
+      "name": "Bushes",
+      "seed": 4051515352,
+      "prototypes": [
+        {
+          "mesh": "models/train/bushes/bush_1.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.9,
+            1.8
+          ],
+          "max_slope_deg": 35.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        }
+      ],
+      "strokes": [
+        {
+          "id": 0,
+          "center": [
+            -95.0,
+            -62.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 1,
+          "center": [
+            -95.0,
+            -20.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 2,
+          "center": [
+            -95.0,
+            22.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 3,
+          "center": [
+            -95.0,
+            62.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 4,
+          "center": [
+            -45.0,
+            -62.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 5,
+          "center": [
+            -45.0,
+            -20.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 6,
+          "center": [
+            -45.0,
+            22.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 7,
+          "center": [
+            -45.0,
+            62.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 8,
+          "center": [
+            15.0,
+            -62.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 9,
+          "center": [
+            15.0,
+            -20.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 10,
+          "center": [
+            15.0,
+            22.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 11,
+          "center": [
+            15.0,
+            62.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 12,
+          "center": [
+            75.0,
+            -62.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 15,
+          "center": [
+            75.0,
+            62.0
+          ],
+          "radius": 10.0,
+          "density": 0.12
+        },
+        {
+          "id": 16,
+          "center": [
+            90.0,
+            -18.0
+          ],
+          "radius": 9.0,
+          "density": 0.12
+        },
+        {
+          "id": 17,
+          "center": [
+            90.0,
+            24.0
+          ],
+          "radius": 9.0,
+          "density": 0.12
+        }
+      ],
+      "overrides": [],
+      "season": "late_autumn"
+    },
+    {
+      "id": "scatter_rocks",
+      "name": "Rocks",
+      "seed": 529796200,
+      "prototypes": [
+        {
+          "mesh": "models/train/rocks/stone_1.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.4,
+            1.6
+          ],
+          "max_slope_deg": 60.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/rocks/stone_2.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.4,
+            1.6
+          ],
+          "max_slope_deg": 60.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/rocks/stone_3.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.4,
+            1.6
+          ],
+          "max_slope_deg": 60.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/rocks/stone_4.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.4,
+            1.6
+          ],
+          "max_slope_deg": 60.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        }
+      ],
+      "strokes": [
+        {
+          "id": 0,
+          "center": [
+            -80.0,
+            -70.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 1,
+          "center": [
+            -20.0,
+            -72.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 2,
+          "center": [
+            40.0,
+            -68.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 3,
+          "center": [
+            95.0,
+            -60.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 4,
+          "center": [
+            -85.0,
+            68.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 5,
+          "center": [
+            -10.0,
+            70.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 6,
+          "center": [
+            55.0,
+            66.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 7,
+          "center": [
+            100.0,
+            72.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 8,
+          "center": [
+            -35.0,
+            -1.0
+          ],
+          "radius": 9.0,
+          "density": 0.03
+        },
+        {
+          "id": 9,
+          "center": [
+            48.0,
+            0.0
+          ],
+          "radius": 6.0,
+          "density": 0.03
+        }
+      ],
+      "overrides": [],
+      "season": "late_autumn"
+    },
+    {
+      "id": "scatter_grass",
+      "name": "Grass",
+      "seed": 2780410296,
+      "prototypes": [
+        {
+          "mesh": "models/train/grass/grass_clump_1.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.7,
+            1.4
+          ],
+          "max_slope_deg": 45.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/grass/grass_clump_2.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.7,
+            1.4
+          ],
+          "max_slope_deg": 45.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        },
+        {
+          "mesh": "models/train/grass/grass_clump_3.glb",
+          "weight": 1.0,
+          "scale_range": [
+            0.7,
+            1.4
+          ],
+          "max_slope_deg": 45.0,
+          "yaw_range": [
+            0.0,
+            360.0
+          ],
+          "tilt_deg": 0.0
+        }
+      ],
+      "strokes": [
+        {
+          "id": 0,
+          "center": [
+            -90.0,
+            -70.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 1,
+          "center": [
+            -90.0,
+            70.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 2,
+          "center": [
+            -30.0,
+            -70.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 3,
+          "center": [
+            -30.0,
+            70.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 4,
+          "center": [
+            30.0,
+            -70.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 5,
+          "center": [
+            30.0,
+            70.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 6,
+          "center": [
+            90.0,
+            -70.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 7,
+          "center": [
+            90.0,
+            70.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 8,
+          "center": [
+            -35.0,
+            0.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        },
+        {
+          "id": 9,
+          "center": [
+            35.0,
+            0.0
+          ],
+          "radius": 20.0,
+          "density": 0.7
+        }
+      ],
+      "overrides": [],
+      "season": "late_autumn"
+    }
+  ],
+  "sky": {
+    "id": "overcast_soil_puresky",
+    "intensity": 1.0,
+    "rotation_deg": 0.0,
+    "show_background": true
+  },
+  "objects": [
+    {
+      "id": "player_spawn",
+      "cuboid": {
+        "position": [
+          -50.0,
+          -1.6,
+          32.0
+        ],
+        "half_size": [
+          0.3,
+          0.03,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          140,
+          255,
+          170,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "enemy_pace_spawn",
+      "cuboid": {
+        "position": [
+          20.0,
+          -0.7,
+          -40.0
+        ],
+        "half_size": [
+          0.3,
+          0.03,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          140,
+          255,
+          170,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "enemy_guard_spawn",
+      "cuboid": {
+        "position": [
+          -30.0,
+          -1.2,
+          -34.0
+        ],
+        "half_size": [
+          0.3,
+          0.03,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          140,
+          255,
+          170,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "enemy_thrower_spawn",
+      "cuboid": {
+        "position": [
+          50.0,
+          -0.8,
+          -34.0
+        ],
+        "half_size": [
+          0.3,
+          0.03,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          140,
+          255,
+          170,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "patrol_spawn",
+      "cuboid": {
+        "position": [
+          0.0,
+          3.0,
+          -85.0
+        ],
+        "half_size": [
+          0.3,
+          0.03,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          140,
+          255,
+          170,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    },
+    {
+      "id": "drone",
+      "cuboid": {
+        "position": [
+          -30.0,
+          1.9,
+          -34.0
+        ],
+        "half_size": [
+          0.2782335,
+          0.12524906,
+          0.31869704
+        ],
+        "rotation": [
+          0.0,
+          -1.0,
+          -0.0,
+          -4.371139e-08
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Wireframe",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": null,
+      "teleportal": null,
+      "prop": {
+        "path": "models/props/combat__fpv_drone/combat__fpv_drone.prop.json"
+      }
+    },
+    {
+      "id": "wander_spawn",
+      "cuboid": {
+        "position": [
+          0.0,
+          0.3,
+          0.0
+        ],
+        "half_size": [
+          0.3,
+          0.03,
+          0.3
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          140,
+          255,
+          170,
+          255
+        ],
+        "wire_color": [
+          200,
+          200,
+          255,
+          255
+        ],
+        "style": "Solid",
+        "reflectivity": 0.0
+      },
+      "mesh": null,
+      "is_trigger": false,
+      "hidden": false,
+      "script": null,
+      "animations": [],
+      "animation_bindings": [],
+      "part_animations": [],
+      "hidden_parts": [],
+      "rig_attachment": null,
+      "grip_pose_left": null,
+      "grip_pose_right": null,
+      "rigid_body": null,
+      "grip_points": [],
+      "sockets": [],
+      "slider_joint": null,
+      "terrain_collider": null,
+      "lights": [],
+      "sound": null,
+      "particle_emitter": null,
+      "laser": null,
+      "spawn_point": {},
+      "teleportal": null
+    }
+  ]
+}

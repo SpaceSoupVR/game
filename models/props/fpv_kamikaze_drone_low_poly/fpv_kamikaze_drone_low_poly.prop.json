@@ -1,0 +1,479 @@
+{
+  "schemaVersion": "1.0.0",
+  "prop": {
+    "name": "fpv_kamikaze_drone_low_poly",
+    "model": "fpv_kamikaze_drone_low_poly.glb",
+    "rest_pos": [
+      0.35,
+      1.0,
+      -0.35
+    ],
+    "rest_rot_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": 1.0,
+    "pieces": [
+      {
+        "id": "body",
+        "name": "Body",
+        "meshes": [
+          "body"
+        ],
+        "kind": "Still"
+      },
+      {
+        "id": "rotor_front_right",
+        "name": "Rotor, front right",
+        "meshes": [
+          "rotor_front_right"
+        ],
+        "kind": "Moves",
+        "pivot": [
+          -0.086670846,
+          0.010462979,
+          0.09091432
+        ]
+      },
+      {
+        "id": "rotor_front_left",
+        "name": "Rotor, front left",
+        "meshes": [
+          "rotor_front_left"
+        ],
+        "kind": "Moves",
+        "pivot": [
+          0.086514294,
+          0.010467224,
+          0.09080723
+        ]
+      },
+      {
+        "id": "rotor_back_right",
+        "name": "Rotor, back right",
+        "meshes": [
+          "rotor_back_right"
+        ],
+        "kind": "Moves",
+        "pivot": [
+          -0.08399632,
+          0.010226559,
+          -0.088903666
+        ]
+      },
+      {
+        "id": "rotor_back_left",
+        "name": "Rotor, back left",
+        "meshes": [
+          "rotor_back_left"
+        ],
+        "kind": "Moves",
+        "pivot": [
+          0.08501003,
+          0.010240815,
+          -0.08858122
+        ]
+      }
+    ],
+    "points": [
+      {
+        "id": "camera",
+        "name": "Camera",
+        "kind": {
+          "Spot": {
+            "speed": 1.0
+          }
+        },
+        "parent": null,
+        "pos": [
+          0.0,
+          -0.0002069749,
+          0.14023471
+        ],
+        "rot_deg": [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      }
+    ],
+    "hand_poses": [
+      {
+        "name": "Open hand",
+        "curls": [
+          0.15,
+          0.1,
+          0.12,
+          0.12,
+          0.14
+        ]
+      },
+      {
+        "name": "Main hand · Grip",
+        "curls": [
+          0.7,
+          0.3,
+          0.9,
+          0.92,
+          0.9
+        ]
+      },
+      {
+        "name": "Main hand · Trigger squeeze",
+        "curls": [
+          0.7,
+          0.65,
+          0.9,
+          0.92,
+          0.9
+        ]
+      },
+      {
+        "name": "Support hand · Steady",
+        "curls": [
+          0.45,
+          0.55,
+          0.55,
+          0.55,
+          0.55
+        ]
+      },
+      {
+        "name": "Pinch",
+        "curls": [
+          0.65,
+          0.6,
+          0.2,
+          0.15,
+          0.15
+        ]
+      },
+      {
+        "name": "Point",
+        "curls": [
+          0.6,
+          0.0,
+          0.95,
+          0.95,
+          0.95
+        ]
+      },
+      {
+        "name": "Fist",
+        "curls": [
+          0.95,
+          0.95,
+          0.95,
+          0.95,
+          0.95
+        ]
+      }
+    ],
+    "holders": [],
+    "variables": [],
+    "moves": [
+      {
+        "id": "spin",
+        "name": "Spin rotors",
+        "duration": 0.1,
+        "tracks": [
+          {
+            "piece": "rotor_front_right",
+            "keys": [
+              {
+                "t": 0.0,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.05,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  180.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.1,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  360.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "piece": "rotor_front_left",
+            "keys": [
+              {
+                "t": 0.0,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.05,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -180.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.1,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -360.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "piece": "rotor_back_right",
+            "keys": [
+              {
+                "t": 0.0,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.05,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -180.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.1,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  -360.0,
+                  0.0
+                ]
+              }
+            ]
+          },
+          {
+            "piece": "rotor_back_left",
+            "keys": [
+              {
+                "t": 0.0,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.05,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  180.0,
+                  0.0
+                ]
+              },
+              {
+                "t": 0.1,
+                "pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rot_deg": [
+                  0.0,
+                  360.0,
+                  0.0
+                ]
+              }
+            ]
+          }
+        ],
+        "moments": [],
+        "looping": true,
+        "rate_control": "throttle"
+      }
+    ],
+    "rules": [
+      {
+        "id": "crash_explodes",
+        "name": "Explodes when it crashes",
+        "enabled": true,
+        "when": "Crashed",
+        "conditions": [],
+        "then": [
+          {
+            "Burst": {
+              "flash": 1.2,
+              "sparks": 900,
+              "spark_size": 0.004,
+              "smoke": 50,
+              "mist": 1.0,
+              "crater_radius_m": 0.45,
+              "crater_depth": 0.4,
+              "max_life_s": 2.0
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "body",
+              "visible": false
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "rotor_front_right",
+              "visible": false
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "rotor_front_left",
+              "visible": false
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "rotor_back_right",
+              "visible": false
+            }
+          },
+          {
+            "ShowPiece": {
+              "piece": "rotor_back_left",
+              "visible": false
+            }
+          }
+        ],
+        "otherwise": []
+      }
+    ],
+    "step_groups": [],
+    "sounds": [],
+    "flight": {
+      "camera_point": "camera",
+      "max_speed_mps": 14.0,
+      "climb_mps": 5.0,
+      "turn_deg_s": 130.0,
+      "max_tilt_deg": 32.0,
+      "cam_tilt_deg": 25.0,
+      "fov_deg": 90.0,
+      "spin_move": "spin",
+      "throttle_control": "throttle",
+      "response": 3.0,
+      "crash_speed_mps": 4.0,
+      "keys": [
+        {
+          "key": "ArrowUp",
+          "action": "Forward"
+        },
+        {
+          "key": "ArrowDown",
+          "action": "Back"
+        },
+        {
+          "key": "ArrowLeft",
+          "action": "TurnLeft"
+        },
+        {
+          "key": "ArrowRight",
+          "action": "TurnRight"
+        },
+        {
+          "key": "w",
+          "action": "Forward"
+        },
+        {
+          "key": "s",
+          "action": "Back"
+        },
+        {
+          "key": "a",
+          "action": "TurnLeft"
+        },
+        {
+          "key": "d",
+          "action": "TurnRight"
+        },
+        {
+          "key": "e",
+          "action": "Up"
+        },
+        {
+          "key": "q",
+          "action": "Down"
+        },
+        {
+          "key": "Shift",
+          "action": "Boost"
+        }
+      ]
+    }
+  }
+}
