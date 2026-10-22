@@ -195,7 +195,7 @@
         ]
       },
       {
-        "name": "Main hand · Grip",
+        "name": "Main hand \u00b7 Grip",
         "curls": [
           0.7,
           0.3,
@@ -205,7 +205,7 @@
         ]
       },
       {
-        "name": "Main hand · Trigger squeeze",
+        "name": "Main hand \u00b7 Trigger squeeze",
         "curls": [
           0.7,
           0.65,
@@ -215,7 +215,7 @@
         ]
       },
       {
-        "name": "Support hand · Steady",
+        "name": "Support hand \u00b7 Steady",
         "curls": [
           0.45,
           0.55,
@@ -456,14 +456,15 @@
           {
             "Burst": {
               "flash": 12.0,
-              "sparks": 9000,
-              "spark_size": 0.006,
-              "smoke": 500,
+              "sparks": 2500,
+              "spark_size": 0.02,
+              "smoke": 90,
               "mist": 1.0,
               "crater_radius_m": 4.5,
               "crater_depth": 0.6,
-              "max_life_s": 3.0,
-              "knockdown_radius_m": 20.0
+              "max_life_s": 3.5,
+              "knockdown_radius_m": 20.0,
+              "scale": 4.0
             }
           },
           {
