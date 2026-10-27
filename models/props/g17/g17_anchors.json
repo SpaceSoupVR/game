@@ -1,0 +1,50 @@
+{
+ "trigger": [
+  -0.0014,
+  0.0194,
+  0.0003
+ ],
+ "trigger_top_y": 0.0415,
+ "slide_front_x": 0.0987,
+ "slide_rear_x": -0.0826,
+ "slide_centre": [
+  -0.0179,
+  0.0602,
+  0.0007
+ ],
+ "slide_top_y": 0.0756,
+ "slide_bottom_y": 0.0413,
+ "muzzle": [
+  0.1,
+  0.0617,
+  -0.0004
+ ],
+ "mag_centre": [
+  -0.0439,
+  -0.0045,
+  0.0007
+ ],
+ "mag_bottom_y": -0.0635,
+ "mag_top_y": 0.0564,
+ "gun_rear_x": -0.0997,
+ "gun_front_x": 0.0997,
+ "gun_bottom_y": -0.0556,
+ "right_side_z": 0.0115,
+ "left_side_z": -0.0121,
+ "mag_release": [
+  -0.0296,
+  0.0092,
+  0.0046
+ ],
+ "nose": [
+  1.0,
+  0.016,
+  -0.001
+ ],
+ "casing_len": 0.0297,
+ "cartridge_centre": [
+  0.0102,
+  0.1323,
+  -0.0015
+ ]
+}

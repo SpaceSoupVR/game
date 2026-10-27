@@ -4,6 +4,16 @@
       "id": "soldier",
       "label": "Soldier",
       "model": "models/soldier/soldier.glb"
+    },
+    {
+      "id": "soldier_one",
+      "label": "Soldier One",
+      "model": "models/soldier/soldier_one.glb"
+    },
+    {
+      "id": "soldier_two",
+      "label": "Soldier Two",
+      "model": "models/soldier/soldier_two.glb"
     }
   ],
   "hands": [
@@ -12,6 +22,10 @@
       "label": "Gloves",
       "left": "models/hands/vr_hand_left.glb",
       "right": "models/hands/vr_hand_right.glb"
+    },
+    {
+      "id": "own",
+      "label": "Body's own hands"
     }
   ]
 }

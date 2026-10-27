@@ -1,0 +1,29 @@
+{
+  "scene": "desert_range",
+  "player_start": "spawn_firing_line",
+  "hand_menu": true,
+  "npcs": [],
+  "swarms": [
+    {
+      "entity": "models/soldier/soldier_range.entity.json",
+      "count": 1,
+      "spread_m": 0.0,
+      "spawn": "npc_spawn",
+      "health": 100.0,
+      "hits": [
+        {
+          "weapon": "pistol",
+          "body_shots": 5,
+          "head_shots": 1
+        },
+        {
+          "weapon": "g17",
+          "body_shots": 5,
+          "head_shots": 1
+        }
+      ],
+      "attack_damage": 0.0,
+      "player_health": 100.0
+    }
+  ]
+}

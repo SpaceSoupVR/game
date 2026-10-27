@@ -1,0 +1,3990 @@
+{
+ "name": "desert_range",
+ "post": {
+  "exposure": 0.82,
+  "tonemap": "Aces"
+ },
+ "terrain": {
+  "origin": [
+   -120.0,
+   0.0,
+   -120.0
+  ],
+  "textures": "textures/terrain_desert",
+  "splat": {
+   "path": "terrain/desert_range.splat",
+   "resolution": [
+    512,
+    512
+   ],
+   "layers": 4
+  },
+  "kind": "heightfield",
+  "path": "terrain/desert_range.r16",
+  "resolution": [
+   241,
+   241
+  ],
+  "size": [
+   240.0,
+   240.0
+  ],
+  "height_range": [
+   -20.0,
+   80.0
+  ]
+ },
+ "sky": {
+  "id": "kloofendal_43d_clear_puresky",
+  "intensity": 1.0,
+  "rotation_deg": 35.0,
+  "show_background": true
+ },
+ "objects": [
+  {
+   "id": "spawn_firing_line",
+   "cuboid": {
+    "position": [
+     0.0,
+     0.105,
+     22.0
+    ],
+    "half_size": [
+     0.05,
+     0.05,
+     0.05
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": null,
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": {},
+   "teleportal": null
+  },
+  {
+   "id": "npc_spawn",
+   "cuboid": {
+    "position": [
+     7.0,
+     0.105,
+     16.0
+    ],
+    "half_size": [
+     0.05,
+     0.05,
+     0.05
+    ],
+    "rotation": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": null,
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": {},
+   "teleportal": null
+  },
+  {
+   "id": "walk_floor",
+   "cuboid": {
+    "position": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "half_size": [
+     120.0,
+     0.05,
+     120.0
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "color": [
+     255,
+     255,
+     255,
+     255
+    ],
+    "wire_color": [
+     90,
+     220,
+     140,
+     255
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": null,
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null,
+   "walk_area": {
+    "fence_height": 8.0,
+    "lift": 0.05
+   }
+  },
+  {
+   "id": "hesco_left_0",
+   "cuboid": {
+    "position": [
+     -14.079,
+     0.759,
+     -42.0
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7081976339699931,
+     0.0,
+     0.7060142429436559
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_1",
+   "cuboid": {
+    "position": [
+     -14.039,
+     0.755,
+     -37.7
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7096671486285651,
+     0.0,
+     0.7045371091414575
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_2",
+   "cuboid": {
+    "position": [
+     -13.962,
+     0.749,
+     -33.4
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.6963019614766229,
+     0.0,
+     0.7177489661739733
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_3",
+   "cuboid": {
+    "position": [
+     -14.146,
+     0.768,
+     -25.9
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.715387170333598,
+     0.0,
+     0.6987282708765171
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_4",
+   "cuboid": {
+    "position": [
+     -14.072,
+     0.764,
+     -21.6
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7005190452616237,
+     0.0,
+     0.713633706621081
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_5",
+   "cuboid": {
+    "position": [
+     -13.851,
+     0.744,
+     -17.3
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7063724239677921,
+     0.0,
+     0.7078403765382884
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_6",
+   "cuboid": {
+    "position": [
+     -13.899,
+     0.746,
+     -9.8
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7065228741119925,
+     0.0,
+     0.7076902064862347
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_7",
+   "cuboid": {
+    "position": [
+     -13.958,
+     0.761,
+     -5.5
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.6984306850142362,
+     0.0,
+     0.71567770555645
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_8",
+   "cuboid": {
+    "position": [
+     -13.96,
+     0.751,
+     -1.2
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7161325235125627,
+     0.0,
+     0.6979643320167075
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_left_9",
+   "cuboid": {
+    "position": [
+     -13.993,
+     0.74,
+     6.3
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7130363807645085,
+     0.0,
+     0.7011270353553989
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_10",
+   "cuboid": {
+    "position": [
+     14.051,
+     0.743,
+     -42.0
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.6962644438918273,
+     0.0,
+     0.7177853607952759
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_11",
+   "cuboid": {
+    "position": [
+     14.077,
+     0.751,
+     -37.7
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7093517843080007,
+     0.0,
+     0.7048546276354122
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_12",
+   "cuboid": {
+    "position": [
+     13.94,
+     0.742,
+     -33.4
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.6954366589427976,
+     0.0,
+     0.7185874013635912
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_13",
+   "cuboid": {
+    "position": [
+     14.11,
+     0.761,
+     -25.9
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.706433835769426,
+     0.0,
+     0.707779086777856
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_14",
+   "cuboid": {
+    "position": [
+     14.066,
+     0.758,
+     -21.6
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7163948072939889,
+     0.0,
+     0.6976951197207907
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_15",
+   "cuboid": {
+    "position": [
+     14.064,
+     0.769,
+     -17.3
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7174238630276536,
+     0.0,
+     0.6966369217594474
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_16",
+   "cuboid": {
+    "position": [
+     13.968,
+     0.754,
+     -9.8
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7144948740579472,
+     0.0,
+     0.6996406755934922
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_17",
+   "cuboid": {
+    "position": [
+     13.983,
+     0.759,
+     -5.5
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.717776080408771,
+     0.0,
+     0.6962740109992772
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_18",
+   "cuboid": {
+    "position": [
+     14.114,
+     0.774,
+     -1.2
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.6971013944549264,
+     0.0,
+     0.7169725558548229
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_right_19",
+   "cuboid": {
+    "position": [
+     13.891,
+     0.755,
+     6.3
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     0.7000868684286994,
+     0.0,
+     0.7140576844021055
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_rear_20",
+   "cuboid": {
+    "position": [
+     -12.8,
+     0.744,
+     -44.86
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     -0.0022283693871434475,
+     0.0,
+     0.999997517181855
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_rear_21",
+   "cuboid": {
+    "position": [
+     -8.5,
+     0.749,
+     -44.962
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     -0.006945440083817025,
+     0.0,
+     0.9999758801401373
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_rear_22",
+   "cuboid": {
+    "position": [
+     -4.2,
+     0.754,
+     -44.998
+    ],
+    "half_size": [
+     0.564,
+     0.685,
+     2.152
+    ],
+    "rotation": [
+     0.0,
+     -0.003984008602229283,
+     0.0,
+     0.9999920638062371
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_rear_23",
+   "cuboid": {
+    "position": [
+     0.1,
+     0.756,
+     -45.045
+    ],
+    "half_size": [
+     2.152,
+     0.685,
+     0.564
+    ],
+    "rotation": [
+     0.0,
+     0.002969642200052813,
+     0.0,
+     0.9999955906028805
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_rear_24",
+   "cuboid": {
+    "position": [
+     4.4,
+     0.74,
+     -44.975
+    ],
+    "half_size": [
+     2.152,
+     0.685,
+     0.564
+    ],
+    "rotation": [
+     0.0,
+     0.014108835363106663,
+     0.0,
+     0.999900465428783
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "hesco_rear_25",
+   "cuboid": {
+    "position": [
+     8.7,
+     0.725,
+     -44.945
+    ],
+    "half_size": [
+     2.152,
+     0.685,
+     0.564
+    ],
+    "rotation": [
+     0.0,
+     0.01497246664115451,
+     0.0,
+     0.9998879063388453
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/hesco_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "target_1",
+   "cuboid": {
+    "position": [
+     -5,
+     0.819,
+     13
+    ],
+    "half_size": [
+     0.3,
+     0.825,
+     0.029
+    ],
+    "rotation": [
+     0.0,
+     0.03731351601624796,
+     0.0,
+     0.9993036082805391
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/target_silhouette.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "target_2",
+   "cuboid": {
+    "position": [
+     -1.5,
+     0.813,
+     10
+    ],
+    "half_size": [
+     0.3,
+     0.825,
+     0.029
+    ],
+    "rotation": [
+     0.0,
+     0.05139366402146182,
+     0.0,
+     0.9986784724316676
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/target_silhouette.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "target_3",
+   "cuboid": {
+    "position": [
+     2,
+     0.833,
+     5
+    ],
+    "half_size": [
+     0.3,
+     0.825,
+     0.029
+    ],
+    "rotation": [
+     0.0,
+     0.017934761784873902,
+     0.0,
+     0.9998391592249825
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/target_silhouette.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "target_4",
+   "cuboid": {
+    "position": [
+     6,
+     0.839,
+     0
+    ],
+    "half_size": [
+     0.029,
+     0.825,
+     0.3
+    ],
+    "rotation": [
+     0.0,
+     -0.03527280675553814,
+     0.0,
+     0.9993777209361766
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/target_silhouette.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "target_5",
+   "cuboid": {
+    "position": [
+     -3,
+     0.83,
+     -6
+    ],
+    "half_size": [
+     0.3,
+     0.825,
+     0.029
+    ],
+    "rotation": [
+     0.0,
+     0.037756897461255684,
+     0.0,
+     0.9992869541298436
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/target_silhouette.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "target_6",
+   "cuboid": {
+    "position": [
+     0.5,
+     0.826,
+     -16
+    ],
+    "half_size": [
+     0.3,
+     0.825,
+     0.029
+    ],
+    "rotation": [
+     0.0,
+     0.04863705235392258,
+     0.0,
+     0.9988165182546401
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/target_silhouette.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "target_7",
+   "cuboid": {
+    "position": [
+     4,
+     0.811,
+     -26
+    ],
+    "half_size": [
+     0.3,
+     0.825,
+     0.029
+    ],
+    "rotation": [
+     0.0,
+     0.04236697963503443,
+     0.0,
+     0.9991021164208415
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/target_silhouette.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "target_8",
+   "cuboid": {
+    "position": [
+     -6,
+     0.825,
+     -36
+    ],
+    "half_size": [
+     0.3,
+     0.825,
+     0.029
+    ],
+    "rotation": [
+     0.0,
+     0.0072368576710237,
+     0.0,
+     0.999973813602661
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/target_silhouette.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "equipment_table",
+   "cuboid": {
+    "position": [
+     0.0,
+     0.462,
+     27.0
+    ],
+    "half_size": [
+     1.0,
+     0.45,
+     0.4
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/table.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "standing_mirror",
+   "cuboid": {
+    "position": [
+     2.9,
+     0.962,
+     27.4
+    ],
+    "half_size": [
+     0.35,
+     0.949,
+     0.425
+    ],
+    "rotation": [
+     0.0,
+     1.0,
+     0.0,
+     6.123233995736766e-17
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/mirror_stand.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "box_chest_plate",
+   "cuboid": {
+    "position": [
+     -0.55,
+     1.066,
+     27.05
+    ],
+    "half_size": [
+     0.302,
+     0.152,
+     0.192
+    ],
+    "rotation": [
+     0.0,
+     0.03489949670250097,
+     0.0,
+     0.9993908270190958
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/box_chest_plate.glb",
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "box_helmet",
+   "cuboid": {
+    "position": [
+     0.15,
+     1.066,
+     27.1
+    ],
+    "half_size": [
+     0.302,
+     0.152,
+     0.192
+    ],
+    "rotation": [
+     0.0,
+     -0.026176948307873153,
+     0.0,
+     0.9996573249755573
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/box_helmet.glb",
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "box_night_vision",
+   "cuboid": {
+    "position": [
+     0.78,
+     1.066,
+     27.0
+    ],
+    "half_size": [
+     0.302,
+     0.152,
+     0.192
+    ],
+    "rotation": [
+     0.0,
+     0.052335956242943835,
+     0.0,
+     0.9986295347545738
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/box_night_vision.glb",
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "box_gloves",
+   "cuboid": {
+    "position": [
+     3.9,
+     0.16,
+     26.6
+    ],
+    "half_size": [
+     0.302,
+     0.152,
+     0.192
+    ],
+    "rotation": [
+     0.0,
+     0.0697564737441253,
+     0.0,
+     0.9975640502598242
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/box_gloves.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "box_magazines",
+   "cuboid": {
+    "position": [
+     3.9,
+     0.465,
+     26.6
+    ],
+    "half_size": [
+     0.302,
+     0.152,
+     0.192
+    ],
+    "rotation": [
+     0.0,
+     -0.043619387365336,
+     0.0,
+     0.9990482215818578
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/range/box_magazines.glb",
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "rotation_offset": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "ammo_crate_1",
+   "cuboid": {
+    "position": [
+     -2.6,
+     0.02,
+     27.2
+    ],
+    "half_size": [
+     0.32,
+     0.165,
+     0.18
+    ],
+    "rotation": [
+     0.0,
+     0.10452846326765347,
+     0.0,
+     0.9945218953682733
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/props/trench/ammo_crate.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "ammo_crate_2",
+   "cuboid": {
+    "position": [
+     -2.4,
+     0.019,
+     27.9
+    ],
+    "half_size": [
+     0.18,
+     0.165,
+     0.32
+    ],
+    "rotation": [
+     0.0,
+     -0.6427876096865393,
+     0.0,
+     0.766044443118978
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/props/trench/ammo_crate.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "sandbags_left",
+   "cuboid": {
+    "position": [
+     -4.5,
+     -0.006,
+     19.0
+    ],
+    "half_size": [
+     1.01,
+     0.21,
+     0.19
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/props/trench/sandbag_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "sandbags_right",
+   "cuboid": {
+    "position": [
+     4.5,
+     0.002,
+     19.0
+    ],
+    "half_size": [
+     1.01,
+     0.21,
+     0.19
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/props/trench/sandbag_row.glb",
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "stone_1",
+   "cuboid": {
+    "position": [
+     -11,
+     0.011,
+     -20
+    ],
+    "half_size": [
+     0.203,
+     0.059,
+     0.152
+    ],
+    "rotation": [
+     0.0,
+     0.7827486896439065,
+     0.0,
+     -0.6223379217601538
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/train/rocks/stone_1.glb",
+    "scale": [
+     2.9222499673511964,
+     2.9222499673511964,
+     2.9222499673511964
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "stone_2",
+   "cuboid": {
+    "position": [
+     11.5,
+     -0.009,
+     -30
+    ],
+    "half_size": [
+     0.172,
+     0.112,
+     0.277
+    ],
+    "rotation": [
+     0.0,
+     0.5046869339980409,
+     0.0,
+     -0.8633024375337168
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/train/rocks/stone_2.glb",
+    "scale": [
+     3.6470647047025695,
+     3.6470647047025695,
+     3.6470647047025695
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "stone_3",
+   "cuboid": {
+    "position": [
+     -10.5,
+     -0.02,
+     2
+    ],
+    "half_size": [
+     0.145,
+     0.074,
+     0.145
+    ],
+    "rotation": [
+     0.0,
+     0.7803468447471085,
+     0.0,
+     0.6253469452177983
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/train/rocks/stone_3.glb",
+    "scale": [
+     2.626921154290459,
+     2.626921154290459,
+     2.626921154290459
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "stone_4",
+   "cuboid": {
+    "position": [
+     12,
+     0.009,
+     -8
+    ],
+    "half_size": [
+     0.312,
+     0.09,
+     0.234
+    ],
+    "rotation": [
+     0.0,
+     0.4429202270745452,
+     0.0,
+     -0.8965610255014621
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/train/rocks/stone_1.glb",
+    "scale": [
+     4.479612029843162,
+     4.479612029843162,
+     4.479612029843162
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "stone_5",
+   "cuboid": {
+    "position": [
+     -9,
+     0.012,
+     -44
+    ],
+    "half_size": [
+     0.311,
+     0.126,
+     0.193
+    ],
+    "rotation": [
+     0.0,
+     0.27451740559480536,
+     0.0,
+     0.9615821306708529
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/train/rocks/stone_2.glb",
+    "scale": [
+     4.101190642515004,
+     4.101190642515004,
+     4.101190642515004
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "stone_6",
+   "cuboid": {
+    "position": [
+     8,
+     -0.024,
+     -41
+    ],
+    "half_size": [
+     0.155,
+     0.079,
+     0.155
+    ],
+    "rotation": [
+     0.0,
+     0.9606974555836528,
+     0.0,
+     0.27759754832327943
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/train/rocks/stone_3.glb",
+    "scale": [
+     2.801530748905619,
+     2.801530748905619,
+     2.801530748905619
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "stone_7",
+   "cuboid": {
+    "position": [
+     -16,
+     0.031,
+     16
+    ],
+    "half_size": [
+     0.281,
+     0.081,
+     0.211
+    ],
+    "rotation": [
+     0.0,
+     0.7975883971606815,
+     0.0,
+     0.6032020795012688
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/train/rocks/stone_1.glb",
+    "scale": [
+     4.037583774554689,
+     4.037583774554689,
+     4.037583774554689
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "stone_8",
+   "cuboid": {
+    "position": [
+     17,
+     0.415,
+     14
+    ],
+    "half_size": [
+     0.122,
+     0.08,
+     0.196
+    ],
+    "rotation": [
+     0.0,
+     0.38915506941800637,
+     0.0,
+     -0.9211722596486862
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": {
+    "path": "models/train/rocks/stone_2.glb",
+    "scale": [
+     2.5883801222590868,
+     2.5883801222590868,
+     2.5883801222590868
+    ],
+    "rotation_offset": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null
+  },
+  {
+   "id": "g17_pistol",
+   "cuboid": {
+    "position": [
+     0.1,
+     0.972,
+     26.7
+    ],
+    "half_size": [
+     0.1,
+     0.066,
+     0.012
+    ],
+    "rotation": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "wire_color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "style": "Wireframe",
+    "reflectivity": 0.0
+   },
+   "mesh": null,
+   "is_trigger": false,
+   "hidden": false,
+   "script": null,
+   "animations": [],
+   "animation_bindings": [],
+   "part_animations": [],
+   "hidden_parts": [],
+   "rig_attachment": null,
+   "grip_pose_left": null,
+   "grip_pose_right": null,
+   "rigid_body": null,
+   "grip_points": [],
+   "sockets": [],
+   "slider_joint": null,
+   "terrain_collider": null,
+   "lights": [],
+   "sound": null,
+   "particle_emitter": null,
+   "laser": null,
+   "spawn_point": null,
+   "teleportal": null,
+   "prop": {
+    "path": "models/props/g17/g17.prop.json"
+   }
+  }
+ ]
+}
