@@ -1,7 +1,7 @@
 {
-    "name": "Studio Test Map",
+    "name": "blacksiteSCP",
     "version": "0.1.0",
-    "entry_scene": "warehouse",
+    "entry_scene": "blacksite_1",
     "scenes": [
         "warehouse",
         "lobby",
