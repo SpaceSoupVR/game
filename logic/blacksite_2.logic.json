@@ -1,0 +1,126 @@
+{
+  "scene": "blacksite_2",
+  "player_start": "spawn_start",
+  "player_health": 100.0,
+  "open_menus": [
+    "blacksite"
+  ],
+  "menu_rules": [
+    {
+      "menu": "blacksite",
+      "action": "start_game",
+      "then": [
+        {
+          "do": "hide_menu",
+          "menu": "blacksite"
+        },
+        {
+          "do": "teleport_player",
+          "spawn": "spawn_start"
+        }
+      ]
+    }
+  ],
+  "hand_menu": true,
+  "npcs": [],
+  "swarms": [
+    {
+      "entity": "models/scp/scp_hunter.entity.json",
+      "count": 3,
+      "spread_m": 12.0,
+      "spawn": "spawn_hunters",
+      "health": 100.0,
+      "hits": [],
+      "attack_damage": 34.0,
+      "player_health": 100.0
+    },
+    {
+      "entity": "models/scp/scp_stalker.entity.json",
+      "count": 2,
+      "spread_m": 6.0,
+      "spawn": "spawn_stalkers",
+      "health": 100.0,
+      "hits": [],
+      "attack_damage": 100.0,
+      "player_health": 100.0
+    }
+  ],
+  "rules": [
+    {
+      "on": {
+        "event": "start"
+      },
+      "then": [
+        {
+          "do": "message",
+          "text": "Level 2 of 3. Find the keycard, reach the exit. Do not look away from what watches you.",
+          "seconds": 10.0
+        }
+      ]
+    },
+    {
+      "on": {
+        "event": "var",
+        "name": "keycard"
+      },
+      "then": [
+        {
+          "do": "message",
+          "text": "Keycard. The exit doors are open to you now.",
+          "seconds": 6.0
+        }
+      ]
+    },
+    {
+      "on": {
+        "event": "enter",
+        "object": "exit_zone"
+      },
+      "then": [
+        {
+          "do": "message",
+          "text": "You escaped.",
+          "seconds": 4.0
+        }
+      ]
+    },
+    {
+      "on": {
+        "event": "enter",
+        "object": "exit_zone"
+      },
+      "delay_s": 2.5,
+      "then": [
+        {
+          "do": "change_scene",
+          "scene": "blacksite_3"
+        }
+      ]
+    },
+    {
+      "on": {
+        "event": "player_dead"
+      },
+      "once": false,
+      "then": [
+        {
+          "do": "message",
+          "text": "They got you.",
+          "seconds": 3.0
+        }
+      ]
+    },
+    {
+      "on": {
+        "event": "player_dead"
+      },
+      "once": false,
+      "delay_s": 3.0,
+      "then": [
+        {
+          "do": "restart"
+        }
+      ]
+    }
+  ]
+}

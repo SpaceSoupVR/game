@@ -1,0 +1,24 @@
+{
+  "name": "big_boom",
+  "sound": {
+    "loudness_db": -6.0,
+    "pitch": 1.0,
+    "vibration": 0.6,
+    "width": 1.0
+  },
+  "tracing": {
+    "rings": 24,
+    "spokes": 64,
+    "bounces": 4,
+    "absorption": 0.3,
+    "dulling": 0.45,
+    "air": 0.12,
+    "air_dulling": 0.55,
+    "scatter": 0.6,
+    "listen_radius": 2.0,
+    "speed_of_sound": 343.0,
+    "floor_db": 60.0,
+    "occlusion_db": 18.0,
+    "max_voices": 8
+  }
+}

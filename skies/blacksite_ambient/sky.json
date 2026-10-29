@@ -1,0 +1,13 @@
+{
+  "name": "Blacksite ambient",
+  "categories": [
+    "indoor",
+    "flat"
+  ],
+  "evs": 0,
+  "source": {
+    "provider": "blacksite port",
+    "license": "generated"
+  },
+  "resolution": "16x8"
+}

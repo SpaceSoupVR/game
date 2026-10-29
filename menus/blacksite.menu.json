@@ -1,0 +1,58 @@
+{
+  "name": "blacksite",
+  "title": "Blacksite",
+  "width": 520.0,
+  "height": 360.0,
+  "background": "#141416",
+  "title_color": "#f1eee8",
+  "widgets": [
+    {
+      "id": 1,
+      "kind": "label",
+      "text": "Find the keycard. Reach the exit.",
+      "x": 40.0,
+      "y": 70.0,
+      "w": 440.0,
+      "h": 36.0,
+      "color": "#141416",
+      "text_color": "#f1eee8",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "on": true,
+      "action": ""
+    },
+    {
+      "id": 2,
+      "kind": "label",
+      "text": "What watches you only moves when you look away.",
+      "x": 40.0,
+      "y": 110.0,
+      "w": 440.0,
+      "h": 36.0,
+      "color": "#141416",
+      "text_color": "#c9c5bd",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "on": true,
+      "action": ""
+    },
+    {
+      "id": 3,
+      "kind": "button",
+      "text": "Start",
+      "x": 160.0,
+      "y": 190.0,
+      "w": 200.0,
+      "h": 64.0,
+      "color": "#e8a24a",
+      "text_color": "#1c1b19",
+      "value": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "on": true,
+      "action": "start_game"
+    }
+  ]
+}
