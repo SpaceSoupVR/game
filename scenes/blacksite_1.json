@@ -77410,6 +77410,991 @@
         "blacksite",
         "scary_fixture"
       ]
+    },
+    {
+      "id": "elev_shaft",
+      "cuboid": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half_size": [
+          6.0,
+          4.0,
+          9.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "mesh": {
+        "path": "models/elevator/shaft.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "elev_pier_l",
+      "cuboid": {
+        "position": [
+          -5.2,
+          3.35,
+          6.199999999999999
+        ],
+        "half_size": [
+          0.5,
+          3.35,
+          0.10000000000000009
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "rigid_body": {
+        "mode": "Static"
+      }
+    },
+    {
+      "id": "elev_pier_r",
+      "cuboid": {
+        "position": [
+          -2.7,
+          3.35,
+          6.199999999999999
+        ],
+        "half_size": [
+          0.5,
+          3.35,
+          0.10000000000000009
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "rigid_body": {
+        "mode": "Static"
+      }
+    },
+    {
+      "id": "elev_mid",
+      "cuboid": {
+        "position": [
+          -3.95,
+          3.005,
+          6.199999999999999
+        ],
+        "half_size": [
+          0.75,
+          0.605,
+          0.10000000000000009
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "rigid_body": {
+        "mode": "Static"
+      }
+    },
+    {
+      "id": "elev_head",
+      "cuboid": {
+        "position": [
+          -3.95,
+          6.355,
+          6.199999999999999
+        ],
+        "half_size": [
+          0.75,
+          0.3450000000000002,
+          0.10000000000000009
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "rigid_body": {
+        "mode": "Static"
+      }
+    },
+    {
+      "id": "elev_wall_l",
+      "cuboid": {
+        "position": [
+          -5.01,
+          3.35,
+          7.359999999999999
+        ],
+        "half_size": [
+          0.06000000000000005,
+          3.35,
+          1.06
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "rigid_body": {
+        "mode": "Static"
+      }
+    },
+    {
+      "id": "elev_wall_r",
+      "cuboid": {
+        "position": [
+          -2.89,
+          3.35,
+          7.359999999999999
+        ],
+        "half_size": [
+          0.06000000000000005,
+          3.35,
+          1.06
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "rigid_body": {
+        "mode": "Static"
+      }
+    },
+    {
+      "id": "elev_back",
+      "cuboid": {
+        "position": [
+          -3.95,
+          3.35,
+          8.36
+        ],
+        "half_size": [
+          1.12,
+          3.35,
+          0.05999999999999961
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "rigid_body": {
+        "mode": "Static"
+      }
+    },
+    {
+      "id": "elev_d0_l",
+      "cuboid": {
+        "position": [
+          -3.575,
+          1.22,
+          6.2
+        ],
+        "half_size": [
+          0.375,
+          1.2,
+          0.025
+        ],
+        "rotation": [
+          0.0,
+          -1.0,
+          0.0,
+          6.123233995736766e-17
+        ],
+        "color": [
+          60,
+          60,
+          66,
+          255
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "mesh": {
+        "path": "models/doors/slide_door_left.glb",
+        "scale": [
+          0.8152173913043478,
+          0.9411764705882353,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "door": {
+        "slide_m": -0.76,
+        "mass": 60.0
+      }
+    },
+    {
+      "id": "elev_d0_r",
+      "cuboid": {
+        "position": [
+          -4.325,
+          1.22,
+          6.2
+        ],
+        "half_size": [
+          0.375,
+          1.2,
+          0.025
+        ],
+        "rotation": [
+          0.0,
+          -1.0,
+          0.0,
+          6.123233995736766e-17
+        ],
+        "color": [
+          60,
+          60,
+          66,
+          255
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "mesh": {
+        "path": "models/doors/slide_door_right.glb",
+        "scale": [
+          0.8152173913043478,
+          0.9411764705882353,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "door": {
+        "slide_m": 0.76,
+        "mass": 60.0
+      }
+    },
+    {
+      "id": "elev_d1_l",
+      "cuboid": {
+        "position": [
+          -3.575,
+          4.83,
+          6.2
+        ],
+        "half_size": [
+          0.375,
+          1.2,
+          0.025
+        ],
+        "rotation": [
+          0.0,
+          -1.0,
+          0.0,
+          6.123233995736766e-17
+        ],
+        "color": [
+          60,
+          60,
+          66,
+          255
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "mesh": {
+        "path": "models/doors/slide_door_left.glb",
+        "scale": [
+          0.8152173913043478,
+          0.9411764705882353,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "door": {
+        "slide_m": -0.76,
+        "mass": 60.0
+      }
+    },
+    {
+      "id": "elev_d1_r",
+      "cuboid": {
+        "position": [
+          -4.325,
+          4.83,
+          6.2
+        ],
+        "half_size": [
+          0.375,
+          1.2,
+          0.025
+        ],
+        "rotation": [
+          0.0,
+          -1.0,
+          0.0,
+          6.123233995736766e-17
+        ],
+        "color": [
+          60,
+          60,
+          66,
+          255
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "mesh": {
+        "path": "models/doors/slide_door_right.glb",
+        "scale": [
+          0.8152173913043478,
+          0.9411764705882353,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "door": {
+        "slide_m": 0.76,
+        "mass": 60.0
+      }
+    },
+    {
+      "id": "elev_panel_0",
+      "cuboid": {
+        "position": [
+          -2.7,
+          1.12,
+          6.117500000000001
+        ],
+        "half_size": [
+          0.08,
+          0.2,
+          0.0175
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          6.123233995736766e-17
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "mesh": {
+        "path": "models/elevator/panel.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "elev_btn_f0_up",
+      "cuboid": {
+        "position": [
+          -2.7,
+          1.2,
+          6.06
+        ],
+        "half_size": [
+          0.03,
+          0.03,
+          0.03
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ]
+    },
+    {
+      "id": "elev_btn_f0_down",
+      "cuboid": {
+        "position": [
+          -2.7,
+          1.04,
+          6.06
+        ],
+        "half_size": [
+          0.03,
+          0.03,
+          0.03
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ]
+    },
+    {
+      "id": "elev_panel_1",
+      "cuboid": {
+        "position": [
+          -2.7,
+          4.73,
+          6.117500000000001
+        ],
+        "half_size": [
+          0.08,
+          0.2,
+          0.0175
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          6.123233995736766e-17
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "mesh": {
+        "path": "models/elevator/panel.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "elev_btn_f1_up",
+      "cuboid": {
+        "position": [
+          -2.7,
+          4.81,
+          6.06
+        ],
+        "half_size": [
+          0.03,
+          0.03,
+          0.03
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ]
+    },
+    {
+      "id": "elev_btn_f1_down",
+      "cuboid": {
+        "position": [
+          -2.7,
+          4.65,
+          6.06
+        ],
+        "half_size": [
+          0.03,
+          0.03,
+          0.03
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ]
+    },
+    {
+      "id": "elev_btn_cab_up",
+      "cuboid": {
+        "position": [
+          -3.0500000000000003,
+          1.2,
+          7.6499999999999995
+        ],
+        "half_size": [
+          0.03,
+          0.03,
+          0.03
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ]
+    },
+    {
+      "id": "elev_btn_cab_down",
+      "cuboid": {
+        "position": [
+          -3.0500000000000003,
+          1.04,
+          7.6499999999999995
+        ],
+        "half_size": [
+          0.03,
+          0.03,
+          0.03
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "style": "Wireframe",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ]
+    },
+    {
+      "id": "elev_cab",
+      "cuboid": {
+        "position": [
+          -3.95,
+          -0.05,
+          7.3
+        ],
+        "half_size": [
+          0.05,
+          0.98,
+          0.98
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          0.7071067811865476
+        ],
+        "color": [
+          40,
+          40,
+          44,
+          255
+        ],
+        "style": "Solid",
+        "wire_color": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tags": [
+        "blacksite",
+        "elevator"
+      ],
+      "mesh": {
+        "path": "models/elevator/cab.glb",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_offset": [
+          0.0,
+          0.0,
+          -0.7071067811865475,
+          0.7071067811865476
+        ]
+      },
+      "door": {
+        "slide_m": 3.61,
+        "mass": 500.0,
+        "elevator": {
+          "floors": [
+            0.0,
+            3.61
+          ],
+          "doors": [
+            [
+              "elev_d0_l",
+              "elev_d0_r"
+            ],
+            [
+              "elev_d1_l",
+              "elev_d1_r"
+            ]
+          ],
+          "buttons": [
+            {
+              "object": "elev_btn_f0_up",
+              "floor": 0
+            },
+            {
+              "object": "elev_btn_f0_down",
+              "floor": 0
+            },
+            {
+              "object": "elev_btn_f1_up",
+              "floor": 1
+            },
+            {
+              "object": "elev_btn_f1_down",
+              "floor": 1
+            },
+            {
+              "object": "elev_btn_cab_up",
+              "step": 1,
+              "rides": true
+            },
+            {
+              "object": "elev_btn_cab_down",
+              "step": -1,
+              "rides": true
+            }
+          ],
+          "speed_m_s": 1.4,
+          "door_speed_m_s": 1.1,
+          "press_m": 0.14
+        }
+      },
+      "lights": [
+        {
+          "kind": "Point",
+          "mode": "Realtime",
+          "color": [
+            255,
+            226,
+            180,
+            255
+          ],
+          "intensity": 14.0,
+          "range": 4.5,
+          "enabled": true
+        }
+      ]
     }
   ],
   "post": {
