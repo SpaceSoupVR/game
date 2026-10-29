@@ -20,6 +20,8 @@ ROOT = GAME.parent
 SRC = GAME / "tools/blacksite/flat"
 DST = GAME / "models/blacksite"
 IMG = ROOT / "ssstudio/bake/models/third_party/polyhaven/concrete_wall_006.jpg"
+METAL = ROOT / "ssstudio/bake/models/third_party/polyhaven/metal_plate_02.jpg"
+METAL_TINT = [1.3, 1.36, 1.5]
 TILE = float(sys.argv[1]) if len(sys.argv) > 1 else 2.5
 SCALE = 0.36
 # Poly Haven's photo is light and warm; this pulls it toward cooler, darker poured cement.
@@ -39,6 +41,65 @@ def tinted_image():
     out = io.BytesIO()
     Image.merge("RGB", (r, g, b)).save(out, "JPEG", quality=90)
     return out.getvalue()
+
+
+def metal_image():
+    """Gunmetal for the keycard scanners: the same steel plate as the doors, darker and cooler."""
+    import io
+    from PIL import Image
+    im = Image.open(METAL).convert("RGB")
+    r, g, b = (im.getchannel(i).point(lambda v, k=k: min(255, int(v * k))) for i, k in enumerate(METAL_TINT))
+    out = io.BytesIO()
+    Image.merge("RGB", (r, g, b)).save(out, "JPEG", quality=90)
+    return out.getvalue()
+
+
+def in_scanner(v, doorways):
+    """Is this (scaled, metres) point inside a keycard scanner's box beside a doorway?
+    The scanners are 1.0 x 0.4 x 0.12 m boxes on the wall face, 0.93-1.16 m to one side of the opening."""
+    for dx, dz in doorways:
+        a, d = (v[0] - dx, v[2] - dz) if abs(dz) > abs(dx) else (v[2] - dz, v[0] - dx)
+        if 0.85 <= abs(a) <= 1.3 and 0.8 <= v[1] <= 1.55 and abs(d) <= 0.5:
+            return True
+    return False
+
+
+def split_scanners(doc, binary, prim, mesh, doorways, sy, material):
+    """Move the triangles inside a scanner box into their own primitive with `material`.
+    Returns the binary chunk with the new index data appended."""
+    acc = doc["accessors"][prim["indices"]]
+    view = doc["bufferViews"][acc["bufferView"]]
+    code, size = ("H", 2) if acc["componentType"] == 5123 else ("I", 4)
+    idx = array(code)
+    idx.frombytes(binary[view["byteOffset"]:view["byteOffset"] + acc["count"] * size])
+    pacc = doc["accessors"][prim["attributes"]["POSITION"]]
+    pview = doc["bufferViews"][pacc["bufferView"]]
+    pos = array("f")
+    pos.frombytes(binary[pview["byteOffset"]:pview["byteOffset"] + pacc["count"] * 12])
+    inside = {}
+
+    def at(i):
+        if i not in inside:
+            inside[i] = in_scanner((pos[3 * i] * SCALE, pos[3 * i + 1] * sy, pos[3 * i + 2] * SCALE), doorways)
+        return inside[i]
+
+    rest, scan = array(code), array(code)
+    for t in range(0, len(idx), 3):
+        tri = idx[t:t + 3]
+        (scan if all(at(i) for i in tri) else rest).extend(tri)
+    if not scan:
+        return binary
+    for target, indices in ((None, rest), (material, scan)):
+        data = indices.tobytes()
+        doc["bufferViews"].append({"buffer": 0, "byteOffset": len(binary), "byteLength": len(data), "target": 34963})
+        binary += pad4(data)
+        doc["accessors"].append({"bufferView": len(doc["bufferViews"]) - 1, "componentType": acc["componentType"], "count": len(indices), "type": "SCALAR"})
+        if target is None:
+            prim["indices"] = len(doc["accessors"]) - 1
+        else:
+            mesh["primitives"].append({**prim, "indices": len(doc["accessors"]) - 1, "material": target})
+    print(f"  {len(scan) // 3} scanner triangles in metal")
+    return binary
 
 
 def convert(path):
@@ -76,10 +137,25 @@ def convert(path):
 
     doc["bufferViews"].append({"buffer": 0, "byteOffset": len(binary), "byteLength": len(img)})
     binary += pad4(img)
-    doc["images"] = [{"bufferView": len(doc["bufferViews"]) - 1, "mimeType": "image/jpeg", "name": "concrete"}]
+    metal = metal_image()
+    doc["bufferViews"].append({"buffer": 0, "byteOffset": len(binary), "byteLength": len(metal)})
+    binary += pad4(metal)
+    doc["images"] = [
+        {"bufferView": len(doc["bufferViews"]) - 2, "mimeType": "image/jpeg", "name": "concrete"},
+        {"bufferView": len(doc["bufferViews"]) - 1, "mimeType": "image/jpeg", "name": "gunmetal"},
+    ]
     doc["samplers"] = [{"magFilter": 9729, "minFilter": 9987, "wrapS": 10497, "wrapT": 10497}]
-    doc["textures"] = [{"source": 0, "sampler": 0}]
-    for m in doc["materials"]:
+    doc["textures"] = [{"source": 0, "sampler": 0}, {"source": 1, "sampler": 0}]
+    doorways = [(n["translation"][0] * SCALE, n["translation"][2] * SCALE) for n in doc["nodes"] if "Door" in n.get("name", "") and "translation" in n]
+    doc["materials"].append({
+        "name": "ScannerMetal", "doubleSided": True,
+        "pbrMetallicRoughness": {"baseColorTexture": {"index": 1}, "baseColorFactor": [1, 1, 1, 1], "metallicFactor": 0.9, "roughnessFactor": 0.45},
+    })
+    scanner_material = len(doc["materials"]) - 1
+    for mesh in doc["meshes"]:
+        for prim in list(mesh["primitives"]):
+            binary = split_scanners(doc, binary, prim, mesh, doorways, sy, scanner_material)
+    for m in doc["materials"][:scanner_material]:
         pbr = m.setdefault("pbrMetallicRoughness", {})
         pbr["baseColorTexture"] = {"index": 0}
         pbr["baseColorFactor"] = [1.0, 1.0, 1.0, 1.0]
