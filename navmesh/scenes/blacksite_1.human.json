@@ -1,9 +1,9 @@
 {
   "scene": "blacksite_1",
   "agent": "human",
-  "geometry": "472d04189a1dc9d9",
-  "triangles": 1404528,
-  "cell_size": 0.133,
-  "polygons": 1857,
-  "bake_ms": 2876.869708
+  "geometry": "bfbb4606d26de0be",
+  "triangles": 446184,
+  "cell_size": 0.1,
+  "polygons": 730,
+  "bake_ms": 1228.8615829999999
 }
