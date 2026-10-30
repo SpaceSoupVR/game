@@ -1,5 +1,13 @@
 {
+  "player": "catmid",
   "bodies": [
+    {
+      "id": "catmid",
+      "label": "Catmid",
+      "model": "models/catmid/catmid.glb",
+      "scale": 0.25,
+      "eyes_above_head": 0.45
+    },
     {
       "id": "soldier",
       "label": "Soldier",

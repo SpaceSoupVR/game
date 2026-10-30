@@ -2,6 +2,7 @@
     "name": "blacksiteSCP",
     "version": "0.1.0",
     "entry_scene": "blacksite_1",
+    "locomotion": { "mode": "arms", "arms": { "body_height": 0.62 } },
     "scenes": [
         "warehouse",
         "lobby",
